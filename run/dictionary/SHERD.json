@@ -1,0 +1,133 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "SHERD": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "sherd": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.shelter_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.shelter_pottery_sherd",
+              "아이템 영어 이름": "Shelter Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.brewer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.brewer_pottery_sherd",
+              "아이템 영어 이름": "Brewer Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.snort_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.snort_pottery_sherd",
+              "아이템 영어 이름": "Snort Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.danger_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.danger_pottery_sherd",
+              "아이템 영어 이름": "Danger Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.angler_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.angler_pottery_sherd",
+              "아이템 영어 이름": "Angler Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.sheaf_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.sheaf_pottery_sherd",
+              "아이템 영어 이름": "Sheaf Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.flow_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.flow_pottery_sherd",
+              "아이템 영어 이름": "Flow Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.arms_up_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.arms_up_pottery_sherd",
+              "아이템 영어 이름": "Arms Up Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.guster_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.guster_pottery_sherd",
+              "아이템 영어 이름": "Guster Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.prize_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.prize_pottery_sherd",
+              "아이템 영어 이름": "Prize Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.heartbreak_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.heartbreak_pottery_sherd",
+              "아이템 영어 이름": "Heartbreak Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.scrape_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.scrape_pottery_sherd",
+              "아이템 영어 이름": "Scrape Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.explorer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.explorer_pottery_sherd",
+              "아이템 영어 이름": "Explorer Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.archer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.archer_pottery_sherd",
+              "아이템 영어 이름": "Archer Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.mourner_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.mourner_pottery_sherd",
+              "아이템 영어 이름": "Mourner Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.friend_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.friend_pottery_sherd",
+              "아이템 영어 이름": "Friend Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.heart_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.heart_pottery_sherd",
+              "아이템 영어 이름": "Heart Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.blade_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.blade_pottery_sherd",
+              "아이템 영어 이름": "Blade Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.plenty_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.plenty_pottery_sherd",
+              "아이템 영어 이름": "Plenty Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.skull_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.skull_pottery_sherd",
+              "아이템 영어 이름": "Skull Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.burn_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.burn_pottery_sherd",
+              "아이템 영어 이름": "Burn Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.howl_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.howl_pottery_sherd",
+              "아이템 영어 이름": "Howl Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.miner_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.miner_pottery_sherd",
+              "아이템 영어 이름": "Miner Pottery Sherd",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "SHERD"
+}

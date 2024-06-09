@@ -1,0 +1,118 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "SIGN": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "sign": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.jungle_hanging_sign": {
+              "아이템 아이디": "block.minecraft.jungle_hanging_sign",
+              "아이템 영어 이름": "Jungle Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_sign": {
+              "아이템 아이디": "block.minecraft.dark_oak_sign",
+              "아이템 영어 이름": "Dark Oak Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_sign": {
+              "아이템 아이디": "block.minecraft.mangrove_sign",
+              "아이템 영어 이름": "Mangrove Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bamboo_sign": {
+              "아이템 아이디": "block.minecraft.bamboo_sign",
+              "아이템 영어 이름": "Bamboo Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_hanging_sign": {
+              "아이템 아이디": "block.minecraft.dark_oak_hanging_sign",
+              "아이템 영어 이름": "Dark Oak Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_hanging_sign": {
+              "아이템 아이디": "block.minecraft.mangrove_hanging_sign",
+              "아이템 영어 이름": "Mangrove Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_sign": {
+              "아이템 아이디": "block.minecraft.spruce_sign",
+              "아이템 영어 이름": "Spruce Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_sign": {
+              "아이템 아이디": "block.minecraft.birch_sign",
+              "아이템 영어 이름": "Birch Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_sign": {
+              "아이템 아이디": "block.minecraft.acacia_sign",
+              "아이템 영어 이름": "Acacia Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.oak_hanging_sign": {
+              "아이템 아이디": "block.minecraft.oak_hanging_sign",
+              "아이템 영어 이름": "Oak Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_hanging_sign": {
+              "아이템 아이디": "block.minecraft.acacia_hanging_sign",
+              "아이템 영어 이름": "Acacia Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cherry_hanging_sign": {
+              "아이템 아이디": "block.minecraft.cherry_hanging_sign",
+              "아이템 영어 이름": "Cherry Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.oak_sign": {
+              "아이템 아이디": "block.minecraft.oak_sign",
+              "아이템 영어 이름": "Oak Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.warped_sign": {
+              "아이템 아이디": "block.minecraft.warped_sign",
+              "아이템 영어 이름": "Warped Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_hanging_sign": {
+              "아이템 아이디": "block.minecraft.birch_hanging_sign",
+              "아이템 영어 이름": "Birch Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.jungle_sign": {
+              "아이템 아이디": "block.minecraft.jungle_sign",
+              "아이템 영어 이름": "Jungle Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cherry_sign": {
+              "아이템 아이디": "block.minecraft.cherry_sign",
+              "아이템 영어 이름": "Cherry Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_hanging_sign": {
+              "아이템 아이디": "block.minecraft.spruce_hanging_sign",
+              "아이템 영어 이름": "Spruce Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bamboo_hanging_sign": {
+              "아이템 아이디": "block.minecraft.bamboo_hanging_sign",
+              "아이템 영어 이름": "Bamboo Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.warped_hanging_sign": {
+              "아이템 아이디": "block.minecraft.warped_hanging_sign",
+              "아이템 영어 이름": "Warped Hanging Sign",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "SIGN"
+}

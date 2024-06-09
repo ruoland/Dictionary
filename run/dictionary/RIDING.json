@@ -1,0 +1,161 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "RIDING": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "boat": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.jungle_boat": {
+              "아이템 아이디": "item.minecraft.jungle_boat",
+              "아이템 영어 이름": "Jungle Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.jungle_chest_boat": {
+              "아이템 아이디": "item.minecraft.jungle_chest_boat",
+              "아이템 영어 이름": "Jungle Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.mangrove_chest_boat": {
+              "아이템 아이디": "item.minecraft.mangrove_chest_boat",
+              "아이템 영어 이름": "Mangrove Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.birch_chest_boat": {
+              "아이템 아이디": "item.minecraft.birch_chest_boat",
+              "아이템 영어 이름": "Birch Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.acacia_chest_boat": {
+              "아이템 아이디": "item.minecraft.acacia_chest_boat",
+              "아이템 영어 이름": "Acacia Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.spruce_chest_boat": {
+              "아이템 아이디": "item.minecraft.spruce_chest_boat",
+              "아이템 영어 이름": "Spruce Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.acacia_boat": {
+              "아이템 아이디": "item.minecraft.acacia_boat",
+              "아이템 영어 이름": "Acacia Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.spruce_boat": {
+              "아이템 아이디": "item.minecraft.spruce_boat",
+              "아이템 영어 이름": "Spruce Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.oak_chest_boat": {
+              "아이템 아이디": "item.minecraft.oak_chest_boat",
+              "아이템 영어 이름": "Oak Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.dark_oak_chest_boat": {
+              "아이템 아이디": "item.minecraft.dark_oak_chest_boat",
+              "아이템 영어 이름": "Dark Oak Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.dark_oak_boat": {
+              "아이템 아이디": "item.minecraft.dark_oak_boat",
+              "아이템 영어 이름": "Dark Oak Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cherry_chest_boat": {
+              "아이템 아이디": "item.minecraft.cherry_chest_boat",
+              "아이템 영어 이름": "Cherry Boat with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.oak_boat": {
+              "아이템 아이디": "item.minecraft.oak_boat",
+              "아이템 영어 이름": "Oak Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.mangrove_boat": {
+              "아이템 아이디": "item.minecraft.mangrove_boat",
+              "아이템 영어 이름": "Mangrove Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.birch_boat": {
+              "아이템 아이디": "item.minecraft.birch_boat",
+              "아이템 영어 이름": "Birch Boat",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cherry_boat": {
+              "아이템 아이디": "item.minecraft.cherry_boat",
+              "아이템 영어 이름": "Cherry Boat",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "minecart": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.furnace_minecart": {
+              "아이템 아이디": "item.minecraft.furnace_minecart",
+              "아이템 영어 이름": "Minecart with Furnace",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.chest_minecart": {
+              "아이템 아이디": "item.minecraft.chest_minecart",
+              "아이템 영어 이름": "Minecart with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.tnt_minecart": {
+              "아이템 아이디": "item.minecraft.tnt_minecart",
+              "아이템 영어 이름": "Minecart with TNT",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.command_block_minecart": {
+              "아이템 아이디": "item.minecraft.command_block_minecart",
+              "아이템 영어 이름": "Minecart with Command Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.minecart": {
+              "아이템 아이디": "item.minecraft.minecart",
+              "아이템 영어 이름": "Minecart",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.hopper_minecart": {
+              "아이템 아이디": "item.minecraft.hopper_minecart",
+              "아이템 영어 이름": "Minecart with Hopper",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "raft": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.bamboo_chest_raft": {
+              "아이템 아이디": "item.minecraft.bamboo_chest_raft",
+              "아이템 영어 이름": "Bamboo Raft with Chest",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.bamboo_raft": {
+              "아이템 아이디": "item.minecraft.bamboo_raft",
+              "아이템 영어 이름": "Bamboo Raft",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "saddle": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.saddle": {
+              "아이템 아이디": "item.minecraft.saddle",
+              "아이템 영어 이름": "Saddle",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "RIDING"
+}

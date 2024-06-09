@@ -1,0 +1,93 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "FOOD": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "FOOD": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.apple": {
+              "아이템 아이디": "item.minecraft.apple",
+              "아이템 영어 이름": "Apple",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cake": {
+              "아이템 아이디": "block.minecraft.cake",
+              "아이템 영어 이름": "Cake",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.suspicious_stew": {
+              "아이템 아이디": "item.minecraft.suspicious_stew",
+              "아이템 영어 이름": "Suspicious Stew",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cooked_chicken": {
+              "아이템 아이디": "item.minecraft.cooked_chicken",
+              "아이템 영어 이름": "Cooked Chicken",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.chicken": {
+              "아이템 아이디": "item.minecraft.chicken",
+              "아이템 영어 이름": "Raw Chicken",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.enchanted_golden_apple": {
+              "아이템 아이디": "item.minecraft.enchanted_golden_apple",
+              "아이템 영어 이름": "Enchanted Golden Apple",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cookie": {
+              "아이템 아이디": "item.minecraft.cookie",
+              "아이템 영어 이름": "Cookie",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.porkchop": {
+              "아이템 아이디": "item.minecraft.porkchop",
+              "아이템 영어 이름": "Raw Porkchop",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cooked_beef": {
+              "아이템 아이디": "item.minecraft.cooked_beef",
+              "아이템 영어 이름": "Steak",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.bread": {
+              "아이템 아이디": "item.minecraft.bread",
+              "아이템 영어 이름": "Bread",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.cooked_porkchop": {
+              "아이템 아이디": "item.minecraft.cooked_porkchop",
+              "아이템 영어 이름": "Cooked Porkchop",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_apple": {
+              "아이템 아이디": "item.minecraft.golden_apple",
+              "아이템 영어 이름": "Golden Apple",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.beef": {
+              "아이템 아이디": "item.minecraft.beef",
+              "아이템 영어 이름": "Raw Beef",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.mushroom_stew": {
+              "아이템 아이디": "item.minecraft.mushroom_stew",
+              "아이템 영어 이름": "Mushroom Stew",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.rabbit_stew": {
+              "아이템 아이디": "item.minecraft.rabbit_stew",
+              "아이템 영어 이름": "Rabbit Stew",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "FOOD"
+}

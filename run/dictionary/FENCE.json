@@ -1,0 +1,245 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "FENCE": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "fence": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.warped_fence": {
+              "아이템 아이디": "block.minecraft.warped_fence",
+              "아이템 영어 이름": "Warped Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_fence": {
+              "아이템 아이디": "block.minecraft.spruce_fence",
+              "아이템 영어 이름": "Spruce Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.oak_fence": {
+              "아이템 아이디": "block.minecraft.oak_fence",
+              "아이템 영어 이름": "Oak Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.jungle_fence": {
+              "아이템 아이디": "block.minecraft.jungle_fence",
+              "아이템 영어 이름": "Jungle Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bamboo_fence": {
+              "아이템 아이디": "block.minecraft.bamboo_fence",
+              "아이템 영어 이름": "Bamboo Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cherry_fence": {
+              "아이템 아이디": "block.minecraft.cherry_fence",
+              "아이템 영어 이름": "Cherry Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_fence": {
+              "아이템 아이디": "block.minecraft.birch_fence",
+              "아이템 영어 이름": "Birch Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_fence": {
+              "아이템 아이디": "block.minecraft.acacia_fence",
+              "아이템 영어 이름": "Acacia Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_fence": {
+              "아이템 아이디": "block.minecraft.dark_oak_fence",
+              "아이템 영어 이름": "Dark Oak Fence",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_fence": {
+              "아이템 아이디": "block.minecraft.mangrove_fence",
+              "아이템 영어 이름": "Mangrove Fence",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "gate": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.cherry_fence_gate": {
+              "아이템 아이디": "block.minecraft.cherry_fence_gate",
+              "아이템 영어 이름": "Cherry Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_fence_gate": {
+              "아이템 아이디": "block.minecraft.birch_fence_gate",
+              "아이템 영어 이름": "Birch Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_fence_gate": {
+              "아이템 아이디": "block.minecraft.mangrove_fence_gate",
+              "아이템 영어 이름": "Mangrove Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.warped_fence_gate": {
+              "아이템 아이디": "block.minecraft.warped_fence_gate",
+              "아이템 영어 이름": "Warped Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_fence_gate": {
+              "아이템 아이디": "block.minecraft.acacia_fence_gate",
+              "아이템 영어 이름": "Acacia Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_fence_gate": {
+              "아이템 아이디": "block.minecraft.dark_oak_fence_gate",
+              "아이템 영어 이름": "Dark Oak Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_fence_gate": {
+              "아이템 아이디": "block.minecraft.spruce_fence_gate",
+              "아이템 영어 이름": "Spruce Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.jungle_fence_gate": {
+              "아이템 아이디": "block.minecraft.jungle_fence_gate",
+              "아이템 영어 이름": "Jungle Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bamboo_fence_gate": {
+              "아이템 아이디": "block.minecraft.bamboo_fence_gate",
+              "아이템 영어 이름": "Bamboo Fence Gate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.oak_fence_gate": {
+              "아이템 아이디": "block.minecraft.oak_fence_gate",
+              "아이템 영어 이름": "Oak Fence Gate",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "wall": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.polished_blackstone_wall": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_wall",
+              "아이템 영어 이름": "Polished Blackstone Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.andesite_wall": {
+              "아이템 아이디": "block.minecraft.andesite_wall",
+              "아이템 영어 이름": "Andesite Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.stone_brick_wall",
+              "아이템 영어 이름": "Stone Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.tuff_brick_wall": {
+              "아이템 아이디": "block.minecraft.tuff_brick_wall",
+              "아이템 영어 이름": "Tuff Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mossy_cobblestone_wall": {
+              "아이템 아이디": "block.minecraft.mossy_cobblestone_wall",
+              "아이템 영어 이름": "Mossy Cobblestone Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mud_brick_wall": {
+              "아이템 아이디": "block.minecraft.mud_brick_wall",
+              "아이템 영어 이름": "Mud Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cobblestone_wall": {
+              "아이템 아이디": "block.minecraft.cobblestone_wall",
+              "아이템 영어 이름": "Cobblestone Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.brick_wall": {
+              "아이템 아이디": "block.minecraft.brick_wall",
+              "아이템 영어 이름": "Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.end_stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.end_stone_brick_wall",
+              "아이템 영어 이름": "End Stone Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_tile_wall": {
+              "아이템 아이디": "block.minecraft.deepslate_tile_wall",
+              "아이템 영어 이름": "Deepslate Tile Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_brick_wall": {
+              "아이템 아이디": "block.minecraft.deepslate_brick_wall",
+              "아이템 영어 이름": "Deepslate Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.diorite_wall": {
+              "아이템 아이디": "block.minecraft.diorite_wall",
+              "아이템 영어 이름": "Diorite Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.sandstone_wall": {
+              "아이템 아이디": "block.minecraft.sandstone_wall",
+              "아이템 영어 이름": "Sandstone Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.polished_tuff_wall": {
+              "아이템 아이디": "block.minecraft.polished_tuff_wall",
+              "아이템 영어 이름": "Polished Tuff Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.prismarine_wall": {
+              "아이템 아이디": "block.minecraft.prismarine_wall",
+              "아이템 영어 이름": "Prismarine Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.blackstone_wall": {
+              "아이템 아이디": "block.minecraft.blackstone_wall",
+              "아이템 영어 이름": "Blackstone Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.tuff_wall": {
+              "아이템 아이디": "block.minecraft.tuff_wall",
+              "아이템 영어 이름": "Tuff Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cobbled_deepslate_wall": {
+              "아이템 아이디": "block.minecraft.cobbled_deepslate_wall",
+              "아이템 영어 이름": "Cobbled Deepslate Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mossy_stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.mossy_stone_brick_wall",
+              "아이템 영어 이름": "Mossy Stone Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.polished_deepslate_wall": {
+              "아이템 아이디": "block.minecraft.polished_deepslate_wall",
+              "아이템 영어 이름": "Polished Deepslate Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.granite_wall": {
+              "아이템 아이디": "block.minecraft.granite_wall",
+              "아이템 영어 이름": "Granite Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.polished_blackstone_brick_wall": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_brick_wall",
+              "아이템 영어 이름": "Polished Blackstone Brick Wall",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.red_sandstone_wall": {
+              "아이템 아이디": "block.minecraft.red_sandstone_wall",
+              "아이템 영어 이름": "Red Sandstone Wall",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "FENCE"
+}

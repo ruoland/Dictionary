@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dictionary",
+  "version": "${version}",
+
+  "name": "Dictionary",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dictionary/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+        "fabric": "*",
+    "minecraft": "1.20.6",
+    "fabric-key-binding-api-v1": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "org.ruoland.dictionary.Dictionary"
+    ],
+    "client": [
+      "org.ruoland.dictionary.client.DictionaryClient"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "ORE": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "ingot": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.copper_ingot": {
+              "아이템 아이디": "item.minecraft.copper_ingot",
+              "아이템 영어 이름": "Copper Ingot",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.gold_ingot": {
+              "아이템 아이디": "item.minecraft.gold_ingot",
+              "아이템 영어 이름": "Gold Ingot",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.netherite_ingot": {
+              "아이템 아이디": "item.minecraft.netherite_ingot",
+              "아이템 영어 이름": "Netherite Ingot",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.iron_ingot": {
+              "아이템 아이디": "item.minecraft.iron_ingot",
+              "아이템 영어 이름": "Iron Ingot",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "nugget": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.iron_nugget": {
+              "아이템 아이디": "item.minecraft.iron_nugget",
+              "아이템 영어 이름": "Iron Nugget",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.gold_nugget": {
+              "아이템 아이디": "item.minecraft.gold_nugget",
+              "아이템 영어 이름": "Gold Nugget",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "ore": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.deepslate_iron_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_iron_ore",
+              "아이템 영어 이름": "Deepslate Iron Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.coal_ore": {
+              "아이템 아이디": "block.minecraft.coal_ore",
+              "아이템 영어 이름": "Coal Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.lapis_ore": {
+              "아이템 아이디": "block.minecraft.lapis_ore",
+              "아이템 영어 이름": "Lapis Lazuli Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.diamond_ore": {
+              "아이템 아이디": "block.minecraft.diamond_ore",
+              "아이템 영어 이름": "Diamond Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.copper_ore": {
+              "아이템 아이디": "block.minecraft.copper_ore",
+              "아이템 영어 이름": "Copper Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.redstone_ore": {
+              "아이템 아이디": "block.minecraft.redstone_ore",
+              "아이템 영어 이름": "Redstone Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_diamond_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_diamond_ore",
+              "아이템 영어 이름": "Deepslate Diamond Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_gold_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_gold_ore",
+              "아이템 영어 이름": "Deepslate Gold Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_redstone_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_redstone_ore",
+              "아이템 영어 이름": "Deepslate Redstone Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_lapis_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_lapis_ore",
+              "아이템 영어 이름": "Deepslate Lapis Lazuli Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_coal_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_coal_ore",
+              "아이템 영어 이름": "Deepslate Coal Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.iron_ore": {
+              "아이템 아이디": "block.minecraft.iron_ore",
+              "아이템 영어 이름": "Iron Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_copper_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_copper_ore",
+              "아이템 영어 이름": "Deepslate Copper Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.deepslate_emerald_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_emerald_ore",
+              "아이템 영어 이름": "Deepslate Emerald Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.gold_ore": {
+              "아이템 아이디": "block.minecraft.gold_ore",
+              "아이템 영어 이름": "Gold Ore",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.emerald_ore": {
+              "아이템 아이디": "block.minecraft.emerald_ore",
+              "아이템 영어 이름": "Emerald Ore",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "ORE"
+}

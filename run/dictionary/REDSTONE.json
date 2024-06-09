@@ -1,0 +1,258 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "REDSTONE": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "button": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.bamboo_button": {
+              "아이템 아이디": "block.minecraft.bamboo_button",
+              "아이템 영어 이름": "Bamboo Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_button": {
+              "아이템 아이디": "block.minecraft.birch_button",
+              "아이템 영어 이름": "Birch Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_button": {
+              "아이템 아이디": "block.minecraft.acacia_button",
+              "아이템 영어 이름": "Acacia Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cherry_button": {
+              "아이템 아이디": "block.minecraft.cherry_button",
+              "아이템 영어 이름": "Cherry Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.warped_button": {
+              "아이템 아이디": "block.minecraft.warped_button",
+              "아이템 영어 이름": "Warped Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.polished_blackstone_button": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_button",
+              "아이템 영어 이름": "Polished Blackstone Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_button": {
+              "아이템 아이디": "block.minecraft.dark_oak_button",
+              "아이템 영어 이름": "Dark Oak Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.stone_button": {
+              "아이템 아이디": "block.minecraft.stone_button",
+              "아이템 영어 이름": "Stone Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_button": {
+              "아이템 아이디": "block.minecraft.spruce_button",
+              "아이템 영어 이름": "Spruce Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_button": {
+              "아이템 아이디": "block.minecraft.mangrove_button",
+              "아이템 영어 이름": "Mangrove Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.jungle_button": {
+              "아이템 아이디": "block.minecraft.jungle_button",
+              "아이템 영어 이름": "Jungle Button",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.oak_button": {
+              "아이템 아이디": "block.minecraft.oak_button",
+              "아이템 영어 이름": "Oak Button",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "dispenser": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.dispenser": {
+              "아이템 아이디": "block.minecraft.dispenser",
+              "아이템 영어 이름": "Dispenser",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "dropper": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.dropper": {
+              "아이템 아이디": "block.minecraft.dropper",
+              "아이템 영어 이름": "Dropper",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "hopper": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.hopper": {
+              "아이템 아이디": "block.minecraft.hopper",
+              "아이템 영어 이름": "Hopper",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "lever": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.lever": {
+              "아이템 아이디": "block.minecraft.lever",
+              "아이템 영어 이름": "Lever",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "lilac": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.lilac": {
+              "아이템 아이디": "block.minecraft.lilac",
+              "아이템 영어 이름": "Lilac",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "observer": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.observer": {
+              "아이템 아이디": "block.minecraft.observer",
+              "아이템 영어 이름": "Observer",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "piston": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.sticky_piston": {
+              "아이템 아이디": "block.minecraft.sticky_piston",
+              "아이템 영어 이름": "Sticky Piston",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.piston": {
+              "아이템 아이디": "block.minecraft.piston",
+              "아이템 영어 이름": "Piston",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "plate": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.oak_pressure_plate": {
+              "아이템 아이디": "block.minecraft.oak_pressure_plate",
+              "아이템 영어 이름": "Oak Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.acacia_pressure_plate": {
+              "아이템 아이디": "block.minecraft.acacia_pressure_plate",
+              "아이템 영어 이름": "Acacia Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.spruce_pressure_plate": {
+              "아이템 아이디": "block.minecraft.spruce_pressure_plate",
+              "아이템 영어 이름": "Spruce Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.stone_pressure_plate": {
+              "아이템 아이디": "block.minecraft.stone_pressure_plate",
+              "아이템 영어 이름": "Stone Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.birch_pressure_plate": {
+              "아이템 아이디": "block.minecraft.birch_pressure_plate",
+              "아이템 영어 이름": "Birch Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.jungle_pressure_plate": {
+              "아이템 아이디": "block.minecraft.jungle_pressure_plate",
+              "아이템 영어 이름": "Jungle Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.mangrove_pressure_plate": {
+              "아이템 아이디": "block.minecraft.mangrove_pressure_plate",
+              "아이템 영어 이름": "Mangrove Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.light_weighted_pressure_plate": {
+              "아이템 아이디": "block.minecraft.light_weighted_pressure_plate",
+              "아이템 영어 이름": "Light Weighted Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.polished_blackstone_pressure_plate": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_pressure_plate",
+              "아이템 영어 이름": "Polished Blackstone Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.cherry_pressure_plate": {
+              "아이템 아이디": "block.minecraft.cherry_pressure_plate",
+              "아이템 영어 이름": "Cherry Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.warped_pressure_plate": {
+              "아이템 아이디": "block.minecraft.warped_pressure_plate",
+              "아이템 영어 이름": "Warped Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bamboo_pressure_plate": {
+              "아이템 아이디": "block.minecraft.bamboo_pressure_plate",
+              "아이템 영어 이름": "Bamboo Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dark_oak_pressure_plate": {
+              "아이템 아이디": "block.minecraft.dark_oak_pressure_plate",
+              "아이템 영어 이름": "Dark Oak Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.heavy_weighted_pressure_plate": {
+              "아이템 아이디": "block.minecraft.heavy_weighted_pressure_plate",
+              "아이템 영어 이름": "Heavy Weighted Pressure Plate",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "redstone": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.redstone": {
+              "아이템 아이디": "item.minecraft.redstone",
+              "아이템 영어 이름": "Redstone Dust",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "repeater": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.repeater": {
+              "아이템 아이디": "block.minecraft.repeater",
+              "아이템 영어 이름": "Redstone Repeater",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "REDSTONE"
+}

@@ -1,0 +1,201 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "CORAL": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "block": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.bubble_coral_block": {
+              "아이템 아이디": "block.minecraft.bubble_coral_block",
+              "아이템 영어 이름": "Bubble Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_tube_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral_block",
+              "아이템 영어 이름": "Dead Tube Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.brain_coral_block": {
+              "아이템 아이디": "block.minecraft.brain_coral_block",
+              "아이템 영어 이름": "Brain Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_horn_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral_block",
+              "아이템 영어 이름": "Dead Horn Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_brain_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral_block",
+              "아이템 영어 이름": "Dead Brain Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_bubble_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral_block",
+              "아이템 영어 이름": "Dead Bubble Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_fire_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral_block",
+              "아이템 영어 이름": "Dead Fire Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dried_kelp_block": {
+              "아이템 아이디": "block.minecraft.dried_kelp_block",
+              "아이템 영어 이름": "Dried Kelp Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.tube_coral_block": {
+              "아이템 아이디": "block.minecraft.tube_coral_block",
+              "아이템 영어 이름": "Tube Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.fire_coral_block": {
+              "아이템 아이디": "block.minecraft.fire_coral_block",
+              "아이템 영어 이름": "Fire Coral Block",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.horn_coral_block": {
+              "아이템 아이디": "block.minecraft.horn_coral_block",
+              "아이템 영어 이름": "Horn Coral Block",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "coral": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.tube_coral": {
+              "아이템 아이디": "block.minecraft.tube_coral",
+              "아이템 영어 이름": "Tube Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_brain_coral": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral",
+              "아이템 영어 이름": "Dead Brain Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_bubble_coral": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral",
+              "아이템 영어 이름": "Dead Bubble Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.fire_coral": {
+              "아이템 아이디": "block.minecraft.fire_coral",
+              "아이템 영어 이름": "Fire Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bubble_coral": {
+              "아이템 아이디": "block.minecraft.bubble_coral",
+              "아이템 영어 이름": "Bubble Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_horn_coral": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral",
+              "아이템 영어 이름": "Dead Horn Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_tube_coral": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral",
+              "아이템 영어 이름": "Dead Tube Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_fire_coral": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral",
+              "아이템 영어 이름": "Dead Fire Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.brain_coral": {
+              "아이템 아이디": "block.minecraft.brain_coral",
+              "아이템 영어 이름": "Brain Coral",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.horn_coral": {
+              "아이템 아이디": "block.minecraft.horn_coral",
+              "아이템 영어 이름": "Horn Coral",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "fan": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.dead_tube_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral_fan",
+              "아이템 영어 이름": "Dead Tube Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_horn_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral_fan",
+              "아이템 영어 이름": "Dead Horn Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.brain_coral_fan": {
+              "아이템 아이디": "block.minecraft.brain_coral_fan",
+              "아이템 영어 이름": "Brain Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.horn_coral_fan": {
+              "아이템 아이디": "block.minecraft.horn_coral_fan",
+              "아이템 영어 이름": "Horn Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_bubble_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral_fan",
+              "아이템 영어 이름": "Dead Bubble Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_brain_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral_fan",
+              "아이템 영어 이름": "Dead Brain Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.bubble_coral_fan": {
+              "아이템 아이디": "block.minecraft.bubble_coral_fan",
+              "아이템 영어 이름": "Bubble Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.fire_coral_fan": {
+              "아이템 아이디": "block.minecraft.fire_coral_fan",
+              "아이템 영어 이름": "Fire Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.tube_coral_fan": {
+              "아이템 아이디": "block.minecraft.tube_coral_fan",
+              "아이템 영어 이름": "Tube Coral Fan",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_fire_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral_fan",
+              "아이템 영어 이름": "Dead Fire Coral Fan",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "kelp": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.dried_kelp": {
+              "아이템 아이디": "item.minecraft.dried_kelp",
+              "아이템 영어 이름": "Dried Kelp",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.kelp": {
+              "아이템 아이디": "block.minecraft.kelp",
+              "아이템 영어 이름": "Kelp",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "CORAL"
+}

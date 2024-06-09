@@ -1,0 +1,131 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "FLOWER": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "bush": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.rose_bush": {
+              "아이템 아이디": "block.minecraft.rose_bush",
+              "아이템 영어 이름": "Rose Bush",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.dead_bush": {
+              "아이템 아이디": "block.minecraft.dead_bush",
+              "아이템 영어 이름": "Dead Bush",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "cornflower": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.cornflower": {
+              "아이템 아이디": "block.minecraft.cornflower",
+              "아이템 영어 이름": "Cornflower",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "daisy": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.oxeye_daisy": {
+              "아이템 아이디": "block.minecraft.oxeye_daisy",
+              "아이템 영어 이름": "Oxeye Daisy",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "dandelion": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.dandelion": {
+              "아이템 아이디": "block.minecraft.dandelion",
+              "아이템 영어 이름": "Dandelion",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "flower": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.chorus_flower": {
+              "아이템 아이디": "block.minecraft.chorus_flower",
+              "아이템 영어 이름": "Chorus Flower",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "peony": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.peony": {
+              "아이템 아이디": "block.minecraft.peony",
+              "아이템 영어 이름": "Peony",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "rose": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.wither_rose": {
+              "아이템 아이디": "block.minecraft.wither_rose",
+              "아이템 영어 이름": "Wither Rose",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "sunflower": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.sunflower": {
+              "아이템 아이디": "block.minecraft.sunflower",
+              "아이템 영어 이름": "Sunflower",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "tulip": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.red_tulip": {
+              "아이템 아이디": "block.minecraft.red_tulip",
+              "아이템 영어 이름": "Red Tulip",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.orange_tulip": {
+              "아이템 아이디": "block.minecraft.orange_tulip",
+              "아이템 영어 이름": "Orange Tulip",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.white_tulip": {
+              "아이템 아이디": "block.minecraft.white_tulip",
+              "아이템 영어 이름": "White Tulip",
+              "아이템에 대한 설명": "설명"
+            },
+            "block.minecraft.pink_tulip": {
+              "아이템 아이디": "block.minecraft.pink_tulip",
+              "아이템 영어 이름": "Pink Tulip",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "FLOWER"
+}

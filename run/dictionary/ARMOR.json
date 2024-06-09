@@ -1,0 +1,192 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "ARMOR": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "armor": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.diamond_horse_armor": {
+              "아이템 아이디": "item.minecraft.diamond_horse_armor",
+              "아이템 영어 이름": "Diamond Horse Armor",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_horse_armor": {
+              "아이템 아이디": "item.minecraft.golden_horse_armor",
+              "아이템 영어 이름": "Golden Horse Armor",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.leather_horse_armor": {
+              "아이템 아이디": "item.minecraft.leather_horse_armor",
+              "아이템 영어 이름": "Leather Horse Armor",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.wolf_armor": {
+              "아이템 아이디": "item.minecraft.wolf_armor",
+              "아이템 영어 이름": "Wolf Armor",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.iron_horse_armor": {
+              "아이템 아이디": "item.minecraft.iron_horse_armor",
+              "아이템 영어 이름": "Iron Horse Armor",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "boots": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.chainmail_boots": {
+              "아이템 아이디": "item.minecraft.chainmail_boots",
+              "아이템 영어 이름": "Chainmail Boots",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.diamond_boots": {
+              "아이템 아이디": "item.minecraft.diamond_boots",
+              "아이템 영어 이름": "Diamond Boots",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.iron_boots": {
+              "아이템 아이디": "item.minecraft.iron_boots",
+              "아이템 영어 이름": "Iron Boots",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.netherite_boots": {
+              "아이템 아이디": "item.minecraft.netherite_boots",
+              "아이템 영어 이름": "Netherite Boots",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_boots": {
+              "아이템 아이디": "item.minecraft.golden_boots",
+              "아이템 영어 이름": "Golden Boots",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.leather_boots": {
+              "아이템 아이디": "item.minecraft.leather_boots",
+              "아이템 영어 이름": "Leather Boots",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "chestplate": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.netherite_chestplate": {
+              "아이템 아이디": "item.minecraft.netherite_chestplate",
+              "아이템 영어 이름": "Netherite Chestplate",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_chestplate": {
+              "아이템 아이디": "item.minecraft.golden_chestplate",
+              "아이템 영어 이름": "Golden Chestplate",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.iron_chestplate": {
+              "아이템 아이디": "item.minecraft.iron_chestplate",
+              "아이템 영어 이름": "Iron Chestplate",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.diamond_chestplate": {
+              "아이템 아이디": "item.minecraft.diamond_chestplate",
+              "아이템 영어 이름": "Diamond Chestplate",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.leather_chestplate": {
+              "아이템 아이디": "item.minecraft.leather_chestplate",
+              "아이템 영어 이름": "Leather Tunic",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.chainmail_chestplate": {
+              "아이템 아이디": "item.minecraft.chainmail_chestplate",
+              "아이템 영어 이름": "Chainmail Chestplate",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "helmet": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.iron_helmet": {
+              "아이템 아이디": "item.minecraft.iron_helmet",
+              "아이템 영어 이름": "Iron Helmet",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.chainmail_helmet": {
+              "아이템 아이디": "item.minecraft.chainmail_helmet",
+              "아이템 영어 이름": "Chainmail Helmet",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.netherite_helmet": {
+              "아이템 아이디": "item.minecraft.netherite_helmet",
+              "아이템 영어 이름": "Netherite Helmet",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.turtle_helmet": {
+              "아이템 아이디": "item.minecraft.turtle_helmet",
+              "아이템 영어 이름": "Turtle Shell",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.leather_helmet": {
+              "아이템 아이디": "item.minecraft.leather_helmet",
+              "아이템 영어 이름": "Leather Cap",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.diamond_helmet": {
+              "아이템 아이디": "item.minecraft.diamond_helmet",
+              "아이템 영어 이름": "Diamond Helmet",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_helmet": {
+              "아이템 아이디": "item.minecraft.golden_helmet",
+              "아이템 영어 이름": "Golden Helmet",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "leggings": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.chainmail_leggings": {
+              "아이템 아이디": "item.minecraft.chainmail_leggings",
+              "아이템 영어 이름": "Chainmail Leggings",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.iron_leggings": {
+              "아이템 아이디": "item.minecraft.iron_leggings",
+              "아이템 영어 이름": "Iron Leggings",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.netherite_leggings": {
+              "아이템 아이디": "item.minecraft.netherite_leggings",
+              "아이템 영어 이름": "Netherite Leggings",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.leather_leggings": {
+              "아이템 아이디": "item.minecraft.leather_leggings",
+              "아이템 영어 이름": "Leather Pants",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.diamond_leggings": {
+              "아이템 아이디": "item.minecraft.diamond_leggings",
+              "아이템 영어 이름": "Diamond Leggings",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.golden_leggings": {
+              "아이템 아이디": "item.minecraft.golden_leggings",
+              "아이템 영어 이름": "Golden Leggings",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "ARMOR"
+}

@@ -1,0 +1,140 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "FARM": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "beetroot": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.beetroot": {
+              "아이템 아이디": "item.minecraft.beetroot",
+              "아이템 영어 이름": "Beetroot",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "berries": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.glow_berries": {
+              "아이템 아이디": "item.minecraft.glow_berries",
+              "아이템 영어 이름": "Glow Berries",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.sweet_berries": {
+              "아이템 아이디": "item.minecraft.sweet_berries",
+              "아이템 영어 이름": "Sweet Berries",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "cane": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.sugar_cane": {
+              "아이템 아이디": "block.minecraft.sugar_cane",
+              "아이템 영어 이름": "Sugar Cane",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "carrot": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.golden_carrot": {
+              "아이템 아이디": "item.minecraft.golden_carrot",
+              "아이템 영어 이름": "Golden Carrot",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.carrot": {
+              "아이템 아이디": "item.minecraft.carrot",
+              "아이템 영어 이름": "Carrot",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "melon": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.melon": {
+              "아이템 아이디": "block.minecraft.melon",
+              "아이템 영어 이름": "Melon",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "potato": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.potato": {
+              "아이템 아이디": "item.minecraft.potato",
+              "아이템 영어 이름": "Potato",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.poisonous_potato": {
+              "아이템 아이디": "item.minecraft.poisonous_potato",
+              "아이템 영어 이름": "Poisonous Potato",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.baked_potato": {
+              "아이템 아이디": "item.minecraft.baked_potato",
+              "아이템 영어 이름": "Baked Potato",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "seeds": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.pumpkin_seeds": {
+              "아이템 아이디": "item.minecraft.pumpkin_seeds",
+              "아이템 영어 이름": "Pumpkin Seeds",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.melon_seeds": {
+              "아이템 아이디": "item.minecraft.melon_seeds",
+              "아이템 영어 이름": "Melon Seeds",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.wheat_seeds": {
+              "아이템 아이디": "item.minecraft.wheat_seeds",
+              "아이템 영어 이름": "Wheat Seeds",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.beetroot_seeds": {
+              "아이템 아이디": "item.minecraft.beetroot_seeds",
+              "아이템 영어 이름": "Beetroot Seeds",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.torchflower_seeds": {
+              "아이템 아이디": "item.minecraft.torchflower_seeds",
+              "아이템 영어 이름": "Torchflower Seeds",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        },
+        "wheat": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.wheat": {
+              "아이템 아이디": "item.minecraft.wheat",
+              "아이템 영어 이름": "Wheat",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "FARM"
+}

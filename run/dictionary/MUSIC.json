@@ -1,0 +1,103 @@
+{
+  "문서 버전": "1.0",
+  "아이템들": {
+    "MUSIC": {
+      "태그 설명": "이 태그를 가진 아이템들 대한 설명을 여기에 적어주세요.",
+      "설명 대체": true,
+      "아이템 목록": {
+        "MUSIC": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.music_disc_mellohi": {
+              "아이템 아이디": "item.minecraft.music_disc_mellohi",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_stal": {
+              "아이템 아이디": "item.minecraft.music_disc_stal",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_11": {
+              "아이템 아이디": "item.minecraft.music_disc_11",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_far": {
+              "아이템 아이디": "item.minecraft.music_disc_far",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_cat": {
+              "아이템 아이디": "item.minecraft.music_disc_cat",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_13": {
+              "아이템 아이디": "item.minecraft.music_disc_13",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_mall": {
+              "아이템 아이디": "item.minecraft.music_disc_mall",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_wait": {
+              "아이템 아이디": "item.minecraft.music_disc_wait",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.disc_fragment_5": {
+              "아이템 아이디": "item.minecraft.disc_fragment_5",
+              "아이템 영어 이름": "Disc Fragment",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_otherside": {
+              "아이템 아이디": "item.minecraft.music_disc_otherside",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_pigstep": {
+              "아이템 아이디": "item.minecraft.music_disc_pigstep",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_blocks": {
+              "아이템 아이디": "item.minecraft.music_disc_blocks",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_5": {
+              "아이템 아이디": "item.minecraft.music_disc_5",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_ward": {
+              "아이템 아이디": "item.minecraft.music_disc_ward",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_strad": {
+              "아이템 아이디": "item.minecraft.music_disc_strad",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_relic": {
+              "아이템 아이디": "item.minecraft.music_disc_relic",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            },
+            "item.minecraft.music_disc_chirp": {
+              "아이템 아이디": "item.minecraft.music_disc_chirp",
+              "아이템 영어 이름": "Music Disc",
+              "아이템에 대한 설명": "설명"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": "MUSIC"
+}
