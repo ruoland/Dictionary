@@ -25,7 +25,6 @@ public class PlayerDictionaryManager {
     private static CompoundTag getDictionaryTag(ServerPlayer player){
 
         CompoundTag playerTag = PlayerDataApi.getCustomDataFor(player, DictionaryClient.DICTIONARY_DATA);
-        System.out.println(playerTag);
         if(playerTag == null)
             return new CompoundTag();
         CompoundTag dictonaryTag = playerTag.contains("dictionary") ? playerTag.getCompound("dictionary") : new CompoundTag();

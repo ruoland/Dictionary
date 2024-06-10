@@ -3,6 +3,14 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 public class DefaultDictionary {
 
 
+    public static final String CAN_STACKABLE = "쌓기 가능:";
+    public static final String MAX_DAMAGE = "내구도:";
+    public static final String CAN_GROW = "심어서 성장 가능:";
+    public static final String MAX_STACK_SIZE = "겹칠 수 있는 개수:";
+    public static final String ENCHANTABLE = "마법 부여 가능:";
+    public static final String BONEMEAL = "뼛가루 사용 가능:";
+    public static final String FUEL = "연료로 사용:";
+    public static final String DEFENSE = "방어력:";
     public static final String SHORT_DESC = "요약 설명을 적어주세요.";
     public static final String GROUP_NAME = "그룹 이름.";
     public static final String GROUP_DESC =  "여기에 이 그룹에 대한 설명을 넣어주세요.";
@@ -40,4 +48,6 @@ public class DefaultDictionary {
     public static final String RIDING = "";
     public static final String MINECART = "";
     public static final String REDSTONE = "";
+
+
 }
