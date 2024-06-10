@@ -4,6 +4,8 @@ package org.ruoland.dictionary.dictionary.dictionary;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Blocks;
+import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.EnumTag;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
@@ -99,36 +101,43 @@ public class TagManager {
         }
     }
 
-    public static ResourceLocation getItemLocation(ItemStack itemStack){
-        return  BuiltInRegistries.ITEM.getKey(itemStack.getItem());
-    }
     public ItemGroupContent findGroupByItemID(String id){
         if(idToTag.containsKey(id))
             return idToGroup.get(id);
         else
             throw new NullPointerException(id+"가 없습니다. " +idToGroup.keySet());
     }
+
+    public void sortTag(){
+        for(EnumTag enumTag : EnumTag.values()){
+            Dictionary.LOGGER.info(enumTag +" 태그 정리 시작...");
+            getItemTag(enumTag).getSubData().sortGroup();
+            Dictionary.LOGGER.info(enumTag +" 태그 정리 완료...");
+        }
+    }
+    //1단계
     public ItemsTag getItemTag(EnumTag enumTag){
         return tagEnumMap.get(enumTag);
     }
 
-    public void sortTag(){
-        for(EnumTag enumTag : EnumTag.values()){
-            getItemSub(enumTag).sortGroup();
-        }
-    }
     public ItemsTag getItemTag(ItemStack itemStack){
         return getItemTag(getTag(itemStack));
     }
+    
+    //2단계
     public SubData getItemSub(ItemStack itemStack){
-        return getItemTag(getTag(itemStack)).getSubData();
-    }
-    public ItemGroupContent getItemGroup(ItemStack itemStack){
-        return getItemTag(getTag(itemStack)).getSubData().getItemGroup(itemStack);
+        return getItemSub(getTag(itemStack));
     }
     public SubData getItemSub(EnumTag enumTag){
         return getItemTag(enumTag).getSubData();
     }
+
+    //3단계
+    public ItemGroupContent getItemGroup(ItemStack itemStack){
+        return getItemTag(getTag(itemStack)).getSubData().getItemGroup(itemStack);
+    }
+    
+    //4단계
 
     public EnumTag getTag(ItemStack itemStack){
         String namespace = BuiltInRegistries.ITEM.getKey(itemStack.getItem()).getNamespace();
@@ -173,11 +182,9 @@ public class TagManager {
                         return EnumTag.NETHER;
                     else if (itemID.contains("coral") || itemID.contains("kelp"))
                         return EnumTag.CORAL;
-
                     if (enumCombine.containsKey(getItemCutID(itemStack))) {
                         return enumCombine;
                     }
-
                 }
             }
         }

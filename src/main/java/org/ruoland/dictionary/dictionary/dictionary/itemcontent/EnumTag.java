@@ -3,24 +3,23 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 import java.util.EnumMap;
 
 public enum EnumTag {
-
+    ANIMAL(DefaultDictionary.ANIMAL, "rabbit","chicken", "cow", "dog", "cat", "villager", "polarbear", "panda", "sheep", "papago"),
     ARMOR(DefaultDictionary.ARMOR, "helmet", "chestplate", "leggings", "boots", "armor"),
-    TOOLS(DefaultDictionary.TOOLS, "axe", "pickaxe", "shovel", "hoe", "bucket"),
+    TOOLS(DefaultDictionary.TOOLS, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket"),
     FOOD(DefaultDictionary.FOOD, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew"),
     FENCE(DefaultDictionary.FENCE, "fence", "gate", "wall"),
     BANNER(DefaultDictionary.BANNER, "banner", "pattern"),
     WOOD(DefaultDictionary.WOOD, "wood", "log", "leaves", "planks"),
     COLOR_BLOCK(DefaultDictionary.COLOR_BLOCK, "glass", "pane", "terracotta", "carpet", "wool", "concrete", "powder"),
     CORAL(DefaultDictionary.CORAL, "coral", "fan"),
-    NETHER(DefaultDictionary.NETHER, "crimson", "warped", "ghast", "blaze", "nether", "glowstone"),
+    NETHER(DefaultDictionary.NETHER, "netherrack", "crimson", "warped", "ghast", "blaze", "nether", "glowstone"),
     MUSIC(DefaultDictionary.MUSIC, "music", "disc"),
-    ARROW(DefaultDictionary.ARROW, "arrow"),
     FARM(DefaultDictionary.FARM, "seeds", "beetroot", "wheat", "berries", "potato", "carrot", "melon", "hay", "cane"),
     SAPLING(DefaultDictionary.SAPLING, "sapling"),
-    DECO(DefaultDictionary.DECO, "sign", "slab", "stairs", "bed", "candle"),
+    DECO(DefaultDictionary.DECO, "sign", "slab", "stairs", "bed", "candle", "book"),
     DOOR(DefaultDictionary.DOOR, "door", "trapdoor"),
     COPPER(DefaultDictionary.COPPER, "copper", "oxidized", "weathered", "exposed"),
-    ORE(DefaultDictionary.ORE, "ore", "raw", "ingot", "nugget"),
+    ORE(DefaultDictionary.ORE, "ore", "raw", "ingot", "nugget", "emerald", "coal"),
     DYE(DefaultDictionary.DYE, "dye"),
     FISH(DefaultDictionary.FISH, "salmon", "fish", "pufferfish"),
     SHERD(DefaultDictionary.SHERD, "sherd"),
@@ -35,7 +34,7 @@ public enum EnumTag {
     POTION("potion"),
     TEMPLATE("template"),
     ORE_BLOCK("redstone_block", "lapis_block", "gold_block", "diamond_block", "copper_block"),
-    ETC, ENDER("chorus", "box", "ender"), SPECIAL(), PROJECTILE(), MINING();
+    ETC, ENDER("chorus", "box", "ender", "chorus_fruit"), SPECIAL(), PROJECTILE(), MINING();
 
     private static final EnumMap<EnumTag, String> tagDictionary = new EnumMap<>(EnumTag.class);
     private final String[] strings;

@@ -4,6 +4,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.locale.Language;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.Dictionary;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -19,8 +20,6 @@ public class LangManager {
             loadLanguageMap();
         if(itemStack == null)
             return "?";
-        System.out.println(itemStack.getDescriptionId());
-        System.out.println(languageMap.get(itemStack.getDescriptionId()));
         return languageMap.get(itemStack.getDescriptionId());
 
     }
@@ -30,10 +29,7 @@ public class LangManager {
     public static void loadLanguageMap(){
         try {
             Method tableField = Language.class.getDeclaredMethod("parseTranslations", BiConsumer.class, String.class);
-
             tableField.setAccessible(true);
-
-
             ImmutableMap.Builder<String, String> builder = ImmutableMap.builder();
             Objects.requireNonNull(builder);
             BiConsumer<String, String> biConsumer = builder::put;

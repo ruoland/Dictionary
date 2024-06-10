@@ -6,7 +6,6 @@ import net.minecraft.world.item.ItemStack;
 import java.util.HashMap;
 
 public class ItemGroupContent {
-    transient String groupID;//개발 편의성을 위해서
 
     @SerializedName("그룹 대표 이름")
     String groupName = DefaultDictionary.GROUP_NAME;
@@ -17,14 +16,17 @@ public class ItemGroupContent {
     @SerializedName("아이템들")
     private HashMap<String, ItemContent> itemContentMap = new HashMap<>();
 
-    public ItemGroupContent(String groupID){
-        this.groupID =groupID;
+    public ItemGroupContent(){
+
     }
 
     public HashMap<String, ItemContent> getContentMap() {
         return itemContentMap;
     }
 
+    public void clear(){
+        itemContentMap.clear();;
+    }
     public String getDictionary() {
         return dictionary;
     }
@@ -32,7 +34,9 @@ public class ItemGroupContent {
     public void add(ItemStack itemStack){
         itemContentMap.put(itemStack.getDescriptionId(), new ItemContent(itemStack));
     }
-
+    public void addAll(ItemGroupContent groupContent){
+        this.itemContentMap.putAll(groupContent.getContentMap());
+    }
     public ItemContent getItemContent(ItemStack stack){
         return itemContentMap.get(stack.getDescriptionId());
     }
@@ -49,8 +53,5 @@ public class ItemGroupContent {
         return groupName;
     }
 
-    public String getGroupID() {
-        return groupID;
-    }
 
 }

@@ -1,5 +1,6 @@
 package org.ruoland.dictionary.dictionary.dictionary;
 
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
@@ -10,6 +11,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
@@ -47,13 +49,17 @@ public class VariableManager {
 
             var = var.replace(cutVarId(var, true), "");
             //아이템 요청 찾기 %id:redstone.lever%/%fuel%
-            String[] itemRequests = var.split("/%");
-            ItemContent itemContent = TagManager.getTagManager().findGroupByItemID(groupID).getContentMap().get(item);
 
-            Var variable = buildVariable(itemContent.getItemStack());
-            for(int i = 0; i < itemRequests.length;i++) {
-                if(variable.varMap.containsKey(itemRequests[i])){
-                    var = var.replace("/%"+itemRequests[i], ""+variable.varMap.get(itemRequests[i]));
+            ItemContent itemContent = TagManager.getTagManager().findGroupByItemID(groupID).getContentMap().get(item);
+            if (var.contains("/%")) {
+                String[] itemRequests = var.split("/%");
+                System.out.println("변수 감지 "+Arrays.toString(itemRequests));
+                Var variable = buildVariable(itemContent.getItemStack());
+                for (int i = 0; i < itemRequests.length; i++) {
+                    if (variable.varMap.containsKey(itemRequests[i])) {
+                        System.out.println("맵 "+variable.varMap.get(itemRequests[i]));
+                        var = var.replace("/%" + itemRequests[i], "" + variable.varMap.get(itemRequests[i]));
+                    }
                 }
             }
         }
@@ -62,11 +68,11 @@ public class VariableManager {
     private static Var buildVariable(ItemStack itemStack){
         Var.VarBuilder variable = Var.VarBuilder.varBuilder();
         variable.isEnchantable(itemStack.isEnchantable());//인챈트 가능?
-        variable.canDestroy(itemStack.isDamageableItem());//내구성 있음?
         variable.canStackable(itemStack.isStackable());//여러개 집기 가능?
         variable.maxDamage(itemStack.getMaxDamage());//내구성 얼마나?
         variable.maxStackSize(itemStack.getMaxStackSize());//몇개까지?
         variable.isFuel(AbstractFurnaceBlockEntity.isFuel(itemStack)); //연료로 사용 가능?
+        variable.canEat(itemStack.getItem().components().has(DataComponents.FOOD)); //연료로 사용 가능?
 
         if (itemStack.getItem() instanceof BlockItem blockItem) {
             if (blockItem.getBlock() instanceof BonemealableBlock bonemealableBlock) {
