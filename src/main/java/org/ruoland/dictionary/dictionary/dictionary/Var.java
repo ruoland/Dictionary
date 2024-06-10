@@ -27,6 +27,7 @@ public class Var {
         private int maxStackSize;
         private int defense;
         private boolean isFuel;
+        private boolean canEat;
 
         private VarBuilder() {
         }
@@ -37,11 +38,6 @@ public class Var {
 
         public VarBuilder isEnchantable(boolean canEnchanted) {
             this.isEnchantable = canEnchanted;
-            return this;
-        }
-
-        public VarBuilder canDestroy(boolean canDestroy) {
-            this.canDestroy = canDestroy;
             return this;
         }
 
@@ -74,6 +70,12 @@ public class Var {
             this.defense = defense;
             return this;
         }
+
+        public VarBuilder canEat(boolean canEat){
+            this.canEat = canEat;
+            return this;
+        }
+
 
         public Var build() {
             Var var = new Var();
