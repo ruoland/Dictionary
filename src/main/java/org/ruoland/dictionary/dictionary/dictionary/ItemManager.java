@@ -4,6 +4,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import org.ruoland.dictionary.dictionary.dictionary.itemcontent.DefaultDictionary;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
@@ -53,8 +54,9 @@ public class ItemManager {
             stringBuffer.append(sub.getSubDictionary()).append("\n");
             stringBuffer.append(itemGroup.getDictionary()).append("\n");
         }
-        if(content.getDictionary().equals("설명")) //정확한 아이템의 설명이 없는 경우 대신 태그 설명을 반환함
+        if(content.getDictionary().equals(DefaultDictionary.ITEM_DESC)) //정확한 아이템의 설명이 없는 경우 대신 태그 설명을 반환함
             return stringBuffer.toString();
+
         return content.getDictionary();
     }
 

@@ -2,7 +2,11 @@ package org.ruoland.dictionary.dictionary.gui;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.Renderable;
+import net.minecraft.client.gui.components.events.GuiEventListener;
+import net.minecraft.client.gui.narration.NarratableEntry;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.client.gui.screens.TitleScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
 
@@ -28,6 +32,11 @@ public class DebugScreen extends Screen {
 
     }
 
+
+    @Override
+    public <T extends GuiEventListener & Renderable & NarratableEntry> T addRenderableWidget(T guiEventListener) {
+        return super.addRenderableWidget(guiEventListener);
+    }
     @Override
     public void render(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick) {
         super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
@@ -58,6 +67,7 @@ public class DebugScreen extends Screen {
             posX += prevMouseX;
             posY += prevMouseY;
         }
+
         pGuiGraphics.drawWordWrap(this.font, (text), posX, posY, width, color);
     }
 

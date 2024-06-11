@@ -33,6 +33,13 @@ public class SubData {
         return canReplace;
     }
 
+    public ItemStack getZeroItem(){
+        for(ItemGroupContent groupContent : itemGroupContentMap.values()){
+            System.out.println("서브데이터에서 " +groupContent.getZeroItem());
+            return groupContent.getZeroItem();
+        }
+        return null;
+    }
 
     public void addItemContent(ItemStack itemStack){
         String itemGroupCutID = TagManager.getTagManager().getItemCutID(itemStack);
@@ -98,6 +105,6 @@ public class SubData {
     private boolean canReplace=true;
 
     @SerializedName("태그")
-    private EnumTag tag;
+    public EnumTag tag;
 
 }

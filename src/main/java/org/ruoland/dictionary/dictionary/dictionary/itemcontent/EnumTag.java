@@ -4,6 +4,7 @@ import java.util.EnumMap;
 
 public enum EnumTag {
     ANIMAL(DefaultDictionary.ANIMAL, "rabbit","chicken", "cow", "dog", "cat", "villager", "polarbear", "panda", "sheep", "papago"),
+    MOB(DefaultDictionary.MOB, ""),
     ARMOR(DefaultDictionary.ARMOR, "helmet", "chestplate", "leggings", "boots", "armor"),
     TOOLS(DefaultDictionary.TOOLS, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket"),
     FOOD(DefaultDictionary.FOOD, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew"),

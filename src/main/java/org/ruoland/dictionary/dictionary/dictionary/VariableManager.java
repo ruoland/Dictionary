@@ -1,36 +1,38 @@
 package org.ruoland.dictionary.dictionary.dictionary;
 
 import net.minecraft.core.component.DataComponents;
-import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
+import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 public class VariableManager {
 
-    public static String getVariable(ItemStack itemStack, String content){
+    public static String replaceVariable(ItemStack itemStack, String content){
         content = content.replaceAll("%damage%", "" + itemStack.getDamageValue());
-        content = content.replaceAll("%name%", "" + itemStack.getDisplayName().getString());
+        content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
         content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
-        while(content.contains("%id:")){
-            String cut = cutVarId(content, true);
-            String value = TagManager.getTagManager().findGroupByItemID(cutVarId(content,false)).getGroupName();
 
-            content = content.replace(cut,  value);
-
-        }
         return content;
     }
 
+    public static ArrayList<ItemGroupContent> getGroupFromId(String content){
+        ArrayList<ItemGroupContent> arrayList = new ArrayList<>();
+        while(content.contains("%id:")){
+            ItemGroupContent groupContent =TagManager.getTagManager().findGroupByItemID(cutVarId(content,false));
+            String cut = cutVarId(content, true);
+            arrayList.add(groupContent);
+            content = content.replace(cut, groupContent.getGroupName());
+
+        }
+        return arrayList;
+    }
 
     /**
      * @param var 를 전달받아서 var 에 있는 세부 데이터를 분리함
@@ -86,14 +88,14 @@ public class VariableManager {
         return variable.build();
     }
 
-    private static String cutVarId(String content, boolean fullID){
+    public static String cutVarId(String content, boolean fullID){
         int id = content.indexOf("%id:");
         String variableId = content.substring(id, content.indexOf("%", id+1)+1);
 
         if(!fullID)
             variableId = variableId.replace("%id:", "").replace("%", "");
 
-        System.out.println("???" +variableId);
+
         return variableId;
     }
 

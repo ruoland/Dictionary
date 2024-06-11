@@ -51,4 +51,5 @@ public class DefaultDictionary {
 
 
     public static final String ANIMAL = "";
+    public static final String MOB = "";
 }

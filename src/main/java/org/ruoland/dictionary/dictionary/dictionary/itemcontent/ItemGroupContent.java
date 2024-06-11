@@ -20,6 +20,13 @@ public class ItemGroupContent {
 
     }
 
+    public ItemStack getZeroItem(){
+        for(ItemContent content : itemContentMap.values()){
+            System.out.println("그룹에서 : "+content.getItemStack());
+            return content.getItemStack();
+        }
+        return null;
+    }
     public HashMap<String, ItemContent> getContentMap() {
         return itemContentMap;
     }

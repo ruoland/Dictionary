@@ -21,6 +21,7 @@ public class ItemsTag {
         this.tag = tag;
 
         tagSubMap.put(tag, new SubData(tag));
+
     }
 
 
@@ -31,6 +32,7 @@ public class ItemsTag {
     public SubData getSubData() {
         return tagSubMap.get(tag);
     }
+
     @SerializedName("문서 버전")
     private String version = Dictionary.VERSION;
 

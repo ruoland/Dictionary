@@ -10,11 +10,13 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.event.client.player.ClientPickBlockGatherCallback;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.HitResult;
 import org.lwjgl.glfw.GLFW;
 import org.ruoland.dictionary.dictionary.gui.ContentScreen;
+import org.ruoland.dictionary.dictionary.gui.SubDataScreen;
 
 public class DictionaryClient implements ClientModInitializer {
     public static final NbtDataStorage DICTIONARY_DATA = new NbtDataStorage("dictionary");
@@ -40,8 +42,9 @@ public class DictionaryClient implements ClientModInitializer {
             if (InputConstants.isKeyDown(mc.getWindow().getWindow(), InputConstants.KEY_O)) {
 
                 if (!(mc.screen instanceof ContentScreen)) {
-                    ContentScreen dictionary = new ContentScreen(mc.screen, stack);
-                    mc.setScreen(dictionary);
+                    ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
+                    SubDataScreen subDataScreen = new SubDataScreen(Component.literal("asdf"));
+                    mc.setScreen(subDataScreen);
                 }
             }
         });

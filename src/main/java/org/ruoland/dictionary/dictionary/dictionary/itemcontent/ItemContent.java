@@ -2,7 +2,11 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
 import org.ruoland.dictionary.dictionary.dictionary.LangManager;
+import org.ruoland.dictionary.dictionary.dictionary.TagManager;
+import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IContent;
 
 public class ItemContent implements IContent {
@@ -26,6 +30,7 @@ public class ItemContent implements IContent {
     }
 
     public String getDictionary() {
+        dictionary = VariableManager.replaceVariable(itemStack, dictionary);
         return dictionary;
     }
 
@@ -35,6 +40,7 @@ public class ItemContent implements IContent {
     }
 
     public ItemStack getItemStack() {
-        return itemStack;
+        System.out.println(ItemManager.getItemStackMap().get(itemID));
+        return ItemManager.getItemStackMap().get(itemID);
     }
 }

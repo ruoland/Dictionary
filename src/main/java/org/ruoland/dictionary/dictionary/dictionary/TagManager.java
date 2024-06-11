@@ -98,6 +98,8 @@ public class TagManager {
             }
         }catch (Exception e){
             e.printStackTrace();
+            Dictionary.LOGGER.info("불러오기 실패");
+
         }
     }
 
