@@ -33,18 +33,23 @@ public class DictionaryClient implements ClientModInitializer {
         PlayerDataApi.register(DICTIONARY_DATA);
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            while (keyBinding.isDown()){
-                System.out.println("키 다운 중" + keyBinding.isDown());
+            if(client.screen == null) {
+                if (InputConstants.isKeyDown(client.getWindow().getWindow(), InputConstants.KEY_O)) {
+                    SubDataScreen subDataScreen = new SubDataScreen(Component.literal("도감 종류"));
+                    client.setScreen(subDataScreen);
+                }
+                if(client.crosshairPickEntity != null){
+                    System.out.println(client.crosshairPickEntity);
+                }
             }
         });
         ItemTooltipCallback.EVENT.register((stack, tooltipContext, tooltipType, lines) -> {
             Minecraft mc = Minecraft.getInstance();
             if (InputConstants.isKeyDown(mc.getWindow().getWindow(), InputConstants.KEY_O)) {
-
                 if (!(mc.screen instanceof ContentScreen)) {
                     ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
-                    SubDataScreen subDataScreen = new SubDataScreen(Component.literal("asdf"));
-                    mc.setScreen(subDataScreen);
+                    //SubDataScreen subDataScreen = new SubDataScreen(Component.literal("asdf"));
+                    mc.setScreen(dictionary);
                 }
             }
         });

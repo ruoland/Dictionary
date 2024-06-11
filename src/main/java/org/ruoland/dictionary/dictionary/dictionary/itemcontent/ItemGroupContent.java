@@ -22,7 +22,7 @@ public class ItemGroupContent {
 
     public ItemStack getZeroItem(){
         for(ItemContent content : itemContentMap.values()){
-            System.out.println("그룹에서 : "+content.getItemStack());
+
             return content.getItemStack();
         }
         return null;
@@ -40,6 +40,7 @@ public class ItemGroupContent {
 
     public void add(ItemStack itemStack){
         itemContentMap.put(itemStack.getDescriptionId(), new ItemContent(itemStack));
+
     }
     public void addAll(ItemGroupContent groupContent){
         this.itemContentMap.putAll(groupContent.getContentMap());

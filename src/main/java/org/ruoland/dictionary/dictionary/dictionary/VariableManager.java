@@ -1,6 +1,8 @@
 package org.ruoland.dictionary.dictionary.dictionary;
 
 import net.minecraft.core.component.DataComponents;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
@@ -15,23 +17,37 @@ import java.util.Arrays;
 public class VariableManager {
 
     public static String replaceVariable(ItemStack itemStack, String content){
+
         content = content.replaceAll("%damage%", "" + itemStack.getDamageValue());
         content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
         content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
+        content = content.replaceAll("%groupName%", TagManager.getTagManager().getItemGroup(itemStack).getGroupName());
+
 
         return content;
     }
 
     public static ArrayList<ItemGroupContent> getGroupFromId(String content){
         ArrayList<ItemGroupContent> arrayList = new ArrayList<>();
+
         while(content.contains("%id:")){
             ItemGroupContent groupContent =TagManager.getTagManager().findGroupByItemID(cutVarId(content,false));
             String cut = cutVarId(content, true);
             arrayList.add(groupContent);
             content = content.replace(cut, groupContent.getGroupName());
-
         }
+
         return arrayList;
+    }
+
+    public static String replace(String content){
+
+        while(content.contains("%id:")){
+            ItemGroupContent groupContent =TagManager.getTagManager().findGroupByItemID(cutVarId(content,false));
+            String cut = cutVarId(content, true);
+            content = content.replace(cut, groupContent.getGroupName());
+        }
+        return content;
     }
 
     /**

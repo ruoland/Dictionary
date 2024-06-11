@@ -12,44 +12,82 @@ public class DefaultDictionary {
     public static final String FUEL = "연료로 사용:";
     public static final String DEFENSE = "방어력:";
     public static final String SHORT_DESC = "요약 설명을 적어주세요.";
-    public static final String GROUP_NAME = "그룹 이름.";
+    public static final String GROUP_NAME = "그룹 이름";
     public static final String GROUP_DESC =  "여기에 이 그룹에 대한 설명을 넣어주세요.";
     public static final String ITEM_DESC =  "아이템 설명";
 
-    public static final String DOOR = "%name%입니다. 나무나 철, 구리 등의 아이템으로 만들 수 있고, " +
-            "철, 구리로 만든 문은 %id:button%이나 %id:lever%, %id:plate%로만 열고 닫을 수 있습니다. " +
-            "나무 문은 나무 종류에 따라 고유의 색깔을 가지고 있어 디자인할 때 유용합니다. ";
-    public static final String MUSIC = "음악이 담긴 레코드입니다. %id:jukebox%로 이 음악을 재생할 수 있습니다. 스켈레톤이 크리퍼를 활로 쏴서 죽이거나" +
-            "혹은 유적, 특별한 건물, 던전 등 상자에서 구할 수 있습니다.";
-
-    public static final String ARMOR = "%name%입니다. 가죽이나 철, 구리 등의 아이템으로 만들 수 있고, " +
-            "등급에 따라 " +
-            "나무 문은 나무 종류에 따라 고유의 색깔을 가지고 있어 디자인할 때 유용합니다. ";
-    public static final String TOOLS = "";
-    public static final String FOOD = "";
-    public static final String FENCE = "";
-    public static final String BANNER = "";
-    public static final String WOOD = "";
-    public static final String COLOR_BLOCK = "";
-    public static final String CORAL = "";
-    public static final String NETHER = "";
-
-    public static final String ARROW = "";
-    public static final String FARM = "";
-    public static final String SAPLING = "";
-
-    public static final String DECO = "";
-    public static final String COPPER = "";
-    public static final String ORE = "";
-    public static final String DYE = "";
-    public static final String FISH = "";
-    public static final String SHERD = "";
-    public static final String SWORD = "";
-    public static final String RIDING = "";
-    public static final String MINECART = "";
-    public static final String REDSTONE = "";
-
-
-    public static final String ANIMAL = "";
-    public static final String MOB = "";
+    public static final String ANIMAL_NAME = "dictionary.animal.name";
+    public static final String ANIMAL_DICTIONARY  ="dictionary.animal.dictionary";
+    public static final String ARMOR_NAME = "dictionary.armor.name";
+    public static final String ARMOR_DICTIONARY  ="dictionary.armor.dictionary";
+    public static final String BANNER_NAME = "dictionary.banner.name";
+    public static final String BANNER_DICTIONARY  ="dictionary.banner.dictionary";
+    public static final String COLOR_BLOCK_NAME = "dictionary.color_block.name";
+    public static final String COLOR_BLOCK_DICTIONARY  ="dictionary.color_block.dictionary";
+    public static final String COPPER_NAME = "dictionary.copper.name";
+    public static final String COPPER_DICTIONARY  ="dictionary.copper.dictionary";
+    public static final String CORAL_NAME = "dictionary.coral.name";
+    public static final String CORAL_DICTIONARY  ="dictionary.coral.dictionary";
+    public static final String DECO_NAME = "dictionary.deco.name";
+    public static final String DECO_DICTIONARY  ="dictionary.deco.dictionary";
+    public static final String DIRT_NAME = "dictionary.dirt.name";
+    public static final String DIRT_DICTIONARY  ="dictionary.dirt.dictionary";
+    public static final String DOOR_NAME = "dictionary.door.name";
+    public static final String DOOR_DICTIONARY  ="dictionary.door.dictionary";
+    public static final String DYE_NAME = "dictionary.dye.name";
+    public static final String DYE_DICTIONARY  ="dictionary.dye.dictionary";
+    public static final String ENDER_NAME = "dictionary.ender.name";
+    public static final String ENDER_DICTIONARY  ="dictionary.ender.dictionary";
+    public static final String ETC_NAME = "dictionary.etc.name";
+    public static final String ETC_DICTIONARY  ="dictionary.etc.dictionary";
+    public static final String FARM_NAME = "dictionary.farm.name";
+    public static final String FARM_DICTIONARY  ="dictionary.farm.dictionary";
+    public static final String FENCE_NAME = "dictionary.fence.name";
+    public static final String FENCE_DICTIONARY  ="dictionary.fence.dictionary";
+    public static final String FISH_NAME = "dictionary.fish.name";
+    public static final String FISH_DICTIONARY  ="dictionary.fish.dictionary";
+    public static final String FLOWER_NAME = "dictionary.flower.name";
+    public static final String FLOWER_DICTIONARY  ="dictionary.flower.dictionary";
+    public static final String FOOD_NAME = "dictionary.food.name";
+    public static final String FOOD_DICTIONARY  ="dictionary.food.dictionary";
+    public static final String MINECART_NAME = "dictionary.minecart.name";
+    public static final String MINECART_DICTIONARY  ="dictionary.minecart.dictionary";
+    public static final String MINING_NAME = "dictionary.mining.name";
+    public static final String MINING_DICTIONARY  ="dictionary.mining.dictionary";
+    public static final String MOB_NAME = "dictionary.mob.name";
+    public static final String MOB_DICTIONARY  ="dictionary.mob.dictionary";
+    public static final String MUSIC_NAME = "dictionary.music.name";
+    public static final String MUSIC_DICTIONARY  ="dictionary.music.dictionary";
+    public static final String NETHER_NAME = "dictionary.nether.name";
+    public static final String NETHER_DICTIONARY  ="dictionary.nether.dictionary";
+    public static final String ORE_NAME = "dictionary.ore.name";
+    public static final String ORE_DICTIONARY  ="dictionary.ore.dictionary";
+    public static final String ORE_BLOCK_NAME = "dictionary.ore_block.name";
+    public static final String ORE_BLOCK_DICTIONARY  ="dictionary.ore_block.dictionary";
+    public static final String POLISHED_NAME = "dictionary.polished.name";
+    public static final String POLISHED_DICTIONARY  ="dictionary.polished.dictionary";
+    public static final String POTION_NAME = "dictionary.potion.name";
+    public static final String POTION_DICTIONARY  ="dictionary.potion.dictionary";
+    public static final String PROJECTILE_NAME = "dictionary.projectile.name";
+    public static final String PROJECTILE_DICTIONARY  ="dictionary.projectile.dictionary";
+    public static final String REDSTONE_NAME = "dictionary.redstone.name";
+    public static final String REDSTONE_DICTIONARY  ="dictionary.redstone.dictionary";
+    public static final String RIDING_NAME = "dictionary.riding.name";
+    public static final String RIDING_DICTIONARY  ="dictionary.riding.dictionary";
+    public static final String SANDSTONE_NAME = "dictionary.sandstone.name";
+    public static final String SANDSTONE_DICTIONARY  ="dictionary.sandstone.dictionary";
+    public static final String SAPLING_NAME = "dictionary.sapling.name";
+    public static final String SAPLING_DICTIONARY  ="dictionary.sapling.dictionary";
+    public static final String SHERD_NAME = "dictionary.sherd.name";
+    public static final String SHERD_DICTIONARY  ="dictionary.sherd.dictionary";
+    public static final String SPECIAL_NAME = "dictionary.special.name";
+    public static final String SPECIAL_DICTIONARY  ="dictionary.special.dictionary";
+    public static final String SWORD_NAME = "dictionary.sword.name";
+    public static final String SWORD_DICTIONARY  ="dictionary.sword.dictionary";
+    public static final String TEMPLATE_NAME = "dictionary.template.name";
+    public static final String TEMPLATE_DICTIONARY  ="dictionary.template.dictionary";
+    public static final String TOOLS_NAME = "dictionary.tools.name";
+    public static final String TOOLS_DICTIONARY  ="dictionary.tools.dictionary";
+    public static final String WOOD_NAME = "dictionary.wood.name";
+    public static final String WOOD_DICTIONARY  ="dictionary.wood.dictionary";
 }

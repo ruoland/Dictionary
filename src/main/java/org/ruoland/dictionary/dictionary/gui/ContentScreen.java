@@ -60,7 +60,9 @@ public class ContentScreen extends DebugScreen {
         super.init();
         try {
             String content = (ItemManager.getContent(itemStack).replace("\\n", NEW_LINE));
+            content = VariableManager.replaceVariable(itemStack, content);
             addComments(content);
+            content = VariableManager.replace(content);
             contentSplitLines(content);
 
         }catch (NullPointerException e){
@@ -74,7 +76,7 @@ public class ContentScreen extends DebugScreen {
             String[] contentSplit =content.split(NEW_LINE);
             dictionarySplit = new Component[contentSplit.length];
             for(int i = 0; i < contentSplit.length;i++){
-                dictionarySplit[i] = Component.literal(contentSplit[i]);
+                dictionarySplit[i] = Component.translatable(contentSplit[i]);
             }
         }catch (NullPointerException e){
             e.printStackTrace();
@@ -90,7 +92,7 @@ public class ContentScreen extends DebugScreen {
         int groupX = 0;
         for(ItemGroupContent groupContent : VariableManager.getGroupFromId(dictionary)){
             String groupName = groupContent.getGroupName();
-            addRenderableWidget(new PlainTextButton(itemInfoX+ groupX, guiTop + 200, font.width(groupName), 10, Component.literal(groupName), button -> {
+            addRenderableWidget(new PlainTextButton(itemInfoX+ groupX, guiTop + 200, font.width(groupName), 10, Component.literal(groupName).append(", ").withColor(0), button -> {
                 minecraft.setScreen(new ContentScreen(minecraft.screen, groupContent.getZeroItem(), true));
             }, font));
             groupX += font.width(groupContent.getGroupName()) + 5;

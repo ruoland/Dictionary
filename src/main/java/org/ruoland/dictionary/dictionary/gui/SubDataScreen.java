@@ -10,8 +10,10 @@ import net.minecraft.client.gui.screens.CreditsAndAttributionScreen;
 import net.minecraft.client.gui.screens.TitleScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.EnumTag;
+import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemsTag;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
 
@@ -29,23 +31,28 @@ public class SubDataScreen extends DebugScreen{
         for(EnumTag tag : EnumTag.values())
             itemTags.add(TagManager.getTagManager().getItemTag(tag).getSubData());
         int Y = 100;
+        int xLine = 0;
         for(SubData tag : itemTags) {
             ItemStack itemStack = tag.getZeroItem();
             if(itemStack == null) {
-                System.out.println(itemStack + " - " + tag.tag.name());
+                Dictionary.LOGGER.info(tag.tag+"에는 대표 아이템이 없음.");
                 continue;
-
             }
 
             String displayName = itemStack.getDisplayName().getString();
-
-            addRenderableWidget(new SubItemButton(itemStack, guiLeft, guiTop - 100 + Y, font.width(displayName), 20, Component.literal(tag.tag.name()), new Button.OnPress() {
+            addRenderableWidget(new SubItemButton(itemStack, guiLeft + 40 + xLine, guiTop - 100 + Y, 50, 20, Component.literal(tag.tag.name()), new Button.OnPress() {
                 @Override
                 public void onPress(Button button) {
-                    System.out.println(displayName);
+                    ItemGroupContent groupContent = TagManager.getTagManager().getItemGroup(itemStack);
+                    minecraft.setScreen(new ContentScreen(minecraft.screen, groupContent.getZeroItem(), true));
+
                 }
             }, null));
-            Y += 20;
+            Y += 40;
+            if( Y >= height){
+                xLine+= 70;
+                Y = 200;
+            }
         }
     }
 
