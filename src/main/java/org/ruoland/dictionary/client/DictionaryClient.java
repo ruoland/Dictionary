@@ -16,7 +16,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.HitResult;
 import org.lwjgl.glfw.GLFW;
 import org.ruoland.dictionary.dictionary.gui.ContentScreen;
-import org.ruoland.dictionary.dictionary.gui.SubDataScreen;
+import org.ruoland.dictionary.dictionary.gui.ItemsTagScreen;
 
 public class DictionaryClient implements ClientModInitializer {
     public static final NbtDataStorage DICTIONARY_DATA = new NbtDataStorage("dictionary");
@@ -35,8 +35,8 @@ public class DictionaryClient implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if(client.screen == null) {
                 if (InputConstants.isKeyDown(client.getWindow().getWindow(), InputConstants.KEY_O)) {
-                    SubDataScreen subDataScreen = new SubDataScreen(Component.literal("도감 종류"));
-                    client.setScreen(subDataScreen);
+                    ItemsTagScreen itemsTagScreen = new ItemsTagScreen(Component.literal("도감 종류"));
+                    client.setScreen(itemsTagScreen);
                 }
                 if(client.crosshairPickEntity != null){
                     System.out.println(client.crosshairPickEntity);
@@ -48,7 +48,7 @@ public class DictionaryClient implements ClientModInitializer {
             if (InputConstants.isKeyDown(mc.getWindow().getWindow(), InputConstants.KEY_O)) {
                 if (!(mc.screen instanceof ContentScreen)) {
                     ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
-                    //SubDataScreen subDataScreen = new SubDataScreen(Component.literal("asdf"));
+                    //ItemsTagScreen subDataScreen = new ItemsTagScreen(Component.literal("asdf"));
                     mc.setScreen(dictionary);
                 }
             }

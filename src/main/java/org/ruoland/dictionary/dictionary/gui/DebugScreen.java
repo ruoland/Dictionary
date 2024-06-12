@@ -20,7 +20,7 @@ public class DebugScreen extends Screen {
     protected DebugScreen(Component pTitle) {
         super(pTitle);
     }
-
+    Screen lastScreen;
     @Override
     protected void init() {
         super.init();
@@ -97,5 +97,15 @@ public class DebugScreen extends Screen {
     public boolean mouseClicked(double pMouseX, double pMouseY, int pButton) {
 
         return super.mouseClicked(pMouseX, pMouseY, pButton);
+    }
+    @Override
+    public void onClose() {
+        this.minecraft.setScreen(lastScreen);
+
+    }
+
+    @Override
+    public boolean shouldCloseOnEsc() {
+        return true;
     }
 }

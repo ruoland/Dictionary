@@ -24,7 +24,7 @@ public class ContentScreen extends DebugScreen {
     private final FormattedText itemName, itemEngName;
     private final ItemStack itemStack;
     private final ArrayList<ItemStack> itemList = new ArrayList<>();
-    private final Screen lastScreen;
+
     private Component[] dictionarySplit = new Component[10];
     private boolean onlyGroup;
     private int itemIndex;
@@ -34,10 +34,12 @@ public class ContentScreen extends DebugScreen {
 
     public ContentScreen(Screen lastScreen, ItemStack itemStack, boolean onlyGroup) {
         super(Component.literal("도감"));
+        String groupName = TagManager.getTagManager().getItemGroup(itemStack).getGroupName();
+
         if(onlyGroup)
-            itemName = FormattedText.of(TagManager.getTagManager().getItemGroup(itemStack).getGroupName());
+            itemName = FormattedText.of(groupName);
         else
-            itemName = FormattedText.of(itemStack.getDisplayName().getString());
+            itemName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
         itemEngName = FormattedText.of(LangManager.getEnglishName(itemStack));
 
         this.itemStack = itemStack;
@@ -49,6 +51,7 @@ public class ContentScreen extends DebugScreen {
 
     private void addGroupItems(){
         SubData subData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
+        itemList.add(itemStack);
         for(ItemGroupContent groupContent : subData.getGroupMap().values()){
             for(ItemContent content :groupContent.getContentMap().values())
                 itemList.add(ItemManager.getItemStackMap().get(content.getItemID()));
@@ -178,12 +181,6 @@ public class ContentScreen extends DebugScreen {
         pGuiGraphics.pose().scale(scaleX,1.3F,1);
         pGuiGraphics.blit(BookViewScreen.BOOK_LOCATION, guiLeft + left, guiTop + top, 0, 0, 192, 192);
         pGuiGraphics.pose().popPose();
-    }
-
-    @Override
-    public void onClose() {
-        this.minecraft.setScreen(lastScreen);
-
     }
 
 

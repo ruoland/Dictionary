@@ -22,8 +22,6 @@ public class VariableManager {
         content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
         content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
         content = content.replaceAll("%groupName%", TagManager.getTagManager().getItemGroup(itemStack).getGroupName());
-
-
         return content;
     }
 
