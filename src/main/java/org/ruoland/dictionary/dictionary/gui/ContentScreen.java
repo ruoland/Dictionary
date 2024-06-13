@@ -1,10 +1,14 @@
 package org.ruoland.dictionary.dictionary.gui;
 
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.PlainTextButton;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.BookViewScreen;
+
+import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
 import net.minecraft.network.chat.Style;
@@ -23,11 +27,10 @@ public class ContentScreen extends DebugScreen {
     private static final String NEW_LINE = "-NewNewNewLine-";
     private final FormattedText itemName, itemEngName;
     private final ItemStack itemStack;
-    private final ArrayList<ItemStack> itemList = new ArrayList<>();
 
     private Component[] dictionarySplit = new Component[10];
     private boolean onlyGroup;
-    private int itemIndex;
+
     int itemInfoName = 90;
     int itemInfoX = itemInfoName + 30;
     int width = 300;
@@ -46,16 +49,7 @@ public class ContentScreen extends DebugScreen {
         this.onlyGroup = onlyGroup;
         this.lastScreen = lastScreen;
 
-        addGroupItems();
-    }
 
-    private void addGroupItems(){
-        SubData subData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
-        itemList.add(itemStack);
-        for(ItemGroupContent groupContent : subData.getGroupMap().values()){
-            for(ItemContent content :groupContent.getContentMap().values())
-                itemList.add(ItemManager.getItemStackMap().get(content.getItemID()));
-        }
     }
 
     @Override
@@ -139,29 +133,15 @@ public class ContentScreen extends DebugScreen {
             newLine += 25;
         }
         pGuiGraphics.pose().popPose();
-
-        if(itemList.size() <= itemIndex)
-        {
-            itemIndex = 0;
-        }
-
         int itemRenderPostionX = 75;
-        renderItem(pGuiGraphics, guiLeft + itemInfoName - itemRenderPostionX, guiTop-2, 3.5F, itemList.get(itemIndex), pPartialTick);
+        renderItem(pGuiGraphics, guiLeft + itemInfoName - itemRenderPostionX, guiTop-2, 3.5F, (itemStack), pPartialTick);
+
     }
-    int itemIndexTick = 0;
+
 
     @Override
     public void tick() {
         super.tick();
-        itemIndexTick++;
-        if(itemList.size() <= itemIndex)
-        {
-            itemIndex = 0;
-        }
-        else if(itemIndexTick % 30 == 0)
-        {
-            itemIndex++;
-        }
 
     }
 

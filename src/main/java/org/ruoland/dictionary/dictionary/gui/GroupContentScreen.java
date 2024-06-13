@@ -4,17 +4,25 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
+import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
 
+import java.util.ArrayList;
+
 public class GroupContentScreen extends DebugScreen{
+
+
     ItemGroupContent content = null;
     protected GroupContentScreen(Screen screen, ItemGroupContent content) {
         super(Component.literal("그룹 아이템"));
         this.content = content;
+
     }
 
+    int itemIndexTick = 0;
     @Override
     protected void init() {
         super.init();

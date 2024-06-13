@@ -10,11 +10,13 @@ import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.event.client.player.ClientPickBlockGatherCallback;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.HitResult;
 import org.lwjgl.glfw.GLFW;
+import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
 import org.ruoland.dictionary.dictionary.gui.ContentScreen;
 import org.ruoland.dictionary.dictionary.gui.ItemsTagScreen;
 
@@ -39,7 +41,8 @@ public class DictionaryClient implements ClientModInitializer {
                     client.setScreen(itemsTagScreen);
                 }
                 if(client.crosshairPickEntity != null){
-                    System.out.println(client.crosshairPickEntity);
+
+
                 }
             }
         });
@@ -50,6 +53,7 @@ public class DictionaryClient implements ClientModInitializer {
                     ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
                     //ItemsTagScreen subDataScreen = new ItemsTagScreen(Component.literal("asdf"));
                     mc.setScreen(dictionary);
+                    EntityTag.load();
                 }
             }
         });

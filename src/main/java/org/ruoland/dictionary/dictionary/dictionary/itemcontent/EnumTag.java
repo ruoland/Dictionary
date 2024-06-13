@@ -3,8 +3,7 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 import java.util.EnumMap;
 
 public enum EnumTag {
-    ANIMAL(DefaultDictionary.ANIMAL_NAME, "rabbit","chicken", "cow", "dog", "cat", "villager", "polarbear", "panda", "sheep", "papago"),
-    MOB(DefaultDictionary.MOB_NAME, ""),
+
     ARMOR(DefaultDictionary.ARMOR_NAME, "helmet", "chestplate", "leggings", "boots", "armor"),
     TOOLS(DefaultDictionary.TOOLS_NAME, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket"),
     FOOD(DefaultDictionary.FOOD_NAME, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew"),
@@ -63,19 +62,5 @@ public enum EnumTag {
         return itemsTag;
     }
 
-    public String getTagDictionary(){
-        tagDictionary.put(ARMOR, "방어구입니다. 방어구는 가죽, 철, 금(내구성, 방어력 낮음), 다이아몬드, 네더라이트(최종 아이템) 아이템으" +
-                "로 모자, 갑옷, 바지, 신발을 제작할 수 있으며, 세상을 모험하다 보면 사슬 갑옷도 얻을 수 있습니다.\\n" +
-                "가죽 갑옷은 염료 아이템과 조합하여 염색할 수 있습니다. (가마솥에 물을 채우고, 우클릭 하면 원래대로 돌릴 수 있습니다)\\n" +
-                "투구의 경우 방어력이 낮고, 거북 등딱지란 투구도 존재합니다.(거북 인갑으로 제작합니다.). \\n" +
-                "갑옷은 방어력이 가장 높고, 또 재료도 많이 들어갑니다.\\n" +
-                "바지의 경우 신속한 잠행이란 마법 부여를 가질 수 있습니다.(웅크린 상태에서 빠르게 이동하는 마법.)\\n" +
-                " 신발의 경우 가벼운 착지나 물갈퀴, 차가운 걸음, 등 다양한 마법 부여를 가질 수 있습니다");
-
-        tagDictionary.put(TOOLS, "게임에 필수적인 도구들입니다.");
-        return "";
-
-
-    }
 
 }

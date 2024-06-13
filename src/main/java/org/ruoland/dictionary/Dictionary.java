@@ -3,14 +3,24 @@ package org.ruoland.dictionary;
 import eu.pb4.playerdata.api.PlayerDataApi;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import org.intellij.lang.annotations.Identifier;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.*;
+import org.ruoland.dictionary.dictionary.dictionary.entitycontent.CubeEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,9 +30,12 @@ public class Dictionary implements ModInitializer {
     public static final String MOD_ID = "dictionary";
     public static final String VERSION = "1.0";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
+    public static final EntityType<CubeEntity> CUBE = EntityType.Builder.of(CubeEntity::new, MobCategory.CREATURE).sized(1,1).build("dictionary:cube");
     @Override
     public void onInitialize() {
+
+
+
         ServerLifecycleEvents.SERVER_STARTING.register(server -> {
 
             LangManager.loadLanguageMap();
