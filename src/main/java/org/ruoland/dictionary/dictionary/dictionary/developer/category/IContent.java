@@ -4,7 +4,7 @@ public interface IContent {
 
     public String getItemID();
 
-    public String getDictionary();
+    public String getDictionary(boolean isDebug);
 
     public boolean isGroup();
 }

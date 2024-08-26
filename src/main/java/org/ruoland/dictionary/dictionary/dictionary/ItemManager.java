@@ -4,6 +4,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.DefaultDictionary;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
@@ -42,22 +43,32 @@ public class ItemManager {
     public static HashMap<String, ItemStack> getItemStackMap() {
         return ITEM_STACK_MAP;
     }
-
     public static String getContent(ItemStack itemStack) {
-        SubData sub = TagManager.getTagManager().getItemTag(itemStack).getSubData();
+        Dictionary.LOGGER.info("getContent called for item: {}", itemStack.getDescriptionId());
+
+        TagManager tagManager = TagManager.getTagManager();
+        SubData sub = tagManager.getItemTag(itemStack).getSubData();
         ItemGroupContent itemGroup = sub.getItemGroup(itemStack);
         ItemContent content = itemGroup.getItemContent(itemStack);
-        StringBuffer stringBuffer = new StringBuffer();
-        if(sub.isReplace())//태그 설명으로 대체하기.
+
+        Dictionary.LOGGER.info("Content retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
+
+        StringBuilder stringBuffer = new StringBuilder();
+        if(sub.isReplace()) {
             stringBuffer.append(sub.getItemGroup(itemStack).getDictionary());
-        else {
+        } else {
             stringBuffer.append(sub.getSubDictionary()).append("\n");
             stringBuffer.append(itemGroup.getDictionary()).append("\n");
         }
-        if(content.getDictionary().equals(DefaultDictionary.ITEM_DESC)) //정확한 아이템의 설명이 없는 경우 대신 태그 설명을 반환함
-            return stringBuffer.toString();
 
-        return content.getDictionary();
+        String itemDescription = content.getDictionary(false);
+        Dictionary.LOGGER.info("Final item description for {}: {}", itemStack.getDescriptionId(), itemDescription);
+
+        if(!itemDescription.equals(DefaultDictionary.ITEM_DESC)) {
+            return itemDescription;
+        }
+
+        return stringBuffer.toString();
     }
 
 }

@@ -17,10 +17,17 @@ import java.util.Arrays;
 public class VariableManager {
 
     public static String replaceVariable(ItemStack itemStack, String content){
+        if(itemStack == null){
+            content = content.replaceAll("%damage%", "(불러오지 못함)");
+            content = content.replaceAll("%name%", "(불러오지 못함)");
+            content = content.replaceAll("%maxStackSize%", "(불러오지 못함");
 
-        content = content.replaceAll("%damage%", "" + itemStack.getDamageValue());
-        content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
-        content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
+        }
+        else {
+            content = content.replaceAll("%damage%", "" + itemStack.getDamageValue());
+            content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
+            content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
+        }
         content = content.replaceAll("%groupName%", TagManager.getTagManager().getItemGroup(itemStack).getGroupName());
         return content;
     }

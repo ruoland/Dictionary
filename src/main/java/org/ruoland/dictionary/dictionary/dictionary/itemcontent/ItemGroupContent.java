@@ -2,6 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.Dictionary;
 
 import java.util.HashMap;
 
@@ -38,15 +39,32 @@ public class ItemGroupContent {
         return dictionary;
     }
 
-    public void add(ItemStack itemStack){
-        itemContentMap.put(itemStack.getDescriptionId(), new ItemContent(itemStack));
+    public void add(ItemStack itemStack) {
+        String itemId = itemStack.getDescriptionId();
+        if (itemContentMap.containsKey(itemId)) {
+            Dictionary.LOGGER.info("Item already exists in group: {}", itemId);
+            return;
+        }
 
+        ItemContent newContent = new ItemContent(itemStack);
+        if (itemContentMap.containsKey(itemId)) {
+            String existingDescription = itemContentMap.get(itemId).getDictionary(true);
+            newContent.setDictionary(existingDescription);
+            Dictionary.LOGGER.info("Copying existing description for item: {}", itemId);
+        }
+
+        itemContentMap.put(itemId, newContent);
+        Dictionary.LOGGER.info("Added new item to group: {}, description: {}", itemId, newContent.getDictionary(true));
     }
+
     public void addAll(ItemGroupContent groupContent){
         this.itemContentMap.putAll(groupContent.getContentMap());
     }
     public ItemContent getItemContent(ItemStack stack){
-        return itemContentMap.get(stack.getDescriptionId());
+        ItemContent itemContent = itemContentMap.get(stack.getDescriptionId());;
+        if(itemContent != null)
+            itemContent.setItemStack(stack);
+        return itemContent;
     }
 
     public boolean hasItem(ItemStack itemStack){

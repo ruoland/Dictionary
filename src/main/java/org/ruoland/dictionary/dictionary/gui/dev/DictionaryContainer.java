@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.gui;
+package org.ruoland.dictionary.dictionary.gui.dev;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.ContainerScreen;

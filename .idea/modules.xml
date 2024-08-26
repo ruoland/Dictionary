@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomClientForFabric.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomClientForFabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomClientForFabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomClientForFabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomClientForFabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomClientForFabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.ruoland.CustomClientForFabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.ruoland.CustomClientForFabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.ruoland.CustomClientForFabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.ruoland.CustomClientForFabric.test.iml" />
     </modules>
   </component>
 </project>

@@ -7,10 +7,7 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Blocks;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.EnumTag;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemsTag;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.itemcontent.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -46,61 +43,106 @@ public class TagManager {
     public static LinkedHashMap<String, EnumTag> getIdToTag() {
         return idToTag;
     }
-
-    public void saveTag() throws IOException {
-
-        for (EnumTag tag : EnumTag.values()) {
-            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
-            boolean newFile = !tagFile.toFile().exists();
-            if(newFile)
-                tagFile.toFile().createNewFile();
-
-            if(newFile || tagFile.toFile().lastModified() <= lastEditedMap.get(tag)){
-                Data.saveJson(tagFile, getTagManager().getItemTag(tag));
-            }
-
-        }
-    }
     public void loadTag() {
+        Dictionary.LOGGER.info("Starting to load tags...");
         for (EnumTag tag : EnumTag.values()) {
             Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
-            if (Files.exists(tagFile))
-                tagEnumMap.put(tag, (ItemsTag) Data.readJson(tagFile, ItemsTag.class));
-            lastEditedMap.put(tag, tagFile.toFile().lastModified());
-        }
-        if(tagEnumMap.isEmpty()){
-            for(EnumTag tag : EnumTag.values()){
+            if (Files.exists(tagFile)) {
+                try {
+                    ItemsTag itemsTag = (ItemsTag) Data.readJson(tagFile, ItemsTag.class);
+                    tagEnumMap.put(tag, itemsTag);
+                    lastEditedMap.put(tag, tagFile.toFile().lastModified());
+
+                    // Log loaded data
+                    logLoadedData(itemsTag);
+                } catch (Exception e) {
+                    Dictionary.LOGGER.error("Error loading tag {}: {}", tag, e.getMessage());
+                    e.printStackTrace();
+                }
+            } else {
+                Dictionary.LOGGER.warn("Tag file not found for {}, creating a new one", tag);
                 tagEnumMap.put(tag, new ItemsTag(tag));
-
             }
-
         }
+        Dictionary.LOGGER.info("Finished loading tags. Total tags loaded: {}", tagEnumMap.size());
         tagging();
     }
 
-    public void tagging(){
+    private void logLoadedData(ItemsTag itemsTag) {
+        SubData subData = itemsTag.getSubData();
+        for (ItemGroupContent group : subData.getGroupMap().values()) {
+            for (ItemContent item : group.getContentMap().values()) {
+                Dictionary.LOGGER.info("Loaded item: {}, description: {}", item.getItemID(), item.getDictionary(true));
+            }
+        }
+    }
+
+    public void saveTag() throws IOException {
+        Dictionary.LOGGER.info("Starting to save tags...");
+        for (EnumTag tag : EnumTag.values()) {
+            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            boolean newFile = !tagFile.toFile().exists();
+            if (newFile) {
+                Files.createFile(tagFile);
+            }
+
+            ItemsTag itemsTag = tagEnumMap.get(tag);
+            if (newFile || tagFile.toFile().lastModified() <= lastEditedMap.getOrDefault(tag, 0L)) {
+                // Log data being saved
+                logSavedData(itemsTag);
+
+                Data.saveJson(tagFile, itemsTag);
+                lastEditedMap.put(tag, System.currentTimeMillis());
+                Dictionary.LOGGER.info("Saved tag: {}", tag);
+            } else {
+                Dictionary.LOGGER.info("Skipped saving tag {} as it hasn't been modified", tag);
+            }
+        }
+        Dictionary.LOGGER.info("Finished saving tags.");
+    }
+
+    private void logSavedData(ItemsTag itemsTag) {
+        SubData subData = itemsTag.getSubData();
+        for (ItemGroupContent group : subData.getGroupMap().values()) {
+            for (ItemContent item : group.getContentMap().values()) {
+                Dictionary.LOGGER.info("Saving item: {}, description: {}", item.getItemID(), item.getDictionary(true));
+            }
+        }
+    }
+    public void tagging() {
+        Dictionary.LOGGER.info("Starting tagging process...");
         try {
             for (ItemStack itemStack : ItemManager.getItemList()) {
-
                 ItemsTag itemsTag = getItemTag(getTag(itemStack));
                 SubData sub = itemsTag.getSubData();
 
                 if (sub == null) {
+                    Dictionary.LOGGER.warn("SubData is null for item: {}", itemStack.getDescriptionId());
                     continue;
                 }
-                if (sub.hasGroup(itemStack))
-                    sub.getItemGroup(itemStack).add(itemStack);
-                else
+
+                ItemGroupContent group = sub.getItemGroup(itemStack);
+                if (group != null) {
+                    Dictionary.LOGGER.info("Adding item to existing group: {} for item: {}", group.getGroupName(), itemStack.getDescriptionId());
+                    group.add(itemStack);
+                } else {
+                    Dictionary.LOGGER.info("Adding new item content for item: {}", itemStack.getDescriptionId());
                     sub.addItemContent(itemStack);
+                }
 
-                idToTag.put(getItemCutID(itemStack), getTag(itemStack));
-                idToGroup.put(getItemCutID(itemStack), sub.getItemGroup(itemStack));
+                String itemId = getItemCutID(itemStack);
+                ItemContent itemContent = group.getItemContent(itemStack);
+                if (itemContent != null) {
+                    Dictionary.LOGGER.info("Tagging process - itemId: {}, description: {}", itemId, itemContent.getDictionary(true));
+                } else {
+                    Dictionary.LOGGER.warn("ItemContent is null for item: {}", itemId);
+                }
             }
-        }catch (Exception e){
+        } catch (Exception e) {
+            Dictionary.LOGGER.error("Error during tagging process", e);
             e.printStackTrace();
-            Dictionary.LOGGER.info("불러오기 실패");
-
         }
+        Dictionary.LOGGER.info("Tagging process completed.");
     }
 
     public ItemGroupContent findGroupByItemID(String id){

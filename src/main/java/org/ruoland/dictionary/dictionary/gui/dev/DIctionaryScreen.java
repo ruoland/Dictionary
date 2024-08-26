@@ -1,9 +1,10 @@
-package org.ruoland.dictionary.dictionary.gui;
+package org.ruoland.dictionary.dictionary.gui.dev;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
+import org.ruoland.dictionary.dictionary.gui.DebugScreen;
 
 import java.util.ArrayList;
 

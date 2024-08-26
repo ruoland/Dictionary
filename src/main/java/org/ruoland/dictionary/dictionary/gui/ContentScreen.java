@@ -61,7 +61,6 @@ public class ContentScreen extends DebugScreen {
             addComments(content);
             content = VariableManager.replace(content);
             contentSplitLines(content);
-
         }catch (NullPointerException e){
             e.printStackTrace();
             dictionarySplit[0] = Component.literal("이 도감에는 잘못된 변수가 존재합니다. 변수를 제대로 입력했는지 확인해주세요.:" +e.getMessage());
@@ -125,6 +124,8 @@ public class ContentScreen extends DebugScreen {
         int newLine = 0;
         for(int i = 0; i < dictionarySplit.length;i++) {
             Component dictionary = dictionarySplit[i];
+            if(dictionary == null)
+                continue;
 
             for (FormattedText formattedcharsequence : font.getSplitter().splitLines(dictionary, 240, Style.EMPTY)) {
                 drawText(1, pGuiGraphics, formattedcharsequence, guiLeft+itemInfoX, guiTop + 35 +(engLineY + newLine), width, 0);

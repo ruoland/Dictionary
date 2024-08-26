@@ -2,7 +2,9 @@ package org.ruoland.dictionary;
 
 import eu.pb4.playerdata.api.PlayerDataApi;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.core.Registry;
@@ -14,9 +16,11 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.entity.EntityTickList;
 import org.intellij.lang.annotations.Identifier;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.*;
@@ -30,12 +34,13 @@ public class Dictionary implements ModInitializer {
     public static final String MOD_ID = "dictionary";
     public static final String VERSION = "1.0";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-    public static final EntityType<CubeEntity> CUBE = EntityType.Builder.of(CubeEntity::new, MobCategory.CREATURE).sized(1,1).build("dictionary:cube");
+
     @Override
     public void onInitialize() {
 
-
-
+        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
+            DictionaryCommand.register(dispatcher);
+        });
         ServerLifecycleEvents.SERVER_STARTING.register(server -> {
 
             LangManager.loadLanguageMap();

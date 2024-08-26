@@ -2,6 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.ruoland.dictionary.Dictionary;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,27 +20,25 @@ public interface Data {
     static void save() throws IOException {
 
     }
-
-    static <T> Object readJson(Path path, Class<T> tC){
-
+    static <T> Object readJson(Path path, Class<T> tC) {
         try {
-            return GSON.fromJson(Files.readString(path), tC);
+            String content = Files.readString(path);
+            return GSON.fromJson(content, tC);
         } catch (Exception e) {
-            System.out.println("이 파일을 읽던 중, 오류 발생했습니다.:" + path);
+            Dictionary.LOGGER.error("Error reading file: {}", path, e);
             throw new RuntimeException(e);
         }
     }
 
-    static  <T> void saveJson(Path path, Object obj){
+    static <T> void saveJson(Path path, Object obj) {
         try {
-            Files.writeString(path, GSON.toJson(obj));
+            String json = GSON.toJson(obj);
+            Files.writeString(path, json);
         } catch (IOException e) {
-            System.out.println("이 파일을 읽던 중, 오류 발생했습니다.:" + path);
+            Dictionary.LOGGER.error("Error writing file: {}", path, e);
             throw new RuntimeException(e);
         }
-
     }
-
     default void init() {
         try {
             Files.createDirectories(DIRECTORY_PATH);

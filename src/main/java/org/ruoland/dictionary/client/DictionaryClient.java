@@ -16,6 +16,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.HitResult;
 import org.lwjgl.glfw.GLFW;
+import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
 import org.ruoland.dictionary.dictionary.gui.ContentScreen;
 import org.ruoland.dictionary.dictionary.gui.ItemsTagScreen;
@@ -50,7 +51,9 @@ public class DictionaryClient implements ClientModInitializer {
             Minecraft mc = Minecraft.getInstance();
             if (InputConstants.isKeyDown(mc.getWindow().getWindow(), InputConstants.KEY_O)) {
                 if (!(mc.screen instanceof ContentScreen)) {
+                    Dictionary.LOGGER.info("아이템 클릭됨, {}", stack);
                     ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
+
                     //ItemsTagScreen subDataScreen = new ItemsTagScreen(Component.literal("asdf"));
                     mc.setScreen(dictionary);
                     EntityTag.load();
@@ -59,12 +62,9 @@ public class DictionaryClient implements ClientModInitializer {
         });
 
 
-        ClientPickBlockGatherCallback.EVENT.register(new ClientPickBlockGatherCallback() {
-            @Override
-            public ItemStack pick(Player player, HitResult result) {
-                System.out.println(result.getType());
-                return null;
-            }
+        ClientPickBlockGatherCallback.EVENT.register((player, result) -> {
+            System.out.println(result.getType());
+            return null;
         });
 
     }
