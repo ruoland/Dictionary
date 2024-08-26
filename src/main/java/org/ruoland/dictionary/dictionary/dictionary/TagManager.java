@@ -54,7 +54,7 @@ public class TagManager {
                     lastEditedMap.put(tag, tagFile.toFile().lastModified());
 
                     // Log loaded data
-                    logLoadedData(itemsTag);
+                    //logLoadedData(itemsTag);
                 } catch (Exception e) {
                     Dictionary.LOGGER.error("Error loading tag {}: {}", tag, e.getMessage());
                     e.printStackTrace();
@@ -89,7 +89,7 @@ public class TagManager {
             ItemsTag itemsTag = tagEnumMap.get(tag);
             if (newFile || tagFile.toFile().lastModified() <= lastEditedMap.getOrDefault(tag, 0L)) {
                 // Log data being saved
-                logSavedData(itemsTag);
+                //logSavedData(itemsTag);
 
                 Data.saveJson(tagFile, itemsTag);
                 lastEditedMap.put(tag, System.currentTimeMillis());
@@ -123,17 +123,17 @@ public class TagManager {
 
                 ItemGroupContent group = sub.getItemGroup(itemStack);
                 if (group != null) {
-                    Dictionary.LOGGER.info("Adding item to existing group: {} for item: {}", group.getGroupName(), itemStack.getDescriptionId());
+                    //Dictionary.LOGGER.info("Adding item to existing group: {} for item: {}", group.getGroupName(), itemStack.getDescriptionId());
                     group.add(itemStack);
                 } else {
-                    Dictionary.LOGGER.info("Adding new item content for item: {}", itemStack.getDescriptionId());
+                    //Dictionary.LOGGER.info("Adding new item content for item: {}", itemStack.getDescriptionId());
                     sub.addItemContent(itemStack);
                 }
 
                 String itemId = getItemCutID(itemStack);
                 ItemContent itemContent = group.getItemContent(itemStack);
                 if (itemContent != null) {
-                    Dictionary.LOGGER.info("Tagging process - itemId: {}, description: {}", itemId, itemContent.getDictionary(true));
+                    //Dictionary.LOGGER.info("Tagging process - itemId: {}, description: {}", itemId, itemContent.getDictionary(true));
                 } else {
                     Dictionary.LOGGER.warn("ItemContent is null for item: {}", itemId);
                 }

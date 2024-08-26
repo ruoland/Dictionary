@@ -51,7 +51,7 @@ public class ItemManager {
         ItemGroupContent itemGroup = sub.getItemGroup(itemStack);
         ItemContent content = itemGroup.getItemContent(itemStack);
 
-        Dictionary.LOGGER.info("Content retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
+        //Dictionary.LOGGER.info("Content retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
 
         StringBuilder stringBuffer = new StringBuilder();
         if(sub.isReplace()) {
@@ -59,14 +59,16 @@ public class ItemManager {
         } else {
             stringBuffer.append(sub.getSubDictionary()).append("\n");
             stringBuffer.append(itemGroup.getDictionary()).append("\n");
+            String itemDescription = content.getDictionary(false);
+
+            //Dictionary.LOGGER.info("Final item description for {}: {}", itemStack.getDescriptionId(), itemDescription);
+
+            if(!itemDescription.equals(DefaultDictionary.ITEM_DESC)) {
+                return itemDescription;
+            }
+
         }
 
-        String itemDescription = content.getDictionary(false);
-        Dictionary.LOGGER.info("Final item description for {}: {}", itemStack.getDescriptionId(), itemDescription);
-
-        if(!itemDescription.equals(DefaultDictionary.ITEM_DESC)) {
-            return itemDescription;
-        }
 
         return stringBuffer.toString();
     }

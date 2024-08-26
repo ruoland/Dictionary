@@ -38,9 +38,7 @@ public class Dictionary implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
-            DictionaryCommand.register(dispatcher);
-        });
+
         ServerLifecycleEvents.SERVER_STARTING.register(server -> {
 
             LangManager.loadLanguageMap();
