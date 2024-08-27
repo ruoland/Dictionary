@@ -61,7 +61,7 @@ public class TagManager {
             if (Files.exists(tagFile)) {
                 try {
                     ItemsTag itemsTag = (ItemsTag) Data.readJson(tagFile, ItemsTag.class);
-                    Dictionary.LOGGER.info("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), itemsTag);
+                    Dictionary.LOGGER.trace("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), itemsTag);
                     if (!itemsTag.getTagName().equals(tag.name())) {
                         throw new IllegalStateException("Tag mismatch in file " + tagFile + ": expected " + tag.name() + " but found " + itemsTag.getTagName());
                     }
@@ -154,11 +154,11 @@ public class TagManager {
 
         for(EnumTag enumTag : EnumTag.values()){
             try{
-                Dictionary.LOGGER.info(enumTag +" 태그 정리 시작...");
+                Dictionary.LOGGER.trace(enumTag +" 태그 정리 시작...");
                 if(getItemTag(enumTag).getSubData() == null)
                     throw new NullPointerException("태그 정리 오류: 서브 데이터가 없습니다:"+ enumTag);
                 getItemTag(enumTag).getSubData().sortGroup();
-                Dictionary.LOGGER.info(enumTag +" 태그 정리 완료...");
+                Dictionary.LOGGER.trace(enumTag +" 태그 정리 완료...");
             }
             catch (NullPointerException e){
                 e.printStackTrace();

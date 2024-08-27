@@ -1,6 +1,7 @@
 package org.ruoland.dictionary.dictionary.gui;
 
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.BookViewScreen;
@@ -8,6 +9,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
+import org.ruoland.dictionary.DictionaryLogger;
 import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
 import org.ruoland.dictionary.dictionary.dictionary.LangManager;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
@@ -20,19 +22,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContentScreen extends DebugScreen {
-
+    DictionaryLogger LOGGER = Dictionary.LOGGER;
     private final FormattedText itemName, itemEngName;
     private final ItemStack itemStack;
     private List<Object> contentComponents;
 
-    private boolean onlyGroup;
-    private int contentWidth = 200; // 콘텐츠의 최대 너비
+    private final boolean onlyGroup;
+    private static final float CONTENT_WIDTH_RATIO = 0.8f; // 화면 너비의 60%
+    private static final int LINE_SPACING = 2; //줄 간 간격
+    private int contentWidth; //실제 콘텐츠 너비
     int itemInfoName = 90;
     int itemInfoX = itemInfoName + 30;
     int width = 300;
 
     public ContentScreen(Screen lastScreen, ItemStack itemStack, boolean onlyGroup) {
         super(Component.literal("도감"));
+
         String groupName = TagManager.getTagManager().getItemGroup(itemStack).getGroupName();
 
         if(onlyGroup)
@@ -50,6 +55,9 @@ public class ContentScreen extends DebugScreen {
 
     protected void init() {
         super.init();
+
+        updateContentWidth();
+        Dictionary.LOGGER.info("ContentScreen initialized. Content width: {}", contentWidth);
         try {
             String content = ItemManager.getContent(itemStack).replace("\\n", "\n");
             content = VariableManager.replaceVariable(itemStack, content);
@@ -63,8 +71,13 @@ public class ContentScreen extends DebugScreen {
                 this.addRenderableWidget(button);
             }
         }
+
     }
 
+    private void updateContentWidth() {
+        this.contentWidth = (int)(this.width * CONTENT_WIDTH_RATIO);
+        LOGGER.debug("Content width updated to: {}", contentWidth);
+    }
     private void parseContent(String content) {
         contentComponents = new ArrayList<>();
         StringBuilder currentText = new StringBuilder();
@@ -173,6 +186,109 @@ public class ContentScreen extends DebugScreen {
         renderItem(pGuiGraphics, pPartialTick);
     }
 
+
+
+    private void renderContent(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick, int engLineY) {
+        LOGGER.debug("Rendering content. Mouse position: ({}, {})", pMouseX, pMouseY);
+        int x = guiLeft + itemInfoX;
+        int y = guiTop + 35 + engLineY;
+        int lineHeight = font.lineHeight + LINE_SPACING;
+
+        List<TextPart> textParts = createTextParts();
+        LOGGER.debug("Created {} text parts", textParts.size());
+        renderTextParts(pGuiGraphics, textParts, x, y, lineHeight, pMouseX, pMouseY, pPartialTick);
+    }
+
+
+    private List<TextPart> createTextParts() {
+        LOGGER.debug("Creating text parts from {} content components", contentComponents.size());
+        List<TextPart> textParts = new ArrayList<>();
+        for (Object component : contentComponents) {
+            if (component instanceof Component textComponent) {
+                List<TextPart> splitParts = splitTextComponent(textComponent);
+                LOGGER.trace("Split text component into {} parts", splitParts.size());
+                textParts.addAll(splitParts);
+            } else if (component instanceof DictionaryPlainTextButton button) {
+                LOGGER.trace("Added button part: {}", button.getMessage().getString());
+                textParts.add(new TextPart(button.getMessage().getString(), true, button));
+            } else if (component.equals("\n")) {
+                LOGGER.trace("Added newline part");
+                textParts.add(new TextPart("\n", false, null));
+            }
+        }
+        LOGGER.debug("Created a total of {} text parts", textParts.size());
+        return textParts;
+    }
+
+    private List<TextPart> splitTextComponent(Component textComponent) {
+        LOGGER.debug("Splitting text component: {}", textComponent.getString());
+        List<TextPart> parts = new ArrayList<>();
+        String[] words = textComponent.getString().split("\\s+");
+        StringBuilder currentLine = new StringBuilder();
+
+        for (String word : words) {
+            if (font.width(currentLine + " " + word) > contentWidth) {
+                if (!currentLine.isEmpty()) {
+                    LOGGER.trace("Created new text part: {}", currentLine.toString().trim());
+                    parts.add(new TextPart(currentLine.toString().trim(), false, null));
+                    currentLine = new StringBuilder();
+                }
+            }
+            if (!currentLine.isEmpty()) {
+                currentLine.append(" ");
+            }
+            currentLine.append(word);
+        }
+
+        if (!currentLine.isEmpty()) {
+            LOGGER.trace("Created final text part: {}", currentLine.toString().trim());
+            parts.add(new TextPart(currentLine.toString().trim(), false, null));
+        }
+
+        LOGGER.debug("Split text component into {} parts", parts.size());
+        return parts;
+    }
+
+    private void renderTextParts(GuiGraphics pGuiGraphics, List<TextPart> textParts, int x, int y, int lineHeight, int pMouseX, int pMouseY, float pPartialTick) {
+        LOGGER.debug("Rendering {} text parts", textParts.size());
+        int currentX = x;
+        int currentY = y;
+        int lineWidth = 0;
+        List<TextPart> currentLineParts = new ArrayList<>();
+
+        for (TextPart part : textParts) {
+            if (part.text.equals("\n")) {
+                LOGGER.trace("Rendering line at y={}", currentY);
+                renderLine(pGuiGraphics, currentLineParts, x, currentY, pMouseX, pMouseY, pPartialTick);
+                currentX = x;
+                currentY += lineHeight;
+                lineWidth = 0;
+                currentLineParts.clear();
+                continue;
+            }
+
+            int partWidth = part.isButton ? font.width(part.button.getMessage()) : font.width(part.text);
+
+            if (lineWidth + partWidth > contentWidth && !currentLineParts.isEmpty()) {
+                LOGGER.trace("Line width exceeded. Rendering line at y={}", currentY);
+                renderLine(pGuiGraphics, currentLineParts, x, currentY, pMouseX, pMouseY, pPartialTick);
+                currentX = x;
+                currentY += lineHeight;
+                lineWidth = 0;
+                currentLineParts.clear();
+            }
+
+            currentLineParts.add(part);
+            lineWidth += partWidth;
+            LOGGER.trace("Added part to current line. Current width: {}", lineWidth);
+        }
+
+        if (!currentLineParts.isEmpty()) {
+            LOGGER.trace("Rendering final line at y={}", currentY);
+            renderLine(pGuiGraphics, currentLineParts, x, currentY, pMouseX, pMouseY, pPartialTick);
+        }
+    }
+
     private void renderTitle(GuiGraphics pGuiGraphics) {
         pGuiGraphics.pose().pushPose();
         pGuiGraphics.pose().scale(1.3F, 1.3F, 1);
@@ -199,55 +315,8 @@ public class ContentScreen extends DebugScreen {
         return engLineY;
     }
 
-    private void renderContent(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick, int engLineY) {
-        int x = guiLeft + itemInfoX;
-        int y = guiTop + 35 + engLineY;
-        int lineHeight = font.lineHeight + 2;
-
-        List<TextPart> textParts = createTextParts();
-        renderTextParts(pGuiGraphics, textParts, x, y, lineHeight, pMouseX, pMouseY, pPartialTick);
-    }
-
-    private List<TextPart> createTextParts() {
-        List<TextPart> textParts = new ArrayList<>();
-        for (Object component : contentComponents) {
-            if (component instanceof Component textComponent) {
-                textParts.add(new TextPart(textComponent.getString(), false, null));
-            } else if (component instanceof DictionaryPlainTextButton button) {
-                textParts.add(new TextPart(button.getMessage().getString(), true, button));
-            } else if (component.equals("\n")) {
-                textParts.add(new TextPart("\n", false, null));
-            }
-        }
-        return textParts;
-    }
-
-    private void renderTextParts(GuiGraphics pGuiGraphics, List<TextPart> textParts, int x, int y, int lineHeight, int pMouseX, int pMouseY, float pPartialTick) {
-        StringBuilder currentLine = new StringBuilder();
-        List<TextPart> currentLineParts = new ArrayList<>();
-
-        for (TextPart part : textParts) {
-            if (part.text.equals("\n") || font.width(currentLine.toString() + part.text) > contentWidth) {
-                renderLine(pGuiGraphics, currentLine.toString(), currentLineParts, x, y, pMouseX, pMouseY, pPartialTick);
-                y += lineHeight;
-                currentLine = new StringBuilder();
-                currentLineParts = new ArrayList<>();
-                if (!part.text.equals("\n")) {
-                    currentLine.append(part.text);
-                    currentLineParts.add(part);
-                }
-            } else {
-                currentLine.append(part.text);
-                currentLineParts.add(part);
-            }
-        }
-
-        if (currentLine.length() > 0) {
-            renderLine(pGuiGraphics, currentLine.toString(), currentLineParts, x, y, pMouseX, pMouseY, pPartialTick);
-        }
-    }
-
-    private void renderLine(GuiGraphics pGuiGraphics, String lineText, List<TextPart> lineParts, int x, int y, int pMouseX, int pMouseY, float pPartialTick) {
+    private void renderLine(GuiGraphics pGuiGraphics, List<TextPart> lineParts, int x, int y, int pMouseX, int pMouseY, float pPartialTick) {
+        LOGGER.debug("Rendering line with {} parts at y={}", lineParts.size(), y);
         int currentX = x;
         for (TextPart part : lineParts) {
             if (part.isButton) {
@@ -256,12 +325,23 @@ public class ContentScreen extends DebugScreen {
                 button.setY(y);
                 button.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
                 currentX += font.width(button.getMessage());
+                LOGGER.trace("Rendered button at ({}, {})", currentX, y);
             } else {
                 pGuiGraphics.drawString(font, part.text, currentX, y, 0xFFFFFF);
                 currentX += font.width(part.text);
+                LOGGER.trace("Rendered text '{}' at ({}, {})", part.text, currentX, y);
             }
         }
     }
+
+    @Override
+    public void resize(Minecraft pMinecraft, int pWidth, int pHeight) {
+        LOGGER.info("Resizing screen to {}x{}", pWidth, pHeight);
+        super.resize(pMinecraft, pWidth, pHeight);
+        updateContentWidth();
+    }
+
+
 
     private void renderItem(GuiGraphics pGuiGraphics, float pPartialTick) {
         int itemRenderPositionX = 75;
@@ -285,6 +365,7 @@ public class ContentScreen extends DebugScreen {
         pGuiGraphics.blit(BookViewScreen.BOOK_LOCATION, guiLeft + left, guiTop + top, 0, 0, 192, 192);
         pGuiGraphics.pose().popPose();
     }
+
 
     private static class TextPart {
         String text;
