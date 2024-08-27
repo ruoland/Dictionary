@@ -2,9 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 
 
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Blocks;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.*;

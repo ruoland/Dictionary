@@ -1,16 +1,11 @@
 package org.ruoland.dictionary.dictionary.gui;
 
 
-
 import net.minecraft.client.gui.GuiGraphics;
-
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.BookViewScreen;
-
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
-import net.minecraft.network.chat.Style;
-import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
@@ -20,7 +15,6 @@ import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
 import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-
 
 import java.util.ArrayList;
 import java.util.List;

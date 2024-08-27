@@ -4,8 +4,6 @@ import com.google.gson.annotations.SerializedName;
 import org.ruoland.dictionary.Dictionary;
 
 import java.util.EnumMap;
-import java.util.LinkedList;
-import java.util.TreeMap;
 
 public class ItemsTag {
 

@@ -2,34 +2,17 @@ package org.ruoland.dictionary;
 
 import eu.pb4.playerdata.api.PlayerDataApi;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
-import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.MobCategory;
-
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.entity.EntityTickList;
-import org.intellij.lang.annotations.Identifier;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.*;
-import org.ruoland.dictionary.dictionary.dictionary.entitycontent.BiomeTag;
-import org.ruoland.dictionary.dictionary.dictionary.entitycontent.CubeEntity;
+import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeTag;
 import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.List;

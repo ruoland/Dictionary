@@ -4,10 +4,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.locale.Language;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.biome.Biome;
-import org.ruoland.dictionary.Dictionary;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

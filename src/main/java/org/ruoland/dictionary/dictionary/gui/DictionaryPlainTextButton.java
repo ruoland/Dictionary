@@ -1,12 +1,9 @@
 package org.ruoland.dictionary.dictionary.gui;
 
+import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.components.PlainTextButton;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.Font;
-import net.minecraft.network.chat.ComponentUtils;
-import net.minecraft.network.chat.Style;
 import net.minecraft.util.FormattedCharSequence;
 import org.ruoland.dictionary.Dictionary;
 

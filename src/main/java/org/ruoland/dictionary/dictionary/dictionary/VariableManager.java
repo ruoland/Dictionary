@@ -1,20 +1,6 @@
 package org.ruoland.dictionary.dictionary.dictionary;
 
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
-import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class VariableManager {
 

@@ -1,7 +1,6 @@
 package org.ruoland.dictionary.dictionary.dictionary;
 
 
-import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
 
 import java.util.ArrayList;

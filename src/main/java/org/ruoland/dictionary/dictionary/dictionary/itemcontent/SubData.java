@@ -2,11 +2,8 @@ package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
 
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
-import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.TreeMap;
 
 public class SubData {
