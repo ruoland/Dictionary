@@ -38,7 +38,7 @@ public class ItemContent implements IContent {
     }
 
     public String getDictionary(boolean isDebug) {
-        Dictionary.LOGGER.info("getDictionary called for {}: current description = {}", itemID, dictionary);
+        Dictionary.LOGGER.info("getDictionary called for {}: current description = {}, debug mode: {}", itemID, dictionary, isDebug);
         if(!isDebug && dictionary != null)
             dictionary = VariableManager.replaceVariable(itemStack, dictionary);
         Dictionary.LOGGER.info("getDictionary after replace for {}: new description = {}", itemID, dictionary);

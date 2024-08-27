@@ -56,7 +56,7 @@ public class DictionaryClient implements ClientModInitializer {
 
                     //ItemsTagScreen subDataScreen = new ItemsTagScreen(Component.literal("asdf"));
                     mc.setScreen(dictionary);
-                    EntityTag.load();
+
                 }
             }
         });

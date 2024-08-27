@@ -25,7 +25,9 @@ import net.minecraft.world.level.entity.EntityTickList;
 import org.intellij.lang.annotations.Identifier;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.*;
+import org.ruoland.dictionary.dictionary.dictionary.entitycontent.BiomeTag;
 import org.ruoland.dictionary.dictionary.dictionary.entitycontent.CubeEntity;
+import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -51,6 +53,9 @@ public class Dictionary implements ModInitializer {
             try {
                 ItemManager.loadMinecraftItems();
                 Dictionary.LOGGER.info("모든 아이템 정보 불러오기 완료");
+                EntityTag.load();
+                BiomeTag.load();
+                Dictionary.LOGGER.info("모든 엔티티 정보 불러오기 완료");
             } catch (IllegalAccessException e) {
                 throw new RuntimeException(e);
             }

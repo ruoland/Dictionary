@@ -23,18 +23,24 @@ import java.util.TreeMap;
 public class EntityTag {
     private static final TreeMap<String, EntityType> entities = new TreeMap<>();
     public static void load(){
-        System.out.println(DefaultAttributeRegistryAccessor.getRegistry().values());
+
         Class typeClass = EntityType.class;
         Field[] entityFields = typeClass.getFields();
         for(Field field : entityFields){
             if(field.getType() == typeClass){
                 try {
-                    Dictionary.LOGGER.trace("태그" + field.get(null));
+
+                    EntityType entityType = (EntityType) field.get(null);
+                    entities.put(entityType.getDescriptionId(), entityType);
 
                 } catch (IllegalAccessException e) {
                     throw new RuntimeException(e);
                 }
             }
         }
+    }
+
+    public static String getEntityNameById(String id){
+        return entities.get(id).getDescription().getString();
     }
 }

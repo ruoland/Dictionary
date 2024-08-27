@@ -31,6 +31,7 @@ public class TagManager {
 
 
     private static final TagManager TAG_MANAGER;
+
     static {
         TAG_MANAGER = new TagManager();
 
@@ -40,8 +41,20 @@ public class TagManager {
         return TAG_MANAGER;
     }
 
-    public static LinkedHashMap<String, EnumTag> getIdToTag() {
-        return idToTag;
+    public ItemContent findItemByID(String itemID) {
+        for (EnumTag tag : EnumTag.values()) {
+            ItemsTag itemsTag = getItemTag(tag);
+            SubData subData = itemsTag.getSubData();
+            for (ItemGroupContent group : subData.getGroupMap().values()) {
+                ItemContent item = group.getContentMap().get(itemID);
+                if (item != null) {
+                    return item;
+                }
+            }
+        }
+        if (itemID.startsWith("item."))
+            return findItemByID(itemID.replace("item.", "block."));
+        throw new IllegalArgumentException("Item not found for ID: " + itemID);
     }
     public void loadTag() {
         Dictionary.LOGGER.info("Starting to load tags...");
@@ -50,6 +63,7 @@ public class TagManager {
             if (Files.exists(tagFile)) {
                 try {
                     ItemsTag itemsTag = (ItemsTag) Data.readJson(tagFile, ItemsTag.class);
+                    Dictionary.LOGGER.info("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), itemsTag);
                     if (!itemsTag.getTagName().equals(tag.name())) {
                         throw new IllegalStateException("Tag mismatch in file " + tagFile + ": expected " + tag.name() + " but found " + itemsTag.getTagName());
                     }
@@ -68,15 +82,6 @@ public class TagManager {
         tagging();
     }
 
-    private void logLoadedData(ItemsTag itemsTag) {
-        SubData subData = itemsTag.getSubData();
-        for (ItemGroupContent group : subData.getGroupMap().values()) {
-            for (ItemContent item : group.getContentMap().values()) {
-                Dictionary.LOGGER.info("Loaded item: {}, description: {}", item.getItemID(), item.getDictionary(true));
-            }
-        }
-    }
-
     public void saveTag() throws IOException {
         Dictionary.LOGGER.info("Starting to save tags...");
         for (EnumTag tag : EnumTag.values()) {
@@ -93,7 +98,7 @@ public class TagManager {
 
                 Data.saveJson(tagFile, itemsTag);
                 lastEditedMap.put(tag, System.currentTimeMillis());
-                Dictionary.LOGGER.info("Saved tag: {}", tag);
+
             } else {
                 Dictionary.LOGGER.info("Skipped saving tag {} as it hasn't been modified", tag);
             }
@@ -101,14 +106,7 @@ public class TagManager {
         Dictionary.LOGGER.info("Finished saving tags.");
     }
 
-    private void logSavedData(ItemsTag itemsTag) {
-        SubData subData = itemsTag.getSubData();
-        for (ItemGroupContent group : subData.getGroupMap().values()) {
-            for (ItemContent item : group.getContentMap().values()) {
-                Dictionary.LOGGER.info("Saving item: {}, description: {}", item.getItemID(), item.getDictionary(true));
-            }
-        }
-    }
+
     public void tagging() {
         Dictionary.LOGGER.info("Starting tagging process...");
         try {
