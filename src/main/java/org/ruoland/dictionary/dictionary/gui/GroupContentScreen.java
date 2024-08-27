@@ -21,8 +21,6 @@ public class GroupContentScreen extends DebugScreen{
         this.content = content;
 
     }
-
-    int itemIndexTick = 0;
     @Override
     protected void init() {
         super.init();

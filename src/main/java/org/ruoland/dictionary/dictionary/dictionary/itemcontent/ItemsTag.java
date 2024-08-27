@@ -23,7 +23,7 @@ public class ItemsTag {
     }
 
     public String getTagName() {
-        return thisName;
+        return tag.name();
     }
 
     public SubData getSubData() {

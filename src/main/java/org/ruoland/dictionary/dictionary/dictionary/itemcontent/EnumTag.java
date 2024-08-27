@@ -5,7 +5,7 @@ import java.util.EnumMap;
 public enum EnumTag {
 
     ARMOR(DefaultDictionary.ARMOR_NAME, "helmet", "chestplate", "leggings", "boots", "armor"),
-    TOOLS(DefaultDictionary.TOOLS_NAME, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket"),
+    TOOLS(DefaultDictionary.TOOLS_NAME, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket", "Clock", "Flint and Steel","Elytra", "Spyglass"),
     FOOD(DefaultDictionary.FOOD_NAME, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew"),
     FENCE(DefaultDictionary.FENCE_NAME, "fence", "gate", "wall"),
     BANNER(DefaultDictionary.BANNER_NAME, "banner", "pattern"),

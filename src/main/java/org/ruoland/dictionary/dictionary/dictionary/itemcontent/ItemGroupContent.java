@@ -42,7 +42,7 @@ public class ItemGroupContent {
     public void add(ItemStack itemStack) {
         String itemId = itemStack.getDescriptionId();
         if (itemContentMap.containsKey(itemId)) {
-            Dictionary.LOGGER.info("Item already exists in group: {}", itemId);
+            Dictionary.LOGGER.trace("Item already exists in group: {}", itemId);
             return;
         }
 

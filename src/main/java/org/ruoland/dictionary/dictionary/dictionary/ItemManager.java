@@ -54,11 +54,13 @@ public class ItemManager {
         //Dictionary.LOGGER.info("Content retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
 
         StringBuilder stringBuffer = new StringBuilder();
-        if(sub.isReplace()) {
+        if(sub.isReplace() || sub.getSubDictionary() == null || content.getDictionary(false) == null) {
             stringBuffer.append(sub.getItemGroup(itemStack).getDictionary());
         } else {
             stringBuffer.append(sub.getSubDictionary()).append("\n");
             stringBuffer.append(itemGroup.getDictionary()).append("\n");
+            stringBuffer.append(sub.getItemGroup(itemStack).getDictionary()).append("\n");
+
             String itemDescription = content.getDictionary(false);
 
             //Dictionary.LOGGER.info("Final item description for {}: {}", itemStack.getDescriptionId(), itemDescription);

@@ -50,11 +50,11 @@ public class TagManager {
             if (Files.exists(tagFile)) {
                 try {
                     ItemsTag itemsTag = (ItemsTag) Data.readJson(tagFile, ItemsTag.class);
+                    if (!itemsTag.getTagName().equals(tag.name())) {
+                        throw new IllegalStateException("Tag mismatch in file " + tagFile + ": expected " + tag.name() + " but found " + itemsTag.getTagName());
+                    }
                     tagEnumMap.put(tag, itemsTag);
                     lastEditedMap.put(tag, tagFile.toFile().lastModified());
-
-                    // Log loaded data
-                    //logLoadedData(itemsTag);
                 } catch (Exception e) {
                     Dictionary.LOGGER.error("Error loading tag {}: {}", tag, e.getMessage());
                     e.printStackTrace();
@@ -131,7 +131,9 @@ public class TagManager {
                 }
 
                 String itemId = getItemCutID(itemStack);
+
                 ItemContent itemContent = group.getItemContent(itemStack);
+                idToGroup.put(itemId, group);
                 if (itemContent != null) {
                     //Dictionary.LOGGER.info("Tagging process - itemId: {}, description: {}", itemId, itemContent.getDictionary(true));
                 } else {
@@ -146,17 +148,27 @@ public class TagManager {
     }
 
     public ItemGroupContent findGroupByItemID(String id){
-        if(idToTag.containsKey(id))
+        if(idToGroup.containsKey(id))
             return idToGroup.get(id);
         else
             throw new NullPointerException(id+"가 없습니다. " +idToGroup.keySet());
     }
 
     public void sortTag(){
+
         for(EnumTag enumTag : EnumTag.values()){
-            Dictionary.LOGGER.info(enumTag +" 태그 정리 시작...");
-            getItemTag(enumTag).getSubData().sortGroup();
-            Dictionary.LOGGER.info(enumTag +" 태그 정리 완료...");
+            try{
+                Dictionary.LOGGER.info(enumTag +" 태그 정리 시작...");
+                if(getItemTag(enumTag).getSubData() == null)
+                    throw new NullPointerException("태그 정리 오류: 서브 데이터가 없습니다:"+ enumTag);
+                getItemTag(enumTag).getSubData().sortGroup();
+                Dictionary.LOGGER.info(enumTag +" 태그 정리 완료...");
+            }
+            catch (NullPointerException e){
+                e.printStackTrace();
+
+                Dictionary.LOGGER.error("태그를 정리하는 중 오류가 발생하였습니다.", e.getMessage());
+            }
         }
     }
     //1단계

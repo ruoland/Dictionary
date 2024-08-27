@@ -10,6 +10,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
@@ -29,11 +30,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.util.List;
 
 public class Dictionary implements ModInitializer {
     public static final String MOD_ID = "dictionary";
     public static final String VERSION = "1.0";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static final DictionaryLogger LOGGER = new DictionaryLogger(Dictionary.class);
 
     @Override
     public void onInitialize() {
@@ -61,6 +63,12 @@ public class Dictionary implements ModInitializer {
             Dictionary.LOGGER.info("태그 불러오기 완료");
             TagManager.getTagManager().sortTag();
 
+            List<String> messages = DictionaryLogger.getErrorMessages();
+            if(!messages.isEmpty())
+                for(String message : messages){
+                    server.getPlayerList().broadcastSystemMessage(Component.literal(message), false);
+                    System.out.println(message+ " 에러 메세지 ㅈ출력");
+                }
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {
             try {
