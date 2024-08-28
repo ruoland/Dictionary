@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import com.google.common.collect.ImmutableMap;

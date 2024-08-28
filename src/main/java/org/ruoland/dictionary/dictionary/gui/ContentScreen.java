@@ -10,13 +10,9 @@ import net.minecraft.network.chat.FormattedText;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
-import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
-import org.ruoland.dictionary.dictionary.dictionary.LangManager;
-import org.ruoland.dictionary.dictionary.dictionary.TagManager;
-import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
-import org.ruoland.dictionary.dictionary.dictionary.entity.EntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.manager.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -147,7 +143,7 @@ public class ContentScreen extends DebugScreen {
             Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
             buttonText = itemContent.getItemStack().getHoverName();
         } else if(id.startsWith("%id:entity.")){
-            String entityName = EntityTag.getEntityNameById(itemId);
+            String entityName = EntityManager.getEntityNameById(itemId);
             buttonText = Component.literal(entityName);
         } else if(id.startsWith("%id:biome.")){
             String biomeName = LangManager.getBiomeNameKor(itemId);

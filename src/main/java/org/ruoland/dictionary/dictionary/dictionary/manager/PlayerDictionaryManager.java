@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 import eu.pb4.playerdata.api.PlayerDataApi;
 import net.minecraft.nbt.CompoundTag;
