@@ -8,32 +8,32 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.jungle_sapling": {
-              "아이템 아이디": "block.minecraft.jungle_sapling",
-              "아이템 영어 이름": "Jungle Sapling"
+              "아이디": "block.minecraft.jungle_sapling",
+              "영어 이름": "Jungle Sapling"
             },
             "block.minecraft.birch_sapling": {
-              "아이템 아이디": "block.minecraft.birch_sapling",
-              "아이템 영어 이름": "Birch Sapling"
+              "아이디": "block.minecraft.birch_sapling",
+              "영어 이름": "Birch Sapling"
             },
             "block.minecraft.cherry_sapling": {
-              "아이템 아이디": "block.minecraft.cherry_sapling",
-              "아이템 영어 이름": "Cherry Sapling"
+              "아이디": "block.minecraft.cherry_sapling",
+              "영어 이름": "Cherry Sapling"
             },
             "block.minecraft.oak_sapling": {
-              "아이템 아이디": "block.minecraft.oak_sapling",
-              "아이템 영어 이름": "Oak Sapling"
+              "아이디": "block.minecraft.oak_sapling",
+              "영어 이름": "Oak Sapling"
             },
             "block.minecraft.spruce_sapling": {
-              "아이템 아이디": "block.minecraft.spruce_sapling",
-              "아이템 영어 이름": "Spruce Sapling"
+              "아이디": "block.minecraft.spruce_sapling",
+              "영어 이름": "Spruce Sapling"
             },
             "block.minecraft.acacia_sapling": {
-              "아이템 아이디": "block.minecraft.acacia_sapling",
-              "아이템 영어 이름": "Acacia Sapling"
+              "아이디": "block.minecraft.acacia_sapling",
+              "영어 이름": "Acacia Sapling"
             },
             "block.minecraft.dark_oak_sapling": {
-              "아이템 아이디": "block.minecraft.dark_oak_sapling",
-              "아이템 영어 이름": "Dark Oak Sapling"
+              "아이디": "block.minecraft.dark_oak_sapling",
+              "영어 이름": "Dark Oak Sapling"
             }
           }
         }

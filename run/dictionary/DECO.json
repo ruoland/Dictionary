@@ -8,68 +8,68 @@
           "그룹 설명": "플레이어가 잠을 자고 스폰 포인트를 설정할 수 있는 기능성 가구입니다. 16가지 다양한 색상으로 제작할 수 있어 인테리어에 활용도가 높습니다. 밤에 사용하면 시간을 빠르게 넘길 수 있으며, 몬스터로부터의 안전한 휴식 공간을 제공합니다. 하지만 네더에서 침대를 사용하지 않도록 주의 하세요. 네더에서 침대를 사용하면 폭발하며 이는 버그가 아닌 게임 자체의 기능입니다.",
           "아이템들": {
             "block.minecraft.green_bed": {
-              "아이템 아이디": "block.minecraft.green_bed",
-              "아이템 영어 이름": "Green Bed"
+              "아이디": "block.minecraft.green_bed",
+              "영어 이름": "Green Bed"
             },
             "block.minecraft.yellow_bed": {
-              "아이템 아이디": "block.minecraft.yellow_bed",
-              "아이템 영어 이름": "Yellow Bed"
+              "아이디": "block.minecraft.yellow_bed",
+              "영어 이름": "Yellow Bed"
             },
             "block.minecraft.lime_bed": {
-              "아이템 아이디": "block.minecraft.lime_bed",
-              "아이템 영어 이름": "Lime Bed"
+              "아이디": "block.minecraft.lime_bed",
+              "영어 이름": "Lime Bed"
             },
             "block.minecraft.light_blue_bed": {
-              "아이템 아이디": "block.minecraft.light_blue_bed",
-              "아이템 영어 이름": "Light Blue Bed"
+              "아이디": "block.minecraft.light_blue_bed",
+              "영어 이름": "Light Blue Bed"
             },
             "block.minecraft.black_bed": {
-              "아이템 아이디": "block.minecraft.black_bed",
-              "아이템 영어 이름": "Black Bed"
+              "아이디": "block.minecraft.black_bed",
+              "영어 이름": "Black Bed"
             },
             "block.minecraft.gray_bed": {
-              "아이템 아이디": "block.minecraft.gray_bed",
-              "아이템 영어 이름": "Gray Bed"
+              "아이디": "block.minecraft.gray_bed",
+              "영어 이름": "Gray Bed"
             },
             "block.minecraft.purple_bed": {
-              "아이템 아이디": "block.minecraft.purple_bed",
-              "아이템 영어 이름": "Purple Bed"
+              "아이디": "block.minecraft.purple_bed",
+              "영어 이름": "Purple Bed"
             },
             "block.minecraft.pink_bed": {
-              "아이템 아이디": "block.minecraft.pink_bed",
-              "아이템 영어 이름": "Pink Bed"
+              "아이디": "block.minecraft.pink_bed",
+              "영어 이름": "Pink Bed"
             },
             "block.minecraft.brown_bed": {
-              "아이템 아이디": "block.minecraft.brown_bed",
-              "아이템 영어 이름": "Brown Bed"
+              "아이디": "block.minecraft.brown_bed",
+              "영어 이름": "Brown Bed"
             },
             "block.minecraft.red_bed": {
-              "아이템 아이디": "block.minecraft.red_bed",
-              "아이템 영어 이름": "Red Bed"
+              "아이디": "block.minecraft.red_bed",
+              "영어 이름": "Red Bed"
             },
             "block.minecraft.light_gray_bed": {
-              "아이템 아이디": "block.minecraft.light_gray_bed",
-              "아이템 영어 이름": "Light Gray Bed"
+              "아이디": "block.minecraft.light_gray_bed",
+              "영어 이름": "Light Gray Bed"
             },
             "block.minecraft.blue_bed": {
-              "아이템 아이디": "block.minecraft.blue_bed",
-              "아이템 영어 이름": "Blue Bed"
+              "아이디": "block.minecraft.blue_bed",
+              "영어 이름": "Blue Bed"
             },
             "block.minecraft.white_bed": {
-              "아이템 아이디": "block.minecraft.white_bed",
-              "아이템 영어 이름": "White Bed"
+              "아이디": "block.minecraft.white_bed",
+              "영어 이름": "White Bed"
             },
             "block.minecraft.magenta_bed": {
-              "아이템 아이디": "block.minecraft.magenta_bed",
-              "아이템 영어 이름": "Magenta Bed"
+              "아이디": "block.minecraft.magenta_bed",
+              "영어 이름": "Magenta Bed"
             },
             "block.minecraft.orange_bed": {
-              "아이템 아이디": "block.minecraft.orange_bed",
-              "아이템 영어 이름": "Orange Bed"
+              "아이디": "block.minecraft.orange_bed",
+              "영어 이름": "Orange Bed"
             },
             "block.minecraft.cyan_bed": {
-              "아이템 아이디": "block.minecraft.cyan_bed",
-              "아이템 영어 이름": "Cyan Bed"
+              "아이디": "block.minecraft.cyan_bed",
+              "영어 이름": "Cyan Bed"
             }
           }
         },
@@ -78,29 +78,29 @@
           "그룹 설명": "마인크래프트에서 정보를 저장하고 전달하는 데 사용되는 다양한 종류의 책들입니다. 일반 책부터 마법이 부여된 책, 직접 작성할 수 있는 책까지 다양한 용도로 사용됩니다. 이 아이템들은 게임 내 스토리텔링, 마법 부여, 그리고 플레이어 간 정보 공유에 중요한 역할을 합니다.",
           "아이템들": {
             "item.minecraft.written_book": {
-              "아이템 아이디": "item.minecraft.written_book",
-              "아이템 영어 이름": "Written Book",
-              "아이템 설명": "쓰여진 책\n\n플레이어나 서버 관리자가 작성한 내용이 담긴 책입니다.\n게임 내 스토리텔링, 규칙 설명, 퀘스트 안내 등에 사용됩니다. 복사하여 여러 플레이어에게 배포할 수 있습니다."
+              "아이디": "item.minecraft.written_book",
+              "영어 이름": "Written Book",
+              "설명": "쓰여진 책\n\n플레이어나 서버 관리자가 작성한 내용이 담긴 책입니다.\n게임 내 스토리텔링, 규칙 설명, 퀘스트 안내 등에 사용됩니다. 복사하여 여러 플레이어에게 배포할 수 있습니다."
             },
             "item.minecraft.enchanted_book": {
-              "아이템 아이디": "item.minecraft.enchanted_book",
-              "아이템 영어 이름": "Enchanted Book",
-              "아이템 설명": "마법이 부여된 책\n\n특정 마법 효과가 저장된 책입니다.\n%group_id:anvil%에서 도구나 갑옷에 마법을 부여할 때 사용됩니다. 마법 부여 테이블이나 낚시, 거래 등으로 얻을 수 있습니다."
+              "아이디": "item.minecraft.enchanted_book",
+              "영어 이름": "Enchanted Book",
+              "설명": "마법이 부여된 책\n\n특정 마법 효과가 저장된 책입니다.\n%group_id:anvil%에서 도구나 갑옷에 마법을 부여할 때 사용됩니다. 마법 부여 테이블이나 낚시, 거래 등으로 얻을 수 있습니다."
             },
             "item.minecraft.book": {
-              "아이템 아이디": "item.minecraft.book",
-              "아이템 영어 이름": "Book",
-              "아이템 설명": "책\n\n기본적인 책 아이템입니다.\n%id:block.minecraft.bookshelf% 제작에 사용되며, 마법 부여 테이블 주변에 배치하면 더 높은 레벨의 마법을 사용할 수 있게 해줍니다."
+              "아이디": "item.minecraft.book",
+              "영어 이름": "Book",
+              "설명": "책\n\n기본적인 책 아이템입니다.\n%id:block.minecraft.bookshelf% 제작에 사용되며, 마법 부여 테이블 주변에 배치하면 더 높은 레벨의 마법을 사용할 수 있게 해줍니다."
             },
             "item.minecraft.writable_book": {
-              "아이템 아이디": "item.minecraft.writable_book",
-              "아이템 영어 이름": "Book and Quill",
-              "아이템 설명": "책과 깃펜\n\n플레이어가 직접 내용을 작성할 수 있는 책입니다.\n게임 내에서 일기를 쓰거나 중요한 정보를 기록하는 데 사용됩니다. 작성 후 서명하면 %id:item.minecraft.written_book%이 됩니다."
+              "아이디": "item.minecraft.writable_book",
+              "영어 이름": "Book and Quill",
+              "설명": "책과 깃펜\n\n플레이어가 직접 내용을 작성할 수 있는 책입니다.\n게임 내에서 일기를 쓰거나 중요한 정보를 기록하는 데 사용됩니다. 작성 후 서명하면 %id:item.minecraft.written_book%이 됩니다."
             },
             "item.minecraft.knowledge_book": {
-              "아이템 아이디": "item.minecraft.knowledge_book",
-              "아이템 영어 이름": "Knowledge Book",
-              "아이템 설명": "지식의 책\n\n특정 레시피나 정보를 플레이어에게 전달하는 데 사용되는 특별한 책입니다.\n주로 맵 제작자나 서버 관리자가 사용하며, 플레이어에게 새로운 제작법을 가르치는 데 활용됩니다."
+              "아이디": "item.minecraft.knowledge_book",
+              "영어 이름": "Knowledge Book",
+              "설명": "지식의 책\n\n특정 레시피나 정보를 플레이어에게 전달하는 데 사용되는 특별한 책입니다.\n주로 맵 제작자나 서버 관리자가 사용하며, 플레이어에게 새로운 제작법을 가르치는 데 활용됩니다."
             }
           }
         },
@@ -109,72 +109,72 @@
           "그룹 설명": "마인크래프트에서 조명과 장식 용도로 사용되는 다양한 색상의 양초들입니다. 이 양초들은 부드러운 빛을 제공하며, 케이크와 함께 사용하여 특별한 분위기를 연출할 수 있습니다. 또한, 여러 개를 함께 배치하여 더 밝은 조명을 만들 수 있어 실내 장식에 매우 유용합니다.",
           "아이템들": {
             "block.minecraft.brown_candle": {
-              "아이템 아이디": "block.minecraft.brown_candle",
-              "아이템 영어 이름": "Brown Candle"
+              "아이디": "block.minecraft.brown_candle",
+              "영어 이름": "Brown Candle"
             },
             "block.minecraft.light_gray_candle": {
-              "아이템 아이디": "block.minecraft.light_gray_candle",
-              "아이템 영어 이름": "Light Gray Candle"
+              "아이디": "block.minecraft.light_gray_candle",
+              "영어 이름": "Light Gray Candle"
             },
             "block.minecraft.yellow_candle": {
-              "아이템 아이디": "block.minecraft.yellow_candle",
-              "아이템 영어 이름": "Yellow Candle"
+              "아이디": "block.minecraft.yellow_candle",
+              "영어 이름": "Yellow Candle"
             },
             "block.minecraft.magenta_candle": {
-              "아이템 아이디": "block.minecraft.magenta_candle",
-              "아이템 영어 이름": "Magenta Candle"
+              "아이디": "block.minecraft.magenta_candle",
+              "영어 이름": "Magenta Candle"
             },
             "block.minecraft.lime_candle": {
-              "아이템 아이디": "block.minecraft.lime_candle",
-              "아이템 영어 이름": "Lime Candle"
+              "아이디": "block.minecraft.lime_candle",
+              "영어 이름": "Lime Candle"
             },
             "block.minecraft.green_candle": {
-              "아이템 아이디": "block.minecraft.green_candle",
-              "아이템 영어 이름": "Green Candle"
+              "아이디": "block.minecraft.green_candle",
+              "영어 이름": "Green Candle"
             },
             "block.minecraft.candle": {
-              "아이템 아이디": "block.minecraft.candle",
-              "아이템 영어 이름": "Candle"
+              "아이디": "block.minecraft.candle",
+              "영어 이름": "Candle"
             },
             "block.minecraft.white_candle": {
-              "아이템 아이디": "block.minecraft.white_candle",
-              "아이템 영어 이름": "White Candle"
+              "아이디": "block.minecraft.white_candle",
+              "영어 이름": "White Candle"
             },
             "block.minecraft.pink_candle": {
-              "아이템 아이디": "block.minecraft.pink_candle",
-              "아이템 영어 이름": "Pink Candle"
+              "아이디": "block.minecraft.pink_candle",
+              "영어 이름": "Pink Candle"
             },
             "block.minecraft.red_candle": {
-              "아이템 아이디": "block.minecraft.red_candle",
-              "아이템 영어 이름": "Red Candle"
+              "아이디": "block.minecraft.red_candle",
+              "영어 이름": "Red Candle"
             },
             "block.minecraft.black_candle": {
-              "아이템 아이디": "block.minecraft.black_candle",
-              "아이템 영어 이름": "Black Candle"
+              "아이디": "block.minecraft.black_candle",
+              "영어 이름": "Black Candle"
             },
             "block.minecraft.light_blue_candle": {
-              "아이템 아이디": "block.minecraft.light_blue_candle",
-              "아이템 영어 이름": "Light Blue Candle"
+              "아이디": "block.minecraft.light_blue_candle",
+              "영어 이름": "Light Blue Candle"
             },
             "block.minecraft.cyan_candle": {
-              "아이템 아이디": "block.minecraft.cyan_candle",
-              "아이템 영어 이름": "Cyan Candle"
+              "아이디": "block.minecraft.cyan_candle",
+              "영어 이름": "Cyan Candle"
             },
             "block.minecraft.gray_candle": {
-              "아이템 아이디": "block.minecraft.gray_candle",
-              "아이템 영어 이름": "Gray Candle"
+              "아이디": "block.minecraft.gray_candle",
+              "영어 이름": "Gray Candle"
             },
             "block.minecraft.orange_candle": {
-              "아이템 아이디": "block.minecraft.orange_candle",
-              "아이템 영어 이름": "Orange Candle"
+              "아이디": "block.minecraft.orange_candle",
+              "영어 이름": "Orange Candle"
             },
             "block.minecraft.blue_candle": {
-              "아이템 아이디": "block.minecraft.blue_candle",
-              "아이템 영어 이름": "Blue Candle"
+              "아이디": "block.minecraft.blue_candle",
+              "영어 이름": "Blue Candle"
             },
             "block.minecraft.purple_candle": {
-              "아이템 아이디": "block.minecraft.purple_candle",
-              "아이템 영어 이름": "Purple Candle"
+              "아이디": "block.minecraft.purple_candle",
+              "영어 이름": "Purple Candle"
             }
           }
         },
@@ -183,84 +183,84 @@
           "그룹 설명": "마인크래프트에서 텍스트 정보를 표시하는 데 사용되는 다양한 종류의 표지판들입니다. 벽에 부착하거나 바닥에 세울 수 있는 일반 표지판과 천장이나 기둥에 매달 수 있는 매달린 표지판이 있습니다. 각 나무 종류별로 고유한 텍스처를 가지고 있어 다양한 건축 스타일에 맞춰 사용할 수 있습니다.",
           "아이템들": {
             "block.minecraft.jungle_hanging_sign": {
-              "아이템 아이디": "block.minecraft.jungle_hanging_sign",
-              "아이템 영어 이름": "Jungle Hanging Sign"
+              "아이디": "block.minecraft.jungle_hanging_sign",
+              "영어 이름": "Jungle Hanging Sign"
             },
             "block.minecraft.dark_oak_sign": {
-              "아이템 아이디": "block.minecraft.dark_oak_sign",
-              "아이템 영어 이름": "Dark Oak Sign"
+              "아이디": "block.minecraft.dark_oak_sign",
+              "영어 이름": "Dark Oak Sign"
             },
             "block.minecraft.mangrove_sign": {
-              "아이템 아이디": "block.minecraft.mangrove_sign",
-              "아이템 영어 이름": "Mangrove Sign"
+              "아이디": "block.minecraft.mangrove_sign",
+              "영어 이름": "Mangrove Sign"
             },
             "block.minecraft.bamboo_sign": {
-              "아이템 아이디": "block.minecraft.bamboo_sign",
-              "아이템 영어 이름": "Bamboo Sign"
+              "아이디": "block.minecraft.bamboo_sign",
+              "영어 이름": "Bamboo Sign"
             },
             "block.minecraft.dark_oak_hanging_sign": {
-              "아이템 아이디": "block.minecraft.dark_oak_hanging_sign",
-              "아이템 영어 이름": "Dark Oak Hanging Sign"
+              "아이디": "block.minecraft.dark_oak_hanging_sign",
+              "영어 이름": "Dark Oak Hanging Sign"
             },
             "block.minecraft.mangrove_hanging_sign": {
-              "아이템 아이디": "block.minecraft.mangrove_hanging_sign",
-              "아이템 영어 이름": "Mangrove Hanging Sign"
+              "아이디": "block.minecraft.mangrove_hanging_sign",
+              "영어 이름": "Mangrove Hanging Sign"
             },
             "block.minecraft.spruce_sign": {
-              "아이템 아이디": "block.minecraft.spruce_sign",
-              "아이템 영어 이름": "Spruce Sign"
+              "아이디": "block.minecraft.spruce_sign",
+              "영어 이름": "Spruce Sign"
             },
             "block.minecraft.birch_sign": {
-              "아이템 아이디": "block.minecraft.birch_sign",
-              "아이템 영어 이름": "Birch Sign"
+              "아이디": "block.minecraft.birch_sign",
+              "영어 이름": "Birch Sign"
             },
             "block.minecraft.acacia_sign": {
-              "아이템 아이디": "block.minecraft.acacia_sign",
-              "아이템 영어 이름": "Acacia Sign"
+              "아이디": "block.minecraft.acacia_sign",
+              "영어 이름": "Acacia Sign"
             },
             "block.minecraft.oak_hanging_sign": {
-              "아이템 아이디": "block.minecraft.oak_hanging_sign",
-              "아이템 영어 이름": "Oak Hanging Sign"
+              "아이디": "block.minecraft.oak_hanging_sign",
+              "영어 이름": "Oak Hanging Sign"
             },
             "block.minecraft.acacia_hanging_sign": {
-              "아이템 아이디": "block.minecraft.acacia_hanging_sign",
-              "아이템 영어 이름": "Acacia Hanging Sign"
+              "아이디": "block.minecraft.acacia_hanging_sign",
+              "영어 이름": "Acacia Hanging Sign"
             },
             "block.minecraft.cherry_hanging_sign": {
-              "아이템 아이디": "block.minecraft.cherry_hanging_sign",
-              "아이템 영어 이름": "Cherry Hanging Sign"
+              "아이디": "block.minecraft.cherry_hanging_sign",
+              "영어 이름": "Cherry Hanging Sign"
             },
             "block.minecraft.oak_sign": {
-              "아이템 아이디": "block.minecraft.oak_sign",
-              "아이템 영어 이름": "Oak Sign"
+              "아이디": "block.minecraft.oak_sign",
+              "영어 이름": "Oak Sign"
             },
             "block.minecraft.warped_sign": {
-              "아이템 아이디": "block.minecraft.warped_sign",
-              "아이템 영어 이름": "Warped Sign"
+              "아이디": "block.minecraft.warped_sign",
+              "영어 이름": "Warped Sign"
             },
             "block.minecraft.birch_hanging_sign": {
-              "아이템 아이디": "block.minecraft.birch_hanging_sign",
-              "아이템 영어 이름": "Birch Hanging Sign"
+              "아이디": "block.minecraft.birch_hanging_sign",
+              "영어 이름": "Birch Hanging Sign"
             },
             "block.minecraft.jungle_sign": {
-              "아이템 아이디": "block.minecraft.jungle_sign",
-              "아이템 영어 이름": "Jungle Sign"
+              "아이디": "block.minecraft.jungle_sign",
+              "영어 이름": "Jungle Sign"
             },
             "block.minecraft.cherry_sign": {
-              "아이템 아이디": "block.minecraft.cherry_sign",
-              "아이템 영어 이름": "Cherry Sign"
+              "아이디": "block.minecraft.cherry_sign",
+              "영어 이름": "Cherry Sign"
             },
             "block.minecraft.spruce_hanging_sign": {
-              "아이템 아이디": "block.minecraft.spruce_hanging_sign",
-              "아이템 영어 이름": "Spruce Hanging Sign"
+              "아이디": "block.minecraft.spruce_hanging_sign",
+              "영어 이름": "Spruce Hanging Sign"
             },
             "block.minecraft.bamboo_hanging_sign": {
-              "아이템 아이디": "block.minecraft.bamboo_hanging_sign",
-              "아이템 영어 이름": "Bamboo Hanging Sign"
+              "아이디": "block.minecraft.bamboo_hanging_sign",
+              "영어 이름": "Bamboo Hanging Sign"
             },
             "block.minecraft.warped_hanging_sign": {
-              "아이템 아이디": "block.minecraft.warped_hanging_sign",
-              "아이템 영어 이름": "Warped Hanging Sign"
+              "아이디": "block.minecraft.warped_hanging_sign",
+              "영어 이름": "Warped Hanging Sign"
             }
           }
         },
@@ -269,224 +269,224 @@
           "그룹 설명": "마인크래프트에서 일반 블록의 절반 높이를 가진 건축용 블록들입니다. 다음과 같은 다양한 재료로 제작할 수 있습니다: 나무(참나무, 가문비나무, 자작나무, 정글나무, 아카시아나무, 짙은 참나무, 맹그로브나무, 벚나무, 대나무), 벽돌(석재, 석재 벽돌, 네더 벽돌), 콘크리트, 테라코타, 그리고 다양한 색상의 유리. 이 반 블록들은 계단, 선반, 테이블 등 다양한 장식 요소를 만드는 데 사용되며, 세밀한 건축 디자인을 가능하게 합니다.",
           "아이템들": {
             "block.minecraft.waxed_weathered_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_cut_copper_slab",
-              "아이템 영어 이름": "Waxed Weathered Cut Copper Slab"
+              "아이디": "block.minecraft.waxed_weathered_cut_copper_slab",
+              "영어 이름": "Waxed Weathered Cut Copper Slab"
             },
             "block.minecraft.polished_blackstone_brick_slab": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_brick_slab",
-              "아이템 영어 이름": "Polished Blackstone Brick Slab"
+              "아이디": "block.minecraft.polished_blackstone_brick_slab",
+              "영어 이름": "Polished Blackstone Brick Slab"
             },
             "block.minecraft.cherry_slab": {
-              "아이템 아이디": "block.minecraft.cherry_slab",
-              "아이템 영어 이름": "Cherry Slab"
+              "아이디": "block.minecraft.cherry_slab",
+              "영어 이름": "Cherry Slab"
             },
             "block.minecraft.tuff_slab": {
-              "아이템 아이디": "block.minecraft.tuff_slab",
-              "아이템 영어 이름": "Tuff Slab"
+              "아이디": "block.minecraft.tuff_slab",
+              "영어 이름": "Tuff Slab"
             },
             "block.minecraft.cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.cut_copper_slab",
-              "아이템 영어 이름": "Cut Copper Slab"
+              "아이디": "block.minecraft.cut_copper_slab",
+              "영어 이름": "Cut Copper Slab"
             },
             "block.minecraft.polished_diorite_slab": {
-              "아이템 아이디": "block.minecraft.polished_diorite_slab",
-              "아이템 영어 이름": "Polished Diorite Slab"
+              "아이디": "block.minecraft.polished_diorite_slab",
+              "영어 이름": "Polished Diorite Slab"
             },
             "block.minecraft.cobbled_deepslate_slab": {
-              "아이템 아이디": "block.minecraft.cobbled_deepslate_slab",
-              "아이템 영어 이름": "Cobbled Deepslate Slab"
+              "아이디": "block.minecraft.cobbled_deepslate_slab",
+              "영어 이름": "Cobbled Deepslate Slab"
             },
             "block.minecraft.polished_tuff_slab": {
-              "아이템 아이디": "block.minecraft.polished_tuff_slab",
-              "아이템 영어 이름": "Polished Tuff Slab"
+              "아이디": "block.minecraft.polished_tuff_slab",
+              "영어 이름": "Polished Tuff Slab"
             },
             "block.minecraft.dark_prismarine_slab": {
-              "아이템 아이디": "block.minecraft.dark_prismarine_slab",
-              "아이템 영어 이름": "Dark Prismarine Slab"
+              "아이디": "block.minecraft.dark_prismarine_slab",
+              "영어 이름": "Dark Prismarine Slab"
             },
             "block.minecraft.smooth_stone_slab": {
-              "아이템 아이디": "block.minecraft.smooth_stone_slab",
-              "아이템 영어 이름": "Smooth Stone Slab"
+              "아이디": "block.minecraft.smooth_stone_slab",
+              "영어 이름": "Smooth Stone Slab"
             },
             "block.minecraft.waxed_exposed_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_cut_copper_slab",
-              "아이템 영어 이름": "Waxed Exposed Cut Copper Slab"
+              "아이디": "block.minecraft.waxed_exposed_cut_copper_slab",
+              "영어 이름": "Waxed Exposed Cut Copper Slab"
             },
             "block.minecraft.cobblestone_slab": {
-              "아이템 아이디": "block.minecraft.cobblestone_slab",
-              "아이템 영어 이름": "Cobblestone Slab"
+              "아이디": "block.minecraft.cobblestone_slab",
+              "영어 이름": "Cobblestone Slab"
             },
             "block.minecraft.weathered_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.weathered_cut_copper_slab",
-              "아이템 영어 이름": "Weathered Cut Copper Slab"
+              "아이디": "block.minecraft.weathered_cut_copper_slab",
+              "영어 이름": "Weathered Cut Copper Slab"
             },
             "block.minecraft.sandstone_slab": {
-              "아이템 아이디": "block.minecraft.sandstone_slab",
-              "아이템 영어 이름": "Sandstone Slab"
+              "아이디": "block.minecraft.sandstone_slab",
+              "영어 이름": "Sandstone Slab"
             },
             "block.minecraft.polished_granite_slab": {
-              "아이템 아이디": "block.minecraft.polished_granite_slab",
-              "아이템 영어 이름": "Polished Granite Slab"
+              "아이디": "block.minecraft.polished_granite_slab",
+              "영어 이름": "Polished Granite Slab"
             },
             "block.minecraft.blackstone_slab": {
-              "아이템 아이디": "block.minecraft.blackstone_slab",
-              "아이템 영어 이름": "Blackstone Slab"
+              "아이디": "block.minecraft.blackstone_slab",
+              "영어 이름": "Blackstone Slab"
             },
             "block.minecraft.smooth_sandstone_slab": {
-              "아이템 아이디": "block.minecraft.smooth_sandstone_slab",
-              "아이템 영어 이름": "Smooth Sandstone Slab"
+              "아이디": "block.minecraft.smooth_sandstone_slab",
+              "영어 이름": "Smooth Sandstone Slab"
             },
             "block.minecraft.red_sandstone_slab": {
-              "아이템 아이디": "block.minecraft.red_sandstone_slab",
-              "아이템 영어 이름": "Red Sandstone Slab"
+              "아이디": "block.minecraft.red_sandstone_slab",
+              "영어 이름": "Red Sandstone Slab"
             },
             "block.minecraft.birch_slab": {
-              "아이템 아이디": "block.minecraft.birch_slab",
-              "아이템 영어 이름": "Birch Slab"
+              "아이디": "block.minecraft.birch_slab",
+              "영어 이름": "Birch Slab"
             },
             "block.minecraft.warped_slab": {
-              "아이템 아이디": "block.minecraft.warped_slab",
-              "아이템 영어 이름": "Warped Slab"
+              "아이디": "block.minecraft.warped_slab",
+              "영어 이름": "Warped Slab"
             },
             "block.minecraft.andesite_slab": {
-              "아이템 아이디": "block.minecraft.andesite_slab",
-              "아이템 영어 이름": "Andesite Slab"
+              "아이디": "block.minecraft.andesite_slab",
+              "영어 이름": "Andesite Slab"
             },
             "block.minecraft.prismarine_brick_slab": {
-              "아이템 아이디": "block.minecraft.prismarine_brick_slab",
-              "아이템 영어 이름": "Prismarine Brick Slab"
+              "아이디": "block.minecraft.prismarine_brick_slab",
+              "영어 이름": "Prismarine Brick Slab"
             },
             "block.minecraft.deepslate_tile_slab": {
-              "아이템 아이디": "block.minecraft.deepslate_tile_slab",
-              "아이템 영어 이름": "Deepslate Tile Slab"
+              "아이디": "block.minecraft.deepslate_tile_slab",
+              "영어 이름": "Deepslate Tile Slab"
             },
             "block.minecraft.polished_andesite_slab": {
-              "아이템 아이디": "block.minecraft.polished_andesite_slab",
-              "아이템 영어 이름": "Polished Andesite Slab"
+              "아이디": "block.minecraft.polished_andesite_slab",
+              "영어 이름": "Polished Andesite Slab"
             },
             "block.minecraft.waxed_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.waxed_cut_copper_slab",
-              "아이템 영어 이름": "Waxed Cut Copper Slab"
+              "아이디": "block.minecraft.waxed_cut_copper_slab",
+              "영어 이름": "Waxed Cut Copper Slab"
             },
             "block.minecraft.prismarine_slab": {
-              "아이템 아이디": "block.minecraft.prismarine_slab",
-              "아이템 영어 이름": "Prismarine Slab"
+              "아이디": "block.minecraft.prismarine_slab",
+              "영어 이름": "Prismarine Slab"
             },
             "block.minecraft.bamboo_mosaic_slab": {
-              "아이템 아이디": "block.minecraft.bamboo_mosaic_slab",
-              "아이템 영어 이름": "Bamboo Mosaic Slab"
+              "아이디": "block.minecraft.bamboo_mosaic_slab",
+              "영어 이름": "Bamboo Mosaic Slab"
             },
             "block.minecraft.end_stone_brick_slab": {
-              "아이템 아이디": "block.minecraft.end_stone_brick_slab",
-              "아이템 영어 이름": "End Stone Brick Slab"
+              "아이디": "block.minecraft.end_stone_brick_slab",
+              "영어 이름": "End Stone Brick Slab"
             },
             "block.minecraft.granite_slab": {
-              "아이템 아이디": "block.minecraft.granite_slab",
-              "아이템 영어 이름": "Granite Slab"
+              "아이디": "block.minecraft.granite_slab",
+              "영어 이름": "Granite Slab"
             },
             "block.minecraft.polished_deepslate_slab": {
-              "아이템 아이디": "block.minecraft.polished_deepslate_slab",
-              "아이템 영어 이름": "Polished Deepslate Slab"
+              "아이디": "block.minecraft.polished_deepslate_slab",
+              "영어 이름": "Polished Deepslate Slab"
             },
             "block.minecraft.stone_brick_slab": {
-              "아이템 아이디": "block.minecraft.stone_brick_slab",
-              "아이템 영어 이름": "Stone Brick Slab"
+              "아이디": "block.minecraft.stone_brick_slab",
+              "영어 이름": "Stone Brick Slab"
             },
             "block.minecraft.waxed_oxidized_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_cut_copper_slab",
-              "아이템 영어 이름": "Waxed Oxidized Cut Copper Slab"
+              "아이디": "block.minecraft.waxed_oxidized_cut_copper_slab",
+              "영어 이름": "Waxed Oxidized Cut Copper Slab"
             },
             "block.minecraft.mossy_stone_brick_slab": {
-              "아이템 아이디": "block.minecraft.mossy_stone_brick_slab",
-              "아이템 영어 이름": "Mossy Stone Brick Slab"
+              "아이디": "block.minecraft.mossy_stone_brick_slab",
+              "영어 이름": "Mossy Stone Brick Slab"
             },
             "block.minecraft.dark_oak_slab": {
-              "아이템 아이디": "block.minecraft.dark_oak_slab",
-              "아이템 영어 이름": "Dark Oak Slab"
+              "아이디": "block.minecraft.dark_oak_slab",
+              "영어 이름": "Dark Oak Slab"
             },
             "block.minecraft.petrified_oak_slab": {
-              "아이템 아이디": "block.minecraft.petrified_oak_slab",
-              "아이템 영어 이름": "Petrified Oak Slab"
+              "아이디": "block.minecraft.petrified_oak_slab",
+              "영어 이름": "Petrified Oak Slab"
             },
             "block.minecraft.mossy_cobblestone_slab": {
-              "아이템 아이디": "block.minecraft.mossy_cobblestone_slab",
-              "아이템 영어 이름": "Mossy Cobblestone Slab"
+              "아이디": "block.minecraft.mossy_cobblestone_slab",
+              "영어 이름": "Mossy Cobblestone Slab"
             },
             "block.minecraft.exposed_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.exposed_cut_copper_slab",
-              "아이템 영어 이름": "Exposed Cut Copper Slab"
+              "아이디": "block.minecraft.exposed_cut_copper_slab",
+              "영어 이름": "Exposed Cut Copper Slab"
             },
             "block.minecraft.polished_blackstone_slab": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_slab",
-              "아이템 영어 이름": "Polished Blackstone Slab"
+              "아이디": "block.minecraft.polished_blackstone_slab",
+              "영어 이름": "Polished Blackstone Slab"
             },
             "block.minecraft.brick_slab": {
-              "아이템 아이디": "block.minecraft.brick_slab",
-              "아이템 영어 이름": "Brick Slab"
+              "아이디": "block.minecraft.brick_slab",
+              "영어 이름": "Brick Slab"
             },
             "block.minecraft.mud_brick_slab": {
-              "아이템 아이디": "block.minecraft.mud_brick_slab",
-              "아이템 영어 이름": "Mud Brick Slab"
+              "아이디": "block.minecraft.mud_brick_slab",
+              "영어 이름": "Mud Brick Slab"
             },
             "block.minecraft.mangrove_slab": {
-              "아이템 아이디": "block.minecraft.mangrove_slab",
-              "아이템 영어 이름": "Mangrove Slab"
+              "아이디": "block.minecraft.mangrove_slab",
+              "영어 이름": "Mangrove Slab"
             },
             "block.minecraft.purpur_slab": {
-              "아이템 아이디": "block.minecraft.purpur_slab",
-              "아이템 영어 이름": "Purpur Slab"
+              "아이디": "block.minecraft.purpur_slab",
+              "영어 이름": "Purpur Slab"
             },
             "block.minecraft.deepslate_brick_slab": {
-              "아이템 아이디": "block.minecraft.deepslate_brick_slab",
-              "아이템 영어 이름": "Deepslate Brick Slab"
+              "아이디": "block.minecraft.deepslate_brick_slab",
+              "영어 이름": "Deepslate Brick Slab"
             },
             "block.minecraft.bamboo_slab": {
-              "아이템 아이디": "block.minecraft.bamboo_slab",
-              "아이템 영어 이름": "Bamboo Slab"
+              "아이디": "block.minecraft.bamboo_slab",
+              "영어 이름": "Bamboo Slab"
             },
             "block.minecraft.spruce_slab": {
-              "아이템 아이디": "block.minecraft.spruce_slab",
-              "아이템 영어 이름": "Spruce Slab"
+              "아이디": "block.minecraft.spruce_slab",
+              "영어 이름": "Spruce Slab"
             },
             "block.minecraft.cut_sandstone_slab": {
-              "아이템 아이디": "block.minecraft.cut_sandstone_slab",
-              "아이템 영어 이름": "Cut Sandstone Slab"
+              "아이디": "block.minecraft.cut_sandstone_slab",
+              "영어 이름": "Cut Sandstone Slab"
             },
             "block.minecraft.oxidized_cut_copper_slab": {
-              "아이템 아이디": "block.minecraft.oxidized_cut_copper_slab",
-              "아이템 영어 이름": "Oxidized Cut Copper Slab"
+              "아이디": "block.minecraft.oxidized_cut_copper_slab",
+              "영어 이름": "Oxidized Cut Copper Slab"
             },
             "block.minecraft.smooth_red_sandstone_slab": {
-              "아이템 아이디": "block.minecraft.smooth_red_sandstone_slab",
-              "아이템 영어 이름": "Smooth Red Sandstone Slab"
+              "아이디": "block.minecraft.smooth_red_sandstone_slab",
+              "영어 이름": "Smooth Red Sandstone Slab"
             },
             "block.minecraft.acacia_slab": {
-              "아이템 아이디": "block.minecraft.acacia_slab",
-              "아이템 영어 이름": "Acacia Slab"
+              "아이디": "block.minecraft.acacia_slab",
+              "영어 이름": "Acacia Slab"
             },
             "block.minecraft.stone_slab": {
-              "아이템 아이디": "block.minecraft.stone_slab",
-              "아이템 영어 이름": "Stone Slab"
+              "아이디": "block.minecraft.stone_slab",
+              "영어 이름": "Stone Slab"
             },
             "block.minecraft.diorite_slab": {
-              "아이템 아이디": "block.minecraft.diorite_slab",
-              "아이템 영어 이름": "Diorite Slab"
+              "아이디": "block.minecraft.diorite_slab",
+              "영어 이름": "Diorite Slab"
             },
             "block.minecraft.jungle_slab": {
-              "아이템 아이디": "block.minecraft.jungle_slab",
-              "아이템 영어 이름": "Jungle Slab"
+              "아이디": "block.minecraft.jungle_slab",
+              "영어 이름": "Jungle Slab"
             },
             "block.minecraft.cut_red_sandstone_slab": {
-              "아이템 아이디": "block.minecraft.cut_red_sandstone_slab",
-              "아이템 영어 이름": "Cut Red Sandstone Slab"
+              "아이디": "block.minecraft.cut_red_sandstone_slab",
+              "영어 이름": "Cut Red Sandstone Slab"
             },
             "block.minecraft.tuff_brick_slab": {
-              "아이템 아이디": "block.minecraft.tuff_brick_slab",
-              "아이템 영어 이름": "Tuff Brick Slab"
+              "아이디": "block.minecraft.tuff_brick_slab",
+              "영어 이름": "Tuff Brick Slab"
             },
             "block.minecraft.oak_slab": {
-              "아이템 아이디": "block.minecraft.oak_slab",
-              "아이템 영어 이름": "Oak Slab"
+              "아이디": "block.minecraft.oak_slab",
+              "영어 이름": "Oak Slab"
             }
           }
         },
@@ -495,208 +495,208 @@
           "그룹 설명": "마인크래프트에서 높이 차이를 만들거나 장식적 요소로 사용되는 블록들입니다. 다음과 같은 다양한 재료로 제작할 수 있습니다: 나무(참나무, 가문비나무, 자작나무, 정글나무, 아카시아나무, 짙은 참나무, 맹그로브나무, 벚나무, 대나무, 뒤틀린 나무), 돌(석재, 조약돌, 모래돌, 붉은 모래돌, 벽돌, 석재 벽돌, 네더 벽돌), 석영, 프리즈머린, 엔드 스톤, 퍼퍼, 블랙스톤, 깊은 슬레이트, 구리(다양한 산화 단계), 진흙 벽돌, 그리고 콘크리트와 테라코타의 모든 색상. 계단 블록은 건축물에 입체감을 더하고, 실용적인 이동 경로를 만드는 데 사용됩니다.",
           "아이템들": {
             "block.minecraft.bamboo_stairs": {
-              "아이템 아이디": "block.minecraft.bamboo_stairs",
-              "아이템 영어 이름": "Bamboo Stairs"
+              "아이디": "block.minecraft.bamboo_stairs",
+              "영어 이름": "Bamboo Stairs"
             },
             "block.minecraft.waxed_oxidized_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_cut_copper_stairs",
-              "아이템 영어 이름": "Waxed Oxidized Cut Copper Stairs"
+              "아이디": "block.minecraft.waxed_oxidized_cut_copper_stairs",
+              "영어 이름": "Waxed Oxidized Cut Copper Stairs"
             },
             "block.minecraft.sandstone_stairs": {
-              "아이템 아이디": "block.minecraft.sandstone_stairs",
-              "아이템 영어 이름": "Sandstone Stairs"
+              "아이디": "block.minecraft.sandstone_stairs",
+              "영어 이름": "Sandstone Stairs"
             },
             "block.minecraft.polished_blackstone_brick_stairs": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_brick_stairs",
-              "아이템 영어 이름": "Polished Blackstone Brick Stairs"
+              "아이디": "block.minecraft.polished_blackstone_brick_stairs",
+              "영어 이름": "Polished Blackstone Brick Stairs"
             },
             "block.minecraft.mossy_cobblestone_stairs": {
-              "아이템 아이디": "block.minecraft.mossy_cobblestone_stairs",
-              "아이템 영어 이름": "Mossy Cobblestone Stairs"
+              "아이디": "block.minecraft.mossy_cobblestone_stairs",
+              "영어 이름": "Mossy Cobblestone Stairs"
             },
             "block.minecraft.oxidized_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.oxidized_cut_copper_stairs",
-              "아이템 영어 이름": "Oxidized Cut Copper Stairs"
+              "아이디": "block.minecraft.oxidized_cut_copper_stairs",
+              "영어 이름": "Oxidized Cut Copper Stairs"
             },
             "block.minecraft.polished_granite_stairs": {
-              "아이템 아이디": "block.minecraft.polished_granite_stairs",
-              "아이템 영어 이름": "Polished Granite Stairs"
+              "아이디": "block.minecraft.polished_granite_stairs",
+              "영어 이름": "Polished Granite Stairs"
             },
             "block.minecraft.spruce_stairs": {
-              "아이템 아이디": "block.minecraft.spruce_stairs",
-              "아이템 영어 이름": "Spruce Stairs"
+              "아이디": "block.minecraft.spruce_stairs",
+              "영어 이름": "Spruce Stairs"
             },
             "block.minecraft.polished_tuff_stairs": {
-              "아이템 아이디": "block.minecraft.polished_tuff_stairs",
-              "아이템 영어 이름": "Polished Tuff Stairs"
+              "아이디": "block.minecraft.polished_tuff_stairs",
+              "영어 이름": "Polished Tuff Stairs"
             },
             "block.minecraft.brick_stairs": {
-              "아이템 아이디": "block.minecraft.brick_stairs",
-              "아이템 영어 이름": "Brick Stairs"
+              "아이디": "block.minecraft.brick_stairs",
+              "영어 이름": "Brick Stairs"
             },
             "block.minecraft.deepslate_brick_stairs": {
-              "아이템 아이디": "block.minecraft.deepslate_brick_stairs",
-              "아이템 영어 이름": "Deepslate Brick Stairs"
+              "아이디": "block.minecraft.deepslate_brick_stairs",
+              "영어 이름": "Deepslate Brick Stairs"
             },
             "block.minecraft.cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.cut_copper_stairs",
-              "아이템 영어 이름": "Cut Copper Stairs"
+              "아이디": "block.minecraft.cut_copper_stairs",
+              "영어 이름": "Cut Copper Stairs"
             },
             "block.minecraft.stone_stairs": {
-              "아이템 아이디": "block.minecraft.stone_stairs",
-              "아이템 영어 이름": "Stone Stairs"
+              "아이디": "block.minecraft.stone_stairs",
+              "영어 이름": "Stone Stairs"
             },
             "block.minecraft.tuff_brick_stairs": {
-              "아이템 아이디": "block.minecraft.tuff_brick_stairs",
-              "아이템 영어 이름": "Tuff Brick Stairs"
+              "아이디": "block.minecraft.tuff_brick_stairs",
+              "영어 이름": "Tuff Brick Stairs"
             },
             "block.minecraft.cobblestone_stairs": {
-              "아이템 아이디": "block.minecraft.cobblestone_stairs",
-              "아이템 영어 이름": "Cobblestone Stairs"
+              "아이디": "block.minecraft.cobblestone_stairs",
+              "영어 이름": "Cobblestone Stairs"
             },
             "block.minecraft.mangrove_stairs": {
-              "아이템 아이디": "block.minecraft.mangrove_stairs",
-              "아이템 영어 이름": "Mangrove Stairs"
+              "아이디": "block.minecraft.mangrove_stairs",
+              "영어 이름": "Mangrove Stairs"
             },
             "block.minecraft.waxed_exposed_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_cut_copper_stairs",
-              "아이템 영어 이름": "Waxed Exposed Cut Copper Stairs"
+              "아이디": "block.minecraft.waxed_exposed_cut_copper_stairs",
+              "영어 이름": "Waxed Exposed Cut Copper Stairs"
             },
             "block.minecraft.waxed_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.waxed_cut_copper_stairs",
-              "아이템 영어 이름": "Waxed Cut Copper Stairs"
+              "아이디": "block.minecraft.waxed_cut_copper_stairs",
+              "영어 이름": "Waxed Cut Copper Stairs"
             },
             "block.minecraft.cherry_stairs": {
-              "아이템 아이디": "block.minecraft.cherry_stairs",
-              "아이템 영어 이름": "Cherry Stairs"
+              "아이디": "block.minecraft.cherry_stairs",
+              "영어 이름": "Cherry Stairs"
             },
             "block.minecraft.bamboo_mosaic_stairs": {
-              "아이템 아이디": "block.minecraft.bamboo_mosaic_stairs",
-              "아이템 영어 이름": "Bamboo Mosaic Stairs"
+              "아이디": "block.minecraft.bamboo_mosaic_stairs",
+              "영어 이름": "Bamboo Mosaic Stairs"
             },
             "block.minecraft.blackstone_stairs": {
-              "아이템 아이디": "block.minecraft.blackstone_stairs",
-              "아이템 영어 이름": "Blackstone Stairs"
+              "아이디": "block.minecraft.blackstone_stairs",
+              "영어 이름": "Blackstone Stairs"
             },
             "block.minecraft.acacia_stairs": {
-              "아이템 아이디": "block.minecraft.acacia_stairs",
-              "아이템 영어 이름": "Acacia Stairs"
+              "아이디": "block.minecraft.acacia_stairs",
+              "영어 이름": "Acacia Stairs"
             },
             "block.minecraft.stone_brick_stairs": {
-              "아이템 아이디": "block.minecraft.stone_brick_stairs",
-              "아이템 영어 이름": "Stone Brick Stairs"
+              "아이디": "block.minecraft.stone_brick_stairs",
+              "영어 이름": "Stone Brick Stairs"
             },
             "block.minecraft.mud_brick_stairs": {
-              "아이템 아이디": "block.minecraft.mud_brick_stairs",
-              "아이템 영어 이름": "Mud Brick Stairs"
+              "아이디": "block.minecraft.mud_brick_stairs",
+              "영어 이름": "Mud Brick Stairs"
             },
             "block.minecraft.polished_diorite_stairs": {
-              "아이템 아이디": "block.minecraft.polished_diorite_stairs",
-              "아이템 영어 이름": "Polished Diorite Stairs"
+              "아이디": "block.minecraft.polished_diorite_stairs",
+              "영어 이름": "Polished Diorite Stairs"
             },
             "block.minecraft.waxed_weathered_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_cut_copper_stairs",
-              "아이템 영어 이름": "Waxed Weathered Cut Copper Stairs"
+              "아이디": "block.minecraft.waxed_weathered_cut_copper_stairs",
+              "영어 이름": "Waxed Weathered Cut Copper Stairs"
             },
             "block.minecraft.birch_stairs": {
-              "아이템 아이디": "block.minecraft.birch_stairs",
-              "아이템 영어 이름": "Birch Stairs"
+              "아이디": "block.minecraft.birch_stairs",
+              "영어 이름": "Birch Stairs"
             },
             "block.minecraft.deepslate_tile_stairs": {
-              "아이템 아이디": "block.minecraft.deepslate_tile_stairs",
-              "아이템 영어 이름": "Deepslate Tile Stairs"
+              "아이디": "block.minecraft.deepslate_tile_stairs",
+              "영어 이름": "Deepslate Tile Stairs"
             },
             "block.minecraft.tuff_stairs": {
-              "아이템 아이디": "block.minecraft.tuff_stairs",
-              "아이템 영어 이름": "Tuff Stairs"
+              "아이디": "block.minecraft.tuff_stairs",
+              "영어 이름": "Tuff Stairs"
             },
             "block.minecraft.andesite_stairs": {
-              "아이템 아이디": "block.minecraft.andesite_stairs",
-              "아이템 영어 이름": "Andesite Stairs"
+              "아이디": "block.minecraft.andesite_stairs",
+              "영어 이름": "Andesite Stairs"
             },
             "block.minecraft.polished_deepslate_stairs": {
-              "아이템 아이디": "block.minecraft.polished_deepslate_stairs",
-              "아이템 영어 이름": "Polished Deepslate Stairs"
+              "아이디": "block.minecraft.polished_deepslate_stairs",
+              "영어 이름": "Polished Deepslate Stairs"
             },
             "block.minecraft.red_sandstone_stairs": {
-              "아이템 아이디": "block.minecraft.red_sandstone_stairs",
-              "아이템 영어 이름": "Red Sandstone Stairs"
+              "아이디": "block.minecraft.red_sandstone_stairs",
+              "영어 이름": "Red Sandstone Stairs"
             },
             "block.minecraft.diorite_stairs": {
-              "아이템 아이디": "block.minecraft.diorite_stairs",
-              "아이템 영어 이름": "Diorite Stairs"
+              "아이디": "block.minecraft.diorite_stairs",
+              "영어 이름": "Diorite Stairs"
             },
             "block.minecraft.end_stone_brick_stairs": {
-              "아이템 아이디": "block.minecraft.end_stone_brick_stairs",
-              "아이템 영어 이름": "End Stone Brick Stairs"
+              "아이디": "block.minecraft.end_stone_brick_stairs",
+              "영어 이름": "End Stone Brick Stairs"
             },
             "block.minecraft.weathered_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.weathered_cut_copper_stairs",
-              "아이템 영어 이름": "Weathered Cut Copper Stairs"
+              "아이디": "block.minecraft.weathered_cut_copper_stairs",
+              "영어 이름": "Weathered Cut Copper Stairs"
             },
             "block.minecraft.jungle_stairs": {
-              "아이템 아이디": "block.minecraft.jungle_stairs",
-              "아이템 영어 이름": "Jungle Stairs"
+              "아이디": "block.minecraft.jungle_stairs",
+              "영어 이름": "Jungle Stairs"
             },
             "block.minecraft.exposed_cut_copper_stairs": {
-              "아이템 아이디": "block.minecraft.exposed_cut_copper_stairs",
-              "아이템 영어 이름": "Exposed Cut Copper Stairs"
+              "아이디": "block.minecraft.exposed_cut_copper_stairs",
+              "영어 이름": "Exposed Cut Copper Stairs"
             },
             "block.minecraft.mossy_stone_brick_stairs": {
-              "아이템 아이디": "block.minecraft.mossy_stone_brick_stairs",
-              "아이템 영어 이름": "Mossy Stone Brick Stairs"
+              "아이디": "block.minecraft.mossy_stone_brick_stairs",
+              "영어 이름": "Mossy Stone Brick Stairs"
             },
             "block.minecraft.cobbled_deepslate_stairs": {
-              "아이템 아이디": "block.minecraft.cobbled_deepslate_stairs",
-              "아이템 영어 이름": "Cobbled Deepslate Stairs"
+              "아이디": "block.minecraft.cobbled_deepslate_stairs",
+              "영어 이름": "Cobbled Deepslate Stairs"
             },
             "block.minecraft.granite_stairs": {
-              "아이템 아이디": "block.minecraft.granite_stairs",
-              "아이템 영어 이름": "Granite Stairs"
+              "아이디": "block.minecraft.granite_stairs",
+              "영어 이름": "Granite Stairs"
             },
             "block.minecraft.polished_blackstone_stairs": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_stairs",
-              "아이템 영어 이름": "Polished Blackstone Stairs"
+              "아이디": "block.minecraft.polished_blackstone_stairs",
+              "영어 이름": "Polished Blackstone Stairs"
             },
             "block.minecraft.dark_oak_stairs": {
-              "아이템 아이디": "block.minecraft.dark_oak_stairs",
-              "아이템 영어 이름": "Dark Oak Stairs"
+              "아이디": "block.minecraft.dark_oak_stairs",
+              "영어 이름": "Dark Oak Stairs"
             },
             "block.minecraft.polished_andesite_stairs": {
-              "아이템 아이디": "block.minecraft.polished_andesite_stairs",
-              "아이템 영어 이름": "Polished Andesite Stairs"
+              "아이디": "block.minecraft.polished_andesite_stairs",
+              "영어 이름": "Polished Andesite Stairs"
             },
             "block.minecraft.smooth_sandstone_stairs": {
-              "아이템 아이디": "block.minecraft.smooth_sandstone_stairs",
-              "아이템 영어 이름": "Smooth Sandstone Stairs"
+              "아이디": "block.minecraft.smooth_sandstone_stairs",
+              "영어 이름": "Smooth Sandstone Stairs"
             },
             "block.minecraft.dark_prismarine_stairs": {
-              "아이템 아이디": "block.minecraft.dark_prismarine_stairs",
-              "아이템 영어 이름": "Dark Prismarine Stairs"
+              "아이디": "block.minecraft.dark_prismarine_stairs",
+              "영어 이름": "Dark Prismarine Stairs"
             },
             "block.minecraft.prismarine_stairs": {
-              "아이템 아이디": "block.minecraft.prismarine_stairs",
-              "아이템 영어 이름": "Prismarine Stairs"
+              "아이디": "block.minecraft.prismarine_stairs",
+              "영어 이름": "Prismarine Stairs"
             },
             "block.minecraft.oak_stairs": {
-              "아이템 아이디": "block.minecraft.oak_stairs",
-              "아이템 영어 이름": "Oak Stairs"
+              "아이디": "block.minecraft.oak_stairs",
+              "영어 이름": "Oak Stairs"
             },
             "block.minecraft.warped_stairs": {
-              "아이템 아이디": "block.minecraft.warped_stairs",
-              "아이템 영어 이름": "Warped Stairs"
+              "아이디": "block.minecraft.warped_stairs",
+              "영어 이름": "Warped Stairs"
             },
             "block.minecraft.purpur_stairs": {
-              "아이템 아이디": "block.minecraft.purpur_stairs",
-              "아이템 영어 이름": "Purpur Stairs"
+              "아이디": "block.minecraft.purpur_stairs",
+              "영어 이름": "Purpur Stairs"
             },
             "block.minecraft.smooth_red_sandstone_stairs": {
-              "아이템 아이디": "block.minecraft.smooth_red_sandstone_stairs",
-              "아이템 영어 이름": "Smooth Red Sandstone Stairs"
+              "아이디": "block.minecraft.smooth_red_sandstone_stairs",
+              "영어 이름": "Smooth Red Sandstone Stairs"
             },
             "block.minecraft.prismarine_brick_stairs": {
-              "아이템 아이디": "block.minecraft.prismarine_brick_stairs",
-              "아이템 영어 이름": "Prismarine Brick Stairs"
+              "아이디": "block.minecraft.prismarine_brick_stairs",
+              "영어 이름": "Prismarine Brick Stairs"
             }
           }
         }

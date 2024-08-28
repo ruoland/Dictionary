@@ -8,83 +8,83 @@
           "그룹 설명": "문입니다. 나무나 철, 구리 등의 아이템으로 만들 수 있고, 철, 구리로 만든 문은 %group_id:button%이나 %group_id:lever%, %group_id:plate%로만 열고 닫을 수 있습니다. 나무 문은 나무 종류에 따라 고유의 색깔을 가지고 있어 디자인할 때 유용합니다.",
           "아이템들": {
             "block.minecraft.birch_door": {
-              "아이템 아이디": "block.minecraft.birch_door",
-              "아이템 영어 이름": "Birch Door"
+              "아이디": "block.minecraft.birch_door",
+              "영어 이름": "Birch Door"
             },
             "block.minecraft.oxidized_copper_door": {
-              "아이템 아이디": "block.minecraft.oxidized_copper_door",
-              "아이템 영어 이름": "Oxidized Copper Door"
+              "아이디": "block.minecraft.oxidized_copper_door",
+              "영어 이름": "Oxidized Copper Door"
             },
             "block.minecraft.spruce_door": {
-              "아이템 아이디": "block.minecraft.spruce_door",
-              "아이템 영어 이름": "Spruce Door"
+              "아이디": "block.minecraft.spruce_door",
+              "영어 이름": "Spruce Door"
             },
             "block.minecraft.acacia_door": {
-              "아이템 아이디": "block.minecraft.acacia_door",
-              "아이템 영어 이름": "Acacia Door"
+              "아이디": "block.minecraft.acacia_door",
+              "영어 이름": "Acacia Door"
             },
             "block.minecraft.warped_door": {
-              "아이템 아이디": "block.minecraft.warped_door",
-              "아이템 영어 이름": "Warped Door"
+              "아이디": "block.minecraft.warped_door",
+              "영어 이름": "Warped Door"
             },
             "block.minecraft.cherry_door": {
-              "아이템 아이디": "block.minecraft.cherry_door",
-              "아이템 영어 이름": "Cherry Door"
+              "아이디": "block.minecraft.cherry_door",
+              "영어 이름": "Cherry Door"
             },
             "block.minecraft.oak_door": {
-              "아이템 아이디": "block.minecraft.oak_door",
-              "아이템 영어 이름": "Oak Door",
-              "아이템 설명": "참나무 문\n\n기본적인 나무 문입니다.\n손으로 열고 닫을 수 있으며, 레드스톤 신호로도 제어할 수 있습니다. 몹들이 열 수 없어 안전합니다."
+              "아이디": "block.minecraft.oak_door",
+              "영어 이름": "Oak Door",
+              "설명": "참나무 문\n\n기본적인 나무 문입니다.\n손으로 열고 닫을 수 있으며, 레드스톤 신호로도 제어할 수 있습니다. 몹들이 열 수 없어 안전합니다."
             },
             "block.minecraft.jungle_door": {
-              "아이템 아이디": "block.minecraft.jungle_door",
-              "아이템 영어 이름": "Jungle Door"
+              "아이디": "block.minecraft.jungle_door",
+              "영어 이름": "Jungle Door"
             },
             "block.minecraft.waxed_copper_door": {
-              "아이템 아이디": "block.minecraft.waxed_copper_door",
-              "아이템 영어 이름": "Waxed Copper Door"
+              "아이디": "block.minecraft.waxed_copper_door",
+              "영어 이름": "Waxed Copper Door"
             },
             "block.minecraft.mangrove_door": {
-              "아이템 아이디": "block.minecraft.mangrove_door",
-              "아이템 영어 이름": "Mangrove Door"
+              "아이디": "block.minecraft.mangrove_door",
+              "영어 이름": "Mangrove Door"
             },
             "block.minecraft.bamboo_door": {
-              "아이템 아이디": "block.minecraft.bamboo_door",
-              "아이템 영어 이름": "Bamboo Door"
+              "아이디": "block.minecraft.bamboo_door",
+              "영어 이름": "Bamboo Door"
             },
             "block.minecraft.copper_door": {
-              "아이템 아이디": "block.minecraft.copper_door",
-              "아이템 영어 이름": "Copper Door",
-              "아이템 설명": "구리 문\n\n구리로 만든 문으로, 시간이 지나면 산화됩니다.\n철문과 마찬가지로 레드스톤 신호로만 제어할 수 있습니다. 산화 과정을 통해 외관이 변하는 특징이 있습니다."
+              "아이디": "block.minecraft.copper_door",
+              "영어 이름": "Copper Door",
+              "설명": "구리 문\n\n구리로 만든 문으로, 시간이 지나면 산화됩니다.\n철문과 마찬가지로 레드스톤 신호로만 제어할 수 있습니다. 산화 과정을 통해 외관이 변하는 특징이 있습니다."
             },
             "block.minecraft.iron_door": {
-              "아이템 아이디": "block.minecraft.iron_door",
-              "아이템 영어 이름": "Iron Door",
-              "아이템 설명": "철문\n\n튼튼한 철로 만든 문입니다.\n손으로 열 수 없으며, 반드시 레드스톤 신호로 제어해야 합니다. 보안이 중요한 장소에 적합합니다."
+              "아이디": "block.minecraft.iron_door",
+              "영어 이름": "Iron Door",
+              "설명": "철문\n\n튼튼한 철로 만든 문입니다.\n손으로 열 수 없으며, 반드시 레드스톤 신호로 제어해야 합니다. 보안이 중요한 장소에 적합합니다."
             },
             "block.minecraft.weathered_copper_door": {
-              "아이템 아이디": "block.minecraft.weathered_copper_door",
-              "아이템 영어 이름": "Weathered Copper Door"
+              "아이디": "block.minecraft.weathered_copper_door",
+              "영어 이름": "Weathered Copper Door"
             },
             "block.minecraft.waxed_exposed_copper_door": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_copper_door",
-              "아이템 영어 이름": "Waxed Exposed Copper Door"
+              "아이디": "block.minecraft.waxed_exposed_copper_door",
+              "영어 이름": "Waxed Exposed Copper Door"
             },
             "block.minecraft.waxed_oxidized_copper_door": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_copper_door",
-              "아이템 영어 이름": "Waxed Oxidized Copper Door"
+              "아이디": "block.minecraft.waxed_oxidized_copper_door",
+              "영어 이름": "Waxed Oxidized Copper Door"
             },
             "block.minecraft.exposed_copper_door": {
-              "아이템 아이디": "block.minecraft.exposed_copper_door",
-              "아이템 영어 이름": "Exposed Copper Door"
+              "아이디": "block.minecraft.exposed_copper_door",
+              "영어 이름": "Exposed Copper Door"
             },
             "block.minecraft.dark_oak_door": {
-              "아이템 아이디": "block.minecraft.dark_oak_door",
-              "아이템 영어 이름": "Dark Oak Door"
+              "아이디": "block.minecraft.dark_oak_door",
+              "영어 이름": "Dark Oak Door"
             },
             "block.minecraft.waxed_weathered_copper_door": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_copper_door",
-              "아이템 영어 이름": "Waxed Weathered Copper Door"
+              "아이디": "block.minecraft.waxed_weathered_copper_door",
+              "영어 이름": "Waxed Weathered Copper Door"
             }
           }
         },
@@ -93,83 +93,83 @@
           "그룹 설명": "수직으로 열리는 문으로, 바닥이나 천장에 설치할 수 있습니다. 문과 마찬가지로 다양한 재료로 만들 수 있으며, 각 재료에 따라 특성이 다릅니다.",
           "아이템들": {
             "block.minecraft.warped_trapdoor": {
-              "아이템 아이디": "block.minecraft.warped_trapdoor",
-              "아이템 영어 이름": "Warped Trapdoor"
+              "아이디": "block.minecraft.warped_trapdoor",
+              "영어 이름": "Warped Trapdoor"
             },
             "block.minecraft.cherry_trapdoor": {
-              "아이템 아이디": "block.minecraft.cherry_trapdoor",
-              "아이템 영어 이름": "Cherry Trapdoor"
+              "아이디": "block.minecraft.cherry_trapdoor",
+              "영어 이름": "Cherry Trapdoor"
             },
             "block.minecraft.waxed_exposed_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_copper_trapdoor",
-              "아이템 영어 이름": "Waxed Exposed Copper Trapdoor"
+              "아이디": "block.minecraft.waxed_exposed_copper_trapdoor",
+              "영어 이름": "Waxed Exposed Copper Trapdoor"
             },
             "block.minecraft.oak_trapdoor": {
-              "아이템 아이디": "block.minecraft.oak_trapdoor",
-              "아이템 영어 이름": "Oak Trapdoor",
-              "아이템 설명": "참나무 다락문\n\n기본적인 나무 다락문입니다.\n수직 이동을 위한 통로나 숨겨진 입구로 사용할 수 있습니다. 레드스톤 신호로도 제어 가능합니다."
+              "아이디": "block.minecraft.oak_trapdoor",
+              "영어 이름": "Oak Trapdoor",
+              "설명": "참나무 다락문\n\n기본적인 나무 다락문입니다.\n수직 이동을 위한 통로나 숨겨진 입구로 사용할 수 있습니다. 레드스톤 신호로도 제어 가능합니다."
             },
             "block.minecraft.birch_trapdoor": {
-              "아이템 아이디": "block.minecraft.birch_trapdoor",
-              "아이템 영어 이름": "Birch Trapdoor"
+              "아이디": "block.minecraft.birch_trapdoor",
+              "영어 이름": "Birch Trapdoor"
             },
             "block.minecraft.bamboo_trapdoor": {
-              "아이템 아이디": "block.minecraft.bamboo_trapdoor",
-              "아이템 영어 이름": "Bamboo Trapdoor"
+              "아이디": "block.minecraft.bamboo_trapdoor",
+              "영어 이름": "Bamboo Trapdoor"
             },
             "block.minecraft.waxed_weathered_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_copper_trapdoor",
-              "아이템 영어 이름": "Waxed Weathered Copper Trapdoor"
+              "아이디": "block.minecraft.waxed_weathered_copper_trapdoor",
+              "영어 이름": "Waxed Weathered Copper Trapdoor"
             },
             "block.minecraft.iron_trapdoor": {
-              "아이템 아이디": "block.minecraft.iron_trapdoor",
-              "아이템 영어 이름": "Iron Trapdoor",
-              "아이템 설명": "철 다락문\n\n튼튼한 철로 만든 다락문입니다.\n손으로 열 수 없으며, 레드스톤 신호로만 제어할 수 있습니다. 보안이 필요한 수직 통로에 적합합니다."
+              "아이디": "block.minecraft.iron_trapdoor",
+              "영어 이름": "Iron Trapdoor",
+              "설명": "철 다락문\n\n튼튼한 철로 만든 다락문입니다.\n손으로 열 수 없으며, 레드스톤 신호로만 제어할 수 있습니다. 보안이 필요한 수직 통로에 적합합니다."
             },
             "block.minecraft.acacia_trapdoor": {
-              "아이템 아이디": "block.minecraft.acacia_trapdoor",
-              "아이템 영어 이름": "Acacia Trapdoor"
+              "아이디": "block.minecraft.acacia_trapdoor",
+              "영어 이름": "Acacia Trapdoor"
             },
             "block.minecraft.spruce_trapdoor": {
-              "아이템 아이디": "block.minecraft.spruce_trapdoor",
-              "아이템 영어 이름": "Spruce Trapdoor"
+              "아이디": "block.minecraft.spruce_trapdoor",
+              "영어 이름": "Spruce Trapdoor"
             },
             "block.minecraft.waxed_oxidized_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_copper_trapdoor",
-              "아이템 영어 이름": "Waxed Oxidized Copper Trapdoor"
+              "아이디": "block.minecraft.waxed_oxidized_copper_trapdoor",
+              "영어 이름": "Waxed Oxidized Copper Trapdoor"
             },
             "block.minecraft.copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.copper_trapdoor",
-              "아이템 영어 이름": "Copper Trapdoor",
-              "아이템 설명": "구리 다락문\n\n구리로 만든 다락문으로, 시간이 지나면 산화됩니다.\n철 다락문과 같이 레드스톤 신호로만 제어 가능합니다. 산화 과정을 통해 독특한 외관 변화를 즐길 수 있습니다."
+              "아이디": "block.minecraft.copper_trapdoor",
+              "영어 이름": "Copper Trapdoor",
+              "설명": "구리 다락문\n\n구리로 만든 다락문으로, 시간이 지나면 산화됩니다.\n철 다락문과 같이 레드스톤 신호로만 제어 가능합니다. 산화 과정을 통해 독특한 외관 변화를 즐길 수 있습니다."
             },
             "block.minecraft.mangrove_trapdoor": {
-              "아이템 아이디": "block.minecraft.mangrove_trapdoor",
-              "아이템 영어 이름": "Mangrove Trapdoor"
+              "아이디": "block.minecraft.mangrove_trapdoor",
+              "영어 이름": "Mangrove Trapdoor"
             },
             "block.minecraft.waxed_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.waxed_copper_trapdoor",
-              "아이템 영어 이름": "Waxed Copper Trapdoor"
+              "아이디": "block.minecraft.waxed_copper_trapdoor",
+              "영어 이름": "Waxed Copper Trapdoor"
             },
             "block.minecraft.dark_oak_trapdoor": {
-              "아이템 아이디": "block.minecraft.dark_oak_trapdoor",
-              "아이템 영어 이름": "Dark Oak Trapdoor"
+              "아이디": "block.minecraft.dark_oak_trapdoor",
+              "영어 이름": "Dark Oak Trapdoor"
             },
             "block.minecraft.exposed_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.exposed_copper_trapdoor",
-              "아이템 영어 이름": "Exposed Copper Trapdoor"
+              "아이디": "block.minecraft.exposed_copper_trapdoor",
+              "영어 이름": "Exposed Copper Trapdoor"
             },
             "block.minecraft.jungle_trapdoor": {
-              "아이템 아이디": "block.minecraft.jungle_trapdoor",
-              "아이템 영어 이름": "Jungle Trapdoor"
+              "아이디": "block.minecraft.jungle_trapdoor",
+              "영어 이름": "Jungle Trapdoor"
             },
             "block.minecraft.oxidized_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.oxidized_copper_trapdoor",
-              "아이템 영어 이름": "Oxidized Copper Trapdoor"
+              "아이디": "block.minecraft.oxidized_copper_trapdoor",
+              "영어 이름": "Oxidized Copper Trapdoor"
             },
             "block.minecraft.weathered_copper_trapdoor": {
-              "아이템 아이디": "block.minecraft.weathered_copper_trapdoor",
-              "아이템 영어 이름": "Weathered Copper Trapdoor"
+              "아이디": "block.minecraft.weathered_copper_trapdoor",
+              "영어 이름": "Weathered Copper Trapdoor"
             }
           }
         }

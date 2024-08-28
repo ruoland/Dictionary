@@ -8,16 +8,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.saddle": {
-              "아이템 아이디": "item.minecraft.saddle",
-              "아이템 영어 이름": "Saddle"
+              "아이디": "item.minecraft.saddle",
+              "영어 이름": "Saddle"
             },
             "item.minecraft.bamboo_chest_raft": {
-              "아이템 아이디": "item.minecraft.bamboo_chest_raft",
-              "아이템 영어 이름": "Bamboo Raft with Chest"
+              "아이디": "item.minecraft.bamboo_chest_raft",
+              "영어 이름": "Bamboo Raft with Chest"
             },
             "item.minecraft.bamboo_raft": {
-              "아이템 아이디": "item.minecraft.bamboo_raft",
-              "아이템 영어 이름": "Bamboo Raft"
+              "아이디": "item.minecraft.bamboo_raft",
+              "영어 이름": "Bamboo Raft"
             }
           }
         },
@@ -26,68 +26,68 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.jungle_boat": {
-              "아이템 아이디": "item.minecraft.jungle_boat",
-              "아이템 영어 이름": "Jungle Boat"
+              "아이디": "item.minecraft.jungle_boat",
+              "영어 이름": "Jungle Boat"
             },
             "item.minecraft.jungle_chest_boat": {
-              "아이템 아이디": "item.minecraft.jungle_chest_boat",
-              "아이템 영어 이름": "Jungle Boat with Chest"
+              "아이디": "item.minecraft.jungle_chest_boat",
+              "영어 이름": "Jungle Boat with Chest"
             },
             "item.minecraft.mangrove_chest_boat": {
-              "아이템 아이디": "item.minecraft.mangrove_chest_boat",
-              "아이템 영어 이름": "Mangrove Boat with Chest"
+              "아이디": "item.minecraft.mangrove_chest_boat",
+              "영어 이름": "Mangrove Boat with Chest"
             },
             "item.minecraft.birch_chest_boat": {
-              "아이템 아이디": "item.minecraft.birch_chest_boat",
-              "아이템 영어 이름": "Birch Boat with Chest"
+              "아이디": "item.minecraft.birch_chest_boat",
+              "영어 이름": "Birch Boat with Chest"
             },
             "item.minecraft.acacia_chest_boat": {
-              "아이템 아이디": "item.minecraft.acacia_chest_boat",
-              "아이템 영어 이름": "Acacia Boat with Chest"
+              "아이디": "item.minecraft.acacia_chest_boat",
+              "영어 이름": "Acacia Boat with Chest"
             },
             "item.minecraft.spruce_chest_boat": {
-              "아이템 아이디": "item.minecraft.spruce_chest_boat",
-              "아이템 영어 이름": "Spruce Boat with Chest"
+              "아이디": "item.minecraft.spruce_chest_boat",
+              "영어 이름": "Spruce Boat with Chest"
             },
             "item.minecraft.acacia_boat": {
-              "아이템 아이디": "item.minecraft.acacia_boat",
-              "아이템 영어 이름": "Acacia Boat"
+              "아이디": "item.minecraft.acacia_boat",
+              "영어 이름": "Acacia Boat"
             },
             "item.minecraft.spruce_boat": {
-              "아이템 아이디": "item.minecraft.spruce_boat",
-              "아이템 영어 이름": "Spruce Boat"
+              "아이디": "item.minecraft.spruce_boat",
+              "영어 이름": "Spruce Boat"
             },
             "item.minecraft.oak_chest_boat": {
-              "아이템 아이디": "item.minecraft.oak_chest_boat",
-              "아이템 영어 이름": "Oak Boat with Chest"
+              "아이디": "item.minecraft.oak_chest_boat",
+              "영어 이름": "Oak Boat with Chest"
             },
             "item.minecraft.dark_oak_chest_boat": {
-              "아이템 아이디": "item.minecraft.dark_oak_chest_boat",
-              "아이템 영어 이름": "Dark Oak Boat with Chest"
+              "아이디": "item.minecraft.dark_oak_chest_boat",
+              "영어 이름": "Dark Oak Boat with Chest"
             },
             "item.minecraft.dark_oak_boat": {
-              "아이템 아이디": "item.minecraft.dark_oak_boat",
-              "아이템 영어 이름": "Dark Oak Boat"
+              "아이디": "item.minecraft.dark_oak_boat",
+              "영어 이름": "Dark Oak Boat"
             },
             "item.minecraft.cherry_chest_boat": {
-              "아이템 아이디": "item.minecraft.cherry_chest_boat",
-              "아이템 영어 이름": "Cherry Boat with Chest"
+              "아이디": "item.minecraft.cherry_chest_boat",
+              "영어 이름": "Cherry Boat with Chest"
             },
             "item.minecraft.oak_boat": {
-              "아이템 아이디": "item.minecraft.oak_boat",
-              "아이템 영어 이름": "Oak Boat"
+              "아이디": "item.minecraft.oak_boat",
+              "영어 이름": "Oak Boat"
             },
             "item.minecraft.mangrove_boat": {
-              "아이템 아이디": "item.minecraft.mangrove_boat",
-              "아이템 영어 이름": "Mangrove Boat"
+              "아이디": "item.minecraft.mangrove_boat",
+              "영어 이름": "Mangrove Boat"
             },
             "item.minecraft.birch_boat": {
-              "아이템 아이디": "item.minecraft.birch_boat",
-              "아이템 영어 이름": "Birch Boat"
+              "아이디": "item.minecraft.birch_boat",
+              "영어 이름": "Birch Boat"
             },
             "item.minecraft.cherry_boat": {
-              "아이템 아이디": "item.minecraft.cherry_boat",
-              "아이템 영어 이름": "Cherry Boat"
+              "아이디": "item.minecraft.cherry_boat",
+              "영어 이름": "Cherry Boat"
             }
           }
         },
@@ -96,28 +96,28 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.furnace_minecart": {
-              "아이템 아이디": "item.minecraft.furnace_minecart",
-              "아이템 영어 이름": "Minecart with Furnace"
+              "아이디": "item.minecraft.furnace_minecart",
+              "영어 이름": "Minecart with Furnace"
             },
             "item.minecraft.chest_minecart": {
-              "아이템 아이디": "item.minecraft.chest_minecart",
-              "아이템 영어 이름": "Minecart with Chest"
+              "아이디": "item.minecraft.chest_minecart",
+              "영어 이름": "Minecart with Chest"
             },
             "item.minecraft.tnt_minecart": {
-              "아이템 아이디": "item.minecraft.tnt_minecart",
-              "아이템 영어 이름": "Minecart with TNT"
+              "아이디": "item.minecraft.tnt_minecart",
+              "영어 이름": "Minecart with TNT"
             },
             "item.minecraft.command_block_minecart": {
-              "아이템 아이디": "item.minecraft.command_block_minecart",
-              "아이템 영어 이름": "Minecart with Command Block"
+              "아이디": "item.minecraft.command_block_minecart",
+              "영어 이름": "Minecart with Command Block"
             },
             "item.minecraft.minecart": {
-              "아이템 아이디": "item.minecraft.minecart",
-              "아이템 영어 이름": "Minecart"
+              "아이디": "item.minecraft.minecart",
+              "영어 이름": "Minecart"
             },
             "item.minecraft.hopper_minecart": {
-              "아이템 아이디": "item.minecraft.hopper_minecart",
-              "아이템 영어 이름": "Minecart with Hopper"
+              "아이디": "item.minecraft.hopper_minecart",
+              "영어 이름": "Minecart with Hopper"
             }
           }
         }

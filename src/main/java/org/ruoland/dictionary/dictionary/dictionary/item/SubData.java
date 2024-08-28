@@ -3,7 +3,7 @@ package org.ruoland.dictionary.dictionary.dictionary.item;
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.TagManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 
 import java.util.TreeMap;
 

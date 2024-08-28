@@ -8,812 +8,812 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.clock": {
-              "아이템 아이디": "item.minecraft.clock",
-              "아이템 영어 이름": "Clock"
+              "아이디": "item.minecraft.clock",
+              "영어 이름": "Clock"
             },
             "block.minecraft.polished_granite": {
-              "아이템 아이디": "block.minecraft.polished_granite",
-              "아이템 영어 이름": "Polished Granite"
+              "아이디": "block.minecraft.polished_granite",
+              "영어 이름": "Polished Granite"
             },
             "item.minecraft.raw_gold": {
-              "아이템 아이디": "item.minecraft.raw_gold",
-              "아이템 영어 이름": "Raw Gold"
+              "아이디": "item.minecraft.raw_gold",
+              "영어 이름": "Raw Gold"
             },
             "block.minecraft.scaffolding": {
-              "아이템 아이디": "block.minecraft.scaffolding",
-              "아이템 영어 이름": "Scaffolding"
+              "아이디": "block.minecraft.scaffolding",
+              "영어 이름": "Scaffolding"
             },
             "item.minecraft.slime_ball": {
-              "아이템 아이디": "item.minecraft.slime_ball",
-              "아이템 영어 이름": "Slimeball"
+              "아이디": "item.minecraft.slime_ball",
+              "영어 이름": "Slimeball"
             },
             "item.minecraft.string": {
-              "아이템 아이디": "item.minecraft.string",
-              "아이템 영어 이름": "String"
+              "아이디": "item.minecraft.string",
+              "영어 이름": "String"
             },
             "item.minecraft.glistering_melon_slice": {
-              "아이템 아이디": "item.minecraft.glistering_melon_slice",
-              "아이템 영어 이름": "Glistering Melon Slice"
+              "아이디": "item.minecraft.glistering_melon_slice",
+              "영어 이름": "Glistering Melon Slice"
             },
             "block.minecraft.bedrock": {
-              "아이템 아이디": "block.minecraft.bedrock",
-              "아이템 영어 이름": "Bedrock"
+              "아이디": "block.minecraft.bedrock",
+              "영어 이름": "Bedrock"
             },
             "block.minecraft.cactus": {
-              "아이템 아이디": "block.minecraft.cactus",
-              "아이템 영어 이름": "Cactus"
+              "아이디": "block.minecraft.cactus",
+              "영어 이름": "Cactus"
             },
             "item.minecraft.flint_and_steel": {
-              "아이템 아이디": "item.minecraft.flint_and_steel",
-              "아이템 영어 이름": "Flint and Steel"
+              "아이디": "item.minecraft.flint_and_steel",
+              "영어 이름": "Flint and Steel"
             },
             "block.minecraft.tnt": {
-              "아이템 아이디": "block.minecraft.tnt",
-              "아이템 영어 이름": "TNT"
+              "아이디": "block.minecraft.tnt",
+              "영어 이름": "TNT"
             },
             "block.minecraft.budding_amethyst": {
-              "아이템 아이디": "block.minecraft.budding_amethyst",
-              "아이템 영어 이름": "Budding Amethyst"
+              "아이디": "block.minecraft.budding_amethyst",
+              "영어 이름": "Budding Amethyst"
             },
             "item.minecraft.cooked_cod": {
-              "아이템 아이디": "item.minecraft.cooked_cod",
-              "아이템 영어 이름": "Cooked Cod"
+              "아이디": "item.minecraft.cooked_cod",
+              "영어 이름": "Cooked Cod"
             },
             "item.minecraft.panda_spawn_egg": {
-              "아이템 아이디": "item.minecraft.panda_spawn_egg",
-              "아이템 영어 이름": "Panda Spawn Egg"
+              "아이디": "item.minecraft.panda_spawn_egg",
+              "영어 이름": "Panda Spawn Egg"
             },
             "block.minecraft.conduit": {
-              "아이템 아이디": "block.minecraft.conduit",
-              "아이템 영어 이름": "Conduit"
+              "아이디": "block.minecraft.conduit",
+              "영어 이름": "Conduit"
             },
             "block.minecraft.wither_skeleton_skull": {
-              "아이템 아이디": "block.minecraft.wither_skeleton_skull",
-              "아이템 영어 이름": "Wither Skeleton Skull"
+              "아이디": "block.minecraft.wither_skeleton_skull",
+              "영어 이름": "Wither Skeleton Skull"
             },
             "block.minecraft.chorus_plant": {
-              "아이템 아이디": "block.minecraft.chorus_plant",
-              "아이템 영어 이름": "Chorus Plant"
+              "아이디": "block.minecraft.chorus_plant",
+              "영어 이름": "Chorus Plant"
             },
             "item.minecraft.elytra": {
-              "아이템 아이디": "item.minecraft.elytra",
-              "아이템 영어 이름": "Elytra"
+              "아이디": "item.minecraft.elytra",
+              "영어 이름": "Elytra"
             },
             "block.minecraft.deepslate_tiles": {
-              "아이템 아이디": "block.minecraft.deepslate_tiles",
-              "아이템 영어 이름": "Deepslate Tiles"
+              "아이디": "block.minecraft.deepslate_tiles",
+              "영어 이름": "Deepslate Tiles"
             },
             "block.minecraft.air": {
-              "아이템 아이디": "block.minecraft.air",
-              "아이템 영어 이름": "Air"
+              "아이디": "block.minecraft.air",
+              "영어 이름": "Air"
             },
             "item.minecraft.cooked_rabbit": {
-              "아이템 아이디": "item.minecraft.cooked_rabbit",
-              "아이템 영어 이름": "Cooked Rabbit"
+              "아이디": "item.minecraft.cooked_rabbit",
+              "영어 이름": "Cooked Rabbit"
             },
             "block.minecraft.soul_campfire": {
-              "아이템 아이디": "block.minecraft.soul_campfire",
-              "아이템 영어 이름": "Soul Campfire"
+              "아이디": "block.minecraft.soul_campfire",
+              "영어 이름": "Soul Campfire"
             },
             "item.minecraft.leather": {
-              "아이템 아이디": "item.minecraft.leather",
-              "아이템 영어 이름": "Leather"
+              "아이디": "item.minecraft.leather",
+              "영어 이름": "Leather"
             },
             "item.minecraft.spyglass": {
-              "아이템 아이디": "item.minecraft.spyglass",
-              "아이템 영어 이름": "Spyglass"
+              "아이디": "item.minecraft.spyglass",
+              "영어 이름": "Spyglass"
             },
             "block.minecraft.poppy": {
-              "아이템 아이디": "block.minecraft.poppy",
-              "아이템 영어 이름": "Poppy"
+              "아이디": "block.minecraft.poppy",
+              "영어 이름": "Poppy"
             },
             "block.minecraft.spore_blossom": {
-              "아이템 아이디": "block.minecraft.spore_blossom",
-              "아이템 영어 이름": "Spore Blossom"
+              "아이디": "block.minecraft.spore_blossom",
+              "영어 이름": "Spore Blossom"
             },
             "block.minecraft.azure_bluet": {
-              "아이템 아이디": "block.minecraft.azure_bluet",
-              "아이템 영어 이름": "Azure Bluet"
+              "아이디": "block.minecraft.azure_bluet",
+              "영어 이름": "Azure Bluet"
             },
             "block.minecraft.vault": {
-              "아이템 아이디": "block.minecraft.vault",
-              "아이템 영어 이름": "Vault"
+              "아이디": "block.minecraft.vault",
+              "영어 이름": "Vault"
             },
             "block.minecraft.allium": {
-              "아이템 아이디": "block.minecraft.allium",
-              "아이템 영어 이름": "Allium"
+              "아이디": "block.minecraft.allium",
+              "영어 이름": "Allium"
             },
             "block.minecraft.sculk_sensor": {
-              "아이템 아이디": "block.minecraft.sculk_sensor",
-              "아이템 영어 이름": "Sculk Sensor"
+              "아이디": "block.minecraft.sculk_sensor",
+              "영어 이름": "Sculk Sensor"
             },
             "block.minecraft.loom": {
-              "아이템 아이디": "block.minecraft.loom",
-              "아이템 영어 이름": "Loom"
+              "아이디": "block.minecraft.loom",
+              "영어 이름": "Loom"
             },
             "block.minecraft.warped_fungus": {
-              "아이템 아이디": "block.minecraft.warped_fungus",
-              "아이템 영어 이름": "Warped Fungus"
+              "아이디": "block.minecraft.warped_fungus",
+              "영어 이름": "Warped Fungus"
             },
             "block.minecraft.calcite": {
-              "아이템 아이디": "block.minecraft.calcite",
-              "아이템 영어 이름": "Calcite"
+              "아이디": "block.minecraft.calcite",
+              "영어 이름": "Calcite"
             },
             "block.minecraft.furnace": {
-              "아이템 아이디": "block.minecraft.furnace",
-              "아이템 영어 이름": "Furnace"
+              "아이디": "block.minecraft.furnace",
+              "영어 이름": "Furnace"
             },
             "block.minecraft.small_dripleaf": {
-              "아이템 아이디": "block.minecraft.small_dripleaf",
-              "아이템 영어 이름": "Small Dripleaf"
+              "아이디": "block.minecraft.small_dripleaf",
+              "영어 이름": "Small Dripleaf"
             },
             "item.minecraft.sugar": {
-              "아이템 아이디": "item.minecraft.sugar",
-              "아이템 영어 이름": "Sugar"
+              "아이디": "item.minecraft.sugar",
+              "영어 이름": "Sugar"
             },
             "item.minecraft.charcoal": {
-              "아이템 아이디": "item.minecraft.charcoal",
-              "아이템 영어 이름": "Charcoal"
+              "아이디": "item.minecraft.charcoal",
+              "영어 이름": "Charcoal"
             },
             "item.minecraft.brick": {
-              "아이템 아이디": "item.minecraft.brick",
-              "아이템 영어 이름": "Brick"
+              "아이디": "item.minecraft.brick",
+              "영어 이름": "Brick"
             },
             "block.minecraft.diorite": {
-              "아이템 아이디": "block.minecraft.diorite",
-              "아이템 영어 이름": "Diorite"
+              "아이디": "block.minecraft.diorite",
+              "영어 이름": "Diorite"
             },
             "item.minecraft.mutton": {
-              "아이템 아이디": "item.minecraft.mutton",
-              "아이템 영어 이름": "Raw Mutton"
+              "아이디": "item.minecraft.mutton",
+              "영어 이름": "Raw Mutton"
             },
             "item.minecraft.phantom_membrane": {
-              "아이템 아이디": "item.minecraft.phantom_membrane",
-              "아이템 영어 이름": "Phantom Membrane"
+              "아이디": "item.minecraft.phantom_membrane",
+              "영어 이름": "Phantom Membrane"
             },
             "item.minecraft.heart_of_the_sea": {
-              "아이템 아이디": "item.minecraft.heart_of_the_sea",
-              "아이템 영어 이름": "Heart of the Sea"
+              "아이디": "item.minecraft.heart_of_the_sea",
+              "영어 이름": "Heart of the Sea"
             },
             "block.minecraft.lily_pad": {
-              "아이템 아이디": "block.minecraft.lily_pad",
-              "아이템 영어 이름": "Lily Pad"
+              "아이디": "block.minecraft.lily_pad",
+              "영어 이름": "Lily Pad"
             },
             "item.minecraft.bowl": {
-              "아이템 아이디": "item.minecraft.bowl",
-              "아이템 영어 이름": "Bowl"
+              "아이디": "item.minecraft.bowl",
+              "영어 이름": "Bowl"
             },
             "block.minecraft.decorated_pot": {
-              "아이템 아이디": "block.minecraft.decorated_pot",
-              "아이템 영어 이름": "Decorated Pot"
+              "아이디": "block.minecraft.decorated_pot",
+              "영어 이름": "Decorated Pot"
             },
             "block.minecraft.trial_spawner": {
-              "아이템 아이디": "block.minecraft.trial_spawner",
-              "아이템 영어 이름": "Trial Spawner"
+              "아이디": "block.minecraft.trial_spawner",
+              "영어 이름": "Trial Spawner"
             },
             "item.minecraft.cat_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cat_spawn_egg",
-              "아이템 영어 이름": "Cat Spawn Egg"
+              "아이디": "item.minecraft.cat_spawn_egg",
+              "영어 이름": "Cat Spawn Egg"
             },
             "item.minecraft.goat_horn": {
-              "아이템 아이디": "item.minecraft.goat_horn",
-              "아이템 영어 이름": "Goat Horn"
+              "아이디": "item.minecraft.goat_horn",
+              "영어 이름": "Goat Horn"
             },
             "block.minecraft.pointed_dripstone": {
-              "아이템 아이디": "block.minecraft.pointed_dripstone",
-              "아이템 영어 이름": "Pointed Dripstone"
+              "아이디": "block.minecraft.pointed_dripstone",
+              "영어 이름": "Pointed Dripstone"
             },
             "item.minecraft.bone_meal": {
-              "아이템 아이디": "item.minecraft.bone_meal",
-              "아이템 영어 이름": "Bone Meal"
+              "아이디": "item.minecraft.bone_meal",
+              "영어 이름": "Bone Meal"
             },
             "block.minecraft.pumpkin": {
-              "아이템 아이디": "block.minecraft.pumpkin",
-              "아이템 영어 이름": "Pumpkin"
+              "아이디": "block.minecraft.pumpkin",
+              "영어 이름": "Pumpkin"
             },
             "block.minecraft.andesite": {
-              "아이템 아이디": "block.minecraft.andesite",
-              "아이템 영어 이름": "Andesite"
+              "아이디": "block.minecraft.andesite",
+              "영어 이름": "Andesite"
             },
             "item.minecraft.shield": {
-              "아이템 아이디": "item.minecraft.shield",
-              "아이템 영어 이름": "Shield"
+              "아이디": "item.minecraft.shield",
+              "영어 이름": "Shield"
             },
             "item.minecraft.name_tag": {
-              "아이템 아이디": "item.minecraft.name_tag",
-              "아이템 영어 이름": "Name Tag"
+              "아이디": "item.minecraft.name_tag",
+              "영어 이름": "Name Tag"
             },
             "item.minecraft.popped_chorus_fruit": {
-              "아이템 아이디": "item.minecraft.popped_chorus_fruit",
-              "아이템 영어 이름": "Popped Chorus Fruit"
+              "아이디": "item.minecraft.popped_chorus_fruit",
+              "영어 이름": "Popped Chorus Fruit"
             },
             "block.minecraft.pink_petals": {
-              "아이템 아이디": "block.minecraft.pink_petals",
-              "아이템 영어 이름": "Pink Petals"
+              "아이디": "block.minecraft.pink_petals",
+              "영어 이름": "Pink Petals"
             },
             "block.minecraft.stonecutter": {
-              "아이템 아이디": "block.minecraft.stonecutter",
-              "아이템 영어 이름": "Stonecutter"
+              "아이디": "block.minecraft.stonecutter",
+              "영어 이름": "Stonecutter"
             },
             "block.minecraft.sponge": {
-              "아이템 아이디": "block.minecraft.sponge",
-              "아이템 영어 이름": "Sponge"
+              "아이디": "block.minecraft.sponge",
+              "영어 이름": "Sponge"
             },
             "block.minecraft.cracked_deepslate_tiles": {
-              "아이템 아이디": "block.minecraft.cracked_deepslate_tiles",
-              "아이템 영어 이름": "Cracked Deepslate Tiles"
+              "아이디": "block.minecraft.cracked_deepslate_tiles",
+              "영어 이름": "Cracked Deepslate Tiles"
             },
             "block.minecraft.sculk_catalyst": {
-              "아이템 아이디": "block.minecraft.sculk_catalyst",
-              "아이템 영어 이름": "Sculk Catalyst"
+              "아이디": "block.minecraft.sculk_catalyst",
+              "영어 이름": "Sculk Catalyst"
             },
             "block.minecraft.iron_bars": {
-              "아이템 아이디": "block.minecraft.iron_bars",
-              "아이템 영어 이름": "Iron Bars"
+              "아이디": "block.minecraft.iron_bars",
+              "영어 이름": "Iron Bars"
             },
             "block.minecraft.farmland": {
-              "아이템 아이디": "block.minecraft.farmland",
-              "아이템 영어 이름": "Farmland"
+              "아이디": "block.minecraft.farmland",
+              "영어 이름": "Farmland"
             },
             "block.minecraft.jukebox": {
-              "아이템 아이디": "block.minecraft.jukebox",
-              "아이템 영어 이름": "Jukebox"
+              "아이디": "block.minecraft.jukebox",
+              "영어 이름": "Jukebox"
             },
             "block.minecraft.chiseled_bookshelf": {
-              "아이템 아이디": "block.minecraft.chiseled_bookshelf",
-              "아이템 영어 이름": "Chiseled Bookshelf"
+              "아이디": "block.minecraft.chiseled_bookshelf",
+              "영어 이름": "Chiseled Bookshelf"
             },
             "block.minecraft.polished_diorite": {
-              "아이템 아이디": "block.minecraft.polished_diorite",
-              "아이템 영어 이름": "Polished Diorite"
+              "아이디": "block.minecraft.polished_diorite",
+              "영어 이름": "Polished Diorite"
             },
             "item.minecraft.pitcher_pod": {
-              "아이템 아이디": "item.minecraft.pitcher_pod",
-              "아이템 영어 이름": "Pitcher Pod"
+              "아이디": "item.minecraft.pitcher_pod",
+              "영어 이름": "Pitcher Pod"
             },
             "block.minecraft.composter": {
-              "아이템 아이디": "block.minecraft.composter",
-              "아이템 영어 이름": "Composter"
+              "아이디": "block.minecraft.composter",
+              "영어 이름": "Composter"
             },
             "item.minecraft.prismarine_crystals": {
-              "아이템 아이디": "item.minecraft.prismarine_crystals",
-              "아이템 영어 이름": "Prismarine Crystals"
+              "아이디": "item.minecraft.prismarine_crystals",
+              "영어 이름": "Prismarine Crystals"
             },
             "block.minecraft.dark_prismarine": {
-              "아이템 아이디": "block.minecraft.dark_prismarine",
-              "아이템 영어 이름": "Dark Prismarine"
+              "아이디": "block.minecraft.dark_prismarine",
+              "영어 이름": "Dark Prismarine"
             },
             "block.minecraft.stripped_warped_hyphae": {
-              "아이템 아이디": "block.minecraft.stripped_warped_hyphae",
-              "아이템 영어 이름": "Stripped Warped Hyphae"
+              "아이디": "block.minecraft.stripped_warped_hyphae",
+              "영어 이름": "Stripped Warped Hyphae"
             },
             "block.minecraft.seagrass": {
-              "아이템 아이디": "block.minecraft.seagrass",
-              "아이템 영어 이름": "Seagrass"
+              "아이디": "block.minecraft.seagrass",
+              "영어 이름": "Seagrass"
             },
             "block.minecraft.glow_lichen": {
-              "아이템 아이디": "block.minecraft.glow_lichen",
-              "아이템 영어 이름": "Glow Lichen"
+              "아이디": "block.minecraft.glow_lichen",
+              "영어 이름": "Glow Lichen"
             },
             "block.minecraft.comparator": {
-              "아이템 아이디": "block.minecraft.comparator",
-              "아이템 영어 이름": "Redstone Comparator"
+              "아이디": "block.minecraft.comparator",
+              "영어 이름": "Redstone Comparator"
             },
             "block.minecraft.purpur_pillar": {
-              "아이템 아이디": "block.minecraft.purpur_pillar",
-              "아이템 영어 이름": "Purpur Pillar"
+              "아이디": "block.minecraft.purpur_pillar",
+              "영어 이름": "Purpur Pillar"
             },
             "block.minecraft.ancient_debris": {
-              "아이템 아이디": "block.minecraft.ancient_debris",
-              "아이템 영어 이름": "Ancient Debris"
+              "아이디": "block.minecraft.ancient_debris",
+              "영어 이름": "Ancient Debris"
             },
             "item.minecraft.fermented_spider_eye": {
-              "아이템 아이디": "item.minecraft.fermented_spider_eye",
-              "아이템 영어 이름": "Fermented Spider Eye"
+              "아이디": "item.minecraft.fermented_spider_eye",
+              "영어 이름": "Fermented Spider Eye"
             },
             "item.minecraft.totem_of_undying": {
-              "아이템 아이디": "item.minecraft.totem_of_undying",
-              "아이템 영어 이름": "Totem of Undying"
+              "아이디": "item.minecraft.totem_of_undying",
+              "영어 이름": "Totem of Undying"
             },
             "item.minecraft.armor_stand": {
-              "아이템 아이디": "item.minecraft.armor_stand",
-              "아이템 영어 이름": "Armor Stand"
+              "아이디": "item.minecraft.armor_stand",
+              "영어 이름": "Armor Stand"
             },
             "item.minecraft.bundle": {
-              "아이템 아이디": "item.minecraft.bundle",
-              "아이템 영어 이름": "Bundle"
+              "아이디": "item.minecraft.bundle",
+              "영어 이름": "Bundle"
             },
             "item.minecraft.pumpkin_pie": {
-              "아이템 아이디": "item.minecraft.pumpkin_pie",
-              "아이템 영어 이름": "Pumpkin Pie"
+              "아이디": "item.minecraft.pumpkin_pie",
+              "영어 이름": "Pumpkin Pie"
             },
             "block.minecraft.packed_mud": {
-              "아이템 아이디": "block.minecraft.packed_mud",
-              "아이템 영어 이름": "Packed Mud"
+              "아이디": "block.minecraft.packed_mud",
+              "영어 이름": "Packed Mud"
             },
             "item.minecraft.ink_sac": {
-              "아이템 아이디": "item.minecraft.ink_sac",
-              "아이템 영어 이름": "Ink Sac"
+              "아이디": "item.minecraft.ink_sac",
+              "영어 이름": "Ink Sac"
             },
             "block.minecraft.azalea": {
-              "아이템 아이디": "block.minecraft.azalea",
-              "아이템 영어 이름": "Azalea"
+              "아이디": "block.minecraft.azalea",
+              "영어 이름": "Azalea"
             },
             "block.minecraft.respawn_anchor": {
-              "아이템 아이디": "block.minecraft.respawn_anchor",
-              "아이템 영어 이름": "Respawn Anchor"
+              "아이디": "block.minecraft.respawn_anchor",
+              "영어 이름": "Respawn Anchor"
             },
             "block.minecraft.bamboo": {
-              "아이템 아이디": "block.minecraft.bamboo",
-              "아이템 영어 이름": "Bamboo"
+              "아이디": "block.minecraft.bamboo",
+              "영어 이름": "Bamboo"
             },
             "block.minecraft.skeleton_skull": {
-              "아이템 아이디": "block.minecraft.skeleton_skull",
-              "아이템 영어 이름": "Skeleton Skull"
+              "아이디": "block.minecraft.skeleton_skull",
+              "영어 이름": "Skeleton Skull"
             },
             "item.minecraft.shears": {
-              "아이템 아이디": "item.minecraft.shears",
-              "아이템 영어 이름": "Shears"
+              "아이디": "item.minecraft.shears",
+              "영어 이름": "Shears"
             },
             "item.minecraft.ominous_trial_key": {
-              "아이템 아이디": "item.minecraft.ominous_trial_key",
-              "아이템 영어 이름": "Ominous Trial Key"
+              "아이디": "item.minecraft.ominous_trial_key",
+              "영어 이름": "Ominous Trial Key"
             },
             "block.minecraft.sculk": {
-              "아이템 아이디": "block.minecraft.sculk",
-              "아이템 영어 이름": "Sculk"
+              "아이디": "block.minecraft.sculk",
+              "영어 이름": "Sculk"
             },
             "item.minecraft.feather": {
-              "아이템 아이디": "item.minecraft.feather",
-              "아이템 영어 이름": "Feather"
+              "아이디": "item.minecraft.feather",
+              "영어 이름": "Feather"
             },
             "item.minecraft.cooked_mutton": {
-              "아이템 아이디": "item.minecraft.cooked_mutton",
-              "아이템 영어 이름": "Cooked Mutton"
+              "아이디": "item.minecraft.cooked_mutton",
+              "영어 이름": "Cooked Mutton"
             },
             "item.minecraft.glow_ink_sac": {
-              "아이템 아이디": "item.minecraft.glow_ink_sac",
-              "아이템 영어 이름": "Glow Ink Sac"
+              "아이디": "item.minecraft.glow_ink_sac",
+              "영어 이름": "Glow Ink Sac"
             },
             "block.minecraft.carved_pumpkin": {
-              "아이템 아이디": "block.minecraft.carved_pumpkin",
-              "아이템 영어 이름": "Carved Pumpkin"
+              "아이디": "block.minecraft.carved_pumpkin",
+              "영어 이름": "Carved Pumpkin"
             },
             "block.minecraft.structure_void": {
-              "아이템 아이디": "block.minecraft.structure_void",
-              "아이템 영어 이름": "Structure Void"
+              "아이디": "block.minecraft.structure_void",
+              "영어 이름": "Structure Void"
             },
             "item.minecraft.lead": {
-              "아이템 아이디": "item.minecraft.lead",
-              "아이템 영어 이름": "Lead"
+              "아이디": "item.minecraft.lead",
+              "영어 이름": "Lead"
             },
             "block.minecraft.pitcher_plant": {
-              "아이템 아이디": "block.minecraft.pitcher_plant",
-              "아이템 영어 이름": "Pitcher Plant"
+              "아이디": "block.minecraft.pitcher_plant",
+              "영어 이름": "Pitcher Plant"
             },
             "item.minecraft.chorus_fruit": {
-              "아이템 아이디": "item.minecraft.chorus_fruit",
-              "아이템 영어 이름": "Chorus Fruit"
+              "아이디": "item.minecraft.chorus_fruit",
+              "영어 이름": "Chorus Fruit"
             },
             "item.minecraft.cocoa_beans": {
-              "아이템 아이디": "item.minecraft.cocoa_beans",
-              "아이템 영어 이름": "Cocoa Beans"
+              "아이디": "item.minecraft.cocoa_beans",
+              "영어 이름": "Cocoa Beans"
             },
             "block.minecraft.light": {
-              "아이템 아이디": "block.minecraft.light",
-              "아이템 영어 이름": "Light"
+              "아이디": "block.minecraft.light",
+              "영어 이름": "Light"
             },
             "block.minecraft.daylight_detector": {
-              "아이템 아이디": "block.minecraft.daylight_detector",
-              "아이템 영어 이름": "Daylight Detector"
+              "아이디": "block.minecraft.daylight_detector",
+              "영어 이름": "Daylight Detector"
             },
             "block.minecraft.warped_nylium": {
-              "아이템 아이디": "block.minecraft.warped_nylium",
-              "아이템 영어 이름": "Warped Nylium"
+              "아이디": "block.minecraft.warped_nylium",
+              "영어 이름": "Warped Nylium"
             },
             "item.minecraft.rabbit": {
-              "아이템 아이디": "item.minecraft.rabbit",
-              "아이템 영어 이름": "Raw Rabbit"
+              "아이디": "item.minecraft.rabbit",
+              "영어 이름": "Raw Rabbit"
             },
             "item.minecraft.flint": {
-              "아이템 아이디": "item.minecraft.flint",
-              "아이템 영어 이름": "Flint"
+              "아이디": "item.minecraft.flint",
+              "영어 이름": "Flint"
             },
             "block.minecraft.lectern": {
-              "아이템 아이디": "block.minecraft.lectern",
-              "아이템 영어 이름": "Lectern"
+              "아이디": "block.minecraft.lectern",
+              "영어 이름": "Lectern"
             },
             "block.minecraft.crying_obsidian": {
-              "아이템 아이디": "block.minecraft.crying_obsidian",
-              "아이템 영어 이름": "Crying Obsidian"
+              "아이디": "block.minecraft.crying_obsidian",
+              "영어 이름": "Crying Obsidian"
             },
             "block.minecraft.bee_nest": {
-              "아이템 아이디": "block.minecraft.bee_nest",
-              "아이템 영어 이름": "Bee Nest"
+              "아이디": "block.minecraft.bee_nest",
+              "영어 이름": "Bee Nest"
             },
             "item.minecraft.sheep_spawn_egg": {
-              "아이템 아이디": "item.minecraft.sheep_spawn_egg",
-              "아이템 영어 이름": "Sheep Spawn Egg"
+              "아이디": "item.minecraft.sheep_spawn_egg",
+              "영어 이름": "Sheep Spawn Egg"
             },
             "block.minecraft.sea_pickle": {
-              "아이템 아이디": "block.minecraft.sea_pickle",
-              "아이템 영어 이름": "Sea Pickle"
+              "아이디": "block.minecraft.sea_pickle",
+              "영어 이름": "Sea Pickle"
             },
             "item.minecraft.firework_star": {
-              "아이템 아이디": "item.minecraft.firework_star",
-              "아이템 영어 이름": "Firework Star"
+              "아이디": "item.minecraft.firework_star",
+              "영어 이름": "Firework Star"
             },
             "block.minecraft.clay": {
-              "아이템 아이디": "block.minecraft.clay",
-              "아이템 영어 이름": "Clay"
+              "아이디": "block.minecraft.clay",
+              "영어 이름": "Clay"
             },
             "block.minecraft.ladder": {
-              "아이템 아이디": "block.minecraft.ladder",
-              "아이템 영어 이름": "Ladder"
+              "아이디": "block.minecraft.ladder",
+              "영어 이름": "Ladder"
             },
             "block.minecraft.wet_sponge": {
-              "아이템 아이디": "block.minecraft.wet_sponge",
-              "아이템 영어 이름": "Wet Sponge"
+              "아이디": "block.minecraft.wet_sponge",
+              "영어 이름": "Wet Sponge"
             },
             "item.minecraft.netherite_scrap": {
-              "아이템 아이디": "item.minecraft.netherite_scrap",
-              "아이템 영어 이름": "Netherite Scrap"
+              "아이디": "item.minecraft.netherite_scrap",
+              "영어 이름": "Netherite Scrap"
             },
             "item.minecraft.map": {
-              "아이템 아이디": "item.minecraft.map",
-              "아이템 영어 이름": "Empty Map"
+              "아이디": "item.minecraft.map",
+              "영어 이름": "Empty Map"
             },
             "block.minecraft.mangrove_propagule": {
-              "아이템 아이디": "block.minecraft.mangrove_propagule",
-              "아이템 영어 이름": "Mangrove Propagule"
+              "아이디": "block.minecraft.mangrove_propagule",
+              "영어 이름": "Mangrove Propagule"
             },
             "item.minecraft.honeycomb": {
-              "아이템 아이디": "item.minecraft.honeycomb",
-              "아이템 영어 이름": "Honeycomb"
+              "아이디": "item.minecraft.honeycomb",
+              "영어 이름": "Honeycomb"
             },
             "block.minecraft.bookshelf": {
-              "아이템 아이디": "block.minecraft.bookshelf",
-              "아이템 영어 이름": "Bookshelf"
+              "아이디": "block.minecraft.bookshelf",
+              "영어 이름": "Bookshelf"
             },
             "item.minecraft.magma_cream": {
-              "아이템 아이디": "item.minecraft.magma_cream",
-              "아이템 영어 이름": "Magma Cream"
+              "아이디": "item.minecraft.magma_cream",
+              "영어 이름": "Magma Cream"
             },
             "item.minecraft.armadillo_scute": {
-              "아이템 아이디": "item.minecraft.armadillo_scute",
-              "아이템 영어 이름": "Armadillo Scute"
+              "아이디": "item.minecraft.armadillo_scute",
+              "영어 이름": "Armadillo Scute"
             },
             "item.minecraft.cod": {
-              "아이템 아이디": "item.minecraft.cod",
-              "아이템 영어 이름": "Raw Cod"
+              "아이디": "item.minecraft.cod",
+              "영어 이름": "Raw Cod"
             },
             "item.minecraft.potion.effect.empty": {
-              "아이템 아이디": "item.minecraft.potion.effect.empty",
-              "아이템 영어 이름": "Uncraftable Potion"
+              "아이디": "item.minecraft.potion.effect.empty",
+              "영어 이름": "Uncraftable Potion"
             },
             "block.minecraft.snow": {
-              "아이템 아이디": "block.minecraft.snow",
-              "아이템 영어 이름": "Snow"
+              "아이디": "block.minecraft.snow",
+              "영어 이름": "Snow"
             },
             "block.minecraft.big_dripleaf": {
-              "아이템 아이디": "block.minecraft.big_dripleaf",
-              "아이템 영어 이름": "Big Dripleaf"
+              "아이디": "block.minecraft.big_dripleaf",
+              "영어 이름": "Big Dripleaf"
             },
             "item.minecraft.gunpowder": {
-              "아이템 아이디": "item.minecraft.gunpowder",
-              "아이템 영어 이름": "Gunpowder"
+              "아이디": "item.minecraft.gunpowder",
+              "영어 이름": "Gunpowder"
             },
             "block.minecraft.cauldron": {
-              "아이템 아이디": "block.minecraft.cauldron",
-              "아이템 영어 이름": "Cauldron"
+              "아이디": "block.minecraft.cauldron",
+              "영어 이름": "Cauldron"
             },
             "item.minecraft.mace": {
-              "아이템 아이디": "item.minecraft.mace",
-              "아이템 영어 이름": "Mace"
+              "아이디": "item.minecraft.mace",
+              "영어 이름": "Mace"
             },
             "block.minecraft.flowering_azalea": {
-              "아이템 아이디": "block.minecraft.flowering_azalea",
-              "아이템 영어 이름": "Flowering Azalea"
+              "아이디": "block.minecraft.flowering_azalea",
+              "영어 이름": "Flowering Azalea"
             },
             "block.minecraft.brown_mushroom": {
-              "아이템 아이디": "block.minecraft.brown_mushroom",
-              "아이템 영어 이름": "Brown Mushroom"
+              "아이디": "block.minecraft.brown_mushroom",
+              "영어 이름": "Brown Mushroom"
             },
             "block.minecraft.lodestone": {
-              "아이템 아이디": "block.minecraft.lodestone",
-              "아이템 영어 이름": "Lodestone"
+              "아이디": "block.minecraft.lodestone",
+              "영어 이름": "Lodestone"
             },
             "block.minecraft.prismarine": {
-              "아이템 아이디": "block.minecraft.prismarine",
-              "아이템 영어 이름": "Prismarine"
+              "아이디": "block.minecraft.prismarine",
+              "영어 이름": "Prismarine"
             },
             "block.minecraft.tripwire_hook": {
-              "아이템 아이디": "block.minecraft.tripwire_hook",
-              "아이템 영어 이름": "Tripwire Hook"
+              "아이디": "block.minecraft.tripwire_hook",
+              "영어 이름": "Tripwire Hook"
             },
             "item.minecraft.melon_slice": {
-              "아이템 아이디": "item.minecraft.melon_slice",
-              "아이템 영어 이름": "Melon Slice"
+              "아이디": "item.minecraft.melon_slice",
+              "영어 이름": "Melon Slice"
             },
             "item.minecraft.nautilus_shell": {
-              "아이템 아이디": "item.minecraft.nautilus_shell",
-              "아이템 영어 이름": "Nautilus Shell"
+              "아이디": "item.minecraft.nautilus_shell",
+              "영어 이름": "Nautilus Shell"
             },
             "item.minecraft.spider_eye": {
-              "아이템 아이디": "item.minecraft.spider_eye",
-              "아이템 영어 이름": "Spider Eye"
+              "아이디": "item.minecraft.spider_eye",
+              "영어 이름": "Spider Eye"
             },
             "item.minecraft.rabbit_foot": {
-              "아이템 아이디": "item.minecraft.rabbit_foot",
-              "아이템 영어 이름": "Rabbit\u0027s Foot"
+              "아이디": "item.minecraft.rabbit_foot",
+              "영어 이름": "Rabbit\u0027s Foot"
             },
             "block.minecraft.vine": {
-              "아이템 아이디": "block.minecraft.vine",
-              "아이템 영어 이름": "Vines"
+              "아이디": "block.minecraft.vine",
+              "영어 이름": "Vines"
             },
             "block.minecraft.lily_of_the_valley": {
-              "아이템 아이디": "block.minecraft.lily_of_the_valley",
-              "아이템 영어 이름": "Lily of the Valley"
+              "아이디": "block.minecraft.lily_of_the_valley",
+              "영어 이름": "Lily of the Valley"
             },
             "block.minecraft.twisting_vines": {
-              "아이템 아이디": "block.minecraft.twisting_vines",
-              "아이템 영어 이름": "Twisting Vines"
+              "아이디": "block.minecraft.twisting_vines",
+              "영어 이름": "Twisting Vines"
             },
             "block.minecraft.redstone_lamp": {
-              "아이템 아이디": "block.minecraft.redstone_lamp",
-              "아이템 영어 이름": "Redstone Lamp"
+              "아이디": "block.minecraft.redstone_lamp",
+              "영어 이름": "Redstone Lamp"
             },
             "item.minecraft.shulker_shell": {
-              "아이템 아이디": "item.minecraft.shulker_shell",
-              "아이템 영어 이름": "Shulker Shell"
+              "아이디": "item.minecraft.shulker_shell",
+              "영어 이름": "Shulker Shell"
             },
             "item.minecraft.paper": {
-              "아이템 아이디": "item.minecraft.paper",
-              "아이템 영어 이름": "Paper"
+              "아이디": "item.minecraft.paper",
+              "영어 이름": "Paper"
             },
             "block.minecraft.bell": {
-              "아이템 아이디": "block.minecraft.bell",
-              "아이템 영어 이름": "Bell"
+              "아이디": "block.minecraft.bell",
+              "영어 이름": "Bell"
             },
             "block.minecraft.smoker": {
-              "아이템 아이디": "block.minecraft.smoker",
-              "아이템 영어 이름": "Smoker"
+              "아이디": "block.minecraft.smoker",
+              "영어 이름": "Smoker"
             },
             "block.minecraft.warped_hyphae": {
-              "아이템 아이디": "block.minecraft.warped_hyphae",
-              "아이템 영어 이름": "Warped Hyphae"
+              "아이디": "block.minecraft.warped_hyphae",
+              "영어 이름": "Warped Hyphae"
             },
             "item.minecraft.trial_key": {
-              "아이템 아이디": "item.minecraft.trial_key",
-              "아이템 영어 이름": "Trial Key"
+              "아이디": "item.minecraft.trial_key",
+              "영어 이름": "Trial Key"
             },
             "block.minecraft.cobweb": {
-              "아이템 아이디": "block.minecraft.cobweb",
-              "아이템 영어 이름": "Cobweb"
+              "아이디": "block.minecraft.cobweb",
+              "영어 이름": "Cobweb"
             },
             "block.minecraft.calibrated_sculk_sensor": {
-              "아이템 아이디": "block.minecraft.calibrated_sculk_sensor",
-              "아이템 영어 이름": "Calibrated Sculk Sensor"
+              "아이디": "block.minecraft.calibrated_sculk_sensor",
+              "영어 이름": "Calibrated Sculk Sensor"
             },
             "block.minecraft.shroomlight": {
-              "아이템 아이디": "block.minecraft.shroomlight",
-              "아이템 영어 이름": "Shroomlight"
+              "아이디": "block.minecraft.shroomlight",
+              "영어 이름": "Shroomlight"
             },
             "item.minecraft.bow": {
-              "아이템 아이디": "item.minecraft.bow",
-              "아이템 영어 이름": "Bow"
+              "아이디": "item.minecraft.bow",
+              "영어 이름": "Bow"
             },
             "block.minecraft.granite": {
-              "아이템 아이디": "block.minecraft.granite",
-              "아이템 영어 이름": "Granite"
+              "아이디": "block.minecraft.granite",
+              "영어 이름": "Granite"
             },
             "block.minecraft.mycelium": {
-              "아이템 아이디": "block.minecraft.mycelium",
-              "아이템 영어 이름": "Mycelium"
+              "아이디": "block.minecraft.mycelium",
+              "영어 이름": "Mycelium"
             },
             "item.minecraft.cow_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cow_spawn_egg",
-              "아이템 영어 이름": "Cow Spawn Egg"
+              "아이디": "item.minecraft.cow_spawn_egg",
+              "영어 이름": "Cow Spawn Egg"
             },
             "block.minecraft.sculk_shrieker": {
-              "아이템 아이디": "block.minecraft.sculk_shrieker",
-              "아이템 영어 이름": "Sculk Shrieker"
+              "아이디": "block.minecraft.sculk_shrieker",
+              "영어 이름": "Sculk Shrieker"
             },
             "item.minecraft.brush": {
-              "아이템 아이디": "item.minecraft.brush",
-              "아이템 영어 이름": "Brush"
+              "아이디": "item.minecraft.brush",
+              "영어 이름": "Brush"
             },
             "block.minecraft.torchflower": {
-              "아이템 아이디": "block.minecraft.torchflower",
-              "아이템 영어 이름": "Torchflower"
+              "아이디": "block.minecraft.torchflower",
+              "영어 이름": "Torchflower"
             },
             "block.minecraft.obsidian": {
-              "아이템 아이디": "block.minecraft.obsidian",
-              "아이템 영어 이름": "Obsidian"
+              "아이디": "block.minecraft.obsidian",
+              "영어 이름": "Obsidian"
             },
             "block.minecraft.sculk_vein": {
-              "아이템 아이디": "block.minecraft.sculk_vein",
-              "아이템 영어 이름": "Sculk Vein"
+              "아이디": "block.minecraft.sculk_vein",
+              "영어 이름": "Sculk Vein"
             },
             "block.minecraft.blue_orchid": {
-              "아이템 아이디": "block.minecraft.blue_orchid",
-              "아이템 영어 이름": "Blue Orchid"
+              "아이디": "block.minecraft.blue_orchid",
+              "영어 이름": "Blue Orchid"
             },
             "block.minecraft.barrel": {
-              "아이템 아이디": "block.minecraft.barrel",
-              "아이템 영어 이름": "Barrel"
+              "아이디": "block.minecraft.barrel",
+              "영어 이름": "Barrel"
             },
             "item.minecraft.bone": {
-              "아이템 아이디": "item.minecraft.bone",
-              "아이템 영어 이름": "Bone"
+              "아이디": "item.minecraft.bone",
+              "영어 이름": "Bone"
             },
             "item.minecraft.diamond": {
-              "아이템 아이디": "item.minecraft.diamond",
-              "아이템 영어 이름": "Diamond"
+              "아이디": "item.minecraft.diamond",
+              "영어 이름": "Diamond"
             },
             "block.minecraft.weeping_vines": {
-              "아이템 아이디": "block.minecraft.weeping_vines",
-              "아이템 영어 이름": "Weeping Vines"
+              "아이디": "block.minecraft.weeping_vines",
+              "영어 이름": "Weeping Vines"
             },
             "block.minecraft.beehive": {
-              "아이템 아이디": "block.minecraft.beehive",
-              "아이템 영어 이름": "Beehive"
+              "아이디": "block.minecraft.beehive",
+              "영어 이름": "Beehive"
             },
             "block.minecraft.chain": {
-              "아이템 아이디": "block.minecraft.chain",
-              "아이템 영어 이름": "Chain"
+              "아이디": "block.minecraft.chain",
+              "영어 이름": "Chain"
             },
             "block.minecraft.crafter": {
-              "아이템 아이디": "block.minecraft.crafter",
-              "아이템 영어 이름": "Crafter"
+              "아이디": "block.minecraft.crafter",
+              "영어 이름": "Crafter"
             },
             "item.minecraft.rabbit_spawn_egg": {
-              "아이템 아이디": "item.minecraft.rabbit_spawn_egg",
-              "아이템 영어 이름": "Rabbit Spawn Egg"
+              "아이디": "item.minecraft.rabbit_spawn_egg",
+              "영어 이름": "Rabbit Spawn Egg"
             },
             "block.minecraft.beacon": {
-              "아이템 아이디": "block.minecraft.beacon",
-              "아이템 영어 이름": "Beacon"
+              "아이디": "block.minecraft.beacon",
+              "영어 이름": "Beacon"
             },
             "item.minecraft.painting": {
-              "아이템 아이디": "item.minecraft.painting",
-              "아이템 영어 이름": "Painting"
+              "아이디": "item.minecraft.painting",
+              "영어 이름": "Painting"
             },
             "block.minecraft.polished_andesite": {
-              "아이템 아이디": "block.minecraft.polished_andesite",
-              "아이템 영어 이름": "Polished Andesite"
+              "아이디": "block.minecraft.polished_andesite",
+              "영어 이름": "Polished Andesite"
             },
             "block.minecraft.mud": {
-              "아이템 아이디": "block.minecraft.mud",
-              "아이템 영어 이름": "Mud"
+              "아이디": "block.minecraft.mud",
+              "영어 이름": "Mud"
             },
             "item.minecraft.lapis_lazuli": {
-              "아이템 아이디": "item.minecraft.lapis_lazuli",
-              "아이템 영어 이름": "Lapis Lazuli"
+              "아이디": "item.minecraft.lapis_lazuli",
+              "영어 이름": "Lapis Lazuli"
             },
             "block.minecraft.amethyst_cluster": {
-              "아이템 아이디": "block.minecraft.amethyst_cluster",
-              "아이템 영어 이름": "Amethyst Cluster"
+              "아이디": "block.minecraft.amethyst_cluster",
+              "영어 이름": "Amethyst Cluster"
             },
             "block.minecraft.frogspawn": {
-              "아이템 아이디": "block.minecraft.frogspawn",
-              "아이템 영어 이름": "Frogspawn"
+              "아이디": "block.minecraft.frogspawn",
+              "영어 이름": "Frogspawn"
             },
             "item.minecraft.turtle_scute": {
-              "아이템 아이디": "item.minecraft.turtle_scute",
-              "아이템 영어 이름": "Turtle Scute"
+              "아이디": "item.minecraft.turtle_scute",
+              "영어 이름": "Turtle Scute"
             },
             "block.minecraft.barrier": {
-              "아이템 아이디": "block.minecraft.barrier",
-              "아이템 영어 이름": "Barrier"
+              "아이디": "block.minecraft.barrier",
+              "영어 이름": "Barrier"
             },
             "item.minecraft.raw_iron": {
-              "아이템 아이디": "item.minecraft.raw_iron",
-              "아이템 영어 이름": "Raw Iron"
+              "아이디": "item.minecraft.raw_iron",
+              "영어 이름": "Raw Iron"
             },
             "item.minecraft.beetroot_soup": {
-              "아이템 아이디": "item.minecraft.beetroot_soup",
-              "아이템 영어 이름": "Beetroot Soup"
+              "아이디": "item.minecraft.beetroot_soup",
+              "영어 이름": "Beetroot Soup"
             },
             "item.minecraft.chicken_spawn_egg": {
-              "아이템 아이디": "item.minecraft.chicken_spawn_egg",
-              "아이템 영어 이름": "Chicken Spawn Egg"
+              "아이디": "item.minecraft.chicken_spawn_egg",
+              "영어 이름": "Chicken Spawn Egg"
             },
             "block.minecraft.large_fern": {
-              "아이템 아이디": "block.minecraft.large_fern",
-              "아이템 영어 이름": "Large Fern"
+              "아이디": "block.minecraft.large_fern",
+              "영어 이름": "Large Fern"
             },
             "item.minecraft.filled_map": {
-              "아이템 아이디": "item.minecraft.filled_map",
-              "아이템 영어 이름": "Map"
+              "아이디": "item.minecraft.filled_map",
+              "영어 이름": "Map"
             },
             "item.minecraft.clay_ball": {
-              "아이템 아이디": "item.minecraft.clay_ball",
-              "아이템 영어 이름": "Clay Ball"
+              "아이디": "item.minecraft.clay_ball",
+              "영어 이름": "Clay Ball"
             },
             "item.minecraft.rabbit_hide": {
-              "아이템 아이디": "item.minecraft.rabbit_hide",
-              "아이템 영어 이름": "Rabbit Hide"
+              "아이디": "item.minecraft.rabbit_hide",
+              "영어 이름": "Rabbit Hide"
             },
             "block.minecraft.jigsaw": {
-              "아이템 아이디": "block.minecraft.jigsaw",
-              "아이템 영어 이름": "Jigsaw Block"
+              "아이디": "block.minecraft.jigsaw",
+              "영어 이름": "Jigsaw Block"
             },
             "block.minecraft.flower_pot": {
-              "아이템 아이디": "block.minecraft.flower_pot",
-              "아이템 영어 이름": "Flower Pot"
+              "아이디": "block.minecraft.flower_pot",
+              "영어 이름": "Flower Pot"
             },
             "block.minecraft.brewing_stand": {
-              "아이템 아이디": "block.minecraft.brewing_stand",
-              "아이템 영어 이름": "Brewing Stand"
+              "아이디": "block.minecraft.brewing_stand",
+              "영어 이름": "Brewing Stand"
             },
             "block.minecraft.bamboo_mosaic": {
-              "아이템 아이디": "block.minecraft.bamboo_mosaic",
-              "아이템 영어 이름": "Bamboo Mosaic"
+              "아이디": "block.minecraft.bamboo_mosaic",
+              "영어 이름": "Bamboo Mosaic"
             },
             "block.minecraft.grindstone": {
-              "아이템 아이디": "block.minecraft.grindstone",
-              "아이템 영어 이름": "Grindstone"
+              "아이디": "block.minecraft.grindstone",
+              "영어 이름": "Grindstone"
             },
             "block.minecraft.dirt_path": {
-              "아이템 아이디": "block.minecraft.dirt_path",
-              "아이템 영어 이름": "Dirt Path"
+              "아이디": "block.minecraft.dirt_path",
+              "영어 이름": "Dirt Path"
             },
             "block.minecraft.heavy_core": {
-              "아이템 아이디": "block.minecraft.heavy_core",
-              "아이템 영어 이름": "Heavy Core"
+              "아이디": "block.minecraft.heavy_core",
+              "영어 이름": "Heavy Core"
             },
             "item.minecraft.ghast_tear": {
-              "아이템 아이디": "item.minecraft.ghast_tear",
-              "아이템 영어 이름": "Ghast Tear"
+              "아이디": "item.minecraft.ghast_tear",
+              "영어 이름": "Ghast Tear"
             },
             "block.minecraft.target": {
-              "아이템 아이디": "block.minecraft.target",
-              "아이템 영어 이름": "Target"
+              "아이디": "block.minecraft.target",
+              "영어 이름": "Target"
             },
             "item.minecraft.villager_spawn_egg": {
-              "아이템 아이디": "item.minecraft.villager_spawn_egg",
-              "아이템 영어 이름": "Villager Spawn Egg"
+              "아이디": "item.minecraft.villager_spawn_egg",
+              "영어 이름": "Villager Spawn Egg"
             },
             "block.minecraft.fern": {
-              "아이템 아이디": "block.minecraft.fern",
-              "아이템 영어 이름": "Fern"
+              "아이디": "block.minecraft.fern",
+              "영어 이름": "Fern"
             },
             "item.minecraft.rotten_flesh": {
-              "아이템 아이디": "item.minecraft.rotten_flesh",
-              "아이템 영어 이름": "Rotten Flesh"
+              "아이디": "item.minecraft.rotten_flesh",
+              "영어 이름": "Rotten Flesh"
             },
             "item.minecraft.crossbow": {
-              "아이템 아이디": "item.minecraft.crossbow",
-              "아이템 영어 이름": "Crossbow"
+              "아이디": "item.minecraft.crossbow",
+              "영어 이름": "Crossbow"
             },
             "block.minecraft.campfire": {
-              "아이템 아이디": "block.minecraft.campfire",
-              "아이템 영어 이름": "Campfire"
+              "아이디": "block.minecraft.campfire",
+              "영어 이름": "Campfire"
             },
             "block.minecraft.soul_soil": {
-              "아이템 아이디": "block.minecraft.soul_soil",
-              "아이템 영어 이름": "Soul Soil"
+              "아이디": "block.minecraft.soul_soil",
+              "영어 이름": "Soul Soil"
             },
             "block.minecraft.blast_furnace": {
-              "아이템 아이디": "block.minecraft.blast_furnace",
-              "아이템 영어 이름": "Blast Furnace"
+              "아이디": "block.minecraft.blast_furnace",
+              "영어 이름": "Blast Furnace"
             },
             "item.minecraft.glowstone_dust": {
-              "아이템 아이디": "item.minecraft.glowstone_dust",
-              "아이템 영어 이름": "Glowstone Dust"
+              "아이디": "item.minecraft.glowstone_dust",
+              "영어 이름": "Glowstone Dust"
             },
             "item.minecraft.dragon_breath": {
-              "아이템 아이디": "item.minecraft.dragon_breath",
-              "아이템 영어 이름": "Dragon\u0027s Breath"
+              "아이디": "item.minecraft.dragon_breath",
+              "영어 이름": "Dragon\u0027s Breath"
             },
             "block.minecraft.red_mushroom": {
-              "아이템 아이디": "block.minecraft.red_mushroom",
-              "아이템 영어 이름": "Red Mushroom"
+              "아이디": "block.minecraft.red_mushroom",
+              "영어 이름": "Red Mushroom"
             },
             "block.minecraft.spawner": {
-              "아이템 아이디": "block.minecraft.spawner",
-              "아이템 영어 이름": "Monster Spawner"
+              "아이디": "block.minecraft.spawner",
+              "영어 이름": "Monster Spawner"
             }
           }
         },
@@ -822,16 +822,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.chipped_anvil": {
-              "아이템 아이디": "block.minecraft.chipped_anvil",
-              "아이템 영어 이름": "Chipped Anvil"
+              "아이디": "block.minecraft.chipped_anvil",
+              "영어 이름": "Chipped Anvil"
             },
             "block.minecraft.anvil": {
-              "아이템 아이디": "block.minecraft.anvil",
-              "아이템 영어 이름": "Anvil"
+              "아이디": "block.minecraft.anvil",
+              "영어 이름": "Anvil"
             },
             "block.minecraft.damaged_anvil": {
-              "아이템 아이디": "block.minecraft.damaged_anvil",
-              "아이템 영어 이름": "Damaged Anvil"
+              "아이디": "block.minecraft.damaged_anvil",
+              "영어 이름": "Damaged Anvil"
             }
           }
         },
@@ -840,16 +840,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.polished_basalt": {
-              "아이템 아이디": "block.minecraft.polished_basalt",
-              "아이템 영어 이름": "Polished Basalt"
+              "아이디": "block.minecraft.polished_basalt",
+              "영어 이름": "Polished Basalt"
             },
             "block.minecraft.basalt": {
-              "아이템 아이디": "block.minecraft.basalt",
-              "아이템 영어 이름": "Basalt"
+              "아이디": "block.minecraft.basalt",
+              "영어 이름": "Basalt"
             },
             "block.minecraft.smooth_basalt": {
-              "아이템 아이디": "block.minecraft.smooth_basalt",
-              "아이템 영어 이름": "Smooth Basalt"
+              "아이디": "block.minecraft.smooth_basalt",
+              "영어 이름": "Smooth Basalt"
             }
           }
         },
@@ -858,20 +858,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.blackstone": {
-              "아이템 아이디": "block.minecraft.blackstone",
-              "아이템 영어 이름": "Blackstone"
+              "아이디": "block.minecraft.blackstone",
+              "영어 이름": "Blackstone"
             },
             "block.minecraft.polished_blackstone": {
-              "아이템 아이디": "block.minecraft.polished_blackstone",
-              "아이템 영어 이름": "Polished Blackstone"
+              "아이디": "block.minecraft.polished_blackstone",
+              "영어 이름": "Polished Blackstone"
             },
             "block.minecraft.gilded_blackstone": {
-              "아이템 아이디": "block.minecraft.gilded_blackstone",
-              "아이템 영어 이름": "Gilded Blackstone"
+              "아이디": "block.minecraft.gilded_blackstone",
+              "영어 이름": "Gilded Blackstone"
             },
             "block.minecraft.chiseled_polished_blackstone": {
-              "아이템 아이디": "block.minecraft.chiseled_polished_blackstone",
-              "아이템 영어 이름": "Chiseled Polished Blackstone"
+              "아이디": "block.minecraft.chiseled_polished_blackstone",
+              "영어 이름": "Chiseled Polished Blackstone"
             }
           }
         },
@@ -880,144 +880,144 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.raw_gold_block": {
-              "아이템 아이디": "block.minecraft.raw_gold_block",
-              "아이템 영어 이름": "Block of Raw Gold"
+              "아이디": "block.minecraft.raw_gold_block",
+              "영어 이름": "Block of Raw Gold"
             },
             "block.minecraft.repeating_command_block": {
-              "아이템 아이디": "block.minecraft.repeating_command_block",
-              "아이템 영어 이름": "Repeating Command Block"
+              "아이디": "block.minecraft.repeating_command_block",
+              "영어 이름": "Repeating Command Block"
             },
             "block.minecraft.slime_block": {
-              "아이템 아이디": "block.minecraft.slime_block",
-              "아이템 영어 이름": "Slime Block"
+              "아이디": "block.minecraft.slime_block",
+              "영어 이름": "Slime Block"
             },
             "block.minecraft.redstone_block": {
-              "아이템 아이디": "block.minecraft.redstone_block",
-              "아이템 영어 이름": "Block of Redstone"
+              "아이디": "block.minecraft.redstone_block",
+              "영어 이름": "Block of Redstone"
             },
             "block.minecraft.amethyst_block": {
-              "아이템 아이디": "block.minecraft.amethyst_block",
-              "아이템 영어 이름": "Block of Amethyst"
+              "아이디": "block.minecraft.amethyst_block",
+              "영어 이름": "Block of Amethyst"
             },
             "block.minecraft.lapis_block": {
-              "아이템 아이디": "block.minecraft.lapis_block",
-              "아이템 영어 이름": "Block of Lapis Lazuli"
+              "아이디": "block.minecraft.lapis_block",
+              "영어 이름": "Block of Lapis Lazuli"
             },
             "block.minecraft.command_block": {
-              "아이템 아이디": "block.minecraft.command_block",
-              "아이템 영어 이름": "Command Block"
+              "아이디": "block.minecraft.command_block",
+              "영어 이름": "Command Block"
             },
             "block.minecraft.grass_block": {
-              "아이템 아이디": "block.minecraft.grass_block",
-              "아이템 영어 이름": "Grass Block"
+              "아이디": "block.minecraft.grass_block",
+              "영어 이름": "Grass Block"
             },
             "block.minecraft.gold_block": {
-              "아이템 아이디": "block.minecraft.gold_block",
-              "아이템 영어 이름": "Block of Gold"
+              "아이디": "block.minecraft.gold_block",
+              "영어 이름": "Block of Gold"
             },
             "block.minecraft.red_mushroom_block": {
-              "아이템 아이디": "block.minecraft.red_mushroom_block",
-              "아이템 영어 이름": "Red Mushroom Block"
+              "아이디": "block.minecraft.red_mushroom_block",
+              "영어 이름": "Red Mushroom Block"
             },
             "block.minecraft.moss_block": {
-              "아이템 아이디": "block.minecraft.moss_block",
-              "아이템 영어 이름": "Moss Block"
+              "아이디": "block.minecraft.moss_block",
+              "영어 이름": "Moss Block"
             },
             "block.minecraft.waxed_copper_block": {
-              "아이템 아이디": "block.minecraft.waxed_copper_block",
-              "아이템 영어 이름": "Waxed Block of Copper"
+              "아이디": "block.minecraft.waxed_copper_block",
+              "영어 이름": "Waxed Block of Copper"
             },
             "block.minecraft.chain_command_block": {
-              "아이템 아이디": "block.minecraft.chain_command_block",
-              "아이템 영어 이름": "Chain Command Block"
+              "아이디": "block.minecraft.chain_command_block",
+              "영어 이름": "Chain Command Block"
             },
             "block.minecraft.warped_wart_block": {
-              "아이템 아이디": "block.minecraft.warped_wart_block",
-              "아이템 영어 이름": "Warped Wart Block"
+              "아이디": "block.minecraft.warped_wart_block",
+              "영어 이름": "Warped Wart Block"
             },
             "block.minecraft.bamboo_block": {
-              "아이템 아이디": "block.minecraft.bamboo_block",
-              "아이템 영어 이름": "Block of Bamboo"
+              "아이디": "block.minecraft.bamboo_block",
+              "영어 이름": "Block of Bamboo"
             },
             "block.minecraft.dripstone_block": {
-              "아이템 아이디": "block.minecraft.dripstone_block",
-              "아이템 영어 이름": "Dripstone Block"
+              "아이디": "block.minecraft.dripstone_block",
+              "영어 이름": "Dripstone Block"
             },
             "block.minecraft.magma_block": {
-              "아이템 아이디": "block.minecraft.magma_block",
-              "아이템 영어 이름": "Magma Block"
+              "아이디": "block.minecraft.magma_block",
+              "영어 이름": "Magma Block"
             },
             "block.minecraft.hay_block": {
-              "아이템 아이디": "block.minecraft.hay_block",
-              "아이템 영어 이름": "Hay Bale"
+              "아이디": "block.minecraft.hay_block",
+              "영어 이름": "Hay Bale"
             },
             "block.minecraft.diamond_block": {
-              "아이템 아이디": "block.minecraft.diamond_block",
-              "아이템 영어 이름": "Block of Diamond"
+              "아이디": "block.minecraft.diamond_block",
+              "영어 이름": "Block of Diamond"
             },
             "block.minecraft.bone_block": {
-              "아이템 아이디": "block.minecraft.bone_block",
-              "아이템 영어 이름": "Bone Block"
+              "아이디": "block.minecraft.bone_block",
+              "영어 이름": "Bone Block"
             },
             "block.minecraft.copper_block": {
-              "아이템 아이디": "block.minecraft.copper_block",
-              "아이템 영어 이름": "Block of Copper"
+              "아이디": "block.minecraft.copper_block",
+              "영어 이름": "Block of Copper"
             },
             "block.minecraft.brown_mushroom_block": {
-              "아이템 아이디": "block.minecraft.brown_mushroom_block",
-              "아이템 영어 이름": "Brown Mushroom Block"
+              "아이디": "block.minecraft.brown_mushroom_block",
+              "영어 이름": "Brown Mushroom Block"
             },
             "block.minecraft.purpur_block": {
-              "아이템 아이디": "block.minecraft.purpur_block",
-              "아이템 영어 이름": "Purpur Block"
+              "아이디": "block.minecraft.purpur_block",
+              "영어 이름": "Purpur Block"
             },
             "block.minecraft.iron_block": {
-              "아이템 아이디": "block.minecraft.iron_block",
-              "아이템 영어 이름": "Block of Iron"
+              "아이디": "block.minecraft.iron_block",
+              "영어 이름": "Block of Iron"
             },
             "block.minecraft.honey_block": {
-              "아이템 아이디": "block.minecraft.honey_block",
-              "아이템 영어 이름": "Honey Block"
+              "아이디": "block.minecraft.honey_block",
+              "영어 이름": "Honey Block"
             },
             "block.minecraft.honeycomb_block": {
-              "아이템 아이디": "block.minecraft.honeycomb_block",
-              "아이템 영어 이름": "Honeycomb Block"
+              "아이디": "block.minecraft.honeycomb_block",
+              "영어 이름": "Honeycomb Block"
             },
             "block.minecraft.raw_iron_block": {
-              "아이템 아이디": "block.minecraft.raw_iron_block",
-              "아이템 영어 이름": "Block of Raw Iron"
+              "아이디": "block.minecraft.raw_iron_block",
+              "영어 이름": "Block of Raw Iron"
             },
             "block.minecraft.raw_copper_block": {
-              "아이템 아이디": "block.minecraft.raw_copper_block",
-              "아이템 영어 이름": "Block of Raw Copper"
+              "아이디": "block.minecraft.raw_copper_block",
+              "영어 이름": "Block of Raw Copper"
             },
             "block.minecraft.note_block": {
-              "아이템 아이디": "block.minecraft.note_block",
-              "아이템 영어 이름": "Note Block"
+              "아이디": "block.minecraft.note_block",
+              "영어 이름": "Note Block"
             },
             "block.minecraft.netherite_block": {
-              "아이템 아이디": "block.minecraft.netherite_block",
-              "아이템 영어 이름": "Block of Netherite"
+              "아이디": "block.minecraft.netherite_block",
+              "영어 이름": "Block of Netherite"
             },
             "block.minecraft.snow_block": {
-              "아이템 아이디": "block.minecraft.snow_block",
-              "아이템 영어 이름": "Snow Block"
+              "아이디": "block.minecraft.snow_block",
+              "영어 이름": "Snow Block"
             },
             "block.minecraft.stripped_bamboo_block": {
-              "아이템 아이디": "block.minecraft.stripped_bamboo_block",
-              "아이템 영어 이름": "Block of Stripped Bamboo"
+              "아이디": "block.minecraft.stripped_bamboo_block",
+              "영어 이름": "Block of Stripped Bamboo"
             },
             "block.minecraft.emerald_block": {
-              "아이템 아이디": "block.minecraft.emerald_block",
-              "아이템 영어 이름": "Block of Emerald"
+              "아이디": "block.minecraft.emerald_block",
+              "영어 이름": "Block of Emerald"
             },
             "block.minecraft.structure_block": {
-              "아이템 아이디": "block.minecraft.structure_block",
-              "아이템 영어 이름": "Structure Block"
+              "아이디": "block.minecraft.structure_block",
+              "영어 이름": "Structure Block"
             },
             "block.minecraft.coal_block": {
-              "아이템 아이디": "block.minecraft.coal_block",
-              "아이템 영어 이름": "Block of Coal"
+              "아이디": "block.minecraft.coal_block",
+              "영어 이름": "Block of Coal"
             }
           }
         },
@@ -1026,16 +1026,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.honey_bottle": {
-              "아이템 아이디": "item.minecraft.honey_bottle",
-              "아이템 영어 이름": "Honey Bottle"
+              "아이디": "item.minecraft.honey_bottle",
+              "영어 이름": "Honey Bottle"
             },
             "item.minecraft.glass_bottle": {
-              "아이템 아이디": "item.minecraft.glass_bottle",
-              "아이템 영어 이름": "Glass Bottle"
+              "아이디": "item.minecraft.glass_bottle",
+              "영어 이름": "Glass Bottle"
             },
             "item.minecraft.ominous_bottle": {
-              "아이템 아이디": "item.minecraft.ominous_bottle",
-              "아이템 영어 이름": "Ominous Bottle"
+              "아이디": "item.minecraft.ominous_bottle",
+              "영어 이름": "Ominous Bottle"
             }
           }
         },
@@ -1044,76 +1044,76 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.cracked_polished_blackstone_bricks": {
-              "아이템 아이디": "block.minecraft.cracked_polished_blackstone_bricks",
-              "아이템 영어 이름": "Cracked Polished Blackstone Bricks"
+              "아이디": "block.minecraft.cracked_polished_blackstone_bricks",
+              "영어 이름": "Cracked Polished Blackstone Bricks"
             },
             "block.minecraft.tuff_bricks": {
-              "아이템 아이디": "block.minecraft.tuff_bricks",
-              "아이템 영어 이름": "Tuff Bricks"
+              "아이디": "block.minecraft.tuff_bricks",
+              "영어 이름": "Tuff Bricks"
             },
             "block.minecraft.cracked_deepslate_bricks": {
-              "아이템 아이디": "block.minecraft.cracked_deepslate_bricks",
-              "아이템 영어 이름": "Cracked Deepslate Bricks"
+              "아이디": "block.minecraft.cracked_deepslate_bricks",
+              "영어 이름": "Cracked Deepslate Bricks"
             },
             "block.minecraft.bricks": {
-              "아이템 아이디": "block.minecraft.bricks",
-              "아이템 영어 이름": "Bricks"
+              "아이디": "block.minecraft.bricks",
+              "영어 이름": "Bricks"
             },
             "block.minecraft.polished_blackstone_bricks": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_bricks",
-              "아이템 영어 이름": "Polished Blackstone Bricks"
+              "아이디": "block.minecraft.polished_blackstone_bricks",
+              "영어 이름": "Polished Blackstone Bricks"
             },
             "block.minecraft.prismarine_bricks": {
-              "아이템 아이디": "block.minecraft.prismarine_bricks",
-              "아이템 영어 이름": "Prismarine Bricks"
+              "아이디": "block.minecraft.prismarine_bricks",
+              "영어 이름": "Prismarine Bricks"
             },
             "block.minecraft.chiseled_tuff_bricks": {
-              "아이템 아이디": "block.minecraft.chiseled_tuff_bricks",
-              "아이템 영어 이름": "Chiseled Tuff Bricks"
+              "아이디": "block.minecraft.chiseled_tuff_bricks",
+              "영어 이름": "Chiseled Tuff Bricks"
             },
             "block.minecraft.infested_stone_bricks": {
-              "아이템 아이디": "block.minecraft.infested_stone_bricks",
-              "아이템 영어 이름": "Infested Stone Bricks"
+              "아이디": "block.minecraft.infested_stone_bricks",
+              "영어 이름": "Infested Stone Bricks"
             },
             "block.minecraft.infested_mossy_stone_bricks": {
-              "아이템 아이디": "block.minecraft.infested_mossy_stone_bricks",
-              "아이템 영어 이름": "Infested Mossy Stone Bricks"
+              "아이디": "block.minecraft.infested_mossy_stone_bricks",
+              "영어 이름": "Infested Mossy Stone Bricks"
             },
             "block.minecraft.end_stone_bricks": {
-              "아이템 아이디": "block.minecraft.end_stone_bricks",
-              "아이템 영어 이름": "End Stone Bricks"
+              "아이디": "block.minecraft.end_stone_bricks",
+              "영어 이름": "End Stone Bricks"
             },
             "block.minecraft.deepslate_bricks": {
-              "아이템 아이디": "block.minecraft.deepslate_bricks",
-              "아이템 영어 이름": "Deepslate Bricks"
+              "아이디": "block.minecraft.deepslate_bricks",
+              "영어 이름": "Deepslate Bricks"
             },
             "block.minecraft.infested_cracked_stone_bricks": {
-              "아이템 아이디": "block.minecraft.infested_cracked_stone_bricks",
-              "아이템 영어 이름": "Infested Cracked Stone Bricks"
+              "아이디": "block.minecraft.infested_cracked_stone_bricks",
+              "영어 이름": "Infested Cracked Stone Bricks"
             },
             "block.minecraft.mud_bricks": {
-              "아이템 아이디": "block.minecraft.mud_bricks",
-              "아이템 영어 이름": "Mud Bricks"
+              "아이디": "block.minecraft.mud_bricks",
+              "영어 이름": "Mud Bricks"
             },
             "block.minecraft.mossy_stone_bricks": {
-              "아이템 아이디": "block.minecraft.mossy_stone_bricks",
-              "아이템 영어 이름": "Mossy Stone Bricks"
+              "아이디": "block.minecraft.mossy_stone_bricks",
+              "영어 이름": "Mossy Stone Bricks"
             },
             "block.minecraft.infested_chiseled_stone_bricks": {
-              "아이템 아이디": "block.minecraft.infested_chiseled_stone_bricks",
-              "아이템 영어 이름": "Infested Chiseled Stone Bricks"
+              "아이디": "block.minecraft.infested_chiseled_stone_bricks",
+              "영어 이름": "Infested Chiseled Stone Bricks"
             },
             "block.minecraft.cracked_stone_bricks": {
-              "아이템 아이디": "block.minecraft.cracked_stone_bricks",
-              "아이템 영어 이름": "Cracked Stone Bricks"
+              "아이디": "block.minecraft.cracked_stone_bricks",
+              "영어 이름": "Cracked Stone Bricks"
             },
             "block.minecraft.chiseled_stone_bricks": {
-              "아이템 아이디": "block.minecraft.chiseled_stone_bricks",
-              "아이템 영어 이름": "Chiseled Stone Bricks"
+              "아이디": "block.minecraft.chiseled_stone_bricks",
+              "영어 이름": "Chiseled Stone Bricks"
             },
             "block.minecraft.stone_bricks": {
-              "아이템 아이디": "block.minecraft.stone_bricks",
-              "아이템 영어 이름": "Stone Bricks"
+              "아이디": "block.minecraft.stone_bricks",
+              "영어 이름": "Stone Bricks"
             }
           }
         },
@@ -1122,16 +1122,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.small_amethyst_bud": {
-              "아이템 아이디": "block.minecraft.small_amethyst_bud",
-              "아이템 영어 이름": "Small Amethyst Bud"
+              "아이디": "block.minecraft.small_amethyst_bud",
+              "영어 이름": "Small Amethyst Bud"
             },
             "block.minecraft.medium_amethyst_bud": {
-              "아이템 아이디": "block.minecraft.medium_amethyst_bud",
-              "아이템 영어 이름": "Medium Amethyst Bud"
+              "아이디": "block.minecraft.medium_amethyst_bud",
+              "영어 이름": "Medium Amethyst Bud"
             },
             "block.minecraft.large_amethyst_bud": {
-              "아이템 아이디": "block.minecraft.large_amethyst_bud",
-              "아이템 영어 이름": "Large Amethyst Bud"
+              "아이디": "block.minecraft.large_amethyst_bud",
+              "영어 이름": "Large Amethyst Bud"
             }
           }
         },
@@ -1140,36 +1140,36 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.waxed_copper_bulb": {
-              "아이템 아이디": "block.minecraft.waxed_copper_bulb",
-              "아이템 영어 이름": "Waxed Copper Bulb"
+              "아이디": "block.minecraft.waxed_copper_bulb",
+              "영어 이름": "Waxed Copper Bulb"
             },
             "block.minecraft.weathered_copper_bulb": {
-              "아이템 아이디": "block.minecraft.weathered_copper_bulb",
-              "아이템 영어 이름": "Weathered Copper Bulb"
+              "아이디": "block.minecraft.weathered_copper_bulb",
+              "영어 이름": "Weathered Copper Bulb"
             },
             "block.minecraft.waxed_oxidized_copper_bulb": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_copper_bulb",
-              "아이템 영어 이름": "Waxed Oxidized Copper Bulb"
+              "아이디": "block.minecraft.waxed_oxidized_copper_bulb",
+              "영어 이름": "Waxed Oxidized Copper Bulb"
             },
             "block.minecraft.exposed_copper_bulb": {
-              "아이템 아이디": "block.minecraft.exposed_copper_bulb",
-              "아이템 영어 이름": "Exposed Copper Bulb"
+              "아이디": "block.minecraft.exposed_copper_bulb",
+              "영어 이름": "Exposed Copper Bulb"
             },
             "block.minecraft.waxed_weathered_copper_bulb": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_copper_bulb",
-              "아이템 영어 이름": "Waxed Weathered Copper Bulb"
+              "아이디": "block.minecraft.waxed_weathered_copper_bulb",
+              "영어 이름": "Waxed Weathered Copper Bulb"
             },
             "block.minecraft.waxed_exposed_copper_bulb": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_copper_bulb",
-              "아이템 영어 이름": "Waxed Exposed Copper Bulb"
+              "아이디": "block.minecraft.waxed_exposed_copper_bulb",
+              "영어 이름": "Waxed Exposed Copper Bulb"
             },
             "block.minecraft.copper_bulb": {
-              "아이템 아이디": "block.minecraft.copper_bulb",
-              "아이템 영어 이름": "Copper Bulb"
+              "아이디": "block.minecraft.copper_bulb",
+              "영어 이름": "Copper Bulb"
             },
             "block.minecraft.oxidized_copper_bulb": {
-              "아이템 아이디": "block.minecraft.oxidized_copper_bulb",
-              "아이템 영어 이름": "Oxidized Copper Bulb"
+              "아이디": "block.minecraft.oxidized_copper_bulb",
+              "영어 이름": "Oxidized Copper Bulb"
             }
           }
         },
@@ -1178,16 +1178,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.chest": {
-              "아이템 아이디": "block.minecraft.chest",
-              "아이템 영어 이름": "Chest"
+              "아이디": "block.minecraft.chest",
+              "영어 이름": "Chest"
             },
             "block.minecraft.ender_chest": {
-              "아이템 아이디": "block.minecraft.ender_chest",
-              "아이템 영어 이름": "Ender Chest"
+              "아이디": "block.minecraft.ender_chest",
+              "영어 이름": "Ender Chest"
             },
             "block.minecraft.trapped_chest": {
-              "아이템 아이디": "block.minecraft.trapped_chest",
-              "아이템 영어 이름": "Trapped Chest"
+              "아이디": "block.minecraft.trapped_chest",
+              "영어 이름": "Trapped Chest"
             }
           }
         },
@@ -1196,16 +1196,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.infested_cobblestone": {
-              "아이템 아이디": "block.minecraft.infested_cobblestone",
-              "아이템 영어 이름": "Infested Cobblestone"
+              "아이디": "block.minecraft.infested_cobblestone",
+              "영어 이름": "Infested Cobblestone"
             },
             "block.minecraft.mossy_cobblestone": {
-              "아이템 아이디": "block.minecraft.mossy_cobblestone",
-              "아이템 영어 이름": "Mossy Cobblestone"
+              "아이디": "block.minecraft.mossy_cobblestone",
+              "영어 이름": "Mossy Cobblestone"
             },
             "block.minecraft.cobblestone": {
-              "아이템 아이디": "block.minecraft.cobblestone",
-              "아이템 영어 이름": "Cobblestone"
+              "아이디": "block.minecraft.cobblestone",
+              "영어 이름": "Cobblestone"
             }
           }
         },
@@ -1214,28 +1214,28 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.deepslate": {
-              "아이템 아이디": "block.minecraft.deepslate",
-              "아이템 영어 이름": "Deepslate"
+              "아이디": "block.minecraft.deepslate",
+              "영어 이름": "Deepslate"
             },
             "block.minecraft.reinforced_deepslate": {
-              "아이템 아이디": "block.minecraft.reinforced_deepslate",
-              "아이템 영어 이름": "Reinforced Deepslate"
+              "아이디": "block.minecraft.reinforced_deepslate",
+              "영어 이름": "Reinforced Deepslate"
             },
             "block.minecraft.cobbled_deepslate": {
-              "아이템 아이디": "block.minecraft.cobbled_deepslate",
-              "아이템 영어 이름": "Cobbled Deepslate"
+              "아이디": "block.minecraft.cobbled_deepslate",
+              "영어 이름": "Cobbled Deepslate"
             },
             "block.minecraft.infested_deepslate": {
-              "아이템 아이디": "block.minecraft.infested_deepslate",
-              "아이템 영어 이름": "Infested Deepslate"
+              "아이디": "block.minecraft.infested_deepslate",
+              "영어 이름": "Infested Deepslate"
             },
             "block.minecraft.chiseled_deepslate": {
-              "아이템 아이디": "block.minecraft.chiseled_deepslate",
-              "아이템 영어 이름": "Chiseled Deepslate"
+              "아이디": "block.minecraft.chiseled_deepslate",
+              "영어 이름": "Chiseled Deepslate"
             },
             "block.minecraft.polished_deepslate": {
-              "아이템 아이디": "block.minecraft.polished_deepslate",
-              "아이템 영어 이름": "Polished Deepslate"
+              "아이디": "block.minecraft.polished_deepslate",
+              "영어 이름": "Polished Deepslate"
             }
           }
         },
@@ -1244,336 +1244,336 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.wolf_spawn_egg": {
-              "아이템 아이디": "item.minecraft.wolf_spawn_egg",
-              "아이템 영어 이름": "Wolf Spawn Egg"
+              "아이디": "item.minecraft.wolf_spawn_egg",
+              "영어 이름": "Wolf Spawn Egg"
             },
             "item.minecraft.rabbit_spawn_egg": {
-              "아이템 아이디": "item.minecraft.rabbit_spawn_egg",
-              "아이템 영어 이름": "Rabbit Spawn Egg"
+              "아이디": "item.minecraft.rabbit_spawn_egg",
+              "영어 이름": "Rabbit Spawn Egg"
             },
             "item.minecraft.tropical_fish_spawn_egg": {
-              "아이템 아이디": "item.minecraft.tropical_fish_spawn_egg",
-              "아이템 영어 이름": "Tropical Fish Spawn Egg"
+              "아이디": "item.minecraft.tropical_fish_spawn_egg",
+              "영어 이름": "Tropical Fish Spawn Egg"
             },
             "item.minecraft.pig_spawn_egg": {
-              "아이템 아이디": "item.minecraft.pig_spawn_egg",
-              "아이템 영어 이름": "Pig Spawn Egg"
+              "아이디": "item.minecraft.pig_spawn_egg",
+              "영어 이름": "Pig Spawn Egg"
             },
             "item.minecraft.stray_spawn_egg": {
-              "아이템 아이디": "item.minecraft.stray_spawn_egg",
-              "아이템 영어 이름": "Stray Spawn Egg"
+              "아이디": "item.minecraft.stray_spawn_egg",
+              "영어 이름": "Stray Spawn Egg"
             },
             "item.minecraft.mule_spawn_egg": {
-              "아이템 아이디": "item.minecraft.mule_spawn_egg",
-              "아이템 영어 이름": "Mule Spawn Egg"
+              "아이디": "item.minecraft.mule_spawn_egg",
+              "영어 이름": "Mule Spawn Egg"
             },
             "item.minecraft.witch_spawn_egg": {
-              "아이템 아이디": "item.minecraft.witch_spawn_egg",
-              "아이템 영어 이름": "Witch Spawn Egg"
+              "아이디": "item.minecraft.witch_spawn_egg",
+              "영어 이름": "Witch Spawn Egg"
             },
             "item.minecraft.goat_spawn_egg": {
-              "아이템 아이디": "item.minecraft.goat_spawn_egg",
-              "아이템 영어 이름": "Goat Spawn Egg"
+              "아이디": "item.minecraft.goat_spawn_egg",
+              "영어 이름": "Goat Spawn Egg"
             },
             "item.minecraft.hoglin_spawn_egg": {
-              "아이템 아이디": "item.minecraft.hoglin_spawn_egg",
-              "아이템 영어 이름": "Hoglin Spawn Egg"
+              "아이디": "item.minecraft.hoglin_spawn_egg",
+              "영어 이름": "Hoglin Spawn Egg"
             },
             "item.minecraft.strider_spawn_egg": {
-              "아이템 아이디": "item.minecraft.strider_spawn_egg",
-              "아이템 영어 이름": "Strider Spawn Egg"
+              "아이디": "item.minecraft.strider_spawn_egg",
+              "영어 이름": "Strider Spawn Egg"
             },
             "item.minecraft.skeleton_horse_spawn_egg": {
-              "아이템 아이디": "item.minecraft.skeleton_horse_spawn_egg",
-              "아이템 영어 이름": "Skeleton Horse Spawn Egg"
+              "아이디": "item.minecraft.skeleton_horse_spawn_egg",
+              "영어 이름": "Skeleton Horse Spawn Egg"
             },
             "item.minecraft.panda_spawn_egg": {
-              "아이템 아이디": "item.minecraft.panda_spawn_egg",
-              "아이템 영어 이름": "Panda Spawn Egg"
+              "아이디": "item.minecraft.panda_spawn_egg",
+              "영어 이름": "Panda Spawn Egg"
             },
             "item.minecraft.cod_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cod_spawn_egg",
-              "아이템 영어 이름": "Cod Spawn Egg"
+              "아이디": "item.minecraft.cod_spawn_egg",
+              "영어 이름": "Cod Spawn Egg"
             },
             "item.minecraft.squid_spawn_egg": {
-              "아이템 아이디": "item.minecraft.squid_spawn_egg",
-              "아이템 영어 이름": "Squid Spawn Egg"
+              "아이디": "item.minecraft.squid_spawn_egg",
+              "영어 이름": "Squid Spawn Egg"
             },
             "item.minecraft.bogged_spawn_egg": {
-              "아이템 아이디": "item.minecraft.bogged_spawn_egg",
-              "아이템 영어 이름": "Bogged Spawn Egg"
+              "아이디": "item.minecraft.bogged_spawn_egg",
+              "영어 이름": "Bogged Spawn Egg"
             },
             "item.minecraft.pufferfish_spawn_egg": {
-              "아이템 아이디": "item.minecraft.pufferfish_spawn_egg",
-              "아이템 영어 이름": "Pufferfish Spawn Egg"
+              "아이디": "item.minecraft.pufferfish_spawn_egg",
+              "영어 이름": "Pufferfish Spawn Egg"
             },
             "item.minecraft.sniffer_spawn_egg": {
-              "아이템 아이디": "item.minecraft.sniffer_spawn_egg",
-              "아이템 영어 이름": "Sniffer Spawn Egg"
+              "아이디": "item.minecraft.sniffer_spawn_egg",
+              "영어 이름": "Sniffer Spawn Egg"
             },
             "item.minecraft.zombie_villager_spawn_egg": {
-              "아이템 아이디": "item.minecraft.zombie_villager_spawn_egg",
-              "아이템 영어 이름": "Zombie Villager Spawn Egg"
+              "아이디": "item.minecraft.zombie_villager_spawn_egg",
+              "영어 이름": "Zombie Villager Spawn Egg"
             },
             "item.minecraft.turtle_spawn_egg": {
-              "아이템 아이디": "item.minecraft.turtle_spawn_egg",
-              "아이템 영어 이름": "Turtle Spawn Egg"
+              "아이디": "item.minecraft.turtle_spawn_egg",
+              "영어 이름": "Turtle Spawn Egg"
             },
             "item.minecraft.slime_spawn_egg": {
-              "아이템 아이디": "item.minecraft.slime_spawn_egg",
-              "아이템 영어 이름": "Slime Spawn Egg"
+              "아이디": "item.minecraft.slime_spawn_egg",
+              "영어 이름": "Slime Spawn Egg"
             },
             "item.minecraft.drowned_spawn_egg": {
-              "아이템 아이디": "item.minecraft.drowned_spawn_egg",
-              "아이템 영어 이름": "Drowned Spawn Egg"
+              "아이디": "item.minecraft.drowned_spawn_egg",
+              "영어 이름": "Drowned Spawn Egg"
             },
             "item.minecraft.guardian_spawn_egg": {
-              "아이템 아이디": "item.minecraft.guardian_spawn_egg",
-              "아이템 영어 이름": "Guardian Spawn Egg"
+              "아이디": "item.minecraft.guardian_spawn_egg",
+              "영어 이름": "Guardian Spawn Egg"
             },
             "item.minecraft.ocelot_spawn_egg": {
-              "아이템 아이디": "item.minecraft.ocelot_spawn_egg",
-              "아이템 영어 이름": "Ocelot Spawn Egg"
+              "아이디": "item.minecraft.ocelot_spawn_egg",
+              "영어 이름": "Ocelot Spawn Egg"
             },
             "item.minecraft.vex_spawn_egg": {
-              "아이템 아이디": "item.minecraft.vex_spawn_egg",
-              "아이템 영어 이름": "Vex Spawn Egg"
+              "아이디": "item.minecraft.vex_spawn_egg",
+              "영어 이름": "Vex Spawn Egg"
             },
             "item.minecraft.zombified_piglin_spawn_egg": {
-              "아이템 아이디": "item.minecraft.zombified_piglin_spawn_egg",
-              "아이템 영어 이름": "Zombified Piglin Spawn Egg"
+              "아이디": "item.minecraft.zombified_piglin_spawn_egg",
+              "영어 이름": "Zombified Piglin Spawn Egg"
             },
             "item.minecraft.axolotl_spawn_egg": {
-              "아이템 아이디": "item.minecraft.axolotl_spawn_egg",
-              "아이템 영어 이름": "Axolotl Spawn Egg"
+              "아이디": "item.minecraft.axolotl_spawn_egg",
+              "영어 이름": "Axolotl Spawn Egg"
             },
             "item.minecraft.silverfish_spawn_egg": {
-              "아이템 아이디": "item.minecraft.silverfish_spawn_egg",
-              "아이템 영어 이름": "Silverfish Spawn Egg"
+              "아이디": "item.minecraft.silverfish_spawn_egg",
+              "영어 이름": "Silverfish Spawn Egg"
             },
             "item.minecraft.blaze_spawn_egg": {
-              "아이템 아이디": "item.minecraft.blaze_spawn_egg",
-              "아이템 영어 이름": "Blaze Spawn Egg"
+              "아이디": "item.minecraft.blaze_spawn_egg",
+              "영어 이름": "Blaze Spawn Egg"
             },
             "item.minecraft.horse_spawn_egg": {
-              "아이템 아이디": "item.minecraft.horse_spawn_egg",
-              "아이템 영어 이름": "Horse Spawn Egg"
+              "아이디": "item.minecraft.horse_spawn_egg",
+              "영어 이름": "Horse Spawn Egg"
             },
             "item.minecraft.shulker_spawn_egg": {
-              "아이템 아이디": "item.minecraft.shulker_spawn_egg",
-              "아이템 영어 이름": "Shulker Spawn Egg"
+              "아이디": "item.minecraft.shulker_spawn_egg",
+              "영어 이름": "Shulker Spawn Egg"
             },
             "item.minecraft.zombie_spawn_egg": {
-              "아이템 아이디": "item.minecraft.zombie_spawn_egg",
-              "아이템 영어 이름": "Zombie Spawn Egg"
+              "아이디": "item.minecraft.zombie_spawn_egg",
+              "영어 이름": "Zombie Spawn Egg"
             },
             "item.minecraft.camel_spawn_egg": {
-              "아이템 아이디": "item.minecraft.camel_spawn_egg",
-              "아이템 영어 이름": "Camel Spawn Egg"
+              "아이디": "item.minecraft.camel_spawn_egg",
+              "영어 이름": "Camel Spawn Egg"
             },
             "item.minecraft.piglin_spawn_egg": {
-              "아이템 아이디": "item.minecraft.piglin_spawn_egg",
-              "아이템 영어 이름": "Piglin Spawn Egg"
+              "아이디": "item.minecraft.piglin_spawn_egg",
+              "영어 이름": "Piglin Spawn Egg"
             },
             "item.minecraft.donkey_spawn_egg": {
-              "아이템 아이디": "item.minecraft.donkey_spawn_egg",
-              "아이템 영어 이름": "Donkey Spawn Egg"
+              "아이디": "item.minecraft.donkey_spawn_egg",
+              "영어 이름": "Donkey Spawn Egg"
             },
             "item.minecraft.zombie_horse_spawn_egg": {
-              "아이템 아이디": "item.minecraft.zombie_horse_spawn_egg",
-              "아이템 영어 이름": "Zombie Horse Spawn Egg"
+              "아이디": "item.minecraft.zombie_horse_spawn_egg",
+              "영어 이름": "Zombie Horse Spawn Egg"
             },
             "item.minecraft.chicken_spawn_egg": {
-              "아이템 아이디": "item.minecraft.chicken_spawn_egg",
-              "아이템 영어 이름": "Chicken Spawn Egg"
+              "아이디": "item.minecraft.chicken_spawn_egg",
+              "영어 이름": "Chicken Spawn Egg"
             },
             "item.minecraft.ravager_spawn_egg": {
-              "아이템 아이디": "item.minecraft.ravager_spawn_egg",
-              "아이템 영어 이름": "Ravager Spawn Egg"
+              "아이디": "item.minecraft.ravager_spawn_egg",
+              "영어 이름": "Ravager Spawn Egg"
             },
             "item.minecraft.piglin_brute_spawn_egg": {
-              "아이템 아이디": "item.minecraft.piglin_brute_spawn_egg",
-              "아이템 영어 이름": "Piglin Brute Spawn Egg"
+              "아이디": "item.minecraft.piglin_brute_spawn_egg",
+              "영어 이름": "Piglin Brute Spawn Egg"
             },
             "item.minecraft.zoglin_spawn_egg": {
-              "아이템 아이디": "item.minecraft.zoglin_spawn_egg",
-              "아이템 영어 이름": "Zoglin Spawn Egg"
+              "아이디": "item.minecraft.zoglin_spawn_egg",
+              "영어 이름": "Zoglin Spawn Egg"
             },
             "item.minecraft.breeze_spawn_egg": {
-              "아이템 아이디": "item.minecraft.breeze_spawn_egg",
-              "아이템 영어 이름": "Breeze Spawn Egg"
+              "아이디": "item.minecraft.breeze_spawn_egg",
+              "영어 이름": "Breeze Spawn Egg"
             },
             "item.minecraft.creeper_spawn_egg": {
-              "아이템 아이디": "item.minecraft.creeper_spawn_egg",
-              "아이템 영어 이름": "Creeper Spawn Egg"
+              "아이디": "item.minecraft.creeper_spawn_egg",
+              "영어 이름": "Creeper Spawn Egg"
             },
             "item.minecraft.cave_spider_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cave_spider_spawn_egg",
-              "아이템 영어 이름": "Cave Spider Spawn Egg"
+              "아이디": "item.minecraft.cave_spider_spawn_egg",
+              "영어 이름": "Cave Spider Spawn Egg"
             },
             "block.minecraft.turtle_egg": {
-              "아이템 아이디": "block.minecraft.turtle_egg",
-              "아이템 영어 이름": "Turtle Egg"
+              "아이디": "block.minecraft.turtle_egg",
+              "영어 이름": "Turtle Egg"
             },
             "item.minecraft.ghast_spawn_egg": {
-              "아이템 아이디": "item.minecraft.ghast_spawn_egg",
-              "아이템 영어 이름": "Ghast Spawn Egg"
+              "아이디": "item.minecraft.ghast_spawn_egg",
+              "영어 이름": "Ghast Spawn Egg"
             },
             "item.minecraft.bee_spawn_egg": {
-              "아이템 아이디": "item.minecraft.bee_spawn_egg",
-              "아이템 영어 이름": "Bee Spawn Egg"
+              "아이디": "item.minecraft.bee_spawn_egg",
+              "영어 이름": "Bee Spawn Egg"
             },
             "item.minecraft.llama_spawn_egg": {
-              "아이템 아이디": "item.minecraft.llama_spawn_egg",
-              "아이템 영어 이름": "Llama Spawn Egg"
+              "아이디": "item.minecraft.llama_spawn_egg",
+              "영어 이름": "Llama Spawn Egg"
             },
             "item.minecraft.trader_llama_spawn_egg": {
-              "아이템 아이디": "item.minecraft.trader_llama_spawn_egg",
-              "아이템 영어 이름": "Trader Llama Spawn Egg"
+              "아이디": "item.minecraft.trader_llama_spawn_egg",
+              "영어 이름": "Trader Llama Spawn Egg"
             },
             "item.minecraft.ender_dragon_spawn_egg": {
-              "아이템 아이디": "item.minecraft.ender_dragon_spawn_egg",
-              "아이템 영어 이름": "Ender Dragon Spawn Egg"
+              "아이디": "item.minecraft.ender_dragon_spawn_egg",
+              "영어 이름": "Ender Dragon Spawn Egg"
             },
             "item.minecraft.warden_spawn_egg": {
-              "아이템 아이디": "item.minecraft.warden_spawn_egg",
-              "아이템 영어 이름": "Warden Spawn Egg"
+              "아이디": "item.minecraft.warden_spawn_egg",
+              "영어 이름": "Warden Spawn Egg"
             },
             "item.minecraft.snow_golem_spawn_egg": {
-              "아이템 아이디": "item.minecraft.snow_golem_spawn_egg",
-              "아이템 영어 이름": "Snow Golem Spawn Egg"
+              "아이디": "item.minecraft.snow_golem_spawn_egg",
+              "영어 이름": "Snow Golem Spawn Egg"
             },
             "item.minecraft.glow_squid_spawn_egg": {
-              "아이템 아이디": "item.minecraft.glow_squid_spawn_egg",
-              "아이템 영어 이름": "Glow Squid Spawn Egg"
+              "아이디": "item.minecraft.glow_squid_spawn_egg",
+              "영어 이름": "Glow Squid Spawn Egg"
             },
             "item.minecraft.husk_spawn_egg": {
-              "아이템 아이디": "item.minecraft.husk_spawn_egg",
-              "아이템 영어 이름": "Husk Spawn Egg"
+              "아이디": "item.minecraft.husk_spawn_egg",
+              "영어 이름": "Husk Spawn Egg"
             },
             "item.minecraft.fox_spawn_egg": {
-              "아이템 아이디": "item.minecraft.fox_spawn_egg",
-              "아이템 영어 이름": "Fox Spawn Egg"
+              "아이디": "item.minecraft.fox_spawn_egg",
+              "영어 이름": "Fox Spawn Egg"
             },
             "item.minecraft.phantom_spawn_egg": {
-              "아이템 아이디": "item.minecraft.phantom_spawn_egg",
-              "아이템 영어 이름": "Phantom Spawn Egg"
+              "아이디": "item.minecraft.phantom_spawn_egg",
+              "영어 이름": "Phantom Spawn Egg"
             },
             "item.minecraft.villager_spawn_egg": {
-              "아이템 아이디": "item.minecraft.villager_spawn_egg",
-              "아이템 영어 이름": "Villager Spawn Egg"
+              "아이디": "item.minecraft.villager_spawn_egg",
+              "영어 이름": "Villager Spawn Egg"
             },
             "item.minecraft.armadillo_spawn_egg": {
-              "아이템 아이디": "item.minecraft.armadillo_spawn_egg",
-              "아이템 영어 이름": "Armadillo Spawn Egg"
+              "아이디": "item.minecraft.armadillo_spawn_egg",
+              "영어 이름": "Armadillo Spawn Egg"
             },
             "item.minecraft.magma_cube_spawn_egg": {
-              "아이템 아이디": "item.minecraft.magma_cube_spawn_egg",
-              "아이템 영어 이름": "Magma Cube Spawn Egg"
+              "아이디": "item.minecraft.magma_cube_spawn_egg",
+              "영어 이름": "Magma Cube Spawn Egg"
             },
             "item.minecraft.wither_spawn_egg": {
-              "아이템 아이디": "item.minecraft.wither_spawn_egg",
-              "아이템 영어 이름": "Wither Spawn Egg"
+              "아이디": "item.minecraft.wither_spawn_egg",
+              "영어 이름": "Wither Spawn Egg"
             },
             "item.minecraft.mooshroom_spawn_egg": {
-              "아이템 아이디": "item.minecraft.mooshroom_spawn_egg",
-              "아이템 영어 이름": "Mooshroom Spawn Egg"
+              "아이디": "item.minecraft.mooshroom_spawn_egg",
+              "영어 이름": "Mooshroom Spawn Egg"
             },
             "item.minecraft.bat_spawn_egg": {
-              "아이템 아이디": "item.minecraft.bat_spawn_egg",
-              "아이템 영어 이름": "Bat Spawn Egg"
+              "아이디": "item.minecraft.bat_spawn_egg",
+              "영어 이름": "Bat Spawn Egg"
             },
             "item.minecraft.tadpole_spawn_egg": {
-              "아이템 아이디": "item.minecraft.tadpole_spawn_egg",
-              "아이템 영어 이름": "Tadpole Spawn Egg"
+              "아이디": "item.minecraft.tadpole_spawn_egg",
+              "영어 이름": "Tadpole Spawn Egg"
             },
             "item.minecraft.parrot_spawn_egg": {
-              "아이템 아이디": "item.minecraft.parrot_spawn_egg",
-              "아이템 영어 이름": "Parrot Spawn Egg"
+              "아이디": "item.minecraft.parrot_spawn_egg",
+              "영어 이름": "Parrot Spawn Egg"
             },
             "block.minecraft.sniffer_egg": {
-              "아이템 아이디": "block.minecraft.sniffer_egg",
-              "아이템 영어 이름": "Sniffer Egg"
+              "아이디": "block.minecraft.sniffer_egg",
+              "영어 이름": "Sniffer Egg"
             },
             "item.minecraft.allay_spawn_egg": {
-              "아이템 아이디": "item.minecraft.allay_spawn_egg",
-              "아이템 영어 이름": "Allay Spawn Egg"
+              "아이디": "item.minecraft.allay_spawn_egg",
+              "영어 이름": "Allay Spawn Egg"
             },
             "item.minecraft.iron_golem_spawn_egg": {
-              "아이템 아이디": "item.minecraft.iron_golem_spawn_egg",
-              "아이템 영어 이름": "Iron Golem Spawn Egg"
+              "아이디": "item.minecraft.iron_golem_spawn_egg",
+              "영어 이름": "Iron Golem Spawn Egg"
             },
             "item.minecraft.cat_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cat_spawn_egg",
-              "아이템 영어 이름": "Cat Spawn Egg"
+              "아이디": "item.minecraft.cat_spawn_egg",
+              "영어 이름": "Cat Spawn Egg"
             },
             "item.minecraft.vindicator_spawn_egg": {
-              "아이템 아이디": "item.minecraft.vindicator_spawn_egg",
-              "아이템 영어 이름": "Vindicator Spawn Egg"
+              "아이디": "item.minecraft.vindicator_spawn_egg",
+              "영어 이름": "Vindicator Spawn Egg"
             },
             "item.minecraft.dolphin_spawn_egg": {
-              "아이템 아이디": "item.minecraft.dolphin_spawn_egg",
-              "아이템 영어 이름": "Dolphin Spawn Egg"
+              "아이디": "item.minecraft.dolphin_spawn_egg",
+              "영어 이름": "Dolphin Spawn Egg"
             },
             "item.minecraft.salmon_spawn_egg": {
-              "아이템 아이디": "item.minecraft.salmon_spawn_egg",
-              "아이템 영어 이름": "Salmon Spawn Egg"
+              "아이디": "item.minecraft.salmon_spawn_egg",
+              "영어 이름": "Salmon Spawn Egg"
             },
             "item.minecraft.wither_skeleton_spawn_egg": {
-              "아이템 아이디": "item.minecraft.wither_skeleton_spawn_egg",
-              "아이템 영어 이름": "Wither Skeleton Spawn Egg"
+              "아이디": "item.minecraft.wither_skeleton_spawn_egg",
+              "영어 이름": "Wither Skeleton Spawn Egg"
             },
             "item.minecraft.polar_bear_spawn_egg": {
-              "아이템 아이디": "item.minecraft.polar_bear_spawn_egg",
-              "아이템 영어 이름": "Polar Bear Spawn Egg"
+              "아이디": "item.minecraft.polar_bear_spawn_egg",
+              "영어 이름": "Polar Bear Spawn Egg"
             },
             "item.minecraft.wandering_trader_spawn_egg": {
-              "아이템 아이디": "item.minecraft.wandering_trader_spawn_egg",
-              "아이템 영어 이름": "Wandering Trader Spawn Egg"
+              "아이디": "item.minecraft.wandering_trader_spawn_egg",
+              "영어 이름": "Wandering Trader Spawn Egg"
             },
             "item.minecraft.endermite_spawn_egg": {
-              "아이템 아이디": "item.minecraft.endermite_spawn_egg",
-              "아이템 영어 이름": "Endermite Spawn Egg"
+              "아이디": "item.minecraft.endermite_spawn_egg",
+              "영어 이름": "Endermite Spawn Egg"
             },
             "item.minecraft.cow_spawn_egg": {
-              "아이템 아이디": "item.minecraft.cow_spawn_egg",
-              "아이템 영어 이름": "Cow Spawn Egg"
+              "아이디": "item.minecraft.cow_spawn_egg",
+              "영어 이름": "Cow Spawn Egg"
             },
             "item.minecraft.spider_spawn_egg": {
-              "아이템 아이디": "item.minecraft.spider_spawn_egg",
-              "아이템 영어 이름": "Spider Spawn Egg"
+              "아이디": "item.minecraft.spider_spawn_egg",
+              "영어 이름": "Spider Spawn Egg"
             },
             "item.minecraft.enderman_spawn_egg": {
-              "아이템 아이디": "item.minecraft.enderman_spawn_egg",
-              "아이템 영어 이름": "Enderman Spawn Egg"
+              "아이디": "item.minecraft.enderman_spawn_egg",
+              "영어 이름": "Enderman Spawn Egg"
             },
             "item.minecraft.skeleton_spawn_egg": {
-              "아이템 아이디": "item.minecraft.skeleton_spawn_egg",
-              "아이템 영어 이름": "Skeleton Spawn Egg"
+              "아이디": "item.minecraft.skeleton_spawn_egg",
+              "영어 이름": "Skeleton Spawn Egg"
             },
             "item.minecraft.sheep_spawn_egg": {
-              "아이템 아이디": "item.minecraft.sheep_spawn_egg",
-              "아이템 영어 이름": "Sheep Spawn Egg"
+              "아이디": "item.minecraft.sheep_spawn_egg",
+              "영어 이름": "Sheep Spawn Egg"
             },
             "block.minecraft.dragon_egg": {
-              "아이템 아이디": "block.minecraft.dragon_egg",
-              "아이템 영어 이름": "Dragon Egg"
+              "아이디": "block.minecraft.dragon_egg",
+              "영어 이름": "Dragon Egg"
             },
             "item.minecraft.frog_spawn_egg": {
-              "아이템 아이디": "item.minecraft.frog_spawn_egg",
-              "아이템 영어 이름": "Frog Spawn Egg"
+              "아이디": "item.minecraft.frog_spawn_egg",
+              "영어 이름": "Frog Spawn Egg"
             },
             "item.minecraft.pillager_spawn_egg": {
-              "아이템 아이디": "item.minecraft.pillager_spawn_egg",
-              "아이템 영어 이름": "Pillager Spawn Egg"
+              "아이디": "item.minecraft.pillager_spawn_egg",
+              "영어 이름": "Pillager Spawn Egg"
             },
             "item.minecraft.evoker_spawn_egg": {
-              "아이템 아이디": "item.minecraft.evoker_spawn_egg",
-              "아이템 영어 이름": "Evoker Spawn Egg"
+              "아이디": "item.minecraft.evoker_spawn_egg",
+              "영어 이름": "Evoker Spawn Egg"
             },
             "item.minecraft.elder_guardian_spawn_egg": {
-              "아이템 아이디": "item.minecraft.elder_guardian_spawn_egg",
-              "아이템 영어 이름": "Elder Guardian Spawn Egg"
+              "아이디": "item.minecraft.elder_guardian_spawn_egg",
+              "영어 이름": "Elder Guardian Spawn Egg"
             }
           }
         },
@@ -1582,16 +1582,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.glow_item_frame": {
-              "아이템 아이디": "item.minecraft.glow_item_frame",
-              "아이템 영어 이름": "Glow Item Frame"
+              "아이디": "item.minecraft.glow_item_frame",
+              "영어 이름": "Glow Item Frame"
             },
             "block.minecraft.end_portal_frame": {
-              "아이템 아이디": "block.minecraft.end_portal_frame",
-              "아이템 영어 이름": "End Portal Frame"
+              "아이디": "block.minecraft.end_portal_frame",
+              "영어 이름": "End Portal Frame"
             },
             "item.minecraft.item_frame": {
-              "아이템 아이디": "item.minecraft.item_frame",
-              "아이템 영어 이름": "Item Frame"
+              "아이디": "item.minecraft.item_frame",
+              "영어 이름": "Item Frame"
             }
           }
         },
@@ -1600,16 +1600,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.ochre_froglight": {
-              "아이템 아이디": "block.minecraft.ochre_froglight",
-              "아이템 영어 이름": "Ochre Froglight"
+              "아이디": "block.minecraft.ochre_froglight",
+              "영어 이름": "Ochre Froglight"
             },
             "block.minecraft.verdant_froglight": {
-              "아이템 아이디": "block.minecraft.verdant_froglight",
-              "아이템 영어 이름": "Verdant Froglight"
+              "아이디": "block.minecraft.verdant_froglight",
+              "영어 이름": "Verdant Froglight"
             },
             "block.minecraft.pearlescent_froglight": {
-              "아이템 아이디": "block.minecraft.pearlescent_froglight",
-              "아이템 영어 이름": "Pearlescent Froglight"
+              "아이디": "block.minecraft.pearlescent_froglight",
+              "영어 이름": "Pearlescent Froglight"
             }
           }
         },
@@ -1618,36 +1618,36 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.oxidized_copper_grate": {
-              "아이템 아이디": "block.minecraft.oxidized_copper_grate",
-              "아이템 영어 이름": "Oxidized Copper Grate"
+              "아이디": "block.minecraft.oxidized_copper_grate",
+              "영어 이름": "Oxidized Copper Grate"
             },
             "block.minecraft.copper_grate": {
-              "아이템 아이디": "block.minecraft.copper_grate",
-              "아이템 영어 이름": "Copper Grate"
+              "아이디": "block.minecraft.copper_grate",
+              "영어 이름": "Copper Grate"
             },
             "block.minecraft.weathered_copper_grate": {
-              "아이템 아이디": "block.minecraft.weathered_copper_grate",
-              "아이템 영어 이름": "Weathered Copper Grate"
+              "아이디": "block.minecraft.weathered_copper_grate",
+              "영어 이름": "Weathered Copper Grate"
             },
             "block.minecraft.waxed_oxidized_copper_grate": {
-              "아이템 아이디": "block.minecraft.waxed_oxidized_copper_grate",
-              "아이템 영어 이름": "Waxed Oxidized Copper Grate"
+              "아이디": "block.minecraft.waxed_oxidized_copper_grate",
+              "영어 이름": "Waxed Oxidized Copper Grate"
             },
             "block.minecraft.waxed_copper_grate": {
-              "아이템 아이디": "block.minecraft.waxed_copper_grate",
-              "아이템 영어 이름": "Waxed Copper Grate"
+              "아이디": "block.minecraft.waxed_copper_grate",
+              "영어 이름": "Waxed Copper Grate"
             },
             "block.minecraft.waxed_exposed_copper_grate": {
-              "아이템 아이디": "block.minecraft.waxed_exposed_copper_grate",
-              "아이템 영어 이름": "Waxed Exposed Copper Grate"
+              "아이디": "block.minecraft.waxed_exposed_copper_grate",
+              "영어 이름": "Waxed Exposed Copper Grate"
             },
             "block.minecraft.exposed_copper_grate": {
-              "아이템 아이디": "block.minecraft.exposed_copper_grate",
-              "아이템 영어 이름": "Exposed Copper Grate"
+              "아이디": "block.minecraft.exposed_copper_grate",
+              "영어 이름": "Exposed Copper Grate"
             },
             "block.minecraft.waxed_weathered_copper_grate": {
-              "아이템 아이디": "block.minecraft.waxed_weathered_copper_grate",
-              "아이템 영어 이름": "Waxed Weathered Copper Grate"
+              "아이디": "block.minecraft.waxed_weathered_copper_grate",
+              "영어 이름": "Waxed Weathered Copper Grate"
             }
           }
         },
@@ -1656,24 +1656,24 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.player_head": {
-              "아이템 아이디": "block.minecraft.player_head",
-              "아이템 영어 이름": "Player Head"
+              "아이디": "block.minecraft.player_head",
+              "영어 이름": "Player Head"
             },
             "block.minecraft.dragon_head": {
-              "아이템 아이디": "block.minecraft.dragon_head",
-              "아이템 영어 이름": "Dragon Head"
+              "아이디": "block.minecraft.dragon_head",
+              "영어 이름": "Dragon Head"
             },
             "block.minecraft.zombie_head": {
-              "아이템 아이디": "block.minecraft.zombie_head",
-              "아이템 영어 이름": "Zombie Head"
+              "아이디": "block.minecraft.zombie_head",
+              "영어 이름": "Zombie Head"
             },
             "block.minecraft.piglin_head": {
-              "아이템 아이디": "block.minecraft.piglin_head",
-              "아이템 영어 이름": "Piglin Head"
+              "아이디": "block.minecraft.piglin_head",
+              "영어 이름": "Piglin Head"
             },
             "block.minecraft.creeper_head": {
-              "아이템 아이디": "block.minecraft.creeper_head",
-              "아이템 영어 이름": "Creeper Head"
+              "아이디": "block.minecraft.creeper_head",
+              "영어 이름": "Creeper Head"
             }
           }
         },
@@ -1682,16 +1682,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.blue_ice": {
-              "아이템 아이디": "block.minecraft.blue_ice",
-              "아이템 영어 이름": "Blue Ice"
+              "아이디": "block.minecraft.blue_ice",
+              "영어 이름": "Blue Ice"
             },
             "block.minecraft.ice": {
-              "아이템 아이디": "block.minecraft.ice",
-              "아이템 영어 이름": "Ice"
+              "아이디": "block.minecraft.ice",
+              "영어 이름": "Ice"
             },
             "block.minecraft.packed_ice": {
-              "아이템 아이디": "block.minecraft.packed_ice",
-              "아이템 영어 이름": "Packed Ice"
+              "아이디": "block.minecraft.packed_ice",
+              "영어 이름": "Packed Ice"
             }
           }
         },
@@ -1700,20 +1700,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.soul_lantern": {
-              "아이템 아이디": "block.minecraft.soul_lantern",
-              "아이템 영어 이름": "Soul Lantern"
+              "아이디": "block.minecraft.soul_lantern",
+              "영어 이름": "Soul Lantern"
             },
             "block.minecraft.jack_o_lantern": {
-              "아이템 아이디": "block.minecraft.jack_o_lantern",
-              "아이템 영어 이름": "Jack o\u0027Lantern"
+              "아이디": "block.minecraft.jack_o_lantern",
+              "영어 이름": "Jack o\u0027Lantern"
             },
             "block.minecraft.lantern": {
-              "아이템 아이디": "block.minecraft.lantern",
-              "아이템 영어 이름": "Lantern"
+              "아이디": "block.minecraft.lantern",
+              "영어 이름": "Lantern"
             },
             "block.minecraft.sea_lantern": {
-              "아이템 아이디": "block.minecraft.sea_lantern",
-              "아이템 영어 이름": "Sea Lantern"
+              "아이디": "block.minecraft.sea_lantern",
+              "영어 이름": "Sea Lantern"
             }
           }
         },
@@ -1722,24 +1722,24 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.lightning_rod": {
-              "아이템 아이디": "block.minecraft.lightning_rod",
-              "아이템 영어 이름": "Lightning Rod"
+              "아이디": "block.minecraft.lightning_rod",
+              "영어 이름": "Lightning Rod"
             },
             "item.minecraft.fishing_rod": {
-              "아이템 아이디": "item.minecraft.fishing_rod",
-              "아이템 영어 이름": "Fishing Rod"
+              "아이디": "item.minecraft.fishing_rod",
+              "영어 이름": "Fishing Rod"
             },
             "item.minecraft.blaze_rod": {
-              "아이템 아이디": "item.minecraft.blaze_rod",
-              "아이템 영어 이름": "Blaze Rod"
+              "아이디": "item.minecraft.blaze_rod",
+              "영어 이름": "Blaze Rod"
             },
             "block.minecraft.end_rod": {
-              "아이템 아이디": "block.minecraft.end_rod",
-              "아이템 영어 이름": "End Rod"
+              "아이디": "block.minecraft.end_rod",
+              "영어 이름": "End Rod"
             },
             "item.minecraft.breeze_rod": {
-              "아이템 아이디": "item.minecraft.breeze_rod",
-              "아이템 영어 이름": "Breeze Rod"
+              "아이디": "item.minecraft.breeze_rod",
+              "영어 이름": "Breeze Rod"
             }
           }
         },
@@ -1748,20 +1748,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.muddy_mangrove_roots": {
-              "아이템 아이디": "block.minecraft.muddy_mangrove_roots",
-              "아이템 영어 이름": "Muddy Mangrove Roots"
+              "아이디": "block.minecraft.muddy_mangrove_roots",
+              "영어 이름": "Muddy Mangrove Roots"
             },
             "block.minecraft.warped_roots": {
-              "아이템 아이디": "block.minecraft.warped_roots",
-              "아이템 영어 이름": "Warped Roots"
+              "아이디": "block.minecraft.warped_roots",
+              "영어 이름": "Warped Roots"
             },
             "block.minecraft.hanging_roots": {
-              "아이템 아이디": "block.minecraft.hanging_roots",
-              "아이템 영어 이름": "Hanging Roots"
+              "아이디": "block.minecraft.hanging_roots",
+              "영어 이름": "Hanging Roots"
             },
             "block.minecraft.mangrove_roots": {
-              "아이템 아이디": "block.minecraft.mangrove_roots",
-              "아이템 영어 이름": "Mangrove Roots"
+              "아이디": "block.minecraft.mangrove_roots",
+              "영어 이름": "Mangrove Roots"
             }
           }
         },
@@ -1770,16 +1770,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.echo_shard": {
-              "아이템 아이디": "item.minecraft.echo_shard",
-              "아이템 영어 이름": "Echo Shard"
+              "아이디": "item.minecraft.echo_shard",
+              "영어 이름": "Echo Shard"
             },
             "item.minecraft.prismarine_shard": {
-              "아이템 아이디": "item.minecraft.prismarine_shard",
-              "아이템 영어 이름": "Prismarine Shard"
+              "아이디": "item.minecraft.prismarine_shard",
+              "영어 이름": "Prismarine Shard"
             },
             "item.minecraft.amethyst_shard": {
-              "아이템 아이디": "item.minecraft.amethyst_shard",
-              "아이템 영어 이름": "Amethyst Shard"
+              "아이디": "item.minecraft.amethyst_shard",
+              "영어 이름": "Amethyst Shard"
             }
           }
         },
@@ -1788,16 +1788,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.stripped_warped_stem": {
-              "아이템 아이디": "block.minecraft.stripped_warped_stem",
-              "아이템 영어 이름": "Stripped Warped Stem"
+              "아이디": "block.minecraft.stripped_warped_stem",
+              "영어 이름": "Stripped Warped Stem"
             },
             "block.minecraft.warped_stem": {
-              "아이템 아이디": "block.minecraft.warped_stem",
-              "아이템 영어 이름": "Warped Stem"
+              "아이디": "block.minecraft.warped_stem",
+              "영어 이름": "Warped Stem"
             },
             "block.minecraft.mushroom_stem": {
-              "아이템 아이디": "block.minecraft.mushroom_stem",
-              "아이템 영어 이름": "Mushroom Stem"
+              "아이디": "block.minecraft.mushroom_stem",
+              "영어 이름": "Mushroom Stem"
             }
           }
         },
@@ -1806,20 +1806,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.carrot_on_a_stick": {
-              "아이템 아이디": "item.minecraft.carrot_on_a_stick",
-              "아이템 영어 이름": "Carrot on a Stick"
+              "아이디": "item.minecraft.carrot_on_a_stick",
+              "영어 이름": "Carrot on a Stick"
             },
             "item.minecraft.warped_fungus_on_a_stick": {
-              "아이템 아이디": "item.minecraft.warped_fungus_on_a_stick",
-              "아이템 영어 이름": "Warped Fungus on a Stick"
+              "아이디": "item.minecraft.warped_fungus_on_a_stick",
+              "영어 이름": "Warped Fungus on a Stick"
             },
             "item.minecraft.debug_stick": {
-              "아이템 아이디": "item.minecraft.debug_stick",
-              "아이템 영어 이름": "Debug Stick"
+              "아이디": "item.minecraft.debug_stick",
+              "영어 이름": "Debug Stick"
             },
             "item.minecraft.stick": {
-              "아이템 아이디": "item.minecraft.stick",
-              "아이템 영어 이름": "Stick"
+              "아이디": "item.minecraft.stick",
+              "영어 이름": "Stick"
             }
           }
         },
@@ -1828,20 +1828,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.smooth_stone": {
-              "아이템 아이디": "block.minecraft.smooth_stone",
-              "아이템 영어 이름": "Smooth Stone"
+              "아이디": "block.minecraft.smooth_stone",
+              "영어 이름": "Smooth Stone"
             },
             "block.minecraft.stone": {
-              "아이템 아이디": "block.minecraft.stone",
-              "아이템 영어 이름": "Stone"
+              "아이디": "block.minecraft.stone",
+              "영어 이름": "Stone"
             },
             "block.minecraft.end_stone": {
-              "아이템 아이디": "block.minecraft.end_stone",
-              "아이템 영어 이름": "End Stone"
+              "아이디": "block.minecraft.end_stone",
+              "영어 이름": "End Stone"
             },
             "block.minecraft.infested_stone": {
-              "아이템 아이디": "block.minecraft.infested_stone",
-              "아이템 영어 이름": "Infested Stone"
+              "아이디": "block.minecraft.infested_stone",
+              "영어 이름": "Infested Stone"
             }
           }
         },
@@ -1850,24 +1850,24 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.crafting_table": {
-              "아이템 아이디": "block.minecraft.crafting_table",
-              "아이템 영어 이름": "Crafting Table"
+              "아이디": "block.minecraft.crafting_table",
+              "영어 이름": "Crafting Table"
             },
             "block.minecraft.fletching_table": {
-              "아이템 아이디": "block.minecraft.fletching_table",
-              "아이템 영어 이름": "Fletching Table"
+              "아이디": "block.minecraft.fletching_table",
+              "영어 이름": "Fletching Table"
             },
             "block.minecraft.enchanting_table": {
-              "아이템 아이디": "block.minecraft.enchanting_table",
-              "아이템 영어 이름": "Enchanting Table"
+              "아이디": "block.minecraft.enchanting_table",
+              "영어 이름": "Enchanting Table"
             },
             "block.minecraft.cartography_table": {
-              "아이템 아이디": "block.minecraft.cartography_table",
-              "아이템 영어 이름": "Cartography Table"
+              "아이디": "block.minecraft.cartography_table",
+              "영어 이름": "Cartography Table"
             },
             "block.minecraft.smithing_table": {
-              "아이템 아이디": "block.minecraft.smithing_table",
-              "아이템 영어 이름": "Smithing Table"
+              "아이디": "block.minecraft.smithing_table",
+              "영어 이름": "Smithing Table"
             }
           }
         },
@@ -1876,16 +1876,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.redstone_torch": {
-              "아이템 아이디": "block.minecraft.redstone_torch",
-              "아이템 영어 이름": "Redstone Torch"
+              "아이디": "block.minecraft.redstone_torch",
+              "영어 이름": "Redstone Torch"
             },
             "block.minecraft.torch": {
-              "아이템 아이디": "block.minecraft.torch",
-              "아이템 영어 이름": "Torch"
+              "아이디": "block.minecraft.torch",
+              "영어 이름": "Torch"
             },
             "block.minecraft.soul_torch": {
-              "아이템 아이디": "block.minecraft.soul_torch",
-              "아이템 영어 이름": "Soul Torch"
+              "아이디": "block.minecraft.soul_torch",
+              "영어 이름": "Soul Torch"
             }
           }
         },
@@ -1894,16 +1894,16 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.polished_tuff": {
-              "아이템 아이디": "block.minecraft.polished_tuff",
-              "아이템 영어 이름": "Polished Tuff"
+              "아이디": "block.minecraft.polished_tuff",
+              "영어 이름": "Polished Tuff"
             },
             "block.minecraft.tuff": {
-              "아이템 아이디": "block.minecraft.tuff",
-              "아이템 영어 이름": "Tuff"
+              "아이디": "block.minecraft.tuff",
+              "영어 이름": "Tuff"
             },
             "block.minecraft.chiseled_tuff": {
-              "아이템 아이디": "block.minecraft.chiseled_tuff",
-              "아이템 영어 이름": "Chiseled Tuff"
+              "아이디": "block.minecraft.chiseled_tuff",
+              "영어 이름": "Chiseled Tuff"
             }
           }
         }

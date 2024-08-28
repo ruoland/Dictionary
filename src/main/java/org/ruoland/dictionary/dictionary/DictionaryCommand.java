@@ -5,7 +5,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
-import org.ruoland.dictionary.dictionary.dictionary.TagManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 
 import java.util.function.Supplier;
 

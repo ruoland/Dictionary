@@ -8,72 +8,72 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.moss_carpet": {
-              "아이템 아이디": "block.minecraft.moss_carpet",
-              "아이템 영어 이름": "Moss Carpet"
+              "아이디": "block.minecraft.moss_carpet",
+              "영어 이름": "Moss Carpet"
             },
             "block.minecraft.yellow_carpet": {
-              "아이템 아이디": "block.minecraft.yellow_carpet",
-              "아이템 영어 이름": "Yellow Carpet"
+              "아이디": "block.minecraft.yellow_carpet",
+              "영어 이름": "Yellow Carpet"
             },
             "block.minecraft.blue_carpet": {
-              "아이템 아이디": "block.minecraft.blue_carpet",
-              "아이템 영어 이름": "Blue Carpet"
+              "아이디": "block.minecraft.blue_carpet",
+              "영어 이름": "Blue Carpet"
             },
             "block.minecraft.cyan_carpet": {
-              "아이템 아이디": "block.minecraft.cyan_carpet",
-              "아이템 영어 이름": "Cyan Carpet"
+              "아이디": "block.minecraft.cyan_carpet",
+              "영어 이름": "Cyan Carpet"
             },
             "block.minecraft.magenta_carpet": {
-              "아이템 아이디": "block.minecraft.magenta_carpet",
-              "아이템 영어 이름": "Magenta Carpet"
+              "아이디": "block.minecraft.magenta_carpet",
+              "영어 이름": "Magenta Carpet"
             },
             "block.minecraft.brown_carpet": {
-              "아이템 아이디": "block.minecraft.brown_carpet",
-              "아이템 영어 이름": "Brown Carpet"
+              "아이디": "block.minecraft.brown_carpet",
+              "영어 이름": "Brown Carpet"
             },
             "block.minecraft.lime_carpet": {
-              "아이템 아이디": "block.minecraft.lime_carpet",
-              "아이템 영어 이름": "Lime Carpet"
+              "아이디": "block.minecraft.lime_carpet",
+              "영어 이름": "Lime Carpet"
             },
             "block.minecraft.green_carpet": {
-              "아이템 아이디": "block.minecraft.green_carpet",
-              "아이템 영어 이름": "Green Carpet"
+              "아이디": "block.minecraft.green_carpet",
+              "영어 이름": "Green Carpet"
             },
             "block.minecraft.white_carpet": {
-              "아이템 아이디": "block.minecraft.white_carpet",
-              "아이템 영어 이름": "White Carpet"
+              "아이디": "block.minecraft.white_carpet",
+              "영어 이름": "White Carpet"
             },
             "block.minecraft.pink_carpet": {
-              "아이템 아이디": "block.minecraft.pink_carpet",
-              "아이템 영어 이름": "Pink Carpet"
+              "아이디": "block.minecraft.pink_carpet",
+              "영어 이름": "Pink Carpet"
             },
             "block.minecraft.red_carpet": {
-              "아이템 아이디": "block.minecraft.red_carpet",
-              "아이템 영어 이름": "Red Carpet"
+              "아이디": "block.minecraft.red_carpet",
+              "영어 이름": "Red Carpet"
             },
             "block.minecraft.black_carpet": {
-              "아이템 아이디": "block.minecraft.black_carpet",
-              "아이템 영어 이름": "Black Carpet"
+              "아이디": "block.minecraft.black_carpet",
+              "영어 이름": "Black Carpet"
             },
             "block.minecraft.light_blue_carpet": {
-              "아이템 아이디": "block.minecraft.light_blue_carpet",
-              "아이템 영어 이름": "Light Blue Carpet"
+              "아이디": "block.minecraft.light_blue_carpet",
+              "영어 이름": "Light Blue Carpet"
             },
             "block.minecraft.orange_carpet": {
-              "아이템 아이디": "block.minecraft.orange_carpet",
-              "아이템 영어 이름": "Orange Carpet"
+              "아이디": "block.minecraft.orange_carpet",
+              "영어 이름": "Orange Carpet"
             },
             "block.minecraft.gray_carpet": {
-              "아이템 아이디": "block.minecraft.gray_carpet",
-              "아이템 영어 이름": "Gray Carpet"
+              "아이디": "block.minecraft.gray_carpet",
+              "영어 이름": "Gray Carpet"
             },
             "block.minecraft.light_gray_carpet": {
-              "아이템 아이디": "block.minecraft.light_gray_carpet",
-              "아이템 영어 이름": "Light Gray Carpet"
+              "아이디": "block.minecraft.light_gray_carpet",
+              "영어 이름": "Light Gray Carpet"
             },
             "block.minecraft.purple_carpet": {
-              "아이템 아이디": "block.minecraft.purple_carpet",
-              "아이템 영어 이름": "Purple Carpet"
+              "아이디": "block.minecraft.purple_carpet",
+              "영어 이름": "Purple Carpet"
             }
           }
         },
@@ -82,68 +82,68 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.light_blue_concrete": {
-              "아이템 아이디": "block.minecraft.light_blue_concrete",
-              "아이템 영어 이름": "Light Blue Concrete"
+              "아이디": "block.minecraft.light_blue_concrete",
+              "영어 이름": "Light Blue Concrete"
             },
             "block.minecraft.light_gray_concrete": {
-              "아이템 아이디": "block.minecraft.light_gray_concrete",
-              "아이템 영어 이름": "Light Gray Concrete"
+              "아이디": "block.minecraft.light_gray_concrete",
+              "영어 이름": "Light Gray Concrete"
             },
             "block.minecraft.purple_concrete": {
-              "아이템 아이디": "block.minecraft.purple_concrete",
-              "아이템 영어 이름": "Purple Concrete"
+              "아이디": "block.minecraft.purple_concrete",
+              "영어 이름": "Purple Concrete"
             },
             "block.minecraft.magenta_concrete": {
-              "아이템 아이디": "block.minecraft.magenta_concrete",
-              "아이템 영어 이름": "Magenta Concrete"
+              "아이디": "block.minecraft.magenta_concrete",
+              "영어 이름": "Magenta Concrete"
             },
             "block.minecraft.cyan_concrete": {
-              "아이템 아이디": "block.minecraft.cyan_concrete",
-              "아이템 영어 이름": "Cyan Concrete"
+              "아이디": "block.minecraft.cyan_concrete",
+              "영어 이름": "Cyan Concrete"
             },
             "block.minecraft.red_concrete": {
-              "아이템 아이디": "block.minecraft.red_concrete",
-              "아이템 영어 이름": "Red Concrete"
+              "아이디": "block.minecraft.red_concrete",
+              "영어 이름": "Red Concrete"
             },
             "block.minecraft.pink_concrete": {
-              "아이템 아이디": "block.minecraft.pink_concrete",
-              "아이템 영어 이름": "Pink Concrete"
+              "아이디": "block.minecraft.pink_concrete",
+              "영어 이름": "Pink Concrete"
             },
             "block.minecraft.brown_concrete": {
-              "아이템 아이디": "block.minecraft.brown_concrete",
-              "아이템 영어 이름": "Brown Concrete"
+              "아이디": "block.minecraft.brown_concrete",
+              "영어 이름": "Brown Concrete"
             },
             "block.minecraft.yellow_concrete": {
-              "아이템 아이디": "block.minecraft.yellow_concrete",
-              "아이템 영어 이름": "Yellow Concrete"
+              "아이디": "block.minecraft.yellow_concrete",
+              "영어 이름": "Yellow Concrete"
             },
             "block.minecraft.gray_concrete": {
-              "아이템 아이디": "block.minecraft.gray_concrete",
-              "아이템 영어 이름": "Gray Concrete"
+              "아이디": "block.minecraft.gray_concrete",
+              "영어 이름": "Gray Concrete"
             },
             "block.minecraft.green_concrete": {
-              "아이템 아이디": "block.minecraft.green_concrete",
-              "아이템 영어 이름": "Green Concrete"
+              "아이디": "block.minecraft.green_concrete",
+              "영어 이름": "Green Concrete"
             },
             "block.minecraft.orange_concrete": {
-              "아이템 아이디": "block.minecraft.orange_concrete",
-              "아이템 영어 이름": "Orange Concrete"
+              "아이디": "block.minecraft.orange_concrete",
+              "영어 이름": "Orange Concrete"
             },
             "block.minecraft.lime_concrete": {
-              "아이템 아이디": "block.minecraft.lime_concrete",
-              "아이템 영어 이름": "Lime Concrete"
+              "아이디": "block.minecraft.lime_concrete",
+              "영어 이름": "Lime Concrete"
             },
             "block.minecraft.blue_concrete": {
-              "아이템 아이디": "block.minecraft.blue_concrete",
-              "아이템 영어 이름": "Blue Concrete"
+              "아이디": "block.minecraft.blue_concrete",
+              "영어 이름": "Blue Concrete"
             },
             "block.minecraft.black_concrete": {
-              "아이템 아이디": "block.minecraft.black_concrete",
-              "아이템 영어 이름": "Black Concrete"
+              "아이디": "block.minecraft.black_concrete",
+              "영어 이름": "Black Concrete"
             },
             "block.minecraft.white_concrete": {
-              "아이템 아이디": "block.minecraft.white_concrete",
-              "아이템 영어 이름": "White Concrete"
+              "아이디": "block.minecraft.white_concrete",
+              "영어 이름": "White Concrete"
             }
           }
         },
@@ -152,76 +152,76 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.orange_stained_glass": {
-              "아이템 아이디": "block.minecraft.orange_stained_glass",
-              "아이템 영어 이름": "Orange Stained Glass"
+              "아이디": "block.minecraft.orange_stained_glass",
+              "영어 이름": "Orange Stained Glass"
             },
             "block.minecraft.brown_stained_glass": {
-              "아이템 아이디": "block.minecraft.brown_stained_glass",
-              "아이템 영어 이름": "Brown Stained Glass"
+              "아이디": "block.minecraft.brown_stained_glass",
+              "영어 이름": "Brown Stained Glass"
             },
             "block.minecraft.light_blue_stained_glass": {
-              "아이템 아이디": "block.minecraft.light_blue_stained_glass",
-              "아이템 영어 이름": "Light Blue Stained Glass"
+              "아이디": "block.minecraft.light_blue_stained_glass",
+              "영어 이름": "Light Blue Stained Glass"
             },
             "block.minecraft.red_stained_glass": {
-              "아이템 아이디": "block.minecraft.red_stained_glass",
-              "아이템 영어 이름": "Red Stained Glass"
+              "아이디": "block.minecraft.red_stained_glass",
+              "영어 이름": "Red Stained Glass"
             },
             "block.minecraft.magenta_stained_glass": {
-              "아이템 아이디": "block.minecraft.magenta_stained_glass",
-              "아이템 영어 이름": "Magenta Stained Glass"
+              "아이디": "block.minecraft.magenta_stained_glass",
+              "영어 이름": "Magenta Stained Glass"
             },
             "block.minecraft.light_gray_stained_glass": {
-              "아이템 아이디": "block.minecraft.light_gray_stained_glass",
-              "아이템 영어 이름": "Light Gray Stained Glass"
+              "아이디": "block.minecraft.light_gray_stained_glass",
+              "영어 이름": "Light Gray Stained Glass"
             },
             "block.minecraft.green_stained_glass": {
-              "아이템 아이디": "block.minecraft.green_stained_glass",
-              "아이템 영어 이름": "Green Stained Glass"
+              "아이디": "block.minecraft.green_stained_glass",
+              "영어 이름": "Green Stained Glass"
             },
             "block.minecraft.lime_stained_glass": {
-              "아이템 아이디": "block.minecraft.lime_stained_glass",
-              "아이템 영어 이름": "Lime Stained Glass"
+              "아이디": "block.minecraft.lime_stained_glass",
+              "영어 이름": "Lime Stained Glass"
             },
             "block.minecraft.cyan_stained_glass": {
-              "아이템 아이디": "block.minecraft.cyan_stained_glass",
-              "아이템 영어 이름": "Cyan Stained Glass"
+              "아이디": "block.minecraft.cyan_stained_glass",
+              "영어 이름": "Cyan Stained Glass"
             },
             "block.minecraft.glass": {
-              "아이템 아이디": "block.minecraft.glass",
-              "아이템 영어 이름": "Glass"
+              "아이디": "block.minecraft.glass",
+              "영어 이름": "Glass"
             },
             "block.minecraft.tinted_glass": {
-              "아이템 아이디": "block.minecraft.tinted_glass",
-              "아이템 영어 이름": "Tinted Glass"
+              "아이디": "block.minecraft.tinted_glass",
+              "영어 이름": "Tinted Glass"
             },
             "block.minecraft.purple_stained_glass": {
-              "아이템 아이디": "block.minecraft.purple_stained_glass",
-              "아이템 영어 이름": "Purple Stained Glass"
+              "아이디": "block.minecraft.purple_stained_glass",
+              "영어 이름": "Purple Stained Glass"
             },
             "block.minecraft.yellow_stained_glass": {
-              "아이템 아이디": "block.minecraft.yellow_stained_glass",
-              "아이템 영어 이름": "Yellow Stained Glass"
+              "아이디": "block.minecraft.yellow_stained_glass",
+              "영어 이름": "Yellow Stained Glass"
             },
             "block.minecraft.pink_stained_glass": {
-              "아이템 아이디": "block.minecraft.pink_stained_glass",
-              "아이템 영어 이름": "Pink Stained Glass"
+              "아이디": "block.minecraft.pink_stained_glass",
+              "영어 이름": "Pink Stained Glass"
             },
             "block.minecraft.blue_stained_glass": {
-              "아이템 아이디": "block.minecraft.blue_stained_glass",
-              "아이템 영어 이름": "Blue Stained Glass"
+              "아이디": "block.minecraft.blue_stained_glass",
+              "영어 이름": "Blue Stained Glass"
             },
             "block.minecraft.black_stained_glass": {
-              "아이템 아이디": "block.minecraft.black_stained_glass",
-              "아이템 영어 이름": "Black Stained Glass"
+              "아이디": "block.minecraft.black_stained_glass",
+              "영어 이름": "Black Stained Glass"
             },
             "block.minecraft.gray_stained_glass": {
-              "아이템 아이디": "block.minecraft.gray_stained_glass",
-              "아이템 영어 이름": "Gray Stained Glass"
+              "아이디": "block.minecraft.gray_stained_glass",
+              "영어 이름": "Gray Stained Glass"
             },
             "block.minecraft.white_stained_glass": {
-              "아이템 아이디": "block.minecraft.white_stained_glass",
-              "아이템 영어 이름": "White Stained Glass"
+              "아이디": "block.minecraft.white_stained_glass",
+              "영어 이름": "White Stained Glass"
             }
           }
         },
@@ -230,72 +230,72 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.purple_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.purple_stained_glass_pane",
-              "아이템 영어 이름": "Purple Stained Glass Pane"
+              "아이디": "block.minecraft.purple_stained_glass_pane",
+              "영어 이름": "Purple Stained Glass Pane"
             },
             "block.minecraft.brown_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.brown_stained_glass_pane",
-              "아이템 영어 이름": "Brown Stained Glass Pane"
+              "아이디": "block.minecraft.brown_stained_glass_pane",
+              "영어 이름": "Brown Stained Glass Pane"
             },
             "block.minecraft.yellow_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.yellow_stained_glass_pane",
-              "아이템 영어 이름": "Yellow Stained Glass Pane"
+              "아이디": "block.minecraft.yellow_stained_glass_pane",
+              "영어 이름": "Yellow Stained Glass Pane"
             },
             "block.minecraft.green_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.green_stained_glass_pane",
-              "아이템 영어 이름": "Green Stained Glass Pane"
+              "아이디": "block.minecraft.green_stained_glass_pane",
+              "영어 이름": "Green Stained Glass Pane"
             },
             "block.minecraft.gray_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.gray_stained_glass_pane",
-              "아이템 영어 이름": "Gray Stained Glass Pane"
+              "아이디": "block.minecraft.gray_stained_glass_pane",
+              "영어 이름": "Gray Stained Glass Pane"
             },
             "block.minecraft.black_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.black_stained_glass_pane",
-              "아이템 영어 이름": "Black Stained Glass Pane"
+              "아이디": "block.minecraft.black_stained_glass_pane",
+              "영어 이름": "Black Stained Glass Pane"
             },
             "block.minecraft.orange_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.orange_stained_glass_pane",
-              "아이템 영어 이름": "Orange Stained Glass Pane"
+              "아이디": "block.minecraft.orange_stained_glass_pane",
+              "영어 이름": "Orange Stained Glass Pane"
             },
             "block.minecraft.pink_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.pink_stained_glass_pane",
-              "아이템 영어 이름": "Pink Stained Glass Pane"
+              "아이디": "block.minecraft.pink_stained_glass_pane",
+              "영어 이름": "Pink Stained Glass Pane"
             },
             "block.minecraft.light_blue_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.light_blue_stained_glass_pane",
-              "아이템 영어 이름": "Light Blue Stained Glass Pane"
+              "아이디": "block.minecraft.light_blue_stained_glass_pane",
+              "영어 이름": "Light Blue Stained Glass Pane"
             },
             "block.minecraft.cyan_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.cyan_stained_glass_pane",
-              "아이템 영어 이름": "Cyan Stained Glass Pane"
+              "아이디": "block.minecraft.cyan_stained_glass_pane",
+              "영어 이름": "Cyan Stained Glass Pane"
             },
             "block.minecraft.blue_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.blue_stained_glass_pane",
-              "아이템 영어 이름": "Blue Stained Glass Pane"
+              "아이디": "block.minecraft.blue_stained_glass_pane",
+              "영어 이름": "Blue Stained Glass Pane"
             },
             "block.minecraft.light_gray_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.light_gray_stained_glass_pane",
-              "아이템 영어 이름": "Light Gray Stained Glass Pane"
+              "아이디": "block.minecraft.light_gray_stained_glass_pane",
+              "영어 이름": "Light Gray Stained Glass Pane"
             },
             "block.minecraft.white_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.white_stained_glass_pane",
-              "아이템 영어 이름": "White Stained Glass Pane"
+              "아이디": "block.minecraft.white_stained_glass_pane",
+              "영어 이름": "White Stained Glass Pane"
             },
             "block.minecraft.glass_pane": {
-              "아이템 아이디": "block.minecraft.glass_pane",
-              "아이템 영어 이름": "Glass Pane"
+              "아이디": "block.minecraft.glass_pane",
+              "영어 이름": "Glass Pane"
             },
             "block.minecraft.magenta_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.magenta_stained_glass_pane",
-              "아이템 영어 이름": "Magenta Stained Glass Pane"
+              "아이디": "block.minecraft.magenta_stained_glass_pane",
+              "영어 이름": "Magenta Stained Glass Pane"
             },
             "block.minecraft.lime_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.lime_stained_glass_pane",
-              "아이템 영어 이름": "Lime Stained Glass Pane"
+              "아이디": "block.minecraft.lime_stained_glass_pane",
+              "영어 이름": "Lime Stained Glass Pane"
             },
             "block.minecraft.red_stained_glass_pane": {
-              "아이템 아이디": "block.minecraft.red_stained_glass_pane",
-              "아이템 영어 이름": "Red Stained Glass Pane"
+              "아이디": "block.minecraft.red_stained_glass_pane",
+              "영어 이름": "Red Stained Glass Pane"
             }
           }
         },
@@ -304,72 +304,72 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.white_concrete_powder": {
-              "아이템 아이디": "block.minecraft.white_concrete_powder",
-              "아이템 영어 이름": "White Concrete Powder"
+              "아이디": "block.minecraft.white_concrete_powder",
+              "영어 이름": "White Concrete Powder"
             },
             "block.minecraft.brown_concrete_powder": {
-              "아이템 아이디": "block.minecraft.brown_concrete_powder",
-              "아이템 영어 이름": "Brown Concrete Powder"
+              "아이디": "block.minecraft.brown_concrete_powder",
+              "영어 이름": "Brown Concrete Powder"
             },
             "block.minecraft.cyan_concrete_powder": {
-              "아이템 아이디": "block.minecraft.cyan_concrete_powder",
-              "아이템 영어 이름": "Cyan Concrete Powder"
+              "아이디": "block.minecraft.cyan_concrete_powder",
+              "영어 이름": "Cyan Concrete Powder"
             },
             "block.minecraft.red_concrete_powder": {
-              "아이템 아이디": "block.minecraft.red_concrete_powder",
-              "아이템 영어 이름": "Red Concrete Powder"
+              "아이디": "block.minecraft.red_concrete_powder",
+              "영어 이름": "Red Concrete Powder"
             },
             "block.minecraft.lime_concrete_powder": {
-              "아이템 아이디": "block.minecraft.lime_concrete_powder",
-              "아이템 영어 이름": "Lime Concrete Powder"
+              "아이디": "block.minecraft.lime_concrete_powder",
+              "영어 이름": "Lime Concrete Powder"
             },
             "block.minecraft.purple_concrete_powder": {
-              "아이템 아이디": "block.minecraft.purple_concrete_powder",
-              "아이템 영어 이름": "Purple Concrete Powder"
+              "아이디": "block.minecraft.purple_concrete_powder",
+              "영어 이름": "Purple Concrete Powder"
             },
             "block.minecraft.light_gray_concrete_powder": {
-              "아이템 아이디": "block.minecraft.light_gray_concrete_powder",
-              "아이템 영어 이름": "Light Gray Concrete Powder"
+              "아이디": "block.minecraft.light_gray_concrete_powder",
+              "영어 이름": "Light Gray Concrete Powder"
             },
             "item.minecraft.blaze_powder": {
-              "아이템 아이디": "item.minecraft.blaze_powder",
-              "아이템 영어 이름": "Blaze Powder"
+              "아이디": "item.minecraft.blaze_powder",
+              "영어 이름": "Blaze Powder"
             },
             "block.minecraft.gray_concrete_powder": {
-              "아이템 아이디": "block.minecraft.gray_concrete_powder",
-              "아이템 영어 이름": "Gray Concrete Powder"
+              "아이디": "block.minecraft.gray_concrete_powder",
+              "영어 이름": "Gray Concrete Powder"
             },
             "block.minecraft.magenta_concrete_powder": {
-              "아이템 아이디": "block.minecraft.magenta_concrete_powder",
-              "아이템 영어 이름": "Magenta Concrete Powder"
+              "아이디": "block.minecraft.magenta_concrete_powder",
+              "영어 이름": "Magenta Concrete Powder"
             },
             "block.minecraft.blue_concrete_powder": {
-              "아이템 아이디": "block.minecraft.blue_concrete_powder",
-              "아이템 영어 이름": "Blue Concrete Powder"
+              "아이디": "block.minecraft.blue_concrete_powder",
+              "영어 이름": "Blue Concrete Powder"
             },
             "block.minecraft.green_concrete_powder": {
-              "아이템 아이디": "block.minecraft.green_concrete_powder",
-              "아이템 영어 이름": "Green Concrete Powder"
+              "아이디": "block.minecraft.green_concrete_powder",
+              "영어 이름": "Green Concrete Powder"
             },
             "block.minecraft.pink_concrete_powder": {
-              "아이템 아이디": "block.minecraft.pink_concrete_powder",
-              "아이템 영어 이름": "Pink Concrete Powder"
+              "아이디": "block.minecraft.pink_concrete_powder",
+              "영어 이름": "Pink Concrete Powder"
             },
             "block.minecraft.yellow_concrete_powder": {
-              "아이템 아이디": "block.minecraft.yellow_concrete_powder",
-              "아이템 영어 이름": "Yellow Concrete Powder"
+              "아이디": "block.minecraft.yellow_concrete_powder",
+              "영어 이름": "Yellow Concrete Powder"
             },
             "block.minecraft.orange_concrete_powder": {
-              "아이템 아이디": "block.minecraft.orange_concrete_powder",
-              "아이템 영어 이름": "Orange Concrete Powder"
+              "아이디": "block.minecraft.orange_concrete_powder",
+              "영어 이름": "Orange Concrete Powder"
             },
             "block.minecraft.black_concrete_powder": {
-              "아이템 아이디": "block.minecraft.black_concrete_powder",
-              "아이템 영어 이름": "Black Concrete Powder"
+              "아이디": "block.minecraft.black_concrete_powder",
+              "영어 이름": "Black Concrete Powder"
             },
             "block.minecraft.light_blue_concrete_powder": {
-              "아이템 아이디": "block.minecraft.light_blue_concrete_powder",
-              "아이템 영어 이름": "Light Blue Concrete Powder"
+              "아이디": "block.minecraft.light_blue_concrete_powder",
+              "영어 이름": "Light Blue Concrete Powder"
             }
           }
         },
@@ -378,136 +378,136 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.brown_terracotta": {
-              "아이템 아이디": "block.minecraft.brown_terracotta",
-              "아이템 영어 이름": "Brown Terracotta"
+              "아이디": "block.minecraft.brown_terracotta",
+              "영어 이름": "Brown Terracotta"
             },
             "block.minecraft.yellow_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.yellow_glazed_terracotta",
-              "아이템 영어 이름": "Yellow Glazed Terracotta"
+              "아이디": "block.minecraft.yellow_glazed_terracotta",
+              "영어 이름": "Yellow Glazed Terracotta"
             },
             "block.minecraft.cyan_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.cyan_glazed_terracotta",
-              "아이템 영어 이름": "Cyan Glazed Terracotta"
+              "아이디": "block.minecraft.cyan_glazed_terracotta",
+              "영어 이름": "Cyan Glazed Terracotta"
             },
             "block.minecraft.magenta_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.magenta_glazed_terracotta",
-              "아이템 영어 이름": "Magenta Glazed Terracotta"
+              "아이디": "block.minecraft.magenta_glazed_terracotta",
+              "영어 이름": "Magenta Glazed Terracotta"
             },
             "block.minecraft.gray_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.gray_glazed_terracotta",
-              "아이템 영어 이름": "Gray Glazed Terracotta"
+              "아이디": "block.minecraft.gray_glazed_terracotta",
+              "영어 이름": "Gray Glazed Terracotta"
             },
             "block.minecraft.white_terracotta": {
-              "아이템 아이디": "block.minecraft.white_terracotta",
-              "아이템 영어 이름": "White Terracotta"
+              "아이디": "block.minecraft.white_terracotta",
+              "영어 이름": "White Terracotta"
             },
             "block.minecraft.terracotta": {
-              "아이템 아이디": "block.minecraft.terracotta",
-              "아이템 영어 이름": "Terracotta"
+              "아이디": "block.minecraft.terracotta",
+              "영어 이름": "Terracotta"
             },
             "block.minecraft.light_gray_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.light_gray_glazed_terracotta",
-              "아이템 영어 이름": "Light Gray Glazed Terracotta"
+              "아이디": "block.minecraft.light_gray_glazed_terracotta",
+              "영어 이름": "Light Gray Glazed Terracotta"
             },
             "block.minecraft.purple_terracotta": {
-              "아이템 아이디": "block.minecraft.purple_terracotta",
-              "아이템 영어 이름": "Purple Terracotta"
+              "아이디": "block.minecraft.purple_terracotta",
+              "영어 이름": "Purple Terracotta"
             },
             "block.minecraft.light_blue_terracotta": {
-              "아이템 아이디": "block.minecraft.light_blue_terracotta",
-              "아이템 영어 이름": "Light Blue Terracotta"
+              "아이디": "block.minecraft.light_blue_terracotta",
+              "영어 이름": "Light Blue Terracotta"
             },
             "block.minecraft.white_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.white_glazed_terracotta",
-              "아이템 영어 이름": "White Glazed Terracotta"
+              "아이디": "block.minecraft.white_glazed_terracotta",
+              "영어 이름": "White Glazed Terracotta"
             },
             "block.minecraft.orange_terracotta": {
-              "아이템 아이디": "block.minecraft.orange_terracotta",
-              "아이템 영어 이름": "Orange Terracotta"
+              "아이디": "block.minecraft.orange_terracotta",
+              "영어 이름": "Orange Terracotta"
             },
             "block.minecraft.light_gray_terracotta": {
-              "아이템 아이디": "block.minecraft.light_gray_terracotta",
-              "아이템 영어 이름": "Light Gray Terracotta"
+              "아이디": "block.minecraft.light_gray_terracotta",
+              "영어 이름": "Light Gray Terracotta"
             },
             "block.minecraft.gray_terracotta": {
-              "아이템 아이디": "block.minecraft.gray_terracotta",
-              "아이템 영어 이름": "Gray Terracotta"
+              "아이디": "block.minecraft.gray_terracotta",
+              "영어 이름": "Gray Terracotta"
             },
             "block.minecraft.cyan_terracotta": {
-              "아이템 아이디": "block.minecraft.cyan_terracotta",
-              "아이템 영어 이름": "Cyan Terracotta"
+              "아이디": "block.minecraft.cyan_terracotta",
+              "영어 이름": "Cyan Terracotta"
             },
             "block.minecraft.black_terracotta": {
-              "아이템 아이디": "block.minecraft.black_terracotta",
-              "아이템 영어 이름": "Black Terracotta"
+              "아이디": "block.minecraft.black_terracotta",
+              "영어 이름": "Black Terracotta"
             },
             "block.minecraft.yellow_terracotta": {
-              "아이템 아이디": "block.minecraft.yellow_terracotta",
-              "아이템 영어 이름": "Yellow Terracotta"
+              "아이디": "block.minecraft.yellow_terracotta",
+              "영어 이름": "Yellow Terracotta"
             },
             "block.minecraft.orange_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.orange_glazed_terracotta",
-              "아이템 영어 이름": "Orange Glazed Terracotta"
+              "아이디": "block.minecraft.orange_glazed_terracotta",
+              "영어 이름": "Orange Glazed Terracotta"
             },
             "block.minecraft.pink_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.pink_glazed_terracotta",
-              "아이템 영어 이름": "Pink Glazed Terracotta"
+              "아이디": "block.minecraft.pink_glazed_terracotta",
+              "영어 이름": "Pink Glazed Terracotta"
             },
             "block.minecraft.brown_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.brown_glazed_terracotta",
-              "아이템 영어 이름": "Brown Glazed Terracotta"
+              "아이디": "block.minecraft.brown_glazed_terracotta",
+              "영어 이름": "Brown Glazed Terracotta"
             },
             "block.minecraft.blue_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.blue_glazed_terracotta",
-              "아이템 영어 이름": "Blue Glazed Terracotta"
+              "아이디": "block.minecraft.blue_glazed_terracotta",
+              "영어 이름": "Blue Glazed Terracotta"
             },
             "block.minecraft.blue_terracotta": {
-              "아이템 아이디": "block.minecraft.blue_terracotta",
-              "아이템 영어 이름": "Blue Terracotta"
+              "아이디": "block.minecraft.blue_terracotta",
+              "영어 이름": "Blue Terracotta"
             },
             "block.minecraft.green_terracotta": {
-              "아이템 아이디": "block.minecraft.green_terracotta",
-              "아이템 영어 이름": "Green Terracotta"
+              "아이디": "block.minecraft.green_terracotta",
+              "영어 이름": "Green Terracotta"
             },
             "block.minecraft.purple_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.purple_glazed_terracotta",
-              "아이템 영어 이름": "Purple Glazed Terracotta"
+              "아이디": "block.minecraft.purple_glazed_terracotta",
+              "영어 이름": "Purple Glazed Terracotta"
             },
             "block.minecraft.lime_terracotta": {
-              "아이템 아이디": "block.minecraft.lime_terracotta",
-              "아이템 영어 이름": "Lime Terracotta"
+              "아이디": "block.minecraft.lime_terracotta",
+              "영어 이름": "Lime Terracotta"
             },
             "block.minecraft.pink_terracotta": {
-              "아이템 아이디": "block.minecraft.pink_terracotta",
-              "아이템 영어 이름": "Pink Terracotta"
+              "아이디": "block.minecraft.pink_terracotta",
+              "영어 이름": "Pink Terracotta"
             },
             "block.minecraft.light_blue_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.light_blue_glazed_terracotta",
-              "아이템 영어 이름": "Light Blue Glazed Terracotta"
+              "아이디": "block.minecraft.light_blue_glazed_terracotta",
+              "영어 이름": "Light Blue Glazed Terracotta"
             },
             "block.minecraft.black_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.black_glazed_terracotta",
-              "아이템 영어 이름": "Black Glazed Terracotta"
+              "아이디": "block.minecraft.black_glazed_terracotta",
+              "영어 이름": "Black Glazed Terracotta"
             },
             "block.minecraft.red_terracotta": {
-              "아이템 아이디": "block.minecraft.red_terracotta",
-              "아이템 영어 이름": "Red Terracotta"
+              "아이디": "block.minecraft.red_terracotta",
+              "영어 이름": "Red Terracotta"
             },
             "block.minecraft.lime_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.lime_glazed_terracotta",
-              "아이템 영어 이름": "Lime Glazed Terracotta"
+              "아이디": "block.minecraft.lime_glazed_terracotta",
+              "영어 이름": "Lime Glazed Terracotta"
             },
             "block.minecraft.red_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.red_glazed_terracotta",
-              "아이템 영어 이름": "Red Glazed Terracotta"
+              "아이디": "block.minecraft.red_glazed_terracotta",
+              "영어 이름": "Red Glazed Terracotta"
             },
             "block.minecraft.magenta_terracotta": {
-              "아이템 아이디": "block.minecraft.magenta_terracotta",
-              "아이템 영어 이름": "Magenta Terracotta"
+              "아이디": "block.minecraft.magenta_terracotta",
+              "영어 이름": "Magenta Terracotta"
             },
             "block.minecraft.green_glazed_terracotta": {
-              "아이템 아이디": "block.minecraft.green_glazed_terracotta",
-              "아이템 영어 이름": "Green Glazed Terracotta"
+              "아이디": "block.minecraft.green_glazed_terracotta",
+              "영어 이름": "Green Glazed Terracotta"
             }
           }
         },
@@ -516,68 +516,68 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.red_wool": {
-              "아이템 아이디": "block.minecraft.red_wool",
-              "아이템 영어 이름": "Red Wool"
+              "아이디": "block.minecraft.red_wool",
+              "영어 이름": "Red Wool"
             },
             "block.minecraft.lime_wool": {
-              "아이템 아이디": "block.minecraft.lime_wool",
-              "아이템 영어 이름": "Lime Wool"
+              "아이디": "block.minecraft.lime_wool",
+              "영어 이름": "Lime Wool"
             },
             "block.minecraft.light_gray_wool": {
-              "아이템 아이디": "block.minecraft.light_gray_wool",
-              "아이템 영어 이름": "Light Gray Wool"
+              "아이디": "block.minecraft.light_gray_wool",
+              "영어 이름": "Light Gray Wool"
             },
             "block.minecraft.brown_wool": {
-              "아이템 아이디": "block.minecraft.brown_wool",
-              "아이템 영어 이름": "Brown Wool"
+              "아이디": "block.minecraft.brown_wool",
+              "영어 이름": "Brown Wool"
             },
             "block.minecraft.white_wool": {
-              "아이템 아이디": "block.minecraft.white_wool",
-              "아이템 영어 이름": "White Wool"
+              "아이디": "block.minecraft.white_wool",
+              "영어 이름": "White Wool"
             },
             "block.minecraft.green_wool": {
-              "아이템 아이디": "block.minecraft.green_wool",
-              "아이템 영어 이름": "Green Wool"
+              "아이디": "block.minecraft.green_wool",
+              "영어 이름": "Green Wool"
             },
             "block.minecraft.gray_wool": {
-              "아이템 아이디": "block.minecraft.gray_wool",
-              "아이템 영어 이름": "Gray Wool"
+              "아이디": "block.minecraft.gray_wool",
+              "영어 이름": "Gray Wool"
             },
             "block.minecraft.purple_wool": {
-              "아이템 아이디": "block.minecraft.purple_wool",
-              "아이템 영어 이름": "Purple Wool"
+              "아이디": "block.minecraft.purple_wool",
+              "영어 이름": "Purple Wool"
             },
             "block.minecraft.light_blue_wool": {
-              "아이템 아이디": "block.minecraft.light_blue_wool",
-              "아이템 영어 이름": "Light Blue Wool"
+              "아이디": "block.minecraft.light_blue_wool",
+              "영어 이름": "Light Blue Wool"
             },
             "block.minecraft.pink_wool": {
-              "아이템 아이디": "block.minecraft.pink_wool",
-              "아이템 영어 이름": "Pink Wool"
+              "아이디": "block.minecraft.pink_wool",
+              "영어 이름": "Pink Wool"
             },
             "block.minecraft.black_wool": {
-              "아이템 아이디": "block.minecraft.black_wool",
-              "아이템 영어 이름": "Black Wool"
+              "아이디": "block.minecraft.black_wool",
+              "영어 이름": "Black Wool"
             },
             "block.minecraft.blue_wool": {
-              "아이템 아이디": "block.minecraft.blue_wool",
-              "아이템 영어 이름": "Blue Wool"
+              "아이디": "block.minecraft.blue_wool",
+              "영어 이름": "Blue Wool"
             },
             "block.minecraft.yellow_wool": {
-              "아이템 아이디": "block.minecraft.yellow_wool",
-              "아이템 영어 이름": "Yellow Wool"
+              "아이디": "block.minecraft.yellow_wool",
+              "영어 이름": "Yellow Wool"
             },
             "block.minecraft.cyan_wool": {
-              "아이템 아이디": "block.minecraft.cyan_wool",
-              "아이템 영어 이름": "Cyan Wool"
+              "아이디": "block.minecraft.cyan_wool",
+              "영어 이름": "Cyan Wool"
             },
             "block.minecraft.orange_wool": {
-              "아이템 아이디": "block.minecraft.orange_wool",
-              "아이템 영어 이름": "Orange Wool"
+              "아이디": "block.minecraft.orange_wool",
+              "영어 이름": "Orange Wool"
             },
             "block.minecraft.magenta_wool": {
-              "아이템 아이디": "block.minecraft.magenta_wool",
-              "아이템 영어 이름": "Magenta Wool"
+              "아이디": "block.minecraft.magenta_wool",
+              "영어 이름": "Magenta Wool"
             }
           }
         }

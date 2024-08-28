@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 import eu.pb4.playerdata.api.PlayerDataApi;
 import net.minecraft.nbt.CompoundTag;
@@ -9,13 +9,10 @@ import org.ruoland.dictionary.client.DictionaryClient;
 
 public class PlayerDictionaryManager {
 
-    public static boolean addNewItem(ServerPlayer player, Item item){
-        if(hasItem(player, item))
-            return false;
-        else
+    public static void addNewItem(ServerPlayer player, Item item){
+
             getDictionaryTag(player).putBoolean(item.getDescriptionId(), true);
 
-        return true;
     }
 
     public static boolean hasItem(ServerPlayer player, Item item){

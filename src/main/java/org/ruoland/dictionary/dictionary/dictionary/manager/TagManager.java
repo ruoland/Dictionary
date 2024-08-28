@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -116,7 +116,7 @@ public class TagManager {
     public void tagging() {
         Dictionary.LOGGER.info("Starting tagging process...");
         try {
-            for (ItemStack itemStack : ItemManager.getItemList()) {
+            for (ItemStack itemStack : ContentManager.getItemList()) {
                 ItemsTag itemsTag = getItemTag(getTag(itemStack));
                 SubData sub = itemsTag.getSubData();
 

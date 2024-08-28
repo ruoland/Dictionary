@@ -8,54 +8,54 @@
           "그룹 설명": "다양한 종류의 나무에서 발견되는 잎 블록들입니다. 이 블록들은 주로 나무의 상단부를 구성하며, 각각 고유한 특성과 드롭 아이템을 가지고 있습니다.",
           "아이템들": {
             "block.minecraft.spruce_leaves": {
-              "아이템 아이디": "block.minecraft.spruce_leaves",
-              "아이템 영어 이름": "Spruce Leaves",
-              "아이템 설명": "침엽수림 바이옴에서 주로 발견됩니다. 가끔 전나무 묘목을 드롭합니다. 눈 바이옴에서는 눈이 쌓일 수 있습니다."
+              "아이디": "block.minecraft.spruce_leaves",
+              "영어 이름": "Spruce Leaves",
+              "설명": "침엽수림 바이옴에서 주로 발견됩니다. 가끔 전나무 묘목을 드롭합니다. 눈 바이옴에서는 눈이 쌓일 수 있습니다."
             },
             "block.minecraft.mangrove_leaves": {
-              "아이템 아이디": "block.minecraft.mangrove_leaves",
-              "아이템 영어 이름": "Mangrove Leaves",
-              "아이템 설명": "맹그로브 늪지대에서 발견됩니다. 번식력이 강한 맹그로브 나무의 일부로, 맹그로브 번식체를 드롭할 수 있습니다."
+              "아이디": "block.minecraft.mangrove_leaves",
+              "영어 이름": "Mangrove Leaves",
+              "설명": "맹그로브 늪지대에서 발견됩니다. 번식력이 강한 맹그로브 나무의 일부로, 맹그로브 번식체를 드롭할 수 있습니다."
             },
             "block.minecraft.flowering_azalea_leaves": {
-              "아이템 아이디": "block.minecraft.flowering_azalea_leaves",
-              "아이템 영어 이름": "Flowering Azalea Leaves",
-              "아이템 설명": "꽃이 핀 진달래 잎입니다. 루시 동굴에서 발견되며, 꽃봉오리를 드롭할 확률이 있습니다. 벌을 끌어들입니다."
+              "아이디": "block.minecraft.flowering_azalea_leaves",
+              "영어 이름": "Flowering Azalea Leaves",
+              "설명": "꽃이 핀 진달래 잎입니다. 루시 동굴에서 발견되며, 꽃봉오리를 드롭할 확률이 있습니다. 벌을 끌어들입니다."
             },
             "block.minecraft.dark_oak_leaves": {
-              "아이템 아이디": "block.minecraft.dark_oak_leaves",
-              "아이템 영어 이름": "Dark Oak Leaves",
-              "아이템 설명": "어두운 숲 바이옴의 큰 나무에서 발견됩니다. 가끔 암갈색 참나무 묘목을 드롭합니다. 사과를 드롭할 확률이 있습니다."
+              "아이디": "block.minecraft.dark_oak_leaves",
+              "영어 이름": "Dark Oak Leaves",
+              "설명": "어두운 숲 바이옴의 큰 나무에서 발견됩니다. 가끔 암갈색 참나무 묘목을 드롭합니다. 사과를 드롭할 확률이 있습니다."
             },
             "block.minecraft.birch_leaves": {
-              "아이템 아이디": "block.minecraft.birch_leaves",
-              "아이템 영어 이름": "Birch Leaves",
-              "아이템 설명": "자작나무 숲에서 주로 발견됩니다. 밝은 색상을 가지며, 자작나무 묘목을 드롭할 수 있습니다."
+              "아이디": "block.minecraft.birch_leaves",
+              "영어 이름": "Birch Leaves",
+              "설명": "자작나무 숲에서 주로 발견됩니다. 밝은 색상을 가지며, 자작나무 묘목을 드롭할 수 있습니다."
             },
             "block.minecraft.acacia_leaves": {
-              "아이템 아이디": "block.minecraft.acacia_leaves",
-              "아이템 영어 이름": "Acacia Leaves",
-              "아이템 설명": "사바나 바이옴의 아카시아 나무에서 발견됩니다. 독특한 회색빛을 띠며, 아카시아 묘목을 드롭할 수 있습니다."
+              "아이디": "block.minecraft.acacia_leaves",
+              "영어 이름": "Acacia Leaves",
+              "설명": "사바나 바이옴의 아카시아 나무에서 발견됩니다. 독특한 회색빛을 띠며, 아카시아 묘목을 드롭할 수 있습니다."
             },
             "block.minecraft.oak_leaves": {
-              "아이템 아이디": "block.minecraft.oak_leaves",
-              "아이템 영어 이름": "Oak Leaves",
-              "아이템 설명": "가장 흔한 나뭇잎으로, 다양한 바이옴에서 발견됩니다. 참나무 묘목과 사과를 드롭할 수 있습니다."
+              "아이디": "block.minecraft.oak_leaves",
+              "영어 이름": "Oak Leaves",
+              "설명": "가장 흔한 나뭇잎으로, 다양한 바이옴에서 발견됩니다. 참나무 묘목과 사과를 드롭할 수 있습니다."
             },
             "block.minecraft.azalea_leaves": {
-              "아이템 아이디": "block.minecraft.azalea_leaves",
-              "아이템 영어 이름": "Azalea Leaves",
-              "아이템 설명": "루시 동굴의 진달래 나무에서 발견됩니다. 진달래 묘목을 드롭할 수 있으며, 벌을 끌어들입니다."
+              "아이디": "block.minecraft.azalea_leaves",
+              "영어 이름": "Azalea Leaves",
+              "설명": "루시 동굴의 진달래 나무에서 발견됩니다. 진달래 묘목을 드롭할 수 있으며, 벌을 끌어들입니다."
             },
             "block.minecraft.jungle_leaves": {
-              "아이템 아이디": "block.minecraft.jungle_leaves",
-              "아이템 영어 이름": "Jungle Leaves",
-              "아이템 설명": "정글 바이옴의 큰 나무에서 발견됩니다. 정글 나무 묘목을 드롭할 수 있으며, 코코아 콩이 자랄 수 있는 유일한 나뭇잎입니다."
+              "아이디": "block.minecraft.jungle_leaves",
+              "영어 이름": "Jungle Leaves",
+              "설명": "정글 바이옴의 큰 나무에서 발견됩니다. 정글 나무 묘목을 드롭할 수 있으며, 코코아 콩이 자랄 수 있는 유일한 나뭇잎입니다."
             },
             "block.minecraft.cherry_leaves": {
-              "아이템 아이디": "block.minecraft.cherry_leaves",
-              "아이템 영어 이름": "Cherry Leaves",
-              "아이템 설명": "벚꽃 숲 바이옴에서 발견되는 분홍색 잎입니다. 벚나무 묘목을 드롭할 수 있으며, 아름다운 분홍색 입자를 떨어뜨립니다."
+              "아이디": "block.minecraft.cherry_leaves",
+              "영어 이름": "Cherry Leaves",
+              "설명": "벚꽃 숲 바이옴에서 발견되는 분홍색 잎입니다. 벚나무 묘목을 드롭할 수 있으며, 아름다운 분홍색 입자를 떨어뜨립니다."
             }
           }
         },
@@ -64,84 +64,84 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.mangrove_log": {
-              "아이템 아이디": "block.minecraft.mangrove_log",
-              "아이템 영어 이름": "Mangrove Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.mangrove_log",
+              "영어 이름": "Mangrove Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_dark_oak_log": {
-              "아이템 아이디": "block.minecraft.stripped_dark_oak_log",
-              "아이템 영어 이름": "Stripped Dark Oak Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_dark_oak_log",
+              "영어 이름": "Stripped Dark Oak Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.birch_log": {
-              "아이템 아이디": "block.minecraft.birch_log",
-              "아이템 영어 이름": "Birch Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.birch_log",
+              "영어 이름": "Birch Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_jungle_log": {
-              "아이템 아이디": "block.minecraft.stripped_jungle_log",
-              "아이템 영어 이름": "Stripped Jungle Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_jungle_log",
+              "영어 이름": "Stripped Jungle Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_spruce_log": {
-              "아이템 아이디": "block.minecraft.stripped_spruce_log",
-              "아이템 영어 이름": "Stripped Spruce Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_spruce_log",
+              "영어 이름": "Stripped Spruce Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.cherry_log": {
-              "아이템 아이디": "block.minecraft.cherry_log",
-              "아이템 영어 이름": "Cherry Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.cherry_log",
+              "영어 이름": "Cherry Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.spruce_log": {
-              "아이템 아이디": "block.minecraft.spruce_log",
-              "아이템 영어 이름": "Spruce Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.spruce_log",
+              "영어 이름": "Spruce Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_oak_log": {
-              "아이템 아이디": "block.minecraft.stripped_oak_log",
-              "아이템 영어 이름": "Stripped Oak Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_oak_log",
+              "영어 이름": "Stripped Oak Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_birch_log": {
-              "아이템 아이디": "block.minecraft.stripped_birch_log",
-              "아이템 영어 이름": "Stripped Birch Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_birch_log",
+              "영어 이름": "Stripped Birch Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_cherry_log": {
-              "아이템 아이디": "block.minecraft.stripped_cherry_log",
-              "아이템 영어 이름": "Stripped Cherry Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_cherry_log",
+              "영어 이름": "Stripped Cherry Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.acacia_log": {
-              "아이템 아이디": "block.minecraft.acacia_log",
-              "아이템 영어 이름": "Acacia Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.acacia_log",
+              "영어 이름": "Acacia Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.dark_oak_log": {
-              "아이템 아이디": "block.minecraft.dark_oak_log",
-              "아이템 영어 이름": "Dark Oak Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.dark_oak_log",
+              "영어 이름": "Dark Oak Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_acacia_log": {
-              "아이템 아이디": "block.minecraft.stripped_acacia_log",
-              "아이템 영어 이름": "Stripped Acacia Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_acacia_log",
+              "영어 이름": "Stripped Acacia Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.oak_log": {
-              "아이템 아이디": "block.minecraft.oak_log",
-              "아이템 영어 이름": "Oak Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.oak_log",
+              "영어 이름": "Oak Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.stripped_mangrove_log": {
-              "아이템 아이디": "block.minecraft.stripped_mangrove_log",
-              "아이템 영어 이름": "Stripped Mangrove Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.stripped_mangrove_log",
+              "영어 이름": "Stripped Mangrove Log",
+              "설명": "아이템 설명"
             },
             "block.minecraft.jungle_log": {
-              "아이템 아이디": "block.minecraft.jungle_log",
-              "아이템 영어 이름": "Jungle Log",
-              "아이템 설명": "아이템 설명"
+              "아이디": "block.minecraft.jungle_log",
+              "영어 이름": "Jungle Log",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -150,54 +150,54 @@
           "그룹 설명": "나무 판자는 마인크래프트에서 가장 기본적이고 다용도로 사용되는 건축 블록입니다. 다양한 종류의 나무로 만들어지며, 각각 고유한 색상과 텍스처를 가지고 있어 건축의 다양성을 높여줍니다. 나무 원목을 제작대에서 가공하여 얻을 수 있으며, 1개의 원목으로 4개의 나무 판자를 얻을 수 있습니다.",
           "아이템들": {
             "block.minecraft.spruce_planks": {
-              "아이템 아이디": "block.minecraft.spruce_planks",
-              "아이템 영어 이름": "Spruce Planks",
-              "아이템 설명": "가문비나무 판자는 어두운 갈색을 띠는 나무 판자입니다. 타이가 바이옴에서 주로 발견되는 가문비나무로 만들어집니다. 따뜻하고 소박한 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.spruce_planks",
+              "영어 이름": "Spruce Planks",
+              "설명": "가문비나무 판자는 어두운 갈색을 띠는 나무 판자입니다. 타이가 바이옴에서 주로 발견되는 가문비나무로 만들어집니다. 따뜻하고 소박한 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.mangrove_planks": {
-              "아이템 아이디": "block.minecraft.mangrove_planks",
-              "아이템 영어 이름": "Mangrove Planks",
-              "아이템 설명": "맹그로브 판자는 붉은 색조를 띠는 독특한 나무 판자입니다. 맹그로브 늪지대에서 자라는 맹그로브 나무로 만들어집니다. 열대 또는 해안 테마의 건축물에 적합합니다."
+              "아이디": "block.minecraft.mangrove_planks",
+              "영어 이름": "Mangrove Planks",
+              "설명": "맹그로브 판자는 붉은 색조를 띠는 독특한 나무 판자입니다. 맹그로브 늪지대에서 자라는 맹그로브 나무로 만들어집니다. 열대 또는 해안 테마의 건축물에 적합합니다."
             },
             "block.minecraft.cherry_planks": {
-              "아이템 아이디": "block.minecraft.cherry_planks",
-              "아이템 영어 이름": "Cherry Planks",
-              "아이템 설명": "벚나무 판자는 밝은 분홍빛을 띠는 나무 판자입니다. 벚꽃 숲 바이옴에서 자라는 벚나무로 만들어집니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.cherry_planks",
+              "영어 이름": "Cherry Planks",
+              "설명": "벚나무 판자는 밝은 분홍빛을 띠는 나무 판자입니다. 벚꽃 숲 바이옴에서 자라는 벚나무로 만들어집니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.jungle_planks": {
-              "아이템 아이디": "block.minecraft.jungle_planks",
-              "아이템 영어 이름": "Jungle Planks",
-              "아이템 설명": "정글나무 판자는 밝은 분홍빛 갈색을 띠는 나무 판자입니다. 정글 바이옴에서 자라는 정글나무로 만들어집니다. 열대 스타일의 건축물에 적합합니다."
+              "아이디": "block.minecraft.jungle_planks",
+              "영어 이름": "Jungle Planks",
+              "설명": "정글나무 판자는 밝은 분홍빛 갈색을 띠는 나무 판자입니다. 정글 바이옴에서 자라는 정글나무로 만들어집니다. 열대 스타일의 건축물에 적합합니다."
             },
             "block.minecraft.oak_planks": {
-              "아이템 아이디": "block.minecraft.oak_planks",
-              "아이템 영어 이름": "Oak Planks",
-              "아이템 설명": "참나무 판자는 가장 기본적이고 흔한 나무 판자입니다. 밝은 갈색을 띠며, 다양한 바이옴에서 쉽게 구할 수 있는 참나무로 만들어집니다. 범용성이 높아 다양한 건축 스타일에 적합합니다."
+              "아이디": "block.minecraft.oak_planks",
+              "영어 이름": "Oak Planks",
+              "설명": "참나무 판자는 가장 기본적이고 흔한 나무 판자입니다. 밝은 갈색을 띠며, 다양한 바이옴에서 쉽게 구할 수 있는 참나무로 만들어집니다. 범용성이 높아 다양한 건축 스타일에 적합합니다."
             },
             "block.minecraft.birch_planks": {
-              "아이템 아이디": "block.minecraft.birch_planks",
-              "아이템 영어 이름": "Birch Planks",
-              "아이템 설명": "자작나무 판자는 매우 밝은 색상을 가진 나무 판자입니다. 자작나무 숲에서 자라는 자작나무로 만들어집니다. 밝고 깨끗한 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.birch_planks",
+              "영어 이름": "Birch Planks",
+              "설명": "자작나무 판자는 매우 밝은 색상을 가진 나무 판자입니다. 자작나무 숲에서 자라는 자작나무로 만들어집니다. 밝고 깨끗한 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.dark_oak_planks": {
-              "아이템 아이디": "block.minecraft.dark_oak_planks",
-              "아이템 영어 이름": "Dark Oak Planks",
-              "아이템 설명": "짙은 참나무 판자는 매우 어두운 갈색을 띠는 나무 판자입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무로 만들어집니다. 고급스럽고 중후한 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.dark_oak_planks",
+              "영어 이름": "Dark Oak Planks",
+              "설명": "짙은 참나무 판자는 매우 어두운 갈색을 띠는 나무 판자입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무로 만들어집니다. 고급스럽고 중후한 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.bamboo_planks": {
-              "아이템 아이디": "block.minecraft.bamboo_planks",
-              "아이템 영어 이름": "Bamboo Planks",
-              "아이템 설명": "대나무 판자는 밝은 노란빛을 띠는 나무 판자입니다. 대나무 정글에서 자라는 대나무로 만들어집니다. 동양적이고 열대적인 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.bamboo_planks",
+              "영어 이름": "Bamboo Planks",
+              "설명": "대나무 판자는 밝은 노란빛을 띠는 나무 판자입니다. 대나무 정글에서 자라는 대나무로 만들어집니다. 동양적이고 열대적인 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.warped_planks": {
-              "아이템 아이디": "block.minecraft.warped_planks",
-              "아이템 영어 이름": "Warped Planks",
-              "아이템 설명": "뒤틀린 판자는 청록색을 띠는 독특한 나무 판자입니다. 네더의 뒤틀린 숲에서 자라는 뒤틀린 줄기로 만들어집니다. 환상적이고 초현실적인 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.warped_planks",
+              "영어 이름": "Warped Planks",
+              "설명": "뒤틀린 판자는 청록색을 띠는 독특한 나무 판자입니다. 네더의 뒤틀린 숲에서 자라는 뒤틀린 줄기로 만들어집니다. 환상적이고 초현실적인 분위기를 연출하는 데 적합합니다."
             },
             "block.minecraft.acacia_planks": {
-              "아이템 아이디": "block.minecraft.acacia_planks",
-              "아이템 영어 이름": "Acacia Planks",
-              "아이템 설명": "아카시아나무 판자는 주황빛을 띠는 나무 판자입니다. 사바나 바이옴에서 자라는 아카시아나무로 만들어집니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합합니다."
+              "아이디": "block.minecraft.acacia_planks",
+              "영어 이름": "Acacia Planks",
+              "설명": "아카시아나무 판자는 주황빛을 띠는 나무 판자입니다. 사바나 바이옴에서 자라는 아카시아나무로 만들어집니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합합니다."
             }
           }
         },
@@ -206,84 +206,84 @@
           "그룹 설명": "원목은 마인크래프트에서 나무를 베어 얻을 수 있는 기본적인 건축 재료입니다. 각 나무 종류마다 고유한 텍스처와 색상을 가지고 있어 다양한 건축 스타일을 구현할 수 있습니다. 원목은 그대로 사용하거나 도끼로 껍질을 벗겨 stripped 버전으로 만들 수 있습니다. 이 블록들은 주로 장식용으로 사용되며, 나무 기둥이나 구조물을 만드는 데 적합합니다.",
           "아이템들": {
             "block.minecraft.jungle_wood": {
-              "아이템 아이디": "block.minecraft.jungle_wood",
-              "아이템 영어 이름": "Jungle Wood",
-              "아이템 설명": "정글나무 원목은 정글 바이옴에서 자라는 나무로 만든 블록입니다. 밝은 갈색 껍질과 연한 내부를 가지고 있어 열대 스타일의 건축물에 적합합니다. 정글나무 잎으로 둘러싸인 형태로 생성되며, 오셀롯이 이 나무 위에서 생성됩니다."
+              "아이디": "block.minecraft.jungle_wood",
+              "영어 이름": "Jungle Wood",
+              "설명": "정글나무 원목은 정글 바이옴에서 자라는 나무로 만든 블록입니다. 밝은 갈색 껍질과 연한 내부를 가지고 있어 열대 스타일의 건축물에 적합합니다. 정글나무 잎으로 둘러싸인 형태로 생성되며, 오셀롯이 이 나무 위에서 생성됩니다."
             },
             "block.minecraft.stripped_mangrove_wood": {
-              "아이템 아이디": "block.minecraft.stripped_mangrove_wood",
-              "아이템 영어 이름": "Stripped Mangrove Wood",
-              "아이템 설명": "껍질을 벗긴 맹그로브나무 원목은 붉은 색조를 띠는 나무 블록입니다. 맹그로브 늪지대에서 자라는 맹그로브나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 열대 또는 해안 테마의 건축물에 적합하며, 특히 수중 또는 습지 건축에 잘 어울립니다."
+              "아이디": "block.minecraft.stripped_mangrove_wood",
+              "영어 이름": "Stripped Mangrove Wood",
+              "설명": "껍질을 벗긴 맹그로브나무 원목은 붉은 색조를 띠는 나무 블록입니다. 맹그로브 늪지대에서 자라는 맹그로브나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 열대 또는 해안 테마의 건축물에 적합하며, 특히 수중 또는 습지 건축에 잘 어울립니다."
             },
             "block.minecraft.stripped_dark_oak_wood": {
-              "아이템 아이디": "block.minecraft.stripped_dark_oak_wood",
-              "아이템 영어 이름": "Stripped Dark Oak Wood",
-              "아이템 설명": "껍질을 벗긴 짙은 참나무 원목은 매우 어두운 갈색을 띠는 나무 블록입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 고급스럽고 중후한 분위기의 건축물에 적합합니다."
+              "아이디": "block.minecraft.stripped_dark_oak_wood",
+              "영어 이름": "Stripped Dark Oak Wood",
+              "설명": "껍질을 벗긴 짙은 참나무 원목은 매우 어두운 갈색을 띠는 나무 블록입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 고급스럽고 중후한 분위기의 건축물에 적합합니다."
             },
             "block.minecraft.stripped_jungle_wood": {
-              "아이템 아이디": "block.minecraft.stripped_jungle_wood",
-              "아이템 영어 이름": "Stripped Jungle Wood",
-              "아이템 설명": "껍질을 벗긴 정글나무 원목은 밝은 분홍빛 갈색을 띠는 나무 블록입니다. 정글 바이옴에서 자라는 정글나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 열대 스타일의 건축물에 적합하며, 밝고 따뜻한 분위기를 연출합니다."
+              "아이디": "block.minecraft.stripped_jungle_wood",
+              "영어 이름": "Stripped Jungle Wood",
+              "설명": "껍질을 벗긴 정글나무 원목은 밝은 분홍빛 갈색을 띠는 나무 블록입니다. 정글 바이옴에서 자라는 정글나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 열대 스타일의 건축물에 적합하며, 밝고 따뜻한 분위기를 연출합니다."
             },
             "block.minecraft.oak_wood": {
-              "아이템 아이디": "block.minecraft.oak_wood",
-              "아이템 영어 이름": "Oak Wood",
-              "아이템 설명": "참나무 원목은 가장 흔하고 기본적인 나무 블록입니다. 밝은 갈색 껍질과 연한 내부를 가지고 있어 다양한 건축 스타일에 적용할 수 있습니다. 평원, 숲 등 여러 바이옴에서 쉽게 구할 수 있어 초보자들에게 적합합니다."
+              "아이디": "block.minecraft.oak_wood",
+              "영어 이름": "Oak Wood",
+              "설명": "참나무 원목은 가장 흔하고 기본적인 나무 블록입니다. 밝은 갈색 껍질과 연한 내부를 가지고 있어 다양한 건축 스타일에 적용할 수 있습니다. 평원, 숲 등 여러 바이옴에서 쉽게 구할 수 있어 초보자들에게 적합합니다."
             },
             "block.minecraft.cherry_wood": {
-              "아이템 아이디": "block.minecraft.cherry_wood",
-              "아이템 영어 이름": "Cherry Wood",
-              "아이템 설명": "벚나무 원목은 밝은 분홍빛을 띠는 나무 블록입니다. 벚꽃 숲 바이옴에서 자라는 벚나무로 만들어집니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합하며, 특히 일본식 또는 동양풍 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.cherry_wood",
+              "영어 이름": "Cherry Wood",
+              "설명": "벚나무 원목은 밝은 분홍빛을 띠는 나무 블록입니다. 벚꽃 숲 바이옴에서 자라는 벚나무로 만들어집니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합하며, 특히 일본식 또는 동양풍 건축물에 잘 어울립니다."
             },
             "block.minecraft.stripped_spruce_wood": {
-              "아이템 아이디": "block.minecraft.stripped_spruce_wood",
-              "아이템 영어 이름": "Stripped Spruce Wood",
-              "아이템 설명": "껍질을 벗긴 가문비나무 원목은 어두운 갈색을 띠는 나무 블록입니다. 타이가 바이옴에서 주로 발견되는 가문비나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 따뜻하고 소박한 분위기의 건축물, 특히 산장이나 오두막 스타일에 적합합니다."
+              "아이디": "block.minecraft.stripped_spruce_wood",
+              "영어 이름": "Stripped Spruce Wood",
+              "설명": "껍질을 벗긴 가문비나무 원목은 어두운 갈색을 띠는 나무 블록입니다. 타이가 바이옴에서 주로 발견되는 가문비나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 따뜻하고 소박한 분위기의 건축물, 특히 산장이나 오두막 스타일에 적합합니다."
             },
             "block.minecraft.dark_oak_wood": {
-              "아이템 아이디": "block.minecraft.dark_oak_wood",
-              "아이템 영어 이름": "Dark Oak Wood",
-              "아이템 설명": "짙은 참나무 원목은 매우 어두운 갈색 껍질을 가진 나무 블록입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무로 만들어집니다. 고급스럽고 중후한 분위기를 연출하는 데 적합하며, 빅토리안 스타일이나 고딕 건축에 잘 어울립니다."
+              "아이디": "block.minecraft.dark_oak_wood",
+              "영어 이름": "Dark Oak Wood",
+              "설명": "짙은 참나무 원목은 매우 어두운 갈색 껍질을 가진 나무 블록입니다. 어두운 숲 바이옴에서 자라는 짙은 참나무로 만들어집니다. 고급스럽고 중후한 분위기를 연출하는 데 적합하며, 빅토리안 스타일이나 고딕 건축에 잘 어울립니다."
             },
             "block.minecraft.stripped_birch_wood": {
-              "아이템 아이디": "block.minecraft.stripped_birch_wood",
-              "아이템 영어 이름": "Stripped Birch Wood",
-              "아이템 설명": "껍질을 벗긴 자작나무 원목은 매우 밝은 색상을 가진 나무 블록입니다. 자작나무 숲에서 자라는 자작나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 밝고 깨끗한 분위기를 연출하는 데 적합하며, 현대적이거나 스칸디나비아 스타일의 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.stripped_birch_wood",
+              "영어 이름": "Stripped Birch Wood",
+              "설명": "껍질을 벗긴 자작나무 원목은 매우 밝은 색상을 가진 나무 블록입니다. 자작나무 숲에서 자라는 자작나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 밝고 깨끗한 분위기를 연출하는 데 적합하며, 현대적이거나 스칸디나비아 스타일의 건축물에 잘 어울립니다."
             },
             "block.minecraft.stripped_cherry_wood": {
-              "아이템 아이디": "block.minecraft.stripped_cherry_wood",
-              "아이템 영어 이름": "Stripped Cherry Wood",
-              "아이템 설명": "껍질을 벗긴 벚나무 원목은 밝은 분홍빛을 띠는 나무 블록입니다. 벚꽃 숲 바이옴에서 자라는 벚나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합하며, 특히 일본식 정원이나 봄 테마 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.stripped_cherry_wood",
+              "영어 이름": "Stripped Cherry Wood",
+              "설명": "껍질을 벗긴 벚나무 원목은 밝은 분홍빛을 띠는 나무 블록입니다. 벚꽃 숲 바이옴에서 자라는 벚나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 부드럽고 로맨틱한 분위기를 연출하는 데 적합하며, 특히 일본식 정원이나 봄 테마 건축물에 잘 어울립니다."
             },
             "block.minecraft.stripped_oak_wood": {
-              "아이템 아이디": "block.minecraft.stripped_oak_wood",
-              "아이템 영어 이름": "Stripped Oak Wood",
-              "아이템 설명": "껍질을 벗긴 참나무 원목은 밝은 갈색을 띠는 나무 블록입니다. 가장 기본적인 나무인 참나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 다양한 건축 스타일에 적용할 수 있어 범용성이 높으며, 특히 소박하고 전통적인 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.stripped_oak_wood",
+              "영어 이름": "Stripped Oak Wood",
+              "설명": "껍질을 벗긴 참나무 원목은 밝은 갈색을 띠는 나무 블록입니다. 가장 기본적인 나무인 참나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 다양한 건축 스타일에 적용할 수 있어 범용성이 높으며, 특히 소박하고 전통적인 건축물에 잘 어울립니다."
             },
             "block.minecraft.birch_wood": {
-              "아이템 아이디": "block.minecraft.birch_wood",
-              "아이템 영어 이름": "Birch Wood",
-              "아이템 설명": "자작나무 원목은 흰색에 가까운 밝은 껍질을 가진 나무 블록입니다. 자작나무 숲에서 자라는 자작나무로 만들어집니다. 밝고 깨끗한 분위기를 연출하는 데 적합하며, 현대적이거나 북유럽 스타일의 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.birch_wood",
+              "영어 이름": "Birch Wood",
+              "설명": "자작나무 원목은 흰색에 가까운 밝은 껍질을 가진 나무 블록입니다. 자작나무 숲에서 자라는 자작나무로 만들어집니다. 밝고 깨끗한 분위기를 연출하는 데 적합하며, 현대적이거나 북유럽 스타일의 건축물에 잘 어울립니다."
             },
             "block.minecraft.mangrove_wood": {
-              "아이템 아이디": "block.minecraft.mangrove_wood",
-              "아이템 영어 이름": "Mangrove Wood",
-              "아이템 설명": "맹그로브나무 원목은 붉은 색조를 띠는 나무 블록입니다. 맹그로브 늪지대에서 자라는 맹그로브나무로 만들어집니다. 열대 또는 해안 테마의 건축물에 적합하며, 특히 수상 가옥이나 부둣가 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.mangrove_wood",
+              "영어 이름": "Mangrove Wood",
+              "설명": "맹그로브나무 원목은 붉은 색조를 띠는 나무 블록입니다. 맹그로브 늪지대에서 자라는 맹그로브나무로 만들어집니다. 열대 또는 해안 테마의 건축물에 적합하며, 특히 수상 가옥이나 부둣가 건축물에 잘 어울립니다."
             },
             "block.minecraft.spruce_wood": {
-              "아이템 아이디": "block.minecraft.spruce_wood",
-              "아이템 영어 이름": "Spruce Wood",
-              "아이템 설명": "가문비나무 원목은 어두운 갈색 껍질을 가진 나무 블록입니다. 타이가 바이옴에서 주로 발견되는 가문비나무로 만들어집니다. 따뜻하고 소박한 분위기를 연출하는 데 적합하며, 특히 산장이나 겨울 테마 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.spruce_wood",
+              "영어 이름": "Spruce Wood",
+              "설명": "가문비나무 원목은 어두운 갈색 껍질을 가진 나무 블록입니다. 타이가 바이옴에서 주로 발견되는 가문비나무로 만들어집니다. 따뜻하고 소박한 분위기를 연출하는 데 적합하며, 특히 산장이나 겨울 테마 건축물에 잘 어울립니다."
             },
             "block.minecraft.acacia_wood": {
-              "아이템 아이디": "block.minecraft.acacia_wood",
-              "아이템 영어 이름": "Acacia Wood",
-              "아이템 설명": "아카시아나무 원목은 회색빛을 띠는 껍질을 가진 나무 블록입니다. 사바나 바이옴에서 자라는 아카시아나무로 만들어집니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합하며, 특히 아프리카나 사막 테마 건축물에 잘 어울립니다."
+              "아이디": "block.minecraft.acacia_wood",
+              "영어 이름": "Acacia Wood",
+              "설명": "아카시아나무 원목은 회색빛을 띠는 껍질을 가진 나무 블록입니다. 사바나 바이옴에서 자라는 아카시아나무로 만들어집니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합하며, 특히 아프리카나 사막 테마 건축물에 잘 어울립니다."
             },
             "block.minecraft.stripped_acacia_wood": {
-              "아이템 아이디": "block.minecraft.stripped_acacia_wood",
-              "아이템 영어 이름": "Stripped Acacia Wood",
-              "아이템 설명": "껍질을 벗긴 아카시아나무 원목은 주황빛을 띠는 나무 블록입니다. 사바나 바이옴에서 자라는 아카시아나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합하며, 특히 현대적인 건축물이나 사막 오아시스 테마에 잘 어울립니다."
+              "아이디": "block.minecraft.stripped_acacia_wood",
+              "영어 이름": "Stripped Acacia Wood",
+              "설명": "껍질을 벗긴 아카시아나무 원목은 주황빛을 띠는 나무 블록입니다. 사바나 바이옴에서 자라는 아카시아나무의 껍질을 도끼로 벗겨 얻을 수 있습니다. 따뜻하고 이국적인 분위기를 연출하는 데 적합하며, 특히 현대적인 건축물이나 사막 오아시스 테마에 잘 어울립니다."
             }
           }
         }

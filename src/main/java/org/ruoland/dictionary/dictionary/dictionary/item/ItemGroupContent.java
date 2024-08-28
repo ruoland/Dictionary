@@ -48,13 +48,13 @@ public class ItemGroupContent {
 
         ItemContent newContent = new ItemContent(itemStack);
         if (itemContentMap.containsKey(itemId)) {
-            String existingDescription = itemContentMap.get(itemId).getDictionary(true);
+            String existingDescription = itemContentMap.get(itemId).getDictionary();
             newContent.setDictionary(existingDescription);
             Dictionary.LOGGER.info("Copying existing description for item: {}", itemId);
         }
 
         itemContentMap.put(itemId, newContent);
-        Dictionary.LOGGER.info("Added new item to group: {}, description: {}", itemId, newContent.getDictionary(true));
+        Dictionary.LOGGER.info("Added new item to group: {}", itemId, newContent.getDictionary());
     }
 
     public void addAll(ItemGroupContent groupContent){
@@ -69,7 +69,7 @@ public class ItemGroupContent {
 
     public boolean hasItem(ItemStack itemStack){
         for(ItemContent content : itemContentMap.values()){
-            if(itemStack.getDescriptionId().equals(content.itemID))
+            if(itemStack.getDescriptionId().equals(content.getID()))
                 return true;
         }
         return false;

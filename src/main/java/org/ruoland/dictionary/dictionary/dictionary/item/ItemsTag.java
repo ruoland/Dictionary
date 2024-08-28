@@ -50,7 +50,7 @@ public class ItemsTag {
         for (ItemGroupContent group : subData.getGroupMap().values()) {
             ItemContent item = group.getContentMap().get(itemId);
             if (item != null) {
-                return item.getDictionary(true);
+                return item.getDictionary();
             }
         }
         return null;

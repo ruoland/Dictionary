@@ -10,9 +10,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.client.DictionaryClient;
-import org.ruoland.dictionary.dictionary.dictionary.*;
-import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeTag;
-import org.ruoland.dictionary.dictionary.dictionary.entity.EntityTag;
+import org.ruoland.dictionary.dictionary.dictionary.manager.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -34,11 +32,13 @@ public class Dictionary implements ModInitializer {
             Dictionary.LOGGER.info("파일 초기화 완료");
 
             try {
-                ItemManager.loadMinecraftItems();
+                ContentManager.loadMinecraftItems();
                 Dictionary.LOGGER.info("모든 아이템 정보 불러오기 완료");
-                EntityTag.load();
-                BiomeTag.load();
+                ContentManager.loadEntities();
                 Dictionary.LOGGER.info("모든 엔티티 정보 불러오기 완료");
+
+                ContentManager.loadBiome();
+                Dictionary.LOGGER.info("모든 바이옴 정보 불러오기 완료");
             } catch (IllegalAccessException e) {
                 throw new RuntimeException(e);
             }

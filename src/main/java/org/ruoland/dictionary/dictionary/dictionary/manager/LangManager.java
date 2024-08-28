@@ -1,10 +1,9 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.locale.Language;
-import net.minecraft.world.item.ItemStack;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -15,21 +14,14 @@ import java.util.function.BiConsumer;
 public class LangManager {
     private static Map<String, String> languageMap = new HashMap<>();
 
-    public static String getEnglishName(ItemStack itemStack){
+
+    public static String getEnglishName(String id){
         if(languageMap.isEmpty())
             loadLanguageMap();
-        if(itemStack == null)
-            return "?";
-        return languageMap.get(itemStack.getDescriptionId());
-
-    }
-    public static String getBiomeName(String location){
-        if(languageMap.isEmpty())
-            loadLanguageMap();
-        if(location == null)
+        if(id == null)
             return "?";
 
-        return languageMap.get(location);
+        return languageMap.get(id);
 
     }
     public static String getBiomeNameKor(String location){

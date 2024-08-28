@@ -8,44 +8,44 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.observer": {
-              "아이템 아이디": "block.minecraft.observer",
-              "아이템 영어 이름": "Observer"
+              "아이디": "block.minecraft.observer",
+              "영어 이름": "Observer"
             },
             "item.minecraft.redstone": {
-              "아이템 아이디": "item.minecraft.redstone",
-              "아이템 영어 이름": "Redstone Dust"
+              "아이디": "item.minecraft.redstone",
+              "영어 이름": "Redstone Dust"
             },
             "block.minecraft.lever": {
-              "아이템 아이디": "block.minecraft.lever",
-              "아이템 영어 이름": "Lever"
+              "아이디": "block.minecraft.lever",
+              "영어 이름": "Lever"
             },
             "block.minecraft.dispenser": {
-              "아이템 아이디": "block.minecraft.dispenser",
-              "아이템 영어 이름": "Dispenser"
+              "아이디": "block.minecraft.dispenser",
+              "영어 이름": "Dispenser"
             },
             "block.minecraft.dropper": {
-              "아이템 아이디": "block.minecraft.dropper",
-              "아이템 영어 이름": "Dropper"
+              "아이디": "block.minecraft.dropper",
+              "영어 이름": "Dropper"
             },
             "block.minecraft.lilac": {
-              "아이템 아이디": "block.minecraft.lilac",
-              "아이템 영어 이름": "Lilac"
+              "아이디": "block.minecraft.lilac",
+              "영어 이름": "Lilac"
             },
             "block.minecraft.repeater": {
-              "아이템 아이디": "block.minecraft.repeater",
-              "아이템 영어 이름": "Redstone Repeater"
+              "아이디": "block.minecraft.repeater",
+              "영어 이름": "Redstone Repeater"
             },
             "block.minecraft.hopper": {
-              "아이템 아이디": "block.minecraft.hopper",
-              "아이템 영어 이름": "Hopper"
+              "아이디": "block.minecraft.hopper",
+              "영어 이름": "Hopper"
             },
             "block.minecraft.sticky_piston": {
-              "아이템 아이디": "block.minecraft.sticky_piston",
-              "아이템 영어 이름": "Sticky Piston"
+              "아이디": "block.minecraft.sticky_piston",
+              "영어 이름": "Sticky Piston"
             },
             "block.minecraft.piston": {
-              "아이템 아이디": "block.minecraft.piston",
-              "아이템 영어 이름": "Piston"
+              "아이디": "block.minecraft.piston",
+              "영어 이름": "Piston"
             }
           }
         },
@@ -54,52 +54,52 @@
           "그룹 설명": "버튼입니다. 나무나 돌 하나로 만들 수 있고, 블럭에 전기를 공급합니다. 문 옆에 설치하면 버튼으로 문을 열 수 있습니다.",
           "아이템들": {
             "block.minecraft.bamboo_button": {
-              "아이템 아이디": "block.minecraft.bamboo_button",
-              "아이템 영어 이름": "Bamboo Button"
+              "아이디": "block.minecraft.bamboo_button",
+              "영어 이름": "Bamboo Button"
             },
             "block.minecraft.birch_button": {
-              "아이템 아이디": "block.minecraft.birch_button",
-              "아이템 영어 이름": "Birch Button"
+              "아이디": "block.minecraft.birch_button",
+              "영어 이름": "Birch Button"
             },
             "block.minecraft.acacia_button": {
-              "아이템 아이디": "block.minecraft.acacia_button",
-              "아이템 영어 이름": "Acacia Button"
+              "아이디": "block.minecraft.acacia_button",
+              "영어 이름": "Acacia Button"
             },
             "block.minecraft.cherry_button": {
-              "아이템 아이디": "block.minecraft.cherry_button",
-              "아이템 영어 이름": "Cherry Button"
+              "아이디": "block.minecraft.cherry_button",
+              "영어 이름": "Cherry Button"
             },
             "block.minecraft.warped_button": {
-              "아이템 아이디": "block.minecraft.warped_button",
-              "아이템 영어 이름": "Warped Button"
+              "아이디": "block.minecraft.warped_button",
+              "영어 이름": "Warped Button"
             },
             "block.minecraft.polished_blackstone_button": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_button",
-              "아이템 영어 이름": "Polished Blackstone Button"
+              "아이디": "block.minecraft.polished_blackstone_button",
+              "영어 이름": "Polished Blackstone Button"
             },
             "block.minecraft.dark_oak_button": {
-              "아이템 아이디": "block.minecraft.dark_oak_button",
-              "아이템 영어 이름": "Dark Oak Button"
+              "아이디": "block.minecraft.dark_oak_button",
+              "영어 이름": "Dark Oak Button"
             },
             "block.minecraft.stone_button": {
-              "아이템 아이디": "block.minecraft.stone_button",
-              "아이템 영어 이름": "Stone Button"
+              "아이디": "block.minecraft.stone_button",
+              "영어 이름": "Stone Button"
             },
             "block.minecraft.spruce_button": {
-              "아이템 아이디": "block.minecraft.spruce_button",
-              "아이템 영어 이름": "Spruce Button"
+              "아이디": "block.minecraft.spruce_button",
+              "영어 이름": "Spruce Button"
             },
             "block.minecraft.mangrove_button": {
-              "아이템 아이디": "block.minecraft.mangrove_button",
-              "아이템 영어 이름": "Mangrove Button"
+              "아이디": "block.minecraft.mangrove_button",
+              "영어 이름": "Mangrove Button"
             },
             "block.minecraft.jungle_button": {
-              "아이템 아이디": "block.minecraft.jungle_button",
-              "아이템 영어 이름": "Jungle Button"
+              "아이디": "block.minecraft.jungle_button",
+              "영어 이름": "Jungle Button"
             },
             "block.minecraft.oak_button": {
-              "아이템 아이디": "block.minecraft.oak_button",
-              "아이템 영어 이름": "Oak Button"
+              "아이디": "block.minecraft.oak_button",
+              "영어 이름": "Oak Button"
             }
           }
         },
@@ -108,60 +108,60 @@
           "그룹 설명": "발판입니다. 다양한 나무 블럭 두개로 간단하게 만들 수 있으며, 발판을 밟을 때 옆에 있는 블럭에 전기를 공급합니다. 문 옆에 설치하면 문을 열 수도 있습니다..",
           "아이템들": {
             "block.minecraft.oak_pressure_plate": {
-              "아이템 아이디": "block.minecraft.oak_pressure_plate",
-              "아이템 영어 이름": "Oak Pressure Plate"
+              "아이디": "block.minecraft.oak_pressure_plate",
+              "영어 이름": "Oak Pressure Plate"
             },
             "block.minecraft.acacia_pressure_plate": {
-              "아이템 아이디": "block.minecraft.acacia_pressure_plate",
-              "아이템 영어 이름": "Acacia Pressure Plate"
+              "아이디": "block.minecraft.acacia_pressure_plate",
+              "영어 이름": "Acacia Pressure Plate"
             },
             "block.minecraft.spruce_pressure_plate": {
-              "아이템 아이디": "block.minecraft.spruce_pressure_plate",
-              "아이템 영어 이름": "Spruce Pressure Plate"
+              "아이디": "block.minecraft.spruce_pressure_plate",
+              "영어 이름": "Spruce Pressure Plate"
             },
             "block.minecraft.stone_pressure_plate": {
-              "아이템 아이디": "block.minecraft.stone_pressure_plate",
-              "아이템 영어 이름": "Stone Pressure Plate"
+              "아이디": "block.minecraft.stone_pressure_plate",
+              "영어 이름": "Stone Pressure Plate"
             },
             "block.minecraft.birch_pressure_plate": {
-              "아이템 아이디": "block.minecraft.birch_pressure_plate",
-              "아이템 영어 이름": "Birch Pressure Plate"
+              "아이디": "block.minecraft.birch_pressure_plate",
+              "영어 이름": "Birch Pressure Plate"
             },
             "block.minecraft.jungle_pressure_plate": {
-              "아이템 아이디": "block.minecraft.jungle_pressure_plate",
-              "아이템 영어 이름": "Jungle Pressure Plate"
+              "아이디": "block.minecraft.jungle_pressure_plate",
+              "영어 이름": "Jungle Pressure Plate"
             },
             "block.minecraft.mangrove_pressure_plate": {
-              "아이템 아이디": "block.minecraft.mangrove_pressure_plate",
-              "아이템 영어 이름": "Mangrove Pressure Plate"
+              "아이디": "block.minecraft.mangrove_pressure_plate",
+              "영어 이름": "Mangrove Pressure Plate"
             },
             "block.minecraft.light_weighted_pressure_plate": {
-              "아이템 아이디": "block.minecraft.light_weighted_pressure_plate",
-              "아이템 영어 이름": "Light Weighted Pressure Plate"
+              "아이디": "block.minecraft.light_weighted_pressure_plate",
+              "영어 이름": "Light Weighted Pressure Plate"
             },
             "block.minecraft.polished_blackstone_pressure_plate": {
-              "아이템 아이디": "block.minecraft.polished_blackstone_pressure_plate",
-              "아이템 영어 이름": "Polished Blackstone Pressure Plate"
+              "아이디": "block.minecraft.polished_blackstone_pressure_plate",
+              "영어 이름": "Polished Blackstone Pressure Plate"
             },
             "block.minecraft.cherry_pressure_plate": {
-              "아이템 아이디": "block.minecraft.cherry_pressure_plate",
-              "아이템 영어 이름": "Cherry Pressure Plate"
+              "아이디": "block.minecraft.cherry_pressure_plate",
+              "영어 이름": "Cherry Pressure Plate"
             },
             "block.minecraft.warped_pressure_plate": {
-              "아이템 아이디": "block.minecraft.warped_pressure_plate",
-              "아이템 영어 이름": "Warped Pressure Plate"
+              "아이디": "block.minecraft.warped_pressure_plate",
+              "영어 이름": "Warped Pressure Plate"
             },
             "block.minecraft.bamboo_pressure_plate": {
-              "아이템 아이디": "block.minecraft.bamboo_pressure_plate",
-              "아이템 영어 이름": "Bamboo Pressure Plate"
+              "아이디": "block.minecraft.bamboo_pressure_plate",
+              "영어 이름": "Bamboo Pressure Plate"
             },
             "block.minecraft.dark_oak_pressure_plate": {
-              "아이템 아이디": "block.minecraft.dark_oak_pressure_plate",
-              "아이템 영어 이름": "Dark Oak Pressure Plate"
+              "아이디": "block.minecraft.dark_oak_pressure_plate",
+              "영어 이름": "Dark Oak Pressure Plate"
             },
             "block.minecraft.heavy_weighted_pressure_plate": {
-              "아이템 아이디": "block.minecraft.heavy_weighted_pressure_plate",
-              "아이템 영어 이름": "Heavy Weighted Pressure Plate"
+              "아이디": "block.minecraft.heavy_weighted_pressure_plate",
+              "영어 이름": "Heavy Weighted Pressure Plate"
             }
           }
         }

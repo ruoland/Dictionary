@@ -8,99 +8,99 @@
           "그룹 설명": "대장장이 형판은 갑옷 트림을 추가하거나 네더라이트 장비로 업그레이드하는 데 사용되는 특별한 아이템입니다. 각 형판은 고유한 패턴을 가지고 있으며, 다양한 구조물이나 던전에서 발견할 수 있습니다.",
           "아이템들": {
             "item.minecraft.vex_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.vex_armor_trim_smithing_template",
-              "아이템 영어 이름": "Vex Armor Trim Smithing Template",
-              "아이템 설명": "벡스 갑옷 트림 형판은 갑옷에 벡스 모티프를 추가합니다. 주로 숲 저택에서 발견되며, 신비롭고 마법적인 느낌을 줍니다."
+              "아이디": "item.minecraft.vex_armor_trim_smithing_template",
+              "영어 이름": "Vex Armor Trim Smithing Template",
+              "설명": "벡스 갑옷 트림 형판은 갑옷에 벡스 모티프를 추가합니다. 주로 숲 저택에서 발견되며, 신비롭고 마법적인 느낌을 줍니다."
             },
             "item.minecraft.sentry_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.sentry_armor_trim_smithing_template",
-              "아이템 영어 이름": "Sentry Armor Trim Smithing Template",
-              "아이템 설명": "보초병 갑옷 트림 형판은 갑옷에 경계병 모티프를 추가합니다. 주로 고대 도시에서 발견되며, 강력하고 수호적인 느낌을 줍니다."
+              "아이디": "item.minecraft.sentry_armor_trim_smithing_template",
+              "영어 이름": "Sentry Armor Trim Smithing Template",
+              "설명": "보초병 갑옷 트림 형판은 갑옷에 경계병 모티프를 추가합니다. 주로 고대 도시에서 발견되며, 강력하고 수호적인 느낌을 줍니다."
             },
             "item.minecraft.raiser_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.raiser_armor_trim_smithing_template",
-              "아이템 영어 이름": "Raiser Armor Trim Smithing Template",
-              "아이템 설명": "레이저 갑옷 트림 형판은 갑옷에 상승하는 듯한 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 고양된 느낌을 줍니다."
+              "아이디": "item.minecraft.raiser_armor_trim_smithing_template",
+              "영어 이름": "Raiser Armor Trim Smithing Template",
+              "설명": "레이저 갑옷 트림 형판은 갑옷에 상승하는 듯한 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 고양된 느낌을 줍니다."
             },
             "item.minecraft.tide_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.tide_armor_trim_smithing_template",
-              "아이템 영어 이름": "Tide Armor Trim Smithing Template",
-              "아이템 설명": "조류 갑옷 트림 형판은 갑옷에 파도 모티프를 추가합니다. 주로 해저 유적에서 발견되며, 해양의 힘을 상징합니다."
+              "아이디": "item.minecraft.tide_armor_trim_smithing_template",
+              "영어 이름": "Tide Armor Trim Smithing Template",
+              "설명": "조류 갑옷 트림 형판은 갑옷에 파도 모티프를 추가합니다. 주로 해저 유적에서 발견되며, 해양의 힘을 상징합니다."
             },
             "item.minecraft.shaper_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.shaper_armor_trim_smithing_template",
-              "아이템 영어 이름": "Shaper Armor Trim Smithing Template",
-              "아이템 설명": "조각가 갑옷 트림 형판은 갑옷에 정교한 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 예술적이고 세련된 느낌을 줍니다."
+              "아이디": "item.minecraft.shaper_armor_trim_smithing_template",
+              "영어 이름": "Shaper Armor Trim Smithing Template",
+              "설명": "조각가 갑옷 트림 형판은 갑옷에 정교한 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 예술적이고 세련된 느낌을 줍니다."
             },
             "item.minecraft.host_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.host_armor_trim_smithing_template",
-              "아이템 영어 이름": "Host Armor Trim Smithing Template",
-              "아이템 설명": "주인 갑옷 트림 형판은 갑옷에 환대의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 귀족적이고 환영받는 느낌을 줍니다."
+              "아이디": "item.minecraft.host_armor_trim_smithing_template",
+              "영어 이름": "Host Armor Trim Smithing Template",
+              "설명": "주인 갑옷 트림 형판은 갑옷에 환대의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 귀족적이고 환영받는 느낌을 줍니다."
             },
             "item.minecraft.ward_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.ward_armor_trim_smithing_template",
-              "아이템 영어 이름": "Ward Armor Trim Smithing Template",
-              "아이템 설명": "수호 갑옷 트림 형판은 갑옷에 보호의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 방어와 안전의 느낌을 줍니다."
+              "아이디": "item.minecraft.ward_armor_trim_smithing_template",
+              "영어 이름": "Ward Armor Trim Smithing Template",
+              "설명": "수호 갑옷 트림 형판은 갑옷에 보호의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 방어와 안전의 느낌을 줍니다."
             },
             "item.minecraft.silence_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.silence_armor_trim_smithing_template",
-              "아이템 영어 이름": "Silence Armor Trim Smithing Template",
-              "아이템 설명": "침묵 갑옷 트림 형판은 갑옷에 고요함의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 신비롭고 조용한 느낌을 줍니다."
+              "아이디": "item.minecraft.silence_armor_trim_smithing_template",
+              "영어 이름": "Silence Armor Trim Smithing Template",
+              "설명": "침묵 갑옷 트림 형판은 갑옷에 고요함의 상징을 추가합니다. 주로 고대 도시에서 발견되며, 신비롭고 조용한 느낌을 줍니다."
             },
             "item.minecraft.snout_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.snout_armor_trim_smithing_template",
-              "아이템 영어 이름": "Snout Armor Trim Smithing Template",
-              "아이템 설명": "주둥이 갑옷 트림 형판은 갑옷에 피글린 모티프를 추가합니다. 주로 바스티온 유적에서 발견되며, 네더의 야만적인 느낌을 줍니다."
+              "아이디": "item.minecraft.snout_armor_trim_smithing_template",
+              "영어 이름": "Snout Armor Trim Smithing Template",
+              "설명": "주둥이 갑옷 트림 형판은 갑옷에 피글린 모티프를 추가합니다. 주로 바스티온 유적에서 발견되며, 네더의 야만적인 느낌을 줍니다."
             },
             "item.minecraft.coast_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.coast_armor_trim_smithing_template",
-              "아이템 영어 이름": "Coast Armor Trim Smithing Template",
-              "아이템 설명": "해안 갑옷 트림 형판은 갑옷에 해변 모티프를 추가합니다. 주로 해저 유적에서 발견되며, 바다와 모래의 느낌을 줍니다."
+              "아이디": "item.minecraft.coast_armor_trim_smithing_template",
+              "영어 이름": "Coast Armor Trim Smithing Template",
+              "설명": "해안 갑옷 트림 형판은 갑옷에 해변 모티프를 추가합니다. 주로 해저 유적에서 발견되며, 바다와 모래의 느낌을 줍니다."
             },
             "item.minecraft.wild_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.wild_armor_trim_smithing_template",
-              "아이템 영어 이름": "Wild Armor Trim Smithing Template",
-              "아이템 설명": "야생 갑옷 트림 형판은 갑옷에 자연의 모티프를 추가합니다. 주로 정글 사원에서 발견되며, 원시적이고 자연적인 느낌을 줍니다."
+              "아이디": "item.minecraft.wild_armor_trim_smithing_template",
+              "영어 이름": "Wild Armor Trim Smithing Template",
+              "설명": "야생 갑옷 트림 형판은 갑옷에 자연의 모티프를 추가합니다. 주로 정글 사원에서 발견되며, 원시적이고 자연적인 느낌을 줍니다."
             },
             "item.minecraft.bolt_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.bolt_armor_trim_smithing_template",
-              "아이템 영어 이름": "Bolt Armor Trim Smithing Template",
-              "아이템 설명": "번개 갑옷 트림 형판은 갑옷에 번개 모티프를 추가합니다. 주로 고대 도시에서 발견되며, 전기와 힘의 느낌을 줍니다."
+              "아이디": "item.minecraft.bolt_armor_trim_smithing_template",
+              "영어 이름": "Bolt Armor Trim Smithing Template",
+              "설명": "번개 갑옷 트림 형판은 갑옷에 번개 모티프를 추가합니다. 주로 고대 도시에서 발견되며, 전기와 힘의 느낌을 줍니다."
             },
             "item.minecraft.rib_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.rib_armor_trim_smithing_template",
-              "아이템 영어 이름": "Rib Armor Trim Smithing Template",
-              "아이템 설명": "갈비뼈 갑옷 트림 형판은 갑옷에 뼈 모티프를 추가합니다. 주로 네더 요새에서 발견되며, 불길하고 위협적인 느낌을 줍니다."
+              "아이디": "item.minecraft.rib_armor_trim_smithing_template",
+              "영어 이름": "Rib Armor Trim Smithing Template",
+              "설명": "갈비뼈 갑옷 트림 형판은 갑옷에 뼈 모티프를 추가합니다. 주로 네더 요새에서 발견되며, 불길하고 위협적인 느낌을 줍니다."
             },
             "item.minecraft.dune_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.dune_armor_trim_smithing_template",
-              "아이템 영어 이름": "Dune Armor Trim Smithing Template",
-              "아이템 설명": "사구 갑옷 트림 형판은 갑옷에 사막 모티프를 추가합니다. 주로 사막 피라미드에서 발견되며, 모래와 고대 이집트의 느낌을 줍니다."
+              "아이디": "item.minecraft.dune_armor_trim_smithing_template",
+              "영어 이름": "Dune Armor Trim Smithing Template",
+              "설명": "사구 갑옷 트림 형판은 갑옷에 사막 모티프를 추가합니다. 주로 사막 피라미드에서 발견되며, 모래와 고대 이집트의 느낌을 줍니다."
             },
             "item.minecraft.flow_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.flow_armor_trim_smithing_template",
-              "아이템 영어 이름": "Flow Armor Trim Smithing Template",
-              "아이템 설명": "흐름 갑옷 트림 형판은 갑옷에 유동적인 패턴을 추가합니다. 주로 해저 유적에서 발견되며, 물의 흐름과 같은 부드러운 느낌을 줍니다."
+              "아이디": "item.minecraft.flow_armor_trim_smithing_template",
+              "영어 이름": "Flow Armor Trim Smithing Template",
+              "설명": "흐름 갑옷 트림 형판은 갑옷에 유동적인 패턴을 추가합니다. 주로 해저 유적에서 발견되며, 물의 흐름과 같은 부드러운 느낌을 줍니다."
             },
             "item.minecraft.netherite_upgrade_smithing_template": {
-              "아이템 아이디": "item.minecraft.netherite_upgrade_smithing_template",
-              "아이템 영어 이름": "Netherite Upgrade Smithing Template",
-              "아이템 설명": "네더라이트 업그레이드 형판은 다이아몬드 장비를 네더라이트로 업그레이드하는 데 사용됩니다. 네더의 요새 유적에서 발견되며, 장비의 내구성과 성능을 크게 향상시킵니다."
+              "아이디": "item.minecraft.netherite_upgrade_smithing_template",
+              "영어 이름": "Netherite Upgrade Smithing Template",
+              "설명": "네더라이트 업그레이드 형판은 다이아몬드 장비를 네더라이트로 업그레이드하는 데 사용됩니다. 네더의 요새 유적에서 발견되며, 장비의 내구성과 성능을 크게 향상시킵니다."
             },
             "item.minecraft.eye_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.eye_armor_trim_smithing_template",
-              "아이템 영어 이름": "Eye Armor Trim Smithing Template",
-              "아이템 설명": "눈 갑옷 트림 형판은 갑옷에 눈 모티프를 추가합니다. 주로 엔더 요새에서 발견되며, 신비롭고 감시하는 듯한 느낌을 줍니다."
+              "아이디": "item.minecraft.eye_armor_trim_smithing_template",
+              "영어 이름": "Eye Armor Trim Smithing Template",
+              "설명": "눈 갑옷 트림 형판은 갑옷에 눈 모티프를 추가합니다. 주로 엔더 요새에서 발견되며, 신비롭고 감시하는 듯한 느낌을 줍니다."
             },
             "item.minecraft.spire_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.spire_armor_trim_smithing_template",
-              "아이템 영어 이름": "Spire Armor Trim Smithing Template",
-              "아이템 설명": "첨탑 갑옷 트림 형판은 갑옷에 높이 솟은 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 고귀하고 위엄 있는 느낌을 줍니다."
+              "아이디": "item.minecraft.spire_armor_trim_smithing_template",
+              "영어 이름": "Spire Armor Trim Smithing Template",
+              "설명": "첨탑 갑옷 트림 형판은 갑옷에 높이 솟은 패턴을 추가합니다. 주로 엔드 도시에서 발견되며, 고귀하고 위엄 있는 느낌을 줍니다."
             },
             "item.minecraft.wayfinder_armor_trim_smithing_template": {
-              "아이템 아이디": "item.minecraft.wayfinder_armor_trim_smithing_template",
-              "아이템 영어 이름": "Wayfinder Armor Trim Smithing Template",
-              "아이템 설명": "길잡이 갑옷 트림 형판은 갑옷에 나침반과 같은 패턴을 추가합니다. 주로 해저 유적에서 발견되며, 모험과 탐험의 느낌을 줍니다."
+              "아이디": "item.minecraft.wayfinder_armor_trim_smithing_template",
+              "영어 이름": "Wayfinder Armor Trim Smithing Template",
+              "설명": "길잡이 갑옷 트림 형판은 갑옷에 나침반과 같은 패턴을 추가합니다. 주로 해저 유적에서 발견되며, 모험과 탐험의 느낌을 줍니다."
             }
           }
         }

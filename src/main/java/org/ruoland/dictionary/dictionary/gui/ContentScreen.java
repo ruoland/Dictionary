@@ -10,13 +10,12 @@ import net.minecraft.network.chat.FormattedText;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
-import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
-import org.ruoland.dictionary.dictionary.dictionary.LangManager;
-import org.ruoland.dictionary.dictionary.dictionary.TagManager;
-import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
-import org.ruoland.dictionary.dictionary.dictionary.entity.EntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.LangManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.VariableManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +43,7 @@ public class ContentScreen extends DebugScreen {
             itemName = FormattedText.of(groupName);
         else
             itemName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
-        itemEngName = FormattedText.of(LangManager.getEnglishName(itemStack));
+        itemEngName = FormattedText.of(LangManager.getEnglishName(itemStack.getDescriptionId()));
 
         this.itemStack = itemStack;
         this.onlyGroup = onlyGroup;
@@ -57,9 +56,9 @@ public class ContentScreen extends DebugScreen {
         super.init();
 
         updateContentWidth();
-        Dictionary.LOGGER.info("ContentScreen initialized. Content width: {}", contentWidth);
+        Dictionary.LOGGER.info("ContentScreen initialized. DictionaryContent width: {}", contentWidth);
         try {
-            String content = ItemManager.getContent(itemStack).replace("\\n", "\n");
+            String content = ContentManager.getContent(itemStack).replace("\\n", "\n");
             content = VariableManager.replaceVariable(itemStack, content);
             parseContent(content);
         } catch (NullPointerException e) {
@@ -76,7 +75,7 @@ public class ContentScreen extends DebugScreen {
 
     private void updateContentWidth() {
         this.contentWidth = (int)(this.width * CONTENT_WIDTH_RATIO);
-        LOGGER.debug("Content width updated to: {}", contentWidth);
+        LOGGER.debug("DictionaryContent width updated to: {}", contentWidth);
     }
     private void parseContent(String content) {
         contentComponents = new ArrayList<>();
@@ -147,7 +146,7 @@ public class ContentScreen extends DebugScreen {
             Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
             buttonText = itemContent.getItemStack().getHoverName();
         } else if(id.startsWith("%id:entity.")){
-            String entityName = EntityTag.getEntityNameById(itemId);
+            String entityName = ContentManager.getEntityNameById(itemId);
             buttonText = Component.literal(entityName);
         } else if(id.startsWith("%id:biome.")){
             String biomeName = LangManager.getBiomeNameKor(itemId);

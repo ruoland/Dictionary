@@ -6,7 +6,7 @@ public enum EnumEntityTag {
     ANIMAL(DefaultDictionary.ANIMAL_NAME),
     MOB(DefaultDictionary.MOB_NAME),
     CREATURE(DefaultDictionary.CREATURE_NAME);
-    String[] strings;
+    final String[] strings;
 
     EnumEntityTag(String... str){
         this.strings = str;

@@ -8,64 +8,64 @@
           "그룹 설명": "이 그룹은 마인크래프트에서 던지거나 발사할 수 있는 다양한 아이템들을 포함합니다. 화살부터 특수 포션, 폭죽, 그리고 독특한 무기까지 다양한 용도로 사용되는 투사체들이 있습니다.",
           "아이템들": {
             "item.minecraft.arrow": {
-              "아이템 아이디": "item.minecraft.arrow",
-              "아이템 영어 이름": "Arrow",
-              "아이템 설명": "화살\\n\\n기본적인 원거리 무기 탄약입니다. %id:item.minecraft.bow%나 %id:item.minecraft.crossbow%로 발사할 수 있습니다.\\n\\n팁: 화살에 %id:item.minecraft.potion%을 적용하여 %id:item.minecraft.tipped_arrow.effect.empty%를 만들 수 있습니다. 이를 통해 다양한 효과를 가진 화살을 사용할 수 있습니다."
+              "아이디": "item.minecraft.arrow",
+              "영어 이름": "Arrow",
+              "설명": "화살\\n\\n기본적인 원거리 무기 탄약입니다. %id:item.minecraft.bow%나 %id:item.minecraft.crossbow%로 발사할 수 있습니다.\\n\\n팁: 화살에 %id:item.minecraft.potion%을 적용하여 %id:item.minecraft.tipped_arrow.effect.empty%를 만들 수 있습니다. 이를 통해 다양한 효과를 가진 화살을 사용할 수 있습니다."
             },
             "item.minecraft.firework_rocket": {
-              "아이템 아이디": "item.minecraft.firework_rocket",
-              "아이템 영어 이름": "Firework Rocket",
-              "아이템 설명": "폭죽 로켓\\n\\n하늘로 발사하여 화려한 폭발을 일으키는 장식용 아이템입니다. %id:item.minecraft.elytra%와 함께 사용하면 비행 부스터로도 활용할 수 있습니다.\\n\\n팁: %id:item.minecraft.crossbow%에 장전하여 발사할 수도 있으며, 이 경우 적중 시 폭발 데미지를 줍니다."
+              "아이디": "item.minecraft.firework_rocket",
+              "영어 이름": "Firework Rocket",
+              "설명": "폭죽 로켓\\n\\n하늘로 발사하여 화려한 폭발을 일으키는 장식용 아이템입니다. %id:item.minecraft.elytra%와 함께 사용하면 비행 부스터로도 활용할 수 있습니다.\\n\\n팁: %id:item.minecraft.crossbow%에 장전하여 발사할 수도 있으며, 이 경우 적중 시 폭발 데미지를 줍니다."
             },
             "item.minecraft.lingering_potion.effect.empty": {
-              "아이템 아이디": "item.minecraft.lingering_potion.effect.empty",
-              "아이템 영어 이름": "Lingering Uncraftable Potion",
-              "아이템 설명": "잔류형 제작 불가 포션\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 포션입니다. 던졌을 때 지속적인 효과를 주는 구름을 생성합니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다."
+              "아이디": "item.minecraft.lingering_potion.effect.empty",
+              "영어 이름": "Lingering Uncraftable Potion",
+              "설명": "잔류형 제작 불가 포션\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 포션입니다. 던졌을 때 지속적인 효과를 주는 구름을 생성합니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다."
             },
             "item.minecraft.splash_potion.effect.empty": {
-              "아이템 아이디": "item.minecraft.splash_potion.effect.empty",
-              "아이템 영어 이름": "Splash Uncraftable Potion",
-              "아이템 설명": "투척용 제작 불가 포션\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 포션입니다. 던졌을 때 즉시 효과를 발휘합니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다."
+              "아이디": "item.minecraft.splash_potion.effect.empty",
+              "영어 이름": "Splash Uncraftable Potion",
+              "설명": "투척용 제작 불가 포션\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 포션입니다. 던졌을 때 즉시 효과를 발휘합니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다."
             },
             "item.minecraft.trident": {
-              "아이템 아이디": "item.minecraft.trident",
-              "아이템 영어 이름": "Trident",
-              "아이템 설명": "삼지창\\n\\n강력한 근접 및 원거리 무기입니다. 던지거나 찌르기 공격에 사용할 수 있습니다.\\n\\n팁: \u0027충성\u0027 마법을 부여하면 던진 후 자동으로 돌아옵니다. \u0027집전\u0027 마법을 부여하면 번개를 소환할 수 있어 강력한 공격 수단이 됩니다."
+              "아이디": "item.minecraft.trident",
+              "영어 이름": "Trident",
+              "설명": "삼지창\\n\\n강력한 근접 및 원거리 무기입니다. 던지거나 찌르기 공격에 사용할 수 있습니다.\\n\\n팁: \u0027충성\u0027 마법을 부여하면 던진 후 자동으로 돌아옵니다. \u0027집전\u0027 마법을 부여하면 번개를 소환할 수 있어 강력한 공격 수단이 됩니다."
             },
             "item.minecraft.fire_charge": {
-              "아이템 아이디": "item.minecraft.fire_charge",
-              "아이템 영어 이름": "Fire Charge",
-              "아이템 설명": "화염구\\n\\n불을 발사하는 데 사용되는 아이템입니다. %id:item.minecraft.dispenser%에서 발사하거나 직접 사용하여 불을 붙일 수 있습니다.\\n\\n팁: 네더에서 %id:entity.minecraft.ghast%가 발사하는 화염구와 유사한 효과를 냅니다. 건축물에 불을 붙이거나 적을 공격하는 데 사용할 수 있습니다."
+              "아이디": "item.minecraft.fire_charge",
+              "영어 이름": "Fire Charge",
+              "설명": "화염구\\n\\n불을 발사하는 데 사용되는 아이템입니다. %id:item.minecraft.dispenser%에서 발사하거나 직접 사용하여 불을 붙일 수 있습니다.\\n\\n팁: 네더에서 %id:entity.minecraft.ghast%가 발사하는 화염구와 유사한 효과를 냅니다. 건축물에 불을 붙이거나 적을 공격하는 데 사용할 수 있습니다."
             },
             "item.minecraft.tipped_arrow.effect.empty": {
-              "아이템 아이디": "item.minecraft.tipped_arrow.effect.empty",
-              "아이템 영어 이름": "Uncraftable Tipped Arrow",
-              "아이템 설명": "제작 불가능한 효과 화살\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 효과 화살입니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다. 일반적인 효과 화살은 %id:item.minecraft.arrow%에 %id:item.minecraft.potion%을 적용하여 만들 수 있습니다."
+              "아이디": "item.minecraft.tipped_arrow.effect.empty",
+              "영어 이름": "Uncraftable Tipped Arrow",
+              "설명": "제작 불가능한 효과 화살\\n\\n이 아이템은 일반적으로 게임 내에서 얻을 수 없는 특수한 효과 화살입니다.\\n\\n팁: 이 아이템은 주로 맵 제작자나 서버 관리자가 특별한 목적으로 사용합니다. 일반적인 효과 화살은 %id:item.minecraft.arrow%에 %id:item.minecraft.potion%을 적용하여 만들 수 있습니다."
             },
             "item.minecraft.wind_charge": {
-              "아이템 아이디": "item.minecraft.wind_charge",
-              "아이템 영어 이름": "Wind Charge",
-              "아이템 설명": "바람 화살\\n\\n바람의 힘을 발사하는 아이템입니다. 적을 밀어내거나 물체를 이동시키는 데 사용됩니다.\\n\\n팁: %id:item.minecraft.dispenser%에서 발사하거나 직접 사용할 수 있습니다. 레드스톤 장치와 함께 사용하면 흥미로운 기계장치를 만들 수 있습니다."
+              "아이디": "item.minecraft.wind_charge",
+              "영어 이름": "Wind Charge",
+              "설명": "바람 화살\\n\\n바람의 힘을 발사하는 아이템입니다. 적을 밀어내거나 물체를 이동시키는 데 사용됩니다.\\n\\n팁: %id:item.minecraft.dispenser%에서 발사하거나 직접 사용할 수 있습니다. 레드스톤 장치와 함께 사용하면 흥미로운 기계장치를 만들 수 있습니다."
             },
             "item.minecraft.spectral_arrow": {
-              "아이템 아이디": "item.minecraft.spectral_arrow",
-              "아이템 영어 이름": "Spectral Arrow",
-              "아이템 설명": "분광 화살\\n\\n맞힌 대상에게 발광 효과를 부여하는 특수한 화살입니다.\\n\\n팁: PvP나 몹 사냥 시 대상을 쉽게 추적할 수 있게 해줍니다. %id:item.minecraft.bow%나 %id:item.minecraft.crossbow%로 발사할 수 있으며, 야간 전투나 숨어있는 적을 찾는 데 유용합니다."
+              "아이디": "item.minecraft.spectral_arrow",
+              "영어 이름": "Spectral Arrow",
+              "설명": "분광 화살\\n\\n맞힌 대상에게 발광 효과를 부여하는 특수한 화살입니다.\\n\\n팁: PvP나 몹 사냥 시 대상을 쉽게 추적할 수 있게 해줍니다. %id:item.minecraft.bow%나 %id:item.minecraft.crossbow%로 발사할 수 있으며, 야간 전투나 숨어있는 적을 찾는 데 유용합니다."
             },
             "item.minecraft.experience_bottle": {
-              "아이템 아이디": "item.minecraft.experience_bottle",
-              "아이템 영어 이름": "Bottle o\u0027 Enchanting",
-              "아이템 설명": "경험치 병\\n\\n던지면 경험치 구슬을 뿌리는 병입니다.\\n\\n팁: 빠르게 레벨을 올리거나 %group_id:anvil%에서 아이템을 수리할 때 유용합니다. 인챈트 테이블 근처에 던져 경험치를 모을 수도 있습니다."
+              "아이디": "item.minecraft.experience_bottle",
+              "영어 이름": "Bottle o\u0027 Enchanting",
+              "설명": "경험치 병\\n\\n던지면 경험치 구슬을 뿌리는 병입니다.\\n\\n팁: 빠르게 레벨을 올리거나 %group_id:anvil%에서 아이템을 수리할 때 유용합니다. 인챈트 테이블 근처에 던져 경험치를 모을 수도 있습니다."
             },
             "item.minecraft.egg": {
-              "아이템 아이디": "item.minecraft.egg",
-              "아이템 영어 이름": "Egg",
-              "아이템 설명": "달걀\\n\\n던질 수 있는 아이템으로, 낮은 확률로 병아리를 소환할 수 있습니다.\\n\\n팁: 요리 재료로도 사용되며, %id:item.minecraft.dispenser%를 통해 자동으로 발사할 수 있습니다. 달걀 던지기 게임을 만들어 즐길 수도 있습니다."
+              "아이디": "item.minecraft.egg",
+              "영어 이름": "Egg",
+              "설명": "달걀\\n\\n던질 수 있는 아이템으로, 낮은 확률로 병아리를 소환할 수 있습니다.\\n\\n팁: 요리 재료로도 사용되며, %id:item.minecraft.dispenser%를 통해 자동으로 발사할 수 있습니다. 달걀 던지기 게임을 만들어 즐길 수도 있습니다."
             },
             "item.minecraft.snowball": {
-              "아이템 아이디": "item.minecraft.snowball",
-              "아이템 영어 이름": "Snowball",
-              "아이템 설명": "눈덩이\\n\\n던질 수 있는 아이템으로, 약간의 넉백 효과를 줍니다.\\n\\n팁: %id:entity.minecraft.blaze%에게 데미지를 줄 수 있어 네더에서 유용합니다. 또한 %id:item.minecraft.dispenser%를 이용해 자동 발사 장치를 만들 수 있으며, 눈싸움 미니게임을 즐기는 데도 좋습니다."
+              "아이디": "item.minecraft.snowball",
+              "영어 이름": "Snowball",
+              "설명": "눈덩이\\n\\n던질 수 있는 아이템으로, 약간의 넉백 효과를 줍니다.\\n\\n팁: %id:entity.minecraft.blaze%에게 데미지를 줄 수 있어 네더에서 유용합니다. 또한 %id:item.minecraft.dispenser%를 이용해 자동 발사 장치를 만들 수 있으며, 눈싸움 미니게임을 즐기는 데도 좋습니다."
             }
           }
         }

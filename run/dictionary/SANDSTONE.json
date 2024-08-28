@@ -8,20 +8,20 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.sand": {
-              "아이템 아이디": "block.minecraft.sand",
-              "아이템 영어 이름": "Sand"
+              "아이디": "block.minecraft.sand",
+              "영어 이름": "Sand"
             },
             "block.minecraft.red_sand": {
-              "아이템 아이디": "block.minecraft.red_sand",
-              "아이템 영어 이름": "Red Sand"
+              "아이디": "block.minecraft.red_sand",
+              "영어 이름": "Red Sand"
             },
             "block.minecraft.soul_sand": {
-              "아이템 아이디": "block.minecraft.soul_sand",
-              "아이템 영어 이름": "Soul Sand"
+              "아이디": "block.minecraft.soul_sand",
+              "영어 이름": "Soul Sand"
             },
             "block.minecraft.suspicious_sand": {
-              "아이템 아이디": "block.minecraft.suspicious_sand",
-              "아이템 영어 이름": "Suspicious Sand"
+              "아이디": "block.minecraft.suspicious_sand",
+              "영어 이름": "Suspicious Sand"
             }
           }
         },
@@ -30,36 +30,36 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "block.minecraft.cut_sandstone": {
-              "아이템 아이디": "block.minecraft.cut_sandstone",
-              "아이템 영어 이름": "Cut Sandstone"
+              "아이디": "block.minecraft.cut_sandstone",
+              "영어 이름": "Cut Sandstone"
             },
             "block.minecraft.smooth_sandstone": {
-              "아이템 아이디": "block.minecraft.smooth_sandstone",
-              "아이템 영어 이름": "Smooth Sandstone"
+              "아이디": "block.minecraft.smooth_sandstone",
+              "영어 이름": "Smooth Sandstone"
             },
             "block.minecraft.red_sandstone": {
-              "아이템 아이디": "block.minecraft.red_sandstone",
-              "아이템 영어 이름": "Red Sandstone"
+              "아이디": "block.minecraft.red_sandstone",
+              "영어 이름": "Red Sandstone"
             },
             "block.minecraft.sandstone": {
-              "아이템 아이디": "block.minecraft.sandstone",
-              "아이템 영어 이름": "Sandstone"
+              "아이디": "block.minecraft.sandstone",
+              "영어 이름": "Sandstone"
             },
             "block.minecraft.smooth_red_sandstone": {
-              "아이템 아이디": "block.minecraft.smooth_red_sandstone",
-              "아이템 영어 이름": "Smooth Red Sandstone"
+              "아이디": "block.minecraft.smooth_red_sandstone",
+              "영어 이름": "Smooth Red Sandstone"
             },
             "block.minecraft.cut_red_sandstone": {
-              "아이템 아이디": "block.minecraft.cut_red_sandstone",
-              "아이템 영어 이름": "Cut Red Sandstone"
+              "아이디": "block.minecraft.cut_red_sandstone",
+              "영어 이름": "Cut Red Sandstone"
             },
             "block.minecraft.chiseled_sandstone": {
-              "아이템 아이디": "block.minecraft.chiseled_sandstone",
-              "아이템 영어 이름": "Chiseled Sandstone"
+              "아이디": "block.minecraft.chiseled_sandstone",
+              "영어 이름": "Chiseled Sandstone"
             },
             "block.minecraft.chiseled_red_sandstone": {
-              "아이템 아이디": "block.minecraft.chiseled_red_sandstone",
-              "아이템 영어 이름": "Chiseled Red Sandstone"
+              "아이디": "block.minecraft.chiseled_red_sandstone",
+              "영어 이름": "Chiseled Red Sandstone"
             }
           }
         }

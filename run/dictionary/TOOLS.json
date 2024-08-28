@@ -8,34 +8,34 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.stone_axe": {
-              "아이템 아이디": "item.minecraft.stone_axe",
-              "아이템 영어 이름": "Stone Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.stone_axe",
+              "영어 이름": "Stone Axe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.netherite_axe": {
-              "아이템 아이디": "item.minecraft.netherite_axe",
-              "아이템 영어 이름": "Netherite Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.netherite_axe",
+              "영어 이름": "Netherite Axe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.wooden_axe": {
-              "아이템 아이디": "item.minecraft.wooden_axe",
-              "아이템 영어 이름": "Wooden Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.wooden_axe",
+              "영어 이름": "Wooden Axe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.golden_axe": {
-              "아이템 아이디": "item.minecraft.golden_axe",
-              "아이템 영어 이름": "Golden Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.golden_axe",
+              "영어 이름": "Golden Axe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.diamond_axe": {
-              "아이템 아이디": "item.minecraft.diamond_axe",
-              "아이템 영어 이름": "Diamond Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.diamond_axe",
+              "영어 이름": "Diamond Axe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.iron_axe": {
-              "아이템 아이디": "item.minecraft.iron_axe",
-              "아이템 영어 이름": "Iron Axe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.iron_axe",
+              "영어 이름": "Iron Axe",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -44,59 +44,59 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.milk_bucket": {
-              "아이템 아이디": "item.minecraft.milk_bucket",
-              "아이템 영어 이름": "Milk Bucket",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.milk_bucket",
+              "영어 이름": "Milk Bucket",
+              "설명": "아이템 설명"
             },
             "item.minecraft.water_bucket": {
-              "아이템 아이디": "item.minecraft.water_bucket",
-              "아이템 영어 이름": "Water Bucket",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.water_bucket",
+              "영어 이름": "Water Bucket",
+              "설명": "아이템 설명"
             },
             "item.minecraft.salmon_bucket": {
-              "아이템 아이디": "item.minecraft.salmon_bucket",
-              "아이템 영어 이름": "Bucket of Salmon",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.salmon_bucket",
+              "영어 이름": "Bucket of Salmon",
+              "설명": "아이템 설명"
             },
             "item.minecraft.tadpole_bucket": {
-              "아이템 아이디": "item.minecraft.tadpole_bucket",
-              "아이템 영어 이름": "Bucket of Tadpole",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.tadpole_bucket",
+              "영어 이름": "Bucket of Tadpole",
+              "설명": "아이템 설명"
             },
             "item.minecraft.lava_bucket": {
-              "아이템 아이디": "item.minecraft.lava_bucket",
-              "아이템 영어 이름": "Lava Bucket",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.lava_bucket",
+              "영어 이름": "Lava Bucket",
+              "설명": "아이템 설명"
             },
             "item.minecraft.pufferfish_bucket": {
-              "아이템 아이디": "item.minecraft.pufferfish_bucket",
-              "아이템 영어 이름": "Bucket of Pufferfish",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.pufferfish_bucket",
+              "영어 이름": "Bucket of Pufferfish",
+              "설명": "아이템 설명"
             },
             "item.minecraft.axolotl_bucket": {
-              "아이템 아이디": "item.minecraft.axolotl_bucket",
-              "아이템 영어 이름": "Bucket of Axolotl",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.axolotl_bucket",
+              "영어 이름": "Bucket of Axolotl",
+              "설명": "아이템 설명"
             },
             "item.minecraft.cod_bucket": {
-              "아이템 아이디": "item.minecraft.cod_bucket",
-              "아이템 영어 이름": "Bucket of Cod",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.cod_bucket",
+              "영어 이름": "Bucket of Cod",
+              "설명": "아이템 설명"
             },
             "item.minecraft.powder_snow_bucket": {
-              "아이템 아이디": "item.minecraft.powder_snow_bucket",
-              "아이템 영어 이름": "Powder Snow Bucket",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.powder_snow_bucket",
+              "영어 이름": "Powder Snow Bucket",
+              "설명": "아이템 설명"
             },
             "item.minecraft.bucket": {
-              "아이템 아이디": "item.minecraft.bucket",
-              "아이템 영어 이름": "Bucket",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.bucket",
+              "영어 이름": "Bucket",
+              "설명": "아이템 설명"
             },
             "item.minecraft.tropical_fish_bucket": {
-              "아이템 아이디": "item.minecraft.tropical_fish_bucket",
-              "아이템 영어 이름": "Bucket of Tropical Fish",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.tropical_fish_bucket",
+              "영어 이름": "Bucket of Tropical Fish",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -105,14 +105,14 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.compass": {
-              "아이템 아이디": "item.minecraft.compass",
-              "아이템 영어 이름": "Compass",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.compass",
+              "영어 이름": "Compass",
+              "설명": "아이템 설명"
             },
             "item.minecraft.recovery_compass": {
-              "아이템 아이디": "item.minecraft.recovery_compass",
-              "아이템 영어 이름": "Recovery Compass",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.recovery_compass",
+              "영어 이름": "Recovery Compass",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -121,34 +121,34 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.stone_hoe": {
-              "아이템 아이디": "item.minecraft.stone_hoe",
-              "아이템 영어 이름": "Stone Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.stone_hoe",
+              "영어 이름": "Stone Hoe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.netherite_hoe": {
-              "아이템 아이디": "item.minecraft.netherite_hoe",
-              "아이템 영어 이름": "Netherite Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.netherite_hoe",
+              "영어 이름": "Netherite Hoe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.wooden_hoe": {
-              "아이템 아이디": "item.minecraft.wooden_hoe",
-              "아이템 영어 이름": "Wooden Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.wooden_hoe",
+              "영어 이름": "Wooden Hoe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.golden_hoe": {
-              "아이템 아이디": "item.minecraft.golden_hoe",
-              "아이템 영어 이름": "Golden Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.golden_hoe",
+              "영어 이름": "Golden Hoe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.diamond_hoe": {
-              "아이템 아이디": "item.minecraft.diamond_hoe",
-              "아이템 영어 이름": "Diamond Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.diamond_hoe",
+              "영어 이름": "Diamond Hoe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.iron_hoe": {
-              "아이템 아이디": "item.minecraft.iron_hoe",
-              "아이템 영어 이름": "Iron Hoe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.iron_hoe",
+              "영어 이름": "Iron Hoe",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -157,34 +157,34 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.wooden_pickaxe": {
-              "아이템 아이디": "item.minecraft.wooden_pickaxe",
-              "아이템 영어 이름": "Wooden Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.wooden_pickaxe",
+              "영어 이름": "Wooden Pickaxe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.stone_pickaxe": {
-              "아이템 아이디": "item.minecraft.stone_pickaxe",
-              "아이템 영어 이름": "Stone Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.stone_pickaxe",
+              "영어 이름": "Stone Pickaxe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.iron_pickaxe": {
-              "아이템 아이디": "item.minecraft.iron_pickaxe",
-              "아이템 영어 이름": "Iron Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.iron_pickaxe",
+              "영어 이름": "Iron Pickaxe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.netherite_pickaxe": {
-              "아이템 아이디": "item.minecraft.netherite_pickaxe",
-              "아이템 영어 이름": "Netherite Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.netherite_pickaxe",
+              "영어 이름": "Netherite Pickaxe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.diamond_pickaxe": {
-              "아이템 아이디": "item.minecraft.diamond_pickaxe",
-              "아이템 영어 이름": "Diamond Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.diamond_pickaxe",
+              "영어 이름": "Diamond Pickaxe",
+              "설명": "아이템 설명"
             },
             "item.minecraft.golden_pickaxe": {
-              "아이템 아이디": "item.minecraft.golden_pickaxe",
-              "아이템 영어 이름": "Golden Pickaxe",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.golden_pickaxe",
+              "영어 이름": "Golden Pickaxe",
+              "설명": "아이템 설명"
             }
           }
         },
@@ -193,34 +193,34 @@
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
           "아이템들": {
             "item.minecraft.iron_shovel": {
-              "아이템 아이디": "item.minecraft.iron_shovel",
-              "아이템 영어 이름": "Iron Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.iron_shovel",
+              "영어 이름": "Iron Shovel",
+              "설명": "아이템 설명"
             },
             "item.minecraft.diamond_shovel": {
-              "아이템 아이디": "item.minecraft.diamond_shovel",
-              "아이템 영어 이름": "Diamond Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.diamond_shovel",
+              "영어 이름": "Diamond Shovel",
+              "설명": "아이템 설명"
             },
             "item.minecraft.golden_shovel": {
-              "아이템 아이디": "item.minecraft.golden_shovel",
-              "아이템 영어 이름": "Golden Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.golden_shovel",
+              "영어 이름": "Golden Shovel",
+              "설명": "아이템 설명"
             },
             "item.minecraft.wooden_shovel": {
-              "아이템 아이디": "item.minecraft.wooden_shovel",
-              "아이템 영어 이름": "Wooden Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.wooden_shovel",
+              "영어 이름": "Wooden Shovel",
+              "설명": "아이템 설명"
             },
             "item.minecraft.netherite_shovel": {
-              "아이템 아이디": "item.minecraft.netherite_shovel",
-              "아이템 영어 이름": "Netherite Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.netherite_shovel",
+              "영어 이름": "Netherite Shovel",
+              "설명": "아이템 설명"
             },
             "item.minecraft.stone_shovel": {
-              "아이템 아이디": "item.minecraft.stone_shovel",
-              "아이템 영어 이름": "Stone Shovel",
-              "아이템 설명": "아이템 설명"
+              "아이디": "item.minecraft.stone_shovel",
+              "영어 이름": "Stone Shovel",
+              "설명": "아이템 설명"
             }
           }
         }

@@ -4,11 +4,11 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
-import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 
 import java.util.ArrayList;
 
@@ -55,7 +55,7 @@ public class SubItemButton extends Button {
         itemList.add(itemStack);
         for(ItemGroupContent groupContent : subData.getGroupMap().values()){
             for(ItemContent content :groupContent.getContentMap().values())
-                itemList.add(ItemManager.getItemStackMap().get(content.getItemID()));
+                itemList.add(ContentManager.getItemStackMap().get(content.getID()));
         }
         return this;
     }
