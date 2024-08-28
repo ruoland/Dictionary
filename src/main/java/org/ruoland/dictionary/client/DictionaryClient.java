@@ -15,6 +15,7 @@ import org.lwjgl.glfw.GLFW;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.gui.ContentScreen;
 import org.ruoland.dictionary.dictionary.gui.ItemsTagScreen;
+import org.ruoland.dictionary.dictionary.gui.dev.EntityScreen;
 
 public class DictionaryClient implements ClientModInitializer {
     public static final NbtDataStorage DICTIONARY_DATA = new NbtDataStorage("dictionary");
@@ -32,14 +33,19 @@ public class DictionaryClient implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if(client.screen == null) {
+
                 if (InputConstants.isKeyDown(client.getWindow().getWindow(), InputConstants.KEY_O)) {
-                    ItemsTagScreen itemsTagScreen = new ItemsTagScreen(Component.literal("도감 종류"));
-                    client.setScreen(itemsTagScreen);
+                    if(client.crosshairPickEntity != null){
+                        Dictionary.LOGGER.info("{} 가 감지 됐습니다.", client.crosshairPickEntity.getType());
+                        EntityScreen entityScreen = new EntityScreen(Component.literal("엔티티 도감"), client.crosshairPickEntity);
+                        client.setScreen(entityScreen);
+                    }
+                    else {
+                        ItemsTagScreen itemsTagScreen = new ItemsTagScreen(Component.literal("도감 종류"));
+                        client.setScreen(itemsTagScreen);
+                    }
                 }
-                if(client.crosshairPickEntity != null){
 
-
-                }
             }
         });
         ItemTooltipCallback.EVENT.register((stack, tooltipContext, tooltipType, lines) -> {
