@@ -1,205 +1,175 @@
 {
-	"아이템 태그": {
-		"REDSTONE": {
-			"요약 설명": "요약 설명을 적어주세요.",
-			"아이템 그룹": {
-				"REDSTONE": {
-					"그룹 대표 이름": "레드스톤",
-					"그룹 설명": "레드스톤은 마인크래프트에서 전기와 유사한 역할을 하는 메커니즘입니다. 복잡한 기계장치와 자동화 시스템을 만드는 데 사용됩니다.",
-					"아이템들": {
-						"block.minecraft.redstone_lamp": {
-							"아이템 아이디": "block.minecraft.redstone_lamp",
-							"아이템 영어 이름": "Redstone Lamp",
-							"아이템 설명": "레드스톤 램프는 레드스톤 신호를 받으면 빛을 내는 블록입니다. 1개의 %block:block.minecraft.glowstone%과 4개의 %item:item.minecraft.redstone%으로 만들 수 있습니다. 레드스톤 신호가 꺼지면 램프도 꺼집니다. 자동 조명 시스템을 만들 때 유용하게 사용됩니다."
-						},
-						"block.minecraft.daylight_detector": {
-							"아이템 아이디": "block.minecraft.daylight_detector",
-							"아이템 영어 이름": "Daylight Detector",
-							"아이템 설명": "햇빛 감지기는 하늘에서 오는 빛의 강도에 따라 레드스톤 신호를 출력하는 블록입니다. 3개의 %item:item.minecraft.glass%, 3개의 %item:item.minecraft.nether_quartz%, 3개의 나무 반 블록으로 만들 수 있습니다. 낮에는 강한 신호를, 밤에는 약한 신호를 출력합니다. 우클릭하면 반전 모드로 전환되어 밤에 더 강한 신호를 출력합니다."
-						},
-						"block.minecraft.observer": {
-							"아이템 아이디": "block.minecraft.observer",
-							"아이템 영어 이름": "Observer",
-							"아이템 설명": "관찰자는 앞쪽 블록의 변화를 감지하여 뒤쪽으로 짧은 레드스톤 신호를 보내는 블록입니다. 6개의 %block:block.minecraft.cobblestone%, 2개의 %item:item.minecraft.redstone%, 1개의 %item:item.minecraft.quartz%로 만들 수 있습니다. 작물 성장, 블록 설치/제거 등 다양한 변화를 감지할 수 있어 자동화 시스템에 유용합니다."
-						},
-						"block.minecraft.comparator": {
-							"아이템 아이디": "block.minecraft.comparator",
-							"아이템 영어 이름": "Comparator",
-							"아이템 설명": "비교기는 입력 신호를 비교하거나 측정하는 복잡한 레드스톤 장치입니다. 3개의 %item:item.minecraft.stone%, 3개의 %item:item.minecraft.redstone_torch%, 1개의 %item:item.minecraft.nether_quartz%로 만들 수 있습니다. 컨테이너의 내용물을 측정하거나, 두 신호의 강도를 비교하는 등 다양한 용도로 사용됩니다."
-						},
-						"block.minecraft.repeater": {
-							"아이템 아이디": "block.minecraft.repeater",
-							"아이템 영어 이름": "Repeater",
-							"아이템 설명": "중계기는 레드스톤 신호를 증폭하고 지연시키는 장치입니다. 2개의 %item:item.minecraft.redstone_torch%, 1개의 %item:item.minecraft.redstone%, 3개의 %item:item.minecraft.stone%으로 만들 수 있습니다. 신호의 강도를 15로 복원하고, 우클릭으로 신호 지연 시간을 조절할 수 있습니다. 복잡한 회로에서 신호 타이밍을 조절하는 데 유용합니다."
-						},
-						"block.minecraft.tripwire_hook": {
-							"아이템 아이디": "block.minecraft.tripwire_hook",
-							"아이템 영어 이름": "Tripwire Hook",
-							"아이템 설명": "철사 덫 갈고리는 실과 함께 사용되어 엔티티의 움직임을 감지하는 장치입니다. 1개의 %item:item.minecraft.iron_ingot%, 1개의 %item:item.minecraft.stick%, 1개의 나무 판자로 만들 수 있습니다. 두 갈고리 사이에 실을 연결하고, 그 사이를 지나가는 엔티티를 감지하여 레드스톤 신호를 발생시킵니다. 함정이나 자동문 시스템에 주로 사용됩니다."
-						},
-						"block.minecraft.observer": {
-							"아이템 아이디": "block.minecraft.observer",
-							"아이템 영어 이름": "Observer"
-						},
-						"item.minecraft.redstone": {
-							"아이템 아이디": "item.minecraft.redstone",
-							"아이템 영어 이름": "Redstone Dust"
-						},
-						"block.minecraft.lever": {
-							"아이템 아이디": "block.minecraft.lever",
-							"아이템 영어 이름": "Lever"
-						},
-						"block.minecraft.dispenser": {
-							"아이템 아이디": "block.minecraft.dispenser",
-							"아이템 영어 이름": "Dispenser"
-						},
-						"block.minecraft.dropper": {
-							"아이템 아이디": "block.minecraft.dropper",
-							"아이템 영어 이름": "Dropper"
-						},
-						"block.minecraft.lilac": {
-							"아이템 아이디": "block.minecraft.lilac",
-							"아이템 영어 이름": "Lilac"
-						},
-						"block.minecraft.repeater": {
-							"아이템 아이디": "block.minecraft.repeater",
-							"아이템 영어 이름": "Redstone Repeater"
-						},
-						"block.minecraft.hopper": {
-							"아이템 아이디": "block.minecraft.hopper",
-							"아이템 영어 이름": "Hopper"
-						},
-						"block.minecraft.sticky_piston": {
-							"아이템 아이디": "block.minecraft.sticky_piston",
-							"아이템 영어 이름": "Sticky Piston"
-						},
-						"block.minecraft.piston": {
-							"아이템 아이디": "block.minecraft.piston",
-							"아이템 영어 이름": "Piston"
-						}
-					}
-				},
-				"button": {
-					"그룹 대표 이름": "버튼",
-					"그룹 설명": "버튼입니다. 나무나 돌 하나로 만들 수 있고, 블럭에 전기를 공급합니다. 문 옆에 설치하면 버튼으로 문을 열 수 있습니다.",
-					"아이템들": {
-						"block.minecraft.bamboo_button": {
-							"아이템 아이디": "block.minecraft.bamboo_button",
-							"아이템 영어 이름": "Bamboo Button"
-						},
-						"block.minecraft.birch_button": {
-							"아이템 아이디": "block.minecraft.birch_button",
-							"아이템 영어 이름": "Birch Button"
-						},
-						"block.minecraft.acacia_button": {
-							"아이템 아이디": "block.minecraft.acacia_button",
-							"아이템 영어 이름": "Acacia Button"
-						},
-						"block.minecraft.cherry_button": {
-							"아이템 아이디": "block.minecraft.cherry_button",
-							"아이템 영어 이름": "Cherry Button"
-						},
-						"block.minecraft.warped_button": {
-							"아이템 아이디": "block.minecraft.warped_button",
-							"아이템 영어 이름": "Warped Button"
-						},
-						"block.minecraft.polished_blackstone_button": {
-							"아이템 아이디": "block.minecraft.polished_blackstone_button",
-							"아이템 영어 이름": "Polished Blackstone Button"
-						},
-						"block.minecraft.dark_oak_button": {
-							"아이템 아이디": "block.minecraft.dark_oak_button",
-							"아이템 영어 이름": "Dark Oak Button"
-						},
-						"block.minecraft.stone_button": {
-							"아이템 아이디": "block.minecraft.stone_button",
-							"아이템 영어 이름": "Stone Button"
-						},
-						"block.minecraft.spruce_button": {
-							"아이템 아이디": "block.minecraft.spruce_button",
-							"아이템 영어 이름": "Spruce Button"
-						},
-						"block.minecraft.mangrove_button": {
-							"아이템 아이디": "block.minecraft.mangrove_button",
-							"아이템 영어 이름": "Mangrove Button"
-						},
-						"block.minecraft.jungle_button": {
-							"아이템 아이디": "block.minecraft.jungle_button",
-							"아이템 영어 이름": "Jungle Button"
-						},
-						"block.minecraft.oak_button": {
-							"아이템 아이디": "block.minecraft.oak_button",
-							"아이템 영어 이름": "Oak Button"
-						}
-					}
-				},
-				"plate": {
-					"그룹 대표 이름": "발판",
-					"그룹 설명": "발판입니다. 다양한 나무 블럭 두개로 간단하게 만들 수 있으며, 발판을 밟을 때 옆에 있는 블럭에 전기를 공급합니다. 문 옆에 설치하면 문을 열 수도 있습니다..",
-					"아이템들": {
-						"block.minecraft.oak_pressure_plate": {
-							"아이템 아이디": "block.minecraft.oak_pressure_plate",
-							"아이템 영어 이름": "Oak Pressure Plate"
-						},
-						"block.minecraft.acacia_pressure_plate": {
-							"아이템 아이디": "block.minecraft.acacia_pressure_plate",
-							"아이템 영어 이름": "Acacia Pressure Plate"
-						},
-						"block.minecraft.spruce_pressure_plate": {
-							"아이템 아이디": "block.minecraft.spruce_pressure_plate",
-							"아이템 영어 이름": "Spruce Pressure Plate"
-						},
-						"block.minecraft.stone_pressure_plate": {
-							"아이템 아이디": "block.minecraft.stone_pressure_plate",
-							"아이템 영어 이름": "Stone Pressure Plate"
-						},
-						"block.minecraft.birch_pressure_plate": {
-							"아이템 아이디": "block.minecraft.birch_pressure_plate",
-							"아이템 영어 이름": "Birch Pressure Plate"
-						},
-						"block.minecraft.jungle_pressure_plate": {
-							"아이템 아이디": "block.minecraft.jungle_pressure_plate",
-							"아이템 영어 이름": "Jungle Pressure Plate"
-						},
-						"block.minecraft.mangrove_pressure_plate": {
-							"아이템 아이디": "block.minecraft.mangrove_pressure_plate",
-							"아이템 영어 이름": "Mangrove Pressure Plate"
-						},
-						"block.minecraft.light_weighted_pressure_plate": {
-							"아이템 아이디": "block.minecraft.light_weighted_pressure_plate",
-							"아이템 영어 이름": "Light Weighted Pressure Plate"
-						},
-						"block.minecraft.polished_blackstone_pressure_plate": {
-							"아이템 아이디": "block.minecraft.polished_blackstone_pressure_plate",
-							"아이템 영어 이름": "Polished Blackstone Pressure Plate"
-						},
-						"block.minecraft.cherry_pressure_plate": {
-							"아이템 아이디": "block.minecraft.cherry_pressure_plate",
-							"아이템 영어 이름": "Cherry Pressure Plate"
-						},
-						"block.minecraft.warped_pressure_plate": {
-							"아이템 아이디": "block.minecraft.warped_pressure_plate",
-							"아이템 영어 이름": "Warped Pressure Plate"
-						},
-						"block.minecraft.bamboo_pressure_plate": {
-							"아이템 아이디": "block.minecraft.bamboo_pressure_plate",
-							"아이템 영어 이름": "Bamboo Pressure Plate"
-						},
-						"block.minecraft.dark_oak_pressure_plate": {
-							"아이템 아이디": "block.minecraft.dark_oak_pressure_plate",
-							"아이템 영어 이름": "Dark Oak Pressure Plate"
-						},
-						"block.minecraft.heavy_weighted_pressure_plate": {
-							"아이템 아이디": "block.minecraft.heavy_weighted_pressure_plate",
-							"아이템 영어 이름": "Heavy Weighted Pressure Plate"
-						}
-					}
-				}
-			},
-			"설명 대체": true,
-			"태그": "REDSTONE"
-		}
-	},
-	"tag": "REDSTONE",
-	"문서 버전": "1.0"
+  "아이템 태그": {
+    "REDSTONE": {
+      "요약 설명": "요약 설명을 적어주세요.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "레드스톤",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.observer": {
+              "아이템 아이디": "block.minecraft.observer",
+              "아이템 영어 이름": "Observer"
+            },
+            "item.minecraft.redstone": {
+              "아이템 아이디": "item.minecraft.redstone",
+              "아이템 영어 이름": "Redstone Dust"
+            },
+            "block.minecraft.lever": {
+              "아이템 아이디": "block.minecraft.lever",
+              "아이템 영어 이름": "Lever"
+            },
+            "block.minecraft.dispenser": {
+              "아이템 아이디": "block.minecraft.dispenser",
+              "아이템 영어 이름": "Dispenser"
+            },
+            "block.minecraft.dropper": {
+              "아이템 아이디": "block.minecraft.dropper",
+              "아이템 영어 이름": "Dropper"
+            },
+            "block.minecraft.lilac": {
+              "아이템 아이디": "block.minecraft.lilac",
+              "아이템 영어 이름": "Lilac"
+            },
+            "block.minecraft.repeater": {
+              "아이템 아이디": "block.minecraft.repeater",
+              "아이템 영어 이름": "Redstone Repeater"
+            },
+            "block.minecraft.hopper": {
+              "아이템 아이디": "block.minecraft.hopper",
+              "아이템 영어 이름": "Hopper"
+            },
+            "block.minecraft.sticky_piston": {
+              "아이템 아이디": "block.minecraft.sticky_piston",
+              "아이템 영어 이름": "Sticky Piston"
+            },
+            "block.minecraft.piston": {
+              "아이템 아이디": "block.minecraft.piston",
+              "아이템 영어 이름": "Piston"
+            }
+          }
+        },
+        "button": {
+          "그룹 대표 이름": "버튼",
+          "그룹 설명": "버튼입니다. 나무나 돌 하나로 만들 수 있고, 블럭에 전기를 공급합니다. 문 옆에 설치하면 버튼으로 문을 열 수 있습니다.",
+          "아이템들": {
+            "block.minecraft.bamboo_button": {
+              "아이템 아이디": "block.minecraft.bamboo_button",
+              "아이템 영어 이름": "Bamboo Button"
+            },
+            "block.minecraft.birch_button": {
+              "아이템 아이디": "block.minecraft.birch_button",
+              "아이템 영어 이름": "Birch Button"
+            },
+            "block.minecraft.acacia_button": {
+              "아이템 아이디": "block.minecraft.acacia_button",
+              "아이템 영어 이름": "Acacia Button"
+            },
+            "block.minecraft.cherry_button": {
+              "아이템 아이디": "block.minecraft.cherry_button",
+              "아이템 영어 이름": "Cherry Button"
+            },
+            "block.minecraft.warped_button": {
+              "아이템 아이디": "block.minecraft.warped_button",
+              "아이템 영어 이름": "Warped Button"
+            },
+            "block.minecraft.polished_blackstone_button": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_button",
+              "아이템 영어 이름": "Polished Blackstone Button"
+            },
+            "block.minecraft.dark_oak_button": {
+              "아이템 아이디": "block.minecraft.dark_oak_button",
+              "아이템 영어 이름": "Dark Oak Button"
+            },
+            "block.minecraft.stone_button": {
+              "아이템 아이디": "block.minecraft.stone_button",
+              "아이템 영어 이름": "Stone Button"
+            },
+            "block.minecraft.spruce_button": {
+              "아이템 아이디": "block.minecraft.spruce_button",
+              "아이템 영어 이름": "Spruce Button"
+            },
+            "block.minecraft.mangrove_button": {
+              "아이템 아이디": "block.minecraft.mangrove_button",
+              "아이템 영어 이름": "Mangrove Button"
+            },
+            "block.minecraft.jungle_button": {
+              "아이템 아이디": "block.minecraft.jungle_button",
+              "아이템 영어 이름": "Jungle Button"
+            },
+            "block.minecraft.oak_button": {
+              "아이템 아이디": "block.minecraft.oak_button",
+              "아이템 영어 이름": "Oak Button"
+            }
+          }
+        },
+        "plate": {
+          "그룹 대표 이름": "발판",
+          "그룹 설명": "발판입니다. 다양한 나무 블럭 두개로 간단하게 만들 수 있으며, 발판을 밟을 때 옆에 있는 블럭에 전기를 공급합니다. 문 옆에 설치하면 문을 열 수도 있습니다..",
+          "아이템들": {
+            "block.minecraft.oak_pressure_plate": {
+              "아이템 아이디": "block.minecraft.oak_pressure_plate",
+              "아이템 영어 이름": "Oak Pressure Plate"
+            },
+            "block.minecraft.acacia_pressure_plate": {
+              "아이템 아이디": "block.minecraft.acacia_pressure_plate",
+              "아이템 영어 이름": "Acacia Pressure Plate"
+            },
+            "block.minecraft.spruce_pressure_plate": {
+              "아이템 아이디": "block.minecraft.spruce_pressure_plate",
+              "아이템 영어 이름": "Spruce Pressure Plate"
+            },
+            "block.minecraft.stone_pressure_plate": {
+              "아이템 아이디": "block.minecraft.stone_pressure_plate",
+              "아이템 영어 이름": "Stone Pressure Plate"
+            },
+            "block.minecraft.birch_pressure_plate": {
+              "아이템 아이디": "block.minecraft.birch_pressure_plate",
+              "아이템 영어 이름": "Birch Pressure Plate"
+            },
+            "block.minecraft.jungle_pressure_plate": {
+              "아이템 아이디": "block.minecraft.jungle_pressure_plate",
+              "아이템 영어 이름": "Jungle Pressure Plate"
+            },
+            "block.minecraft.mangrove_pressure_plate": {
+              "아이템 아이디": "block.minecraft.mangrove_pressure_plate",
+              "아이템 영어 이름": "Mangrove Pressure Plate"
+            },
+            "block.minecraft.light_weighted_pressure_plate": {
+              "아이템 아이디": "block.minecraft.light_weighted_pressure_plate",
+              "아이템 영어 이름": "Light Weighted Pressure Plate"
+            },
+            "block.minecraft.polished_blackstone_pressure_plate": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_pressure_plate",
+              "아이템 영어 이름": "Polished Blackstone Pressure Plate"
+            },
+            "block.minecraft.cherry_pressure_plate": {
+              "아이템 아이디": "block.minecraft.cherry_pressure_plate",
+              "아이템 영어 이름": "Cherry Pressure Plate"
+            },
+            "block.minecraft.warped_pressure_plate": {
+              "아이템 아이디": "block.minecraft.warped_pressure_plate",
+              "아이템 영어 이름": "Warped Pressure Plate"
+            },
+            "block.minecraft.bamboo_pressure_plate": {
+              "아이템 아이디": "block.minecraft.bamboo_pressure_plate",
+              "아이템 영어 이름": "Bamboo Pressure Plate"
+            },
+            "block.minecraft.dark_oak_pressure_plate": {
+              "아이템 아이디": "block.minecraft.dark_oak_pressure_plate",
+              "아이템 영어 이름": "Dark Oak Pressure Plate"
+            },
+            "block.minecraft.heavy_weighted_pressure_plate": {
+              "아이템 아이디": "block.minecraft.heavy_weighted_pressure_plate",
+              "아이템 영어 이름": "Heavy Weighted Pressure Plate"
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "REDSTONE"
+    }
+  },
+  "tag": "REDSTONE",
+  "문서 버전": "1.0"
 }

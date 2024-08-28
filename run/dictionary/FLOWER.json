@@ -1,180 +1,90 @@
 {
-	"아이템 태그": {
-		"FLOWER": {
-			"요약 설명": "꽃은 마인크래프트 세계를 아름답게 장식하는 장식용 블록입니다. 다양한 종류와 색상이 있어 정원, 공원, 건축물 등을 꾸미는 데 사용됩니다. 대부분의 꽃은 뼛가루를 사용해 번식시킬 수 있으며, 꿀벌을 유인하고 염료를 만드는 데 사용됩니다.",
-			"아이템 그룹": {
-				"ETC": {
-					"그룹 대표 이름": "기타 꽃",
-					"그룹 설명": "이 그룹은 튤립을 제외한 다양한 종류의 꽃과 식물을 포함합니다. 각각 고유한 특성과 용도를 가지고 있어 다양한 장식 효과를 낼 수 있습니다.",
-					"아이템들": {
-						"block.minecraft.poppy": {
-							"아이템 아이디": "block.minecraft.poppy",
-							"아이템 영어 이름": "Poppy",
-							"아이템 설명": "양귀비는 빨간색 꽃으로, %biome:biome.minecraft.plains%과 %biome:biome.minecraft.forest% 바이옴에서 자연적으로 생성됩니다. 빨간색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인할 수 있습니다. 또한 %item:item.minecraft.suspicious_stew% 제작에 사용되어 야간 투시 효과를 줍니다."
-						},
-						"block.minecraft.azure_bluet": {
-							"아이템 아이디": "block.minecraft.azure_bluet",
-							"아이템 영어 이름": "Azure Bluet",
-							"아이템 설명": "하늘색 꽃은 흰색 꽃으로, %biome:biome.minecraft.plains%과 %biome:biome.minecraft.forest% 바이옴에서 발견됩니다. 흰색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. %item:item.minecraft.suspicious_stew% 제작에 사용하면 실명 효과를 줍니다."
-						},
-						"block.minecraft.allium": {
-							"아이템 아이디": "block.minecraft.allium",
-							"아이템 영어 이름": "Allium",
-							"아이템 설명": "알리움은 보라색 꽃으로, %biome:biome.minecraft.flower_forest% 바이옴에서 주로 발견됩니다. 밝은 보라색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. %item:item.minecraft.suspicious_stew% 제작에 사용하면 화염 저항 효과를 줍니다."
-						},
-						"block.minecraft.lily_of_the_valley": {
-							"아이템 아이디": "block.minecraft.lily_of_the_valley",
-							"아이템 영어 이름": "Lily of the Valley",
-							"아이템 설명": "은방울꽃은 흰색 꽃으로, %biome:biome.minecraft.forest%와 %biome:biome.minecraft.flower_forest% 바이옴에서 발견됩니다. 흰색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. 주의할 점은 %item:item.minecraft.suspicious_stew% 제작에 사용하면 독 효과를 주는 유일한 꽃입니다."
-						},
-						"block.minecraft.blue_orchid": {
-							"아이템 아이디": "block.minecraft.blue_orchid",
-							"아이템 영어 이름": "Blue Orchid",
-							"아이템 설명": "파란 난초는 밝은 파란색 꽃으로, %biome:biome.minecraft.swamp% 바이옴에서만 자연적으로 생성됩니다. 밝은 파란색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. %item:item.minecraft.suspicious_stew% 제작에 사용하면 포화 효과를 줍니다."
-						},
-						"block.minecraft.torchflower": {
-							"아이템 아이디": "block.minecraft.torchflower",
-							"아이템 영어 이름": "Torchflower",
-							"아이템 설명": "토치플라워는 밝은 주황색 꽃으로, %item:item.minecraft.torchflower_seeds%를 심어 재배할 수 있습니다. 주황색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. 야간에 약간의 빛을 발하여 독특한 분위기를 연출할 수 있습니다."
-						},
-						"block.minecraft.pink_petals": {
-							"아이템 아이디": "block.minecraft.pink_petals",
-							"아이템 영어 이름": "Pink Petals",
-							"아이템 설명": "분홍색 꽃잎은 %biome:biome.minecraft.cherry_grove% 바이옴의 체리 나무 아래에서 자연적으로 생성되는 작은 꽃들입니다. 분홍색 염료를 만드는 데 사용되며, %entity:entity.minecraft.bee%를 유인합니다. 뼈가루를 사용하면 더 넓은 영역으로 퍼질 수 있어, 아름다운 꽃밭을 만드는 데 적합합니다."
-						},
-						"block.minecraft.rose_bush": {
-							"아이템 아이디": "block.minecraft.rose_bush",
-							"아이템 영어 이름": "Rose Bush",
-							"아이템 설명": "장미덤불은 2블록 높이의 큰 붉은 꽃입니다. 정원이나 울타리 장식으로 적합하며, 빨간 염료를 얻을 수 있습니다. 가위로 수확하면 더 많은 아이템을 얻을 수 있습니다."
-						},
-						"block.minecraft.dandelion": {
-							"아이템 아이디": "block.minecraft.dandelion",
-							"아이템 영어 이름": "Dandelion",
-							"아이템 설명": "민들레는 밝은 노란색 꽃으로, 거의 모든 바이옴에서 자연 생성됩니다. 노란 염료를 만들 수 있으며, 꿀벌을 유인합니다. 민들레 수프의 재료로도 사용됩니다."
-						},
-						"block.minecraft.peony": {
-							"아이템 아이디": "block.minecraft.peony",
-							"아이템 영어 이름": "Peony",
-							"아이템 설명": "모란은 2블록 높이의 분홍색 꽃입니다. 숲과 평원 바이옴에서 발견되며, 분홍 염료를 얻을 수 있습니다. 가위로 수확하면 더 많은 아이템을 얻을 수 있습니다."
-						},
-						"block.minecraft.sunflower": {
-							"아이템 아이디": "block.minecraft.sunflower",
-							"아이템 영어 이름": "Sunflower",
-							"아이템 설명": "해바라기는 2블록 높이의 큰 노란 꽃입니다. 해바라기 평원에서 자연 생성되며, 항상 동쪽을 향합니다. 노란 염료와 해바라기 씨를 얻을 수 있습니다."
-						},
-						"block.minecraft.dead_bush": {
-							"아이템 아이디": "block.minecraft.dead_bush",
-							"아이템 영어 이름": "Dead Bush",
-							"아이템 설명": "마른 덤불은 사막과 배드랜드 바이옴에서 발견되는 마른 식물입니다. 막대기를 얻을 수 있으며, 사막 풍경을 연출하는 데 사용됩니다."
-						},
-						"block.minecraft.oxeye_daisy": {
-							"아이템 아이디": "block.minecraft.oxeye_daisy",
-							"아이템 영어 이름": "Oxeye Daisy",
-							"아이템 설명": "데이지는 흰색과 노란색이 섞인 꽃입니다. 평원과 숲 바이옴에서 발견되며, 밝은 회색 염료를 만들 수 있습니다. 수상한 스튜의 재료로 사용됩니다."
-						},
-						"block.minecraft.chorus_flower": {
-							"아이템 아이디": "block.minecraft.chorus_flower",
-							"아이템 영어 이름": "Chorus Flower",
-							"아이템 설명": "코러스 꽃은 엔드 도시에서 발견되는 특별한 식물입니다. 코러스 나무의 끝에서 자라며, 코러스 열매를 생성합니다. 엔드 차원의 독특한 분위기를 연출하는 데 사용됩니다."
-						},
-						"block.minecraft.cornflower": {
-							"아이템 아이디": "block.minecraft.cornflower",
-							"아이템 영어 이름": "Cornflower",
-							"아이템 설명": "수레국화는 밝은 파란색 꽃입니다. 평원과 꽃 숲 바이옴에서 발견되며, 파란 염료를 만들 수 있습니다. 아름다운 색상으로 정원 장식에 인기가 있습니다."
-						},
-						"block.minecraft.wither_rose": {
-							"아이템 아이디": "block.minecraft.wither_rose",
-							"아이템 영어 이름": "Wither Rose",
-							"아이템 설명": "위더 장미는 검은색 꽃으로, 위더가 생물을 죽일 때 생성됩니다. 접촉 시 위더 효과를 주며, 검은 염료를 만들 수 있습니다. 위험하지만 독특한 장식 요소로 사용됩니다."
-						},
-						"block.minecraft.cactus": {
-							"아이템 아이디": "block.minecraft.cactus",
-							"아이템 영어 이름": "Cactus",
-							"설명": ""
-						},
-						"block.minecraft.spore_blossom": {
-							"아이템 아이디": "block.minecraft.spore_blossom",
-							"아이템 영어 이름": "Spore Blossom",
-							"설명": ""
-						},
-						"block.minecraft.small_dripleaf": {
-							"아이템 아이디": "block.minecraft.small_dripleaf",
-							"아이템 영어 이름": "Small Dripleaf",
-							"설명": ""
-						},
-						"block.minecraft.big_dripleaf": {
-							"아이템 아이디": "block.minecraft.big_dripleaf",
-							"아이템 영어 이름": "Big Dripleaf",
-							"설명": ""
-						},
-						"block.minecraft.lily_pad": {
-							"아이템 아이디": "block.minecraft.lily_pad",
-							"아이템 영어 이름": "Lily Pad",
-							"설명": ""
-						},
-						"block.minecraft.vine": {
-							"아이템 아이디": "block.minecraft.vine",
-							"아이템 영어 이름": "Vines",
-							"설명": ""
-						},
-						"block.minecraft.twisting_vines": {
-							"아이템 아이디": "block.minecraft.twisting_vines",
-							"아이템 영어 이름": "Twisting Vines",
-							"설명": ""
-						},
-						"block.minecraft.brown_mushroom": {
-							"아이템 아이디": "block.minecraft.brown_mushroom",
-							"아이템 영어 이름": "Brown Mushroom",
-							"설명": ""
-						},
-						"block.minecraft.red_mushroom": {
-							"아이템 아이디": "block.minecraft.red_mushroom",
-							"아이템 영어 이름": "Red Mushroom",
-							"설명": ""
-						},
-						"block.minecraft.pitcher_plant": {
-							"아이템 아이디": "block.minecraft.pitcher_plant",
-							"아이템 영어 이름": "Pitcher Plant",
-							"설명": ""
-						},
-						"block.minecraft.seagrass": {
-							"아이템 아이디": "block.minecraft.seagrass",
-							"아이템 영어 이름": "Seagrass",
-							"설명": ""
-						}
-					}
-				},
-				"tulip": {
-					"그룹 대표 이름": "튤립",
-					"그룹 설명": "튤립은 다양한 색상으로 제공되는 아름다운 꽃입니다. 평원과 꽃 숲 바이옴에서 자연 생성되며, 정원과 화단을 꾸미는 데 인기가 있습니다.",
-					"아이템들": {
-						"block.minecraft.red_tulip": {
-							"아이템 아이디": "block.minecraft.red_tulip",
-							"아이템 영어 이름": "Red Tulip",
-							"아이템 설명": "빨간 튤립은 선명한 붉은색 꽃입니다. 빨간 염료를 만들 수 있으며, 로맨틱한 분위기나 강렬한 색상 대비를 원할 때 사용됩니다."
-						},
-						"block.minecraft.orange_tulip": {
-							"아이템 아이디": "block.minecraft.orange_tulip",
-							"아이템 영어 이름": "Orange Tulip",
-							"아이템 설명": "주황 튤립은 밝고 따뜻한 색상의 꽃입니다. 주황 염료를 만들 수 있으며, 가을 테마나 햇살 가득한 정원을 연출할 때 적합합니다."
-						},
-						"block.minecraft.white_tulip": {
-							"아이템 아이디": "block.minecraft.white_tulip",
-							"아이템 영어 이름": "White Tulip",
-							"아이템 설명": "흰 튤립은 순수하고 깨끗한 느낌의 꽃입니다. 밝은 회색 염료를 만들 수 있으며, 웨딩 테마나 우아한 정원 디자인에 적합합니다."
-						},
-						"block.minecraft.pink_tulip": {
-							"아이템 아이디": "block.minecraft.pink_tulip",
-							"아이템 영어 이름": "Pink Tulip",
-							"아이템 설명": "분홍 튤립은 부드럽고 로맨틱한 분위기의 꽃입니다. 분홍 염료를 만들 수 있으며, 봄 테마나 소녀적인 정원을 연출할 때 사용됩니다."
-						}
-					}
-				}
-			},
-			"설명 대체": true,
-			"태그": "FLOWER"
-		}
-	},
-	"tag": "FLOWER",
-	"문서 버전": "1.0"
+  "아이템 태그": {
+    "FLOWER": {
+      "요약 설명": "꽃은 마인크래프트 세계를 아름답게 장식하는 장식용 블록입니다. 다양한 종류와 색상이 있어 정원, 공원, 건축물 등을 꾸미는 데 사용됩니다. 대부분의 꽃은 뼛가루를 사용해 번식시킬 수 있으며, 꿀벌을 유인하고 염료를 만드는 데 사용됩니다.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "기타 꽃",
+          "그룹 설명": "이 그룹은 튤립을 제외한 다양한 종류의 꽃과 식물을 포함합니다. 각각 고유한 특성과 용도를 가지고 있어 다양한 장식 효과를 낼 수 있습니다.",
+          "아이템들": {
+            "block.minecraft.rose_bush": {
+              "아이템 아이디": "block.minecraft.rose_bush",
+              "아이템 영어 이름": "Rose Bush",
+              "아이템 설명": "장미덤불은 2블록 높이의 큰 붉은 꽃입니다. 정원이나 울타리 장식으로 적합하며, 빨간 염료를 얻을 수 있습니다. 가위로 수확하면 더 많은 아이템을 얻을 수 있습니다."
+            },
+            "block.minecraft.dandelion": {
+              "아이템 아이디": "block.minecraft.dandelion",
+              "아이템 영어 이름": "Dandelion",
+              "아이템 설명": "민들레는 밝은 노란색 꽃으로, 거의 모든 바이옴에서 자연 생성됩니다. 노란 염료를 만들 수 있으며, 꿀벌을 유인합니다. 민들레 수프의 재료로도 사용됩니다."
+            },
+            "block.minecraft.peony": {
+              "아이템 아이디": "block.minecraft.peony",
+              "아이템 영어 이름": "Peony",
+              "아이템 설명": "모란은 2블록 높이의 분홍색 꽃입니다. 숲과 평원 바이옴에서 발견되며, 분홍 염료를 얻을 수 있습니다. 가위로 수확하면 더 많은 아이템을 얻을 수 있습니다."
+            },
+            "block.minecraft.sunflower": {
+              "아이템 아이디": "block.minecraft.sunflower",
+              "아이템 영어 이름": "Sunflower",
+              "아이템 설명": "해바라기는 2블록 높이의 큰 노란 꽃입니다. 해바라기 평원에서 자연 생성되며, 항상 동쪽을 향합니다. 노란 염료와 해바라기 씨를 얻을 수 있습니다."
+            },
+            "block.minecraft.dead_bush": {
+              "아이템 아이디": "block.minecraft.dead_bush",
+              "아이템 영어 이름": "Dead Bush",
+              "아이템 설명": "마른 덤불은 사막과 배드랜드 바이옴에서 발견되는 마른 식물입니다. 막대기를 얻을 수 있으며, 사막 풍경을 연출하는 데 사용됩니다."
+            },
+            "block.minecraft.oxeye_daisy": {
+              "아이템 아이디": "block.minecraft.oxeye_daisy",
+              "아이템 영어 이름": "Oxeye Daisy",
+              "아이템 설명": "데이지는 흰색과 노란색이 섞인 꽃입니다. 평원과 숲 바이옴에서 발견되며, 밝은 회색 염료를 만들 수 있습니다. 수상한 스튜의 재료로 사용됩니다."
+            },
+            "block.minecraft.chorus_flower": {
+              "아이템 아이디": "block.minecraft.chorus_flower",
+              "아이템 영어 이름": "Chorus Flower",
+              "아이템 설명": "코러스 꽃은 엔드 도시에서 발견되는 특별한 식물입니다. 코러스 나무의 끝에서 자라며, 코러스 열매를 생성합니다. 엔드 차원의 독특한 분위기를 연출하는 데 사용됩니다."
+            },
+            "block.minecraft.cornflower": {
+              "아이템 아이디": "block.minecraft.cornflower",
+              "아이템 영어 이름": "Cornflower",
+              "아이템 설명": "수레국화는 밝은 파란색 꽃입니다. 평원과 꽃 숲 바이옴에서 발견되며, 파란 염료를 만들 수 있습니다. 아름다운 색상으로 정원 장식에 인기가 있습니다."
+            },
+            "block.minecraft.wither_rose": {
+              "아이템 아이디": "block.minecraft.wither_rose",
+              "아이템 영어 이름": "Wither Rose",
+              "아이템 설명": "위더 장미는 검은색 꽃으로, 위더가 생물을 죽일 때 생성됩니다. 접촉 시 위더 효과를 주며, 검은 염료를 만들 수 있습니다. 위험하지만 독특한 장식 요소로 사용됩니다."
+            }
+          }
+        },
+        "tulip": {
+          "그룹 대표 이름": "튤립",
+          "그룹 설명": "튤립은 다양한 색상으로 제공되는 아름다운 꽃입니다. 평원과 꽃 숲 바이옴에서 자연 생성되며, 정원과 화단을 꾸미는 데 인기가 있습니다.",
+          "아이템들": {
+            "block.minecraft.red_tulip": {
+              "아이템 아이디": "block.minecraft.red_tulip",
+              "아이템 영어 이름": "Red Tulip",
+              "아이템 설명": "빨간 튤립은 선명한 붉은색 꽃입니다. 빨간 염료를 만들 수 있으며, 로맨틱한 분위기나 강렬한 색상 대비를 원할 때 사용됩니다."
+            },
+            "block.minecraft.orange_tulip": {
+              "아이템 아이디": "block.minecraft.orange_tulip",
+              "아이템 영어 이름": "Orange Tulip",
+              "아이템 설명": "주황 튤립은 밝고 따뜻한 색상의 꽃입니다. 주황 염료를 만들 수 있으며, 가을 테마나 햇살 가득한 정원을 연출할 때 적합합니다."
+            },
+            "block.minecraft.white_tulip": {
+              "아이템 아이디": "block.minecraft.white_tulip",
+              "아이템 영어 이름": "White Tulip",
+              "아이템 설명": "흰 튤립은 순수하고 깨끗한 느낌의 꽃입니다. 밝은 회색 염료를 만들 수 있으며, 웨딩 테마나 우아한 정원 디자인에 적합합니다."
+            },
+            "block.minecraft.pink_tulip": {
+              "아이템 아이디": "block.minecraft.pink_tulip",
+              "아이템 영어 이름": "Pink Tulip",
+              "아이템 설명": "분홍 튤립은 부드럽고 로맨틱한 분위기의 꽃입니다. 분홍 염료를 만들 수 있으며, 봄 테마나 소녀적인 정원을 연출할 때 사용됩니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "FLOWER"
+    }
+  },
+  "tag": "FLOWER",
+  "문서 버전": "1.0"
 }

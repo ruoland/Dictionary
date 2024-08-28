@@ -1577,7 +1577,24 @@
             }
           }
         },
-
+        "frame": {
+          "그룹 대표 이름": "그룹 이름.",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.glow_item_frame": {
+              "아이템 아이디": "item.minecraft.glow_item_frame",
+              "아이템 영어 이름": "Glow Item Frame"
+            },
+            "block.minecraft.end_portal_frame": {
+              "아이템 아이디": "block.minecraft.end_portal_frame",
+              "아이템 영어 이름": "End Portal Frame"
+            },
+            "item.minecraft.item_frame": {
+              "아이템 아이디": "item.minecraft.item_frame",
+              "아이템 영어 이름": "Item Frame"
+            }
+          }
+        },
         "froglight": {
           "그룹 대표 이름": "그룹 이름.",
           "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
