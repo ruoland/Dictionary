@@ -1,0 +1,145 @@
+{
+  "아이템 태그": {
+    "BANNER": {
+      "요약 설명": "마인크래프트에서 장식과 표식에 사용되는 깃발과 관련 패턴 아이템들입니다. 다양한 색상과 디자인으로 개성 있는 표현이 가능합니다.",
+      "아이템 그룹": {
+        "banner": {
+          "그룹 대표 이름": "깃발",
+          "그룹 설명": "다양한 색상의 깃발 블록들입니다. 패턴을 적용하여 커스터마이즈할 수 있으며, 장식이나 표식용으로 사용됩니다.",
+          "아이템들": {
+            "block.minecraft.gray_banner": {
+              "아이템 아이디": "block.minecraft.gray_banner",
+              "아이템 영어 이름": "Gray Banner",
+              "아이템 설명": "회색 깃발\\n\\n회색 양털로 만든 깃발입니다.\\n\\n팁: %id:block.minecraft.loom%을 사용해 다양한 패턴을 적용할 수 있습니다."
+            },
+            "block.minecraft.red_banner": {
+              "아이템 아이디": "block.minecraft.red_banner",
+              "아이템 영어 이름": "Red Banner",
+              "아이템 설명": "빨간색 깃발\\n\\n빨간색 양털로 만든 깃발입니다.\\n\\n팁: 팀 구분이나 경고 표시 등에 사용할 수 있습니다."
+            },
+            "block.minecraft.green_banner": {
+              "아이템 아이디": "block.minecraft.green_banner",
+              "아이템 영어 이름": "Green Banner",
+              "아이템 설명": "초록색 깃발\\n\\n초록색 양털로 만든 깃발입니다.\\n\\n팁: 자연 테마 건축물이나 안전 지역 표시에 적합합니다."
+            },
+            "block.minecraft.black_banner": {
+              "아이템 아이디": "block.minecraft.black_banner",
+              "아이템 영어 이름": "Black Banner",
+              "아이템 설명": "검은색 깃발\\n\\n검은색 양털로 만든 깃발입니다.\\n\\n팁: 어두운 분위기나 고급스러운 장식에 사용할 수 있습니다."
+            },
+            "block.minecraft.magenta_banner": {
+              "아이템 아이디": "block.minecraft.magenta_banner",
+              "아이템 영어 이름": "Magenta Banner",
+              "아이템 설명": "자홍색 깃발\\n\\n자홍색 양털로 만든 깃발입니다.\\n\\n팁: 화려하고 독특한 분위기를 연출하는 데 좋습니다."
+            },
+            "block.minecraft.yellow_banner": {
+              "아이템 아이디": "block.minecraft.yellow_banner",
+              "아이템 영어 이름": "Yellow Banner",
+              "아이템 설명": "노란색 깃발\\n\\n노란색 양털로 만든 깃발입니다.\\n\\n팁: 밝고 눈에 띄는 색상으로, 주의 표시나 환영 메시지에 적합합니다."
+            },
+            "block.minecraft.cyan_banner": {
+              "아이템 아이디": "block.minecraft.cyan_banner",
+              "아이템 영어 이름": "Cyan Banner",
+              "아이템 설명": "청록색 깃발\\n\\n청록색 양털로 만든 깃발입니다.\\n\\n팁: 바다나 하늘 테마의 건축물에 잘 어울립니다."
+            },
+            "block.minecraft.orange_banner": {
+              "아이템 아이디": "block.minecraft.orange_banner",
+              "아이템 영어 이름": "Orange Banner",
+              "아이템 설명": "주황색 깃발\\n\\n주황색 양털로 만든 깃발입니다.\\n\\n팁: 가을 테마나 따뜻한 분위기 연출에 좋습니다."
+            },
+            "block.minecraft.purple_banner": {
+              "아이템 아이디": "block.minecraft.purple_banner",
+              "아이템 영어 이름": "Purple Banner",
+              "아이템 설명": "보라색 깃발\\n\\n보라색 양털로 만든 깃발입니다.\\n\\n팁: 신비로운 분위기나 고급스러운 장식에 적합합니다."
+            },
+            "block.minecraft.white_banner": {
+              "아이템 아이디": "block.minecraft.white_banner",
+              "아이템 영어 이름": "White Banner",
+              "아이템 설명": "흰색 깃발\\n\\n흰색 양털로 만든 깃발입니다.\\n\\n팁: 다양한 패턴을 적용하기 좋은 기본 색상입니다."
+            },
+            "block.minecraft.lime_banner": {
+              "아이템 아이디": "block.minecraft.lime_banner",
+              "아이템 영어 이름": "Lime Banner",
+              "아이템 설명": "연두색 깃발\\n\\n연두색 양털로 만든 깃발입니다.\\n\\n팁: 밝고 생동감 있는 분위기를 연출하는 데 좋습니다."
+            },
+            "block.minecraft.brown_banner": {
+              "아이템 아이디": "block.minecraft.brown_banner",
+              "아이템 영어 이름": "Brown Banner",
+              "아이템 설명": "갈색 깃발\\n\\n갈색 양털로 만든 깃발입니다.\\n\\n팁: 자연스럽고 따뜻한 분위기의 건축물에 어울립니다."
+            },
+            "block.minecraft.pink_banner": {
+              "아이템 아이디": "block.minecraft.pink_banner",
+              "아이템 영어 이름": "Pink Banner",
+              "아이템 설명": "분홍색 깃발\\n\\n분홍색 양털로 만든 깃발입니다.\\n\\n팁: 귀엽고 로맨틱한 분위기를 연출하는 데 적합합니다."
+            },
+            "block.minecraft.light_gray_banner": {
+              "아이템 아이디": "block.minecraft.light_gray_banner",
+              "아이템 영어 이름": "Light Gray Banner",
+              "아이템 설명": "밝은 회색 깃발\\n\\n밝은 회색 양털로 만든 깃발입니다.\\n\\n팁: 중립적이고 세련된 분위기를 연출하는 데 좋습니다."
+            },
+            "block.minecraft.blue_banner": {
+              "아이템 아이디": "block.minecraft.blue_banner",
+              "아이템 영어 이름": "Blue Banner",
+              "아이템 설명": "파란색 깃발\\n\\n파란색 양털로 만든 깃발입니다.\\n\\n팁: 차분하고 시원한 분위기를 연출하는 데 적합합니다."
+            },
+            "block.minecraft.light_blue_banner": {
+              "아이템 아이디": "block.minecraft.light_blue_banner",
+              "아이템 영어 이름": "Light Blue Banner",
+              "아이템 설명": "하늘색 깃발\\n\\n하늘색 양털로 만든 깃발입니다.\\n\\n팁: 밝고 상쾌한 분위기를 연출하는 데 좋습니다."
+            }
+          }
+        },
+        "pattern": {
+          "그룹 대표 이름": "깃발 패턴",
+          "그룹 설명": "깃발에 적용할 수 있는 다양한 패턴 아이템들입니다. 이를 통해 깃발을 더욱 독특하고 개성 있게 꾸밀 수 있습니다.",
+          "아이템들": {
+            "item.minecraft.flow_banner_pattern": {
+              "아이템 아이디": "item.minecraft.flow_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 꽃\\n\\n깃발에 꽃 모양 패턴을 적용할 수 있습니다.\\n\\n팁: %id:block.minecraft.loom%에서 사용하여 깃발을 꾸밉니다."
+            },
+            "item.minecraft.creeper_banner_pattern": {
+              "아이템 아이디": "item.minecraft.creeper_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 크리퍼\\n\\n깃발에 크리퍼 얼굴 패턴을 적용할 수 있습니다.\\n\\n팁: 크리퍼 머리를 사용해 제작할 수 있습니다."
+            },
+            "item.minecraft.mojang_banner_pattern": {
+              "아이템 아이디": "item.minecraft.mojang_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 모장 로고\\n\\n깃발에 모장 스튜디오의 로고 패턴을 적용할 수 있습니다.\\n\\n팁: 특별한 이벤트나 마인크래프트 테마 장식에 사용합니다."
+            },
+            "item.minecraft.globe_banner_pattern": {
+              "아이템 아이디": "item.minecraft.globe_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 지구본\\n\\n깃발에 지구본 모양 패턴을 적용할 수 있습니다.\\n\\n팁: 탐험가 테마나 세계 관련 건축물에 어울립니다."
+            },
+            "item.minecraft.piglin_banner_pattern": {
+              "아이템 아이디": "item.minecraft.piglin_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 피글린\\n\\n깃발에 피글린 문양 패턴을 적용할 수 있습니다.\\n\\n팁: 네더 테마 건축물이나 피글린 관련 장식에 사용합니다."
+            },
+            "item.minecraft.flower_banner_pattern": {
+              "아이템 아이디": "item.minecraft.flower_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 꽃 문양\\n\\n깃발에 꽃 문양 패턴을 적용할 수 있습니다.\\n\\n팁: 정원이나 꽃 가게 테마 건축물에 어울립니다."
+            },
+            "item.minecraft.skull_banner_pattern": {
+              "아이템 아이디": "item.minecraft.skull_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 해골\\n\\n깃발에 해골 모양 패턴을 적용할 수 있습니다.\\n\\n팁: 위험 지역이나 해적 테마 장식에 적합합니다."
+            },
+            "item.minecraft.guster_banner_pattern": {
+              "아이템 아이디": "item.minecraft.guster_banner_pattern",
+              "아이템 영어 이름": "Banner Pattern",
+              "아이템 설명": "깃발 패턴: 거스터\\n\\n깃발에 거스터 모양 패턴을 적용할 수 있습니다.\\n\\n팁: 바람이나 공중 테마 건축물에 사용하면 좋습니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "BANNER"
+    }
+  },
+  "tag": "BANNER",
+  "문서 버전": "1.0"
+}

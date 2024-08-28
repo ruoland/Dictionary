@@ -1,0 +1,100 @@
+{
+  "아이템 태그": {
+    "FOOD": {
+      "요약 설명": "마인크래프트에서 플레이어의 배고픔을 해결하고 다양한 효과를 제공하는 음식 아이템들입니다.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "일반 음식",
+          "그룹 설명": "다양한 종류의 기본적인 음식 아이템들로, 플레이어의 배고픔을 해결하고 체력을 회복시키는 데 사용됩니다.",
+          "아이템들": {
+            "item.minecraft.porkchop": {
+              "아이템 아이디": "item.minecraft.porkchop",
+              "아이템 영어 이름": "Raw Porkchop",
+              "아이템 설명": "생 돼지고기\n\n%id:entity.minecraft.pig%에서 얻을 수 있는 날고기입니다.\n그대로 먹을 수 있지만, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_porkchop%으로 만들면 더 많은 포만감을 얻을 수 있습니다."
+            },
+            "block.minecraft.cake": {
+              "아이템 아이디": "block.minecraft.cake",
+              "아이템 영어 이름": "Cake",
+              "아이템 설명": "케이크\n\n7조각으로 나눠 먹을 수 있는 특별한 음식 블록입니다.\n한 번에 여러 명이 나눠 먹을 수 있어 파티나 축하 행사에 적합합니다. 설치 후에는 집어올릴 수 없으니 주의하세요."
+            },
+            "item.minecraft.suspicious_stew": {
+              "아이템 아이디": "item.minecraft.suspicious_stew",
+              "아이템 영어 이름": "Suspicious Stew",
+              "아이템 설명": "수상한 스튜\n\n무작위 효과를 주는 특별한 스튜입니다.\n%id:item.minecraft.brown_mushroom%, %id:item.minecraft.red_mushroom%, %id:item.minecraft.bowl%, 그리고 아무 꽃으로 만들 수 있습니다. 꽃의 종류에 따라 다른 효과를 얻을 수 있어 실험해보는 재미가 있습니다."
+            },
+            "item.minecraft.cooked_chicken": {
+              "아이템 아이디": "item.minecraft.cooked_chicken",
+              "아이템 영어 이름": "Cooked Chicken",
+              "아이템 설명": "구운 닭고기\n\n%id:item.minecraft.chicken%을 구운 음식입니다.\n생닭고기보다 포만감이 높고 식중독의 위험이 없어 안전합니다. %id:entity.minecraft.chicken%을 잡아 %id:item.minecraft.furnace%나 %id:item.minecraft.campfire%에서 조리할 수 있습니다."
+            },
+            "item.minecraft.cooked_beef": {
+              "아이템 아이디": "item.minecraft.cooked_beef",
+              "아이템 영어 이름": "Steak",
+              "아이템 설명": "스테이크\n\n%id:item.minecraft.beef%를 구운 음식입니다.\n게임 내에서 가장 포만감이 높은 음식 중 하나로, 장기 탐험 시 효율적인 식량입니다. %id:entity.minecraft.cow%를 잡아 얻은 고기를 조리하여 만듭니다."
+            },
+            "item.minecraft.bread": {
+              "아이템 아이디": "item.minecraft.bread",
+              "아이템 영어 이름": "Bread",
+              "아이템 설명": "빵\n\n%id:item.minecraft.wheat%로 만든 기본적인 음식입니다.\n쉽게 대량 생산할 수 있어 초반 게임에서 주요 식량원으로 적합합니다. 밀 농사를 통해 지속 가능한 식량 공급을 할 수 있습니다."
+            },
+            "item.minecraft.cooked_porkchop": {
+              "아이템 아이디": "item.minecraft.cooked_porkchop",
+              "아이템 영어 이름": "Cooked Porkchop",
+              "아이템 설명": "구운 돼지고기\n\n%id:item.minecraft.porkchop%을 구운 음식입니다.\n높은 포만감을 제공하여 효율적인 식량원입니다. %id:entitypig%를 사냥하여 얻은 고기를 조리하면 만들 수 있습니다."
+            },
+            "item.minecraft.beef": {
+              "아이템 아이디": "item.minecraft.beef",
+              "아이템 영어 이름": "Raw Beef",
+              "아이템 설명": "생 소고기\n\n%id:entity.minecraft.cow%에서 얻을 수 있는 날고기입니다.\n그대로 먹을 수 있지만, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_beef%로 만들면 더 많은 포만감을 얻을 수 있습니다."
+            },
+            "item.minecraft.mushroom_stew": {
+              "아이템 아이디": "item.minecraft.mushroom_stew",
+              "아이템 영어 이름": "Mushroom Stew",
+              "아이템 설명": "버섯 스튜\n\n%id:item.minecraft.brown_mushroom%과 %id:item.minecraft.red_mushroom%으로 만든 영양가 높은 음식입니다.\n높은 포만감을 제공하지만, 먹고 난 후 빈 그릇이 남습니다. %id:entity.minecraft.mooshroom%을 가위로 자르면 직접 얻을 수 있습니다."
+            },
+            "item.minecraft.chicken": {
+              "아이템 아이디": "item.minecraft.chicken",
+              "아이템 영어 이름": "Raw Chicken",
+              "아이템 설명": "생 닭고기\n\n%id:entity.minecraft.chicken%에서 얻을 수 있는 날고기입니다.\n그대로 먹으면 식중독에 걸릴 위험이 있으므로, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_chicken%으로 만들어 먹는 것이 안전합니다."
+            },
+            "item.minecraft.cookie": {
+              "아이템 아이디": "item.minecraft.cookie",
+              "아이템 영어 이름": "Cookie",
+              "아이템 설명": "쿠키\n\n%id:item.minecraft.wheat%와 %id:item.minecraft.cocoa_beans%로 만든 간식입니다.\n포만감은 낮지만 많이 만들어 먹기 쉽습니다. 여러 개를 한 번에 먹을 수 있어 빠른 회복이 필요할 때 유용합니다."
+            },
+            "item.minecraft.rabbit_stew": {
+              "아이템 아이디": "item.minecraft.rabbit_stew",
+              "아이템 영어 이름": "Rabbit Stew",
+              "아이템 설명": "토끼 스튜\n\n여러 재료를 조합하여 만든 영양가 높은 음식입니다.\n게임 내에서 가장 포만감이 높은 음식 중 하나입니다. %id:item.minecraft.cooked_rabbit%, %id:item.minecraft.carrot%, %id:item.minecraft.baked_potato%, %id:item.minecraft.brown_mushroom%, %id:item.minecraft.bowl%이 필요합니다."
+            }
+          }
+        },
+        "apple": {
+          "그룹 대표 이름": "사과류",
+          "그룹 설명": "기본 사과와 그 특별한 변형들로, 단순한 포만감부터 강력한 효과까지 다양한 기능을 제공합니다.",
+          "아이템들": {
+            "item.minecraft.apple": {
+              "아이템 아이디": "item.minecraft.apple",
+              "아이템 영어 이름": "Apple",
+              "아이템 설명": "사과\n\n나무 잎을 부수면 얻을 수 있는 기본적인 과일입니다.\n포만감은 낮지만 쉽게 구할 수 있어 초반 게임에서 유용합니다. %id:entity.minecraft.villager% 농부와의 거래로도 얻을 수 있습니다."
+            },
+            "item.minecraft.golden_apple": {
+              "아이템 아이디": "item.minecraft.golden_apple",
+              "아이템 영어 이름": "Golden Apple",
+              "아이템 설명": "황금 사과\n\n%group_id:apple%에 %id:item.minecraft.gold_ingot%을 입힌 특별한 음식입니다.\n먹으면 체력 회복과 함께 흡수 효과를 얻습니다. 위험한 상황에서 빠른 회복이 필요할 때 유용하며, %id:entity.minecraft.zombie_villager%를 치료하는 데에도 사용됩니다."
+            },
+            "item.minecraft.enchanted_golden_apple": {
+              "아이템 아이디": "item.minecraft.enchanted_golden_apple",
+              "아이템 영어 이름": "Enchanted Golden Apple",
+              "아이템 설명": "마법이 부여된 황금 사과\n\n게임 내에서 가장 강력한 효과를 주는 음식입니다.\n먹으면 체력 회복, 흡수, 화염 저항, 재생 등 여러 강력한 효과를 얻습니다. 극도로 위험한 상황이나 보스 전투에 대비할 때 사용하면 좋습니다. 매우 희귀하여 주로 던전이나 요새의 보물 상자에서 발견됩니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "FOOD"
+    }
+  },
+  "tag": "FOOD",
+  "문서 버전": "1.0"
+}

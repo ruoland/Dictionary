@@ -1,0 +1,124 @@
+{
+	"아이템 태그": {
+		"ENDER": {
+			"요약 설명": "엔더 관련 아이템들로, 주로 엔드 차원과 관련된 특별한 기능을 가진 아이템들입니다. 이들은 텔레포트, 저장, 그리고 엔드 차원으로의 접근에 중요한 역할을 합니다.",
+			"아이템 그룹": {
+				"ENDER": {
+					"그룹 대표 이름": "엔더",
+					"그룹 설명": "엔더 관련 아이템들은 주로 %biome:biome.minecraft.end_highlands%와 관련이 있으며, 독특한 특성을 가지고 있습니다.",
+					"아이템들": {
+						"block.minecraft.chorus_plant": {
+							"아이템 아이디": "block.minecraft.chorus_plant",
+							"아이템 영어 이름": "Chorus Plant",
+							"아이템 설명": "코러스 플랜트는 %biome:biome.minecraft.end_highlands%에서 자라는 식물입니다. 수직으로 자라며 가지를 뻗어 독특한 모양을 형성합니다. %item:item.minecraft.chorus_fruit%를 생산하며, 엔더 막대기로 부수면 %item:item.minecraft.chorus_flower%를 얻을 수 있습니다."
+						},
+						"item.minecraft.chorus_fruit": {
+							"아이템 아이디": "item.minecraft.chorus_fruit",
+							"아이템 영어 이름": "Chorus Fruit",
+							"아이템 설명": "코러스 열매는 %block:block.minecraft.chorus_plant%에서 자라는 열매입니다. 먹으면 무작위 위치로 순간이동하는 독특한 효과가 있습니다. 요리하면 %item:item.minecraft.popped_chorus_fruit%가 되어 %block:block.minecraft.purpur_block% 제작에 사용됩니다."
+						},
+						"item.minecraft.popped_chorus_fruit": {
+							"아이템 아이디": "item.minecraft.popped_chorus_fruit",
+							"아이템 영어 이름": "Popped Chorus Fruit",
+							"아이템 설명": "터진 코러스 열매는 %item:item.minecraft.chorus_fruit%를 요리하여 얻을 수 있습니다. 주로 %block:block.minecraft.purpur_block%과 같은 엔드 시티 건축 재료를 만드는 데 사용됩니다. 엔드 시티의 독특한 보라색 블록들의 원료가 됩니다."
+						}
+					}
+				},
+				"ETC": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.ender_eye": {
+							"아이템 아이디": "item.minecraft.ender_eye",
+							"아이템 영어 이름": "Eye of Ender",
+							"아이템 설명": "엔더의 눈\n\n엔드 포탈을 찾고 활성화하는 데 사용되는 중요한 아이템입니다.\n공중에 던지면 가장 가까운 요새를 향해 날아갑니다. 요새의 포탈 프레임에 12개를 끼워 넣으면 엔드 차원으로 가는 포탈이 열립니다."
+						},
+						"item.minecraft.ender_pearl": {
+							"아이템 아이디": "item.minecraft.ender_pearl",
+							"아이템 영어 이름": "Ender Pearl",
+							"아이템 설명": "엔더 진주\n\n던지면 그 위치로 순간 이동할 수 있게 해주는 아이템입니다.\n%id:entity.minecraft.enderman%을 처치하면 얻을 수 있습니다. 빠른 이동 수단으로 사용되지만, 사용 시 약간의 피해를 입습니다. %id:item.minecraft.ender_eye% 제작에 필요합니다."
+						}
+					}
+				},
+				"box": {
+					"그룹 대표 이름": "셜커 상자",
+					"그룹 설명": "셜커 상자\n\n27칸의 인벤토리를 가진 특별한 저장 블록입니다.\n내용물을 유지한 채로 파괴하고 이동시킬 수 있어 대량의 아이템을 운반할 때 매우 유용합니다. %id:block.minecraft.shulker_shell%과 %id:block.minecraft.chest%로 제작할 수 있습니다. 다양한 색상으로 염색 가능합니다.",
+					"아이템들": {
+						"block.minecraft.cyan_shulker_box": {
+							"아이템 아이디": "block.minecraft.cyan_shulker_box",
+							"아이템 영어 이름": "Cyan Shulker Box"
+						},
+						"block.minecraft.lime_shulker_box": {
+							"아이템 아이디": "block.minecraft.lime_shulker_box",
+							"아이템 영어 이름": "Lime Shulker Box"
+						},
+						"block.minecraft.red_shulker_box": {
+							"아이템 아이디": "block.minecraft.red_shulker_box",
+							"아이템 영어 이름": "Red Shulker Box"
+						},
+						"block.minecraft.orange_shulker_box": {
+							"아이템 아이디": "block.minecraft.orange_shulker_box",
+							"아이템 영어 이름": "Orange Shulker Box"
+						},
+						"block.minecraft.light_blue_shulker_box": {
+							"아이템 아이디": "block.minecraft.light_blue_shulker_box",
+							"아이템 영어 이름": "Light Blue Shulker Box"
+						},
+						"block.minecraft.black_shulker_box": {
+							"아이템 아이디": "block.minecraft.black_shulker_box",
+							"아이템 영어 이름": "Black Shulker Box"
+						},
+						"block.minecraft.white_shulker_box": {
+							"아이템 아이디": "block.minecraft.white_shulker_box",
+							"아이템 영어 이름": "White Shulker Box"
+						},
+						"block.minecraft.yellow_shulker_box": {
+							"아이템 아이디": "block.minecraft.yellow_shulker_box",
+							"아이템 영어 이름": "Yellow Shulker Box"
+						},
+						"block.minecraft.shulker_box": {
+							"아이템 아이디": "block.minecraft.shulker_box",
+							"아이템 영어 이름": "Shulker Box"
+						},
+						"block.minecraft.brown_shulker_box": {
+							"아이템 아이디": "block.minecraft.brown_shulker_box",
+							"아이템 영어 이름": "Brown Shulker Box"
+						},
+						"block.minecraft.blue_shulker_box": {
+							"아이템 아이디": "block.minecraft.blue_shulker_box",
+							"아이템 영어 이름": "Blue Shulker Box"
+						},
+						"block.minecraft.green_shulker_box": {
+							"아이템 아이디": "block.minecraft.green_shulker_box",
+							"아이템 영어 이름": "Green Shulker Box"
+						},
+						"block.minecraft.gray_shulker_box": {
+							"아이템 아이디": "block.minecraft.gray_shulker_box",
+							"아이템 영어 이름": "Gray Shulker Box"
+						},
+						"block.minecraft.light_gray_shulker_box": {
+							"아이템 아이디": "block.minecraft.light_gray_shulker_box",
+							"아이템 영어 이름": "Light Gray Shulker Box"
+						},
+						"block.minecraft.pink_shulker_box": {
+							"아이템 아이디": "block.minecraft.pink_shulker_box",
+							"아이템 영어 이름": "Pink Shulker Box"
+						},
+						"block.minecraft.purple_shulker_box": {
+							"아이템 아이디": "block.minecraft.purple_shulker_box",
+							"아이템 영어 이름": "Purple Shulker Box"
+						},
+						"block.minecraft.magenta_shulker_box": {
+							"아이템 아이디": "block.minecraft.magenta_shulker_box",
+							"아이템 영어 이름": "Magenta Shulker Box"
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "ENDER"
+		}
+	},
+	"tag": "ENDER",
+	"문서 버전": "1.0"
+}

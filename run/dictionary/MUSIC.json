@@ -1,0 +1,109 @@
+{
+	"아이템 태그": {
+		"MUSIC": {
+			"요약 설명": "마인크래프트의 음악 디스크와 관련 아이템들로, 게임 내 분위기를 조성하고 특별한 음악을 재생할 수 있는 수집품입니다.",
+			"아이템 그룹": {
+				"ETC": {
+					"그룹 대표 이름": "음악 디스크 및 관련 아이템",
+					"그룹 설명": "마인크래프트의 다양한 음악 디스크와 디스크 조각으로 구성된 그룹입니다. 각 디스크는 고유한 음악을 재생하며, 게임 내 주크박스에서 사용할 수 있습니다.",
+					"아이템들": {
+						"block.minecraft.jukebox": {
+							"아이템 아이디": "block.minecraft.jukebox",
+							"아이템 영어 이름": "Jukebox",
+							"아이템 설명": "주크박스는 음악 디스크를 재생하는 장치입니다.\\n\\n특징:\\n- 음악 디스크를 넣어 재생\\n- 다양한 음악을 즐길 수 있음\\n- 음악이 재생되는 동안 다른 행동 불가능\\n\\n획득 방법:\\n- 8개의 %item:item.minecraft.planks%와 1개의 %item:item.minecraft.diamond%로 제작\\n\\n팁:\\n- 주크박스를 사용하여 파티 분위기를 조성해보세요.\\n- 여러 개의 주크박스를 설치하여 다양한 음악을 동시에 재생할 수 있습니다."
+						},
+						"item.minecraft.music_disc_mellohi": {
+							"아이템 아이디": "item.minecraft.music_disc_mellohi",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Mellohi)\n\n'Mellohi'라는 제목의 음악을 재생하는 보라색 음반입니다. C418이 작곡한 이 곡은 신비롭고 몽환적인 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생할 수 있습니다."
+						},
+						"item.minecraft.music_disc_stal": {
+							"아이템 아이디": "item.minecraft.music_disc_stal",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Stal)\n\n'Stal'이라는 제목의 음악을 재생하는 검은색 음반입니다. C418이 작곡한 이 재즈 스타일의 곡은 독특한 클라리넷 솔로가 특징입니다.\n던전이나 요새의 보물 상자에서 발견할 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 분위기 있는 공간을 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_11": {
+							"아이템 아이디": "item.minecraft.music_disc_11",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (11)\n\n'11'이라는 제목의 음악을 재생하는 깨진 모양의 음반입니다. C418이 작곡한 이 불길하고 으스스한 분위기의 곡은 마인크래프트의 미스터리를 상징합니다.\n이 디스크는 게임 내에서 가장 희귀한 음반 중 하나로, 던전이나 요새의 보물 상자에서 매우 낮은 확률로 발견됩니다. %id:block.minecraft.jukebox%에서 재생하면 독특한 분위기를 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_far": {
+							"아이템 아이디": "item.minecraft.music_disc_far",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Far)\n\n'Far'라는 제목의 음악을 재생하는 연두색 음반입니다. C418이 작곡한 이 곡은 평화롭고 몽환적인 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 조용한 시간을 보내기 좋습니다."
+						},
+						"item.minecraft.music_disc_cat": {
+							"아이템 아이디": "item.minecraft.music_disc_cat",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Cat)\n\n'Cat'이라는 제목의 음악을 재생하는 연두색 음반입니다. C418이 작곡한 이 경쾌한 곡은 마인크래프트의 대표적인 배경음악 중 하나입니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 밝고 활기찬 분위기를 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_13": {
+							"아이템 아이디": "item.minecraft.music_disc_13",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (13)\n\n'13'이라는 제목의 음악을 재생하는 금색 음반입니다. C418이 작곡한 이 곡은 마인크래프트의 첫 번째 음악 디스크로, 신비롭고 약간 불안한 분위기를 자아냅니다.\n던전이나 요새의 보물 상자에서 발견할 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 독특한 분위기를 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_mall": {
+							"아이템 아이디": "item.minecraft.music_disc_mall",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Mall)\n\n'Mall'이라는 제목의 음악을 재생하는 보라색 음반입니다. C418이 작곡한 이 곡은 경쾌하고 활기찬 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 상점이나 활기찬 공간을 연출하기에 좋습니다."
+						},
+						"item.minecraft.music_disc_wait": {
+							"아이템 아이디": "item.minecraft.music_disc_wait",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Wait)\n\n'Wait'라는 제목의 음악을 재생하는 청록색 음반입니다. C418이 작곡한 이 곡은 차분하고 명상적인 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 평화로운 공간을 연출하기에 좋습니다."
+						},
+						"item.minecraft.disc_fragment_5": {
+							"아이템 아이디": "item.minecraft.disc_fragment_5",
+							"아이템 영어 이름": "Disc Fragment",
+							"아이템 설명": "음반 조각 5\n\n'5' 음반의 일부분입니다. 고대 도시의 유적에서 발견할 수 있는 희귀한 아이템입니다.\n9개의 음반 조각을 모아 조합하면 완전한 '5' 음반을 만들 수 있습니다. %id:music_disc_5%를 얻기 위한 중요한 재료입니다."
+						},
+						"item.minecraft.music_disc_otherside": {
+							"아이템 아이디": "item.minecraft.music_disc_otherside",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Otherside)\n\n'Otherside'라는 제목의 음악을 재생하는 파란색 음반입니다. Lena Raine이 작곡한 이 곡은 모험적이고 신비로운 분위기를 자아냅니다.\n요새의 보물 상자에서 발견할 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 모험의 분위기를 고조시킬 수 있습니다."
+						},
+						"item.minecraft.music_disc_pigstep": {
+							"아이템 아이디": "item.minecraft.music_disc_pigstep",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Pigstep)\n\n'Pigstep'이라는 제목의 음악을 재생하는 적갈색 음반입니다. Lena Raine이 작곡한 이 곡은 네더의 분위기를 담은 역동적인 전자음악입니다.\n네더의 요새 잔해에서만 발견할 수 있는 희귀한 음반입니다. %id:block.minecraft.jukebox%에서 재생하면 네더의 열기를 느낄 수 있는 독특한 분위기를 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_blocks": {
+							"아이템 아이디": "item.minecraft.music_disc_blocks",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Blocks)\n\n'Blocks'라는 제목의 음악을 재생하는 주황색 음반입니다. C418이 작곡한 이 곡은 마인크래프트의 대표적인 배경음악 중 하나로, 경쾌하고 활기찬 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 건축이나 창작 활동 시 좋은 배경음악이 됩니다."
+						},
+						"item.minecraft.music_disc_5": {
+							"아이템 아이디": "item.minecraft.music_disc_5",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (5)\n\n'5'라는 제목의 음악을 재생하는 검정색 음반입니다. Samuel Åberg가 작곡한 이 곡은 신비롭고 우주적인 분위기를 자아냅니다.\n9개의 %id:disc_fragment_5%를 조합하여 얻을 수 있는 특별한 음반입니다. %id:block.minecraft.jukebox%에서 재생하면 마인크래프트 세계의 깊이 있는 분위기를 느낄 수 있습니다."
+						},
+						"item.minecraft.music_disc_ward": {
+							"아이템 아이디": "item.minecraft.music_disc_ward",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Ward)\n\n'Ward'라는 제목의 음악을 재생하는 녹색 음반입니다. C418이 작곡한 이 곡은 신비롭고 약간 불안한 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 미스터리한 분위기를 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_strad": {
+							"아이템 아이디": "item.minecraft.music_disc_strad",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Strad)\n\n'Strad'라는 제목의 음악을 재생하는 흰색 음반입니다. C418이 작곡한 이 곡은 평화롭고 우아한 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 고요하고 아름다운 공간을 연출할 수 있습니다."
+						},
+						"item.minecraft.music_disc_relic": {
+							"아이템 아이디": "item.minecraft.music_disc_relic",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Relic)\n\n'Relic'이라는 제목의 음악을 재생하는 갈색 음반입니다. Aaron Cherof가 작곡한 이 곡은 고대의 신비로움과 모험의 느낌을 자아냅니다.\n고대 도시의 유적에서 발견할 수 있는 희귀한 음반입니다. %id:block.minecraft.jukebox%에서 재생하면 고대 문명의 신비로운 분위기를 느낄 수 있습니다."
+						},
+						"item.minecraft.music_disc_chirp": {
+							"아이템 아이디": "item.minecraft.music_disc_chirp",
+							"아이템 영어 이름": "Music Disc",
+							"아이템 설명": "음반 (Chirp)\n\n'Chirp'라는 제목의 음악을 재생하는 빨간색 음반입니다. C418이 작곡한 이 곡은 경쾌하면서도 약간 신비로운 분위기를 자아냅니다.\n크리퍼가 스켈레톤에 의해 죽었을 때 얻을 수 있으며, %id:block.minecraft.jukebox%에서 재생하면 활기차면서도 독특한 분위기를 연출할 수 있습니다."
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "MUSIC"
+		}
+	},
+	"tag": "MUSIC",
+	"문서 버전": "1.0"
+}

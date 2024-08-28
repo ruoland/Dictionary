@@ -1,0 +1,44 @@
+{
+	"아이템 태그": {
+		"ORE_BLOCK": {
+			"요약 설명": "요약 설명을 적어주세요.",
+			"아이템 그룹": {
+				"ORE_BLOCK": {
+					"그룹 대표 이름": "광물 블록",
+					"그룹 설명": "광물 블록은 9개의 같은 종류 광물 조각이나 주괴를 조합하여 만든 순수한 광물 덩어리입니다. 저장과 장식 목적으로 사용됩니다.",
+					"아이템들": {
+						"block.minecraft.redstone_block": {
+							"아이템 아이디": "block.minecraft.redstone_block",
+							"아이템 영어 이름": "Block of Redstone",
+							"아이템 설명": "레드스톤 블록은 9개의 %item:item.minecraft.redstone%을 조합하여 만들 수 있습니다. 상시 레드스톤 신호를 방출하는 특성이 있어 레드스톤 회로에서 중요하게 사용됩니다. 또한 %item:item.minecraft.redstone_torch%처럼 동력원으로도 활용됩니다."
+						},
+						"block.minecraft.lapis_block": {
+							"아이템 아이디": "block.minecraft.lapis_block",
+							"아이템 영어 이름": "Block of Lapis Lazuli",
+							"아이템 설명": "청금석 블록은 9개의 %item:item.minecraft.lapis_lazuli%를 조합하여 만들 수 있습니다. 주로 장식용으로 사용되며, 깊고 선명한 파란색이 특징입니다. %block:block.minecraft.enchanting_table% 주변에 배치하면 더 높은 레벨의 인챈트가 가능해집니다."
+						},
+						"block.minecraft.gold_block": {
+							"아이템 아이디": "block.minecraft.gold_block",
+							"아이템 영어 이름": "Block of Gold",
+							"아이템 설명": "금 블록은 9개의 %item:item.minecraft.gold_ingot%을 조합하여 만들 수 있습니다. 화려한 장식용으로 인기가 있으며, %entity:entity.minecraft.piglin%들이 좋아합니다. %item:item.minecraft.golden_apple%이나 %block:block.minecraft.powered_rail% 제작에 사용되기도 합니다."
+						},
+						"block.minecraft.diamond_block": {
+							"아이템 아이디": "block.minecraft.diamond_block",
+							"아이템 영어 이름": "Block of Diamond",
+							"아이템 설명": "다이아몬드 블록은 9개의 %item:item.minecraft.diamond%을 조합하여 만들 수 있습니다. 매우 단단하고 화려해 고급 건축물의 장식에 사용됩니다. %block:block.minecraft.beacon%의 기반으로 사용될 수 있으며, %item:item.minecraft.netherite_ingot% 제작에도 필요합니다."
+						},
+						"block.minecraft.copper_block": {
+							"아이템 아이디": "block.minecraft.copper_block",
+							"아이템 영어 이름": "Block of Copper",
+							"아이템 설명": "구리 블록은 9개의 %item:item.minecraft.copper_ingot%을 조합하여 만들 수 있습니다. 시간이 지나면 산화되어 색상이 변하는 독특한 특성이 있습니다. %item:item.minecraft.lightning_rod% 제작에 사용되며, 건축에서는 시간에 따른 변화를 연출하는 데 활용됩니다."
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "ORE_BLOCK"
+		}
+	},
+	"tag": "ORE_BLOCK",
+	"문서 버전": "1.0"
+}

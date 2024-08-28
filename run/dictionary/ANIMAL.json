@@ -1,0 +1,60 @@
+{
+  "아이템 태그": {
+    "ANIMAL": {
+      "요약 설명": "요약 설명을 적어주세요.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.chicken": {
+              "아이템 아이디": "item.minecraft.chicken",
+              "아이템 영어 이름": "Raw Chicken",
+              "아이템 설명": "아이템 설명"
+            },
+            "item.minecraft.cooked_chicken": {
+              "아이템 아이디": "item.minecraft.cooked_chicken",
+              "아이템 영어 이름": "Cooked Chicken",
+              "아이템 설명": "아이템 설명"
+            }
+          }
+        },
+        "rabbit": {
+          "그룹 대표 이름": "그룹 이름.",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "item.minecraft.cooked_rabbit": {
+              "아이템 아이디": "item.minecraft.cooked_rabbit",
+              "아이템 영어 이름": "Cooked Rabbit",
+              "아이템 설명": "아이템 설명"
+            },
+            "item.minecraft.rabbit_hide": {
+              "아이템 아이디": "item.minecraft.rabbit_hide",
+              "아이템 영어 이름": "Rabbit Hide",
+              "아이템 설명": "아이템 설명"
+            },
+            "item.minecraft.rabbit": {
+              "아이템 아이디": "item.minecraft.rabbit",
+              "아이템 영어 이름": "Raw Rabbit",
+              "아이템 설명": "아이템 설명"
+            },
+            "item.minecraft.rabbit_foot": {
+              "아이템 아이디": "item.minecraft.rabbit_foot",
+              "아이템 영어 이름": "Rabbit\u0027s Foot",
+              "아이템 설명": "아이템 설명"
+            },
+            "item.minecraft.rabbit_stew": {
+              "아이템 아이디": "item.minecraft.rabbit_stew",
+              "아이템 영어 이름": "Rabbit Stew",
+              "아이템 설명": "아이템 설명"
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "ANIMAL"
+    }
+  },
+  "tag": "ANIMAL",
+  "문서 버전": "1.0"
+}

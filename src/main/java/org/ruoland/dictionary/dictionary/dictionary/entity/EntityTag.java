@@ -1,6 +1,7 @@
 package org.ruoland.dictionary.dictionary.dictionary.entity;
 
 import net.minecraft.world.entity.EntityType;
+import org.ruoland.dictionary.Dictionary;
 
 import java.lang.reflect.Field;
 import java.util.TreeMap;
@@ -23,6 +24,7 @@ public class EntityTag {
     }
 
     public static String getEntityNameById(String id){
+        Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, entities);
         return entities.get(id).getDescription().getString();
     }
 }

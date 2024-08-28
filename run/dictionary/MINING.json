@@ -1,0 +1,110 @@
+{
+	"아이템 태그": {
+		"MINING": {
+			"요약 설명": "요약 설명을 적어주세요.",
+			"아이템 그룹": {
+				"STONE": {
+					"그룹 대표 이름": "돌",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"block.minecraft.bedrock": {
+							"아이템 아이디": "block.minecraft.bedrock",
+							"아이템 영어 이름": "Bedrock",
+							"설명": ""
+						},
+						"block.minecraft.deepslate_tiles": {
+							"아이템 아이디": "block.minecraft.deepslate_tiles",
+							"아이템 영어 이름": "Deepslate Tiles",
+							"설명": ""
+						},
+						"block.minecraft.diorite": {
+							"아이템 아이디": "block.minecraft.diorite",
+							"아이템 영어 이름": "Diorite",
+							"설명": ""
+						},
+						"block.minecraft.andesite": {
+							"아이템 아이디": "block.minecraft.andesite",
+							"아이템 영어 이름": "Andesite",
+							"설명": ""
+						},
+						"block.minecraft.granite": {
+							"아이템 아이디": "block.minecraft.granite",
+							"아이템 영어 이름": "Granite",
+							"설명": ""
+						},
+						"block.minecraft.calcite": {
+							"아이템 아이디": "block.minecraft.calcite",
+							"아이템 영어 이름": "Calcite",
+							"설명": ""
+						},
+						"block.minecraft.cracked_deepslate_tiles": {
+							"아이템 아이디": "block.minecraft.cracked_deepslate_tiles",
+							"아이템 영어 이름": "Cracked Deepslate Tiles",
+							"설명": ""
+						},
+						"block.minecraft.budding_amethyst": {
+							"아이템 아이디": "block.minecraft.budding_amethyst",
+							"아이템 영어 이름": "Budding Amethyst",
+							"설명": ""
+						},
+						"block.minecraft.pointed_dripstone": {
+							"아이템 아이디": "block.minecraft.pointed_dripstone",
+							"아이템 영어 이름": "Pointed Dripstone",
+							"설명": ""
+						},
+						"block.minecraft.tuff": {
+							"아이템 아이디": "block.minecraft.tuff",
+							"아이템 영어 이름": "Tuff",
+							"설명": ""
+						},
+						"block.minecraft.amethyst_block": {
+							"아이템 아이디": "block.minecraft.amethyst_block",
+							"아이템 영어 이름": "Block of Amethyst",
+							"설명": ""
+						},
+						"block.minecraft.cobblestone": {
+							"아이템 아이디": "block.minecraft.cobblestone",
+							"아이템 영어 이름": "Cobblestone",
+							"설명": ""
+						},
+						"block.minecraft.mossy_cobblestone": {
+							"아이템 아이디": "block.minecraft.mossy_cobblestone",
+							"아이템 영어 이름": "Mossy Cobblestone",
+							"설명": ""
+						}
+					}
+				},
+				"SCULK": {
+					"그룹 대표 이름": "스컬크",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"block.minecraft.sculk_sensor": {
+							"아이템 아이디": "block.minecraft.sculk_sensor",
+							"아이템 영어 이름": "Sculk Sensor",
+							"설명": ""
+						},
+						"block.minecraft.sculk_catalyst": {
+							"아이템 아이디": "block.minecraft.sculk_catalyst",
+							"아이템 영어 이름": "Sculk Catalyst",
+							"설명": ""
+						},
+						"block.minecraft.sculk": {
+							"아이템 아이디": "block.minecraft.sculk",
+							"아이템 영어 이름": "Sculk",
+							"설명": ""
+						},
+						"block.minecraft.calibrated_sculk_sensor": {
+							"아이템 아이디": "block.minecraft.calibrated_sculk_sensor",
+							"아이템 영어 이름": "Calibrated Sculk Sensor",
+							"설명": ""
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "MINING"
+		}
+	},
+	"tag": "MINING",
+	"문서 버전": "1.0"
+}

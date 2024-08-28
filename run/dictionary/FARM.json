@@ -1,0 +1,177 @@
+{
+	"아이템 태그": {
+		"FARM": {
+			"요약 설명": "마인크래프트에서 농사와 관련된 다양한 작물, 씨앗, 그리고 수확물들입니다. 이 아이템들은 식량 생산, 포션 제작, 동물 번식, 거래 등 다양한 용도로 사용되며, 게임 내 생존과 경제의 중요한 부분을 차지합니다.",
+			"아이템 그룹": {
+				"ETC": {
+					"그룹 대표 이름": "농작물",
+					"그룹 설명": "다양한 종류의 작물과 수확물들로, 각각 고유한 용도와 특성을 가지고 있습니다. 이들은 식량, 거래, 또는 특수한 아이템 제작에 사용되며, 게임 플레이의 다양성을 높여줍니다.",
+					"아이템들": {
+						"block.minecraft.bee_nest": {
+							"아이템 아이디": "block.minecraft.bee_nest",
+							"아이템 영어 이름": "Bee Nest",
+							"설명": ""
+						},
+						"block.minecraft.beehive": {
+							"아이템 아이디": "block.minecraft.beehive",
+							"아이템 영어 이름": "Beehive",
+							"설명": ""
+						},
+						"block.minecraft.farmland": {
+							"아이템 아이디": "block.minecraft.farmland",
+							"아이템 영어 이름": "Farmland",
+							"아이템 설명": "농지는 작물을 심을 수 있는 특별한 블록입니다. 흙 블록을 괭이로 경작하여 얻을 수 있습니다. 물 근처에 있으면 습윤 상태를 유지하며, 이 상태에서 작물이 더 빨리 자랍니다. 주의할 점은 밟으면 다시 흙으로 변할 수 있으니 조심해야 합니다."
+						},
+						"item.minecraft.melon_slice": {
+							"아이템 아이디": "item.minecraft.melon_slice",
+							"아이템 영어 이름": "Melon Slice",
+							"아이템 설명": "수박 조각은 상큼하고 맛있는 과일입니다. %block:block.minecraft.melon%을 부수면 얻을 수 있습니다. 먹으면 2 허기 포인트를 회복하며, 포화도는 1.2입니다. %item:item.minecraft.glistering_melon_slice% 제작에 사용되므로, 수박 농장을 만들어 대량으로 수확하면 유용합니다."
+						},
+						"block.minecraft.bamboo": {
+							"아이템 아이디": "block.minecraft.bamboo",
+							"아이템 영어 이름": "Bamboo",
+							"아이템 설명": "대나무는 빠르게 자라는 유용한 식물입니다. 정글 바이옴에서 자연 생성되며, 뼈가루로 재배할 수 있습니다. 매우 빠르게 성장하며, 비계나 연료 등 다양한 용도로 사용 가능합니다. %entity:entity.minecraft.panda%의 먹이이기도 하며, %item:item.minecraft.scaffolding% 제작에 유용합니다."
+						},
+						"item.minecraft.cocoa_beans": {
+							"아이템 아이디": "item.minecraft.cocoa_beans",
+							"아이템 영어 이름": "Cocoa Beans",
+							"아이템 설명": "코코아 콩은 정글에서 자라는 유용한 작물입니다. 정글 나무에서 발견되며, 재배하여 수확할 수 있습니다. 갈색 염료로 사용 가능하며, %item:item.minecraft.cookie% 제작에 사용됩니다. 정글 나무에서만 재배 가능하니 주의하세요. 코코아 농장을 만들면 효율적으로 자원을 얻을 수 있습니다."
+						},
+						"item.minecraft.beetroot": {
+							"아이템 아이디": "item.minecraft.beetroot",
+							"아이템 영어 이름": "Beetroot",
+							"아이템 설명": "비트\\n\\n붉은색 뿌리 채소로, 농사로 얻을 수 있는 작물입니다.\\n\\n팁: %id:beetroot_soup% 제작에 사용되며, 돼지를 번식시키는 데에도 활용됩니다. %id:item.minecraft.beetroot_seeds%를 심어 재배할 수 있습니다."
+						},
+						"item.minecraft.golden_carrot": {
+							"아이템 아이디": "item.minecraft.golden_carrot",
+							"아이템 영어 이름": "Golden Carrot",
+							"아이템 설명": "황금 당근\\n\\n%id:item.minecraft.carrot%에 금을 입힌 특별한 아이템입니다.\\n\\n팁: 높은 포만감을 제공하며, 야간 투시 포션의 재료로 사용됩니다. 또한 말을 번식시키는 데 사용할 수 있습니다."
+						},
+						"item.minecraft.glow_berries": {
+							"아이템 아이디": "item.minecraft.glow_berries",
+							"아이템 영어 이름": "Glow Berries",
+							"아이템 설명": "발광 열매\\n\\n동굴에서 자라는 특별한 열매로, 빛을 발합니다.\\n\\n팁: 먹을 수 있으며, 동굴 덩굴을 자라게 하는 데 사용됩니다. 어두운 동굴에서 임시 조명으로 활용할 수 있습니다."
+						},
+						"item.minecraft.carrot": {
+							"아이템 아이디": "item.minecraft.carrot",
+							"아이템 영어 이름": "Carrot",
+							"아이템 설명": "당근\\n\\n주황색 뿌리 채소로, 농사로 얻을 수 있는 작물입니다.\\n\\n팁: 그대로 먹거나 토끼를 번식시키는 데 사용할 수 있습니다. %id:item.minecraft.golden_carrot% 제작의 기본 재료이며, 낚시 미끼로도 활용됩니다."
+						},
+						"item.minecraft.wheat": {
+							"아이템 아이디": "item.minecraft.wheat",
+							"아이템 영어 이름": "Wheat",
+							"아이템 설명": "밀\\n\\n기본적인 농작물로, 다양한 용도로 사용됩니다.\\n\\n팁: %id:item.minecraft.bread% 제작의 주 재료이며, 소와 양, 라마를 번식시키는 데 사용됩니다. 또한 %id:block.minecraft.hay_block% 제작에도 활용됩니다."
+						},
+						"block.minecraft.melon": {
+							"아이템 아이디": "block.minecraft.melon",
+							"아이템 영어 이름": "Melon",
+							"아이템 설명": "수박\\n\\n큰 과일 블록으로, 농사로 얻을 수 있습니다.\\n\\n팁: 부수면 %id:item.minecraft.melon_slice%를 얻을 수 있습니다. %id:item.minecraft.melon_seeds%를 심어 재배할 수 있으며, 수분 공급원으로도 사용됩니다."
+						},
+						"item.minecraft.sweet_berries": {
+							"아이템 아이디": "item.minecraft.sweet_berries",
+							"아이템 영어 이름": "Sweet Berries",
+							"아이템 설명": "달콤한 열매\\n\\n타이가 바이옴에서 자라는 관목에서 얻을 수 있는 열매입니다.\\n\\n팁: 먹을 수 있으며, 여우를 길들이고 번식시키는 데 사용됩니다. %id:item.minecraft.sweet_berry_bush%를 심어 재배할 수 있습니다."
+						},
+						"block.minecraft.sugar_cane": {
+							"아이템 아이디": "block.minecraft.sugar_cane",
+							"아이템 영어 이름": "Sugar Cane",
+							"아이템 설명": "사탕수수\\n\\n물가에서 자라는 키 큰 식물입니다.\\n\\n팁: %id:item.minecraft.sugar%, %id:item.minecraft.paper% 제작의 주 재료입니다. 물 근처의 모래나 흙 위에 심어 재배할 수 있으며, 자동 농장 설계에 자주 사용됩니다."
+						},
+						"block.minecraft.pumpkin": {
+							"아이템 아이디": "block.minecraft.pumpkin",
+							"아이템 영어 이름": "Pumpkin",
+							"설명": ""
+						},
+						"block.minecraft.carved_pumpkin": {
+							"아이템 아이디": "block.minecraft.carved_pumpkin",
+							"아이템 영어 이름": "Carved Pumpkin",
+							"설명": ""
+						},
+						"block.minecraft.jack_o_lantern": {
+							"아이템 아이디": "block.minecraft.jack_o_lantern",
+							"아이템 영어 이름": "Jack o'Lantern",
+							"설명": ""
+						}
+					}
+				},
+				"potato": {
+					"그룹 대표 이름": "감자류",
+					"그룹 설명": "감자와 그 변종들로, 기본적인 식량 자원입니다. 일반 감자, 독감자, 구운 감자 등 다양한 형태로 존재하며, 각각 다른 효과를 가집니다. 농사와 요리의 기본이 되는 중요한 작물입니다.",
+					"아이템들": {
+						"item.minecraft.potato": {
+							"아이템 아이디": "item.minecraft.potato",
+							"아이템 영어 이름": "Potato",
+							"아이템 설명": "감자\\n\\n기본적인 농작물로, 다양한 용도로 사용됩니다.\\n\\n팁: 그대로 먹거나 구워서 %id:item.minecraft.baked_potato%로 만들 수 있습니다. 돼지와 소를 번식시키는 데 사용할 수 있으며, 마을 농부와의 거래 아이템이기도 합니다."
+						},
+						"item.minecraft.poisonous_potato": {
+							"아이템 아이디": "item.minecraft.poisonous_potato",
+							"아이템 영어 이름": "Poisonous Potato",
+							"아이템 설명": "독감자\\n\\n일반 감자를 수확할 때 낮은 확률로 얻을 수 있는 위험한 변종입니다.\\n\\n팁: 먹으면 독 효과를 받을 수 있어 주의가 필요합니다. 게임 내에서 특별한 용도는 없지만, 도전적인 플레이를 위해 사용되기도 합니다."
+						},
+						"item.minecraft.baked_potato": {
+							"아이템 아이디": "item.minecraft.baked_potato",
+							"아이템 영어 이름": "Baked Potato",
+							"아이템 설명": "구운 감자\\n\\n%id:item.minecraft.potato%를 %id:block.minecraft.furnace%에서 구워 만든 음식입니다.\\n\\n팁: 일반 감자보다 높은 포만감을 제공합니다. %id:item.minecraft.rabbit_stew% 제작에 사용되며, 효율적인 식량 자원으로 활용됩니다."
+						}
+					}
+				},
+				"seeds": {
+					"그룹 대표 이름": "씨앗류",
+					"그룹 설명": "다양한 작물을 재배하는 데 사용되는 씨앗들입니다. 이들은 농작물의 시작점으로, 적절한 조건에서 재배하면 해당 작물로 성장합니다. 농업의 기초가 되는 중요한 아이템들입니다.",
+					"아이템들": {
+						"item.minecraft.pumpkin_seeds": {
+							"아이템 아이디": "item.minecraft.pumpkin_seeds",
+							"아이템 영어 이름": "Pumpkin Seeds",
+							"아이템 설명": "호박 씨앗\\n\\n%id:item.minecraft.pumpkin%을 재배하는 데 사용되는 씨앗입니다.\\n\\n팁: 경작지에 심어 호박을 재배할 수 있습니다. 닭을 번식시키는 데에도 사용되며, %id:item.minecraft.pumpkin_pie% 제작의 재료가 되는 호박을 얻을 수 있습니다."
+						},
+						"item.minecraft.melon_seeds": {
+							"아이템 아이디": "item.minecraft.melon_seeds",
+							"아이템 영어 이름": "Melon Seeds",
+							"아이템 설명": "수박 씨앗\\n\\n%id:item.minecraft.melon%을 재배하는 데 사용되는 씨앗입니다.\\n\\n팁: 경작지에 심어 수박을 재배할 수 있습니다. 닭을 번식시키는 데에도 사용되며, 수확한 수박은 식량이나 포션 제작에 활용할 수 있습니다."
+						},
+						"item.minecraft.wheat_seeds": {
+							"아이템 아이디": "item.minecraft.wheat_seeds",
+							"아이템 영어 이름": "Wheat Seeds",
+							"아이템 설명": "밀 씨앗\\n\\n%id:item.minecraft.wheat%를 재배하는 데 사용되는 기본적인 씨앗입니다.\\n\\n팁: 경작지에 심어 밀을 재배할 수 있습니다. 닭을 번식시키는 데 사용되며, 잔디를 부수면 얻을 수 있어 초기 게임에서 중요한 자원입니다."
+						},
+						"item.minecraft.beetroot_seeds": {
+							"아이템 아이디": "item.minecraft.beetroot_seeds",
+							"아이템 영어 이름": "Beetroot Seeds",
+							"아이템 설명": "비트 씨앗\\n\\n%id:item.minecraft.beetroot%를 재배하는 데 사용되는 씨앗입니다.\\n\\n팁: 경작지에 심어 비트를 재배할 수 있습니다. 닭을 번식시키는 데에도 사용되며, 마을에서 발견되는 농경지에서도 찾을 수 있습니다."
+						},
+						"item.minecraft.torchflower_seeds": {
+							"아이템 아이디": "item.minecraft.torchflower_seeds",
+							"아이템 영어 이름": "Torchflower Seeds",
+							"아이템 설명": "토치플라워 씨앗\\n\\n장식용 꽃인 토치플라워를 재배하는 데 사용되는 씨앗입니다.\\n\\n팁: 화분이나 경작지에 심어 토치플라워를 재배할 수 있습니다. 주로 장식 목적으로 사용되며, 특별한 빛나는 꽃을 얻을 수 있습니다."
+						}
+					}
+				},
+				"SAPLING": {
+					"그룹 대표 이름": "묘목",
+					"그룹 설명": "묘목은 나무를 재배하는 데 사용되는 아이템입니다. 다양한 종류의 나무를 심어 숲을 조성하거나 자원을 얻을 수 있습니다.",
+					"아이템들": {
+						"block.minecraft.azalea": {
+							"아이템 아이디": "block.minecraft.azalea",
+							"아이템 영어 이름": "Azalea",
+							"아이템 설명": "진달래는 아름다운 꽃을 피우는 관목입니다. 루시드 동굴에서 자연 생성되며, %entity:entity.minecraft.wandering_trader%와 거래로도 얻을 수 있습니다. 성장하면 잎이 달린 진달래 나무가 되며, 뼈가루로 성장을 촉진할 수 있습니다. 정원이나 조경에 사용하면 아름다운 효과를 낼 수 있습니다."
+						},
+						"block.minecraft.flowering_azalea": {
+							"아이템 아이디": "block.minecraft.flowering_azalea",
+							"아이템 영어 이름": "Flowering Azalea",
+							"아이템 설명": "꽃 피는 진달래는 아름다운 꽃이 만발한 관목입니다. 루시드 동굴에서 자연 생성되며, %entity:entity.minecraft.wandering_trader%와 거래로도 얻을 수 있습니다. 성장하면 꽃이 핀 진달래 나무가 되며, 뼈가루로 성장을 촉진할 수 있습니다. 정원 장식에 매우 적합하며, 꿀벌을 유인하여 %item:item.minecraft.honeycomb% 생산에 도움을 줄 수 있습니다."
+						},
+						"block.minecraft.mangrove_propagule": {
+							"아이템 아이디": "block.minecraft.mangrove_propagule",
+							"아이템 영어 이름": "Mangrove Propagule",
+							"아이템 설명": "맹그로브 번식체는 맹그로브 나무의 묘목입니다. 맹그로브 늪 바이옴에서 채집하거나 맹그로브 나무에서 떨어진 것을 얻을 수 있습니다. 물 위나 땅에서 자랄 수 있으며, 성장하면 맹그로브 나무가 됩니다. 뼈가루로 성장을 촉진할 수 있습니다. 물가에 심어 독특한 맹그로브 숲을 만들 수 있으며, %item:item.minecraft.boat%를 만드는 데 사용할 수 있는 나무를 제공합니다."
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "FARM"
+		}
+	},
+	"tag": "FARM",
+	"문서 버전": "1.0"
+}

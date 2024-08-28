@@ -1,0 +1,134 @@
+{
+  "아이템 태그": {
+    "SHERD": {
+      "요약 설명": "도기 조각은 마인크래프트의 고고학 시스템에서 중요한 역할을 하는 아이템입니다. 이 조각들은 사막 피라미드, 사막 우물, 고대 도시 등에서 발견되며, 각각 고유한 패턴을 가지고 있어 도자기를 장식하는 데 사용됩니다.",
+      "아이템 그룹": {
+        "sherd": {
+          "그룹 대표 이름": "도기 조각",
+          "그룹 설명": "도기 조각은 고대 문명의 유물로, 다양한 패턴과 디자인을 가지고 있습니다. 이 조각들은 도자기를 만들거나 장식하는 데 사용되며, 각각의 조각은 특별한 의미나 이야기를 담고 있습니다.",
+          "아이템들": {
+            "item.minecraft.shelter_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.shelter_pottery_sherd",
+              "아이템 영어 이름": "Shelter Pottery Sherd",
+              "아이템 설명": "쉘터 도기 조각은 안전과 보호를 상징하는 패턴을 가지고 있습니다. 주로 사막 우물에서 발견되며, 고대 문명의 피난처를 나타냅니다."
+            },
+            "item.minecraft.brewer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.brewer_pottery_sherd",
+              "아이템 영어 이름": "Brewer Pottery Sherd",
+              "아이템 설명": "양조자 도기 조각은 물약 제조와 관련된 패턴을 가지고 있습니다. 고대 도시에서 주로 발견되며, 고대 문명의 연금술 지식을 나타냅니다."
+            },
+            "item.minecraft.snort_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.snort_pottery_sherd",
+              "아이템 영어 이름": "Snort Pottery Sherd",
+              "아이템 설명": "코 고는 소리 도기 조각은 재미있는 표정의 패턴을 가지고 있습니다. 사막 피라미드에서 주로 발견되며, 고대 문명의 유머 감각을 보여줍니다."
+            },
+            "item.minecraft.danger_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.danger_pottery_sherd",
+              "아이템 영어 이름": "Danger Pottery Sherd",
+              "아이템 설명": "위험 도기 조각은 경고나 주의를 나타내는 패턴을 가지고 있습니다. 주로 고대 도시에서 발견되며, 고대 문명의 위험 인식을 보여줍니다."
+            },
+            "item.minecraft.angler_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.angler_pottery_sherd",
+              "아이템 영어 이름": "Angler Pottery Sherd",
+              "아이템 설명": "낚시꾼 도기 조각은 물고기나 낚시와 관련된 패턴을 가지고 있습니다. 주로 해안가 유적에서 발견되며, 고대 문명의 어업 문화를 나타냅니다."
+            },
+            "item.minecraft.sheaf_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.sheaf_pottery_sherd",
+              "아이템 영어 이름": "Sheaf Pottery Sherd",
+              "아이템 설명": "곡식 다발 도기 조각은 농업과 수확을 상징하는 패턴을 가지고 있습니다. 주로 마을 근처에서 발견되며, 고대 문명의 농경 문화를 보여줍니다."
+            },
+            "item.minecraft.flow_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.flow_pottery_sherd",
+              "아이템 영어 이름": "Flow Pottery Sherd",
+              "아이템 설명": "흐름 도기 조각은 물이나 바람의 움직임을 연상시키는 패턴을 가지고 있습니다. 주로 강가나 해안가 유적에서 발견되며, 자연의 흐름을 표현합니다."
+            },
+            "item.minecraft.arms_up_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.arms_up_pottery_sherd",
+              "아이템 영어 이름": "Arms Up Pottery Sherd",
+              "아이템 설명": "팔 들기 도기 조각은 축하나 환호를 나타내는 패턴을 가지고 있습니다. 주로 마을이나 축제 장소 근처에서 발견되며, 고대 문명의 축제 문화를 보여줍니다."
+            },
+            "item.minecraft.guster_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.guster_pottery_sherd",
+              "아이템 영어 이름": "Guster Pottery Sherd",
+              "아이템 설명": "돌풍 도기 조각은 바람이나 폭풍을 연상시키는 패턴을 가지고 있습니다. 주로 높은 지대나 산악 지역에서 발견되며, 자연의 힘을 표현합니다."
+            },
+            "item.minecraft.prize_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.prize_pottery_sherd",
+              "아이템 영어 이름": "Prize Pottery Sherd",
+              "아이템 설명": "상품 도기 조각은 트로피나 상을 연상시키는 패턴을 가지고 있습니다. 주로 고대 경기장이나 중요한 건물에서 발견되며, 고대 문명의 경쟁과 성취를 나타냅니다."
+            },
+            "item.minecraft.heartbreak_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.heartbreak_pottery_sherd",
+              "아이템 영어 이름": "Heartbreak Pottery Sherd",
+              "아이템 설명": "상심 도기 조각은 깨진 하트 모양의 패턴을 가지고 있습니다. 주로 고대 무덤이나 유적에서 발견되며, 슬픔이나 이별을 상징합니다."
+            },
+            "item.minecraft.scrape_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.scrape_pottery_sherd",
+              "아이템 영어 이름": "Scrape Pottery Sherd",
+              "아이템 설명": "긁기 도기 조각은 긁힌 듯한 패턴을 가지고 있습니다. 주로 고대 작업장이나 공방에서 발견되며, 고대 문명의 도구 사용을 나타냅니다."
+            },
+            "item.minecraft.explorer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.explorer_pottery_sherd",
+              "아이템 영어 이름": "Explorer Pottery Sherd",
+              "아이템 설명": "탐험가 도기 조각은 지도나 나침반을 연상시키는 패턴을 가지고 있습니다. 주로 멀리 떨어진 유적지에서 발견되며, 고대 문명의 탐험 정신을 나타냅니다."
+            },
+            "item.minecraft.archer_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.archer_pottery_sherd",
+              "아이템 영어 이름": "Archer Pottery Sherd",
+              "아이템 설명": "궁수 도기 조각은 활과 화살을 연상시키는 패턴을 가지고 있습니다. 주로 고대 훈련장이나 요새에서 발견되며, 고대 문명의 군사 문화를 보여줍니다."
+            },
+            "item.minecraft.mourner_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.mourner_pottery_sherd",
+              "아이템 영어 이름": "Mourner Pottery Sherd",
+              "아이템 설명": "애도자 도기 조각은 슬픔이나 애도를 나타내는 패턴을 가지고 있습니다. 주로 고대 무덤이나 장례 유적에서 발견되며, 고대 문명의 장례 문화를 보여줍니다."
+            },
+            "item.minecraft.friend_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.friend_pottery_sherd",
+              "아이템 영어 이름": "Friend Pottery Sherd",
+              "아이템 설명": "친구 도기 조각은 우정이나 동료애를 나타내는 패턴을 가지고 있습니다. 주로 고대 마을이나 공동체 유적에서 발견되며, 고대 문명의 사회적 유대를 보여줍니다."
+            },
+            "item.minecraft.heart_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.heart_pottery_sherd",
+              "아이템 영어 이름": "Heart Pottery Sherd",
+              "아이템 설명": "하트 도기 조각은 사랑이나 애정을 나타내는 하트 모양의 패턴을 가지고 있습니다. 주로 고대 신전이나 결혼 의식 장소에서 발견되며, 고대 문명의 사랑과 결혼 문화를 보여줍니다."
+            },
+            "item.minecraft.blade_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.blade_pottery_sherd",
+              "아이템 영어 이름": "Blade Pottery Sherd",
+              "아이템 설명": "칼날 도기 조각은 검이나 칼을 연상시키는 패턴을 가지고 있습니다. 주로 고대 전장이나 무기 제작소에서 발견되며, 고대 문명의 전쟁 문화를 나타냅니다."
+            },
+            "item.minecraft.plenty_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.plenty_pottery_sherd",
+              "아이템 영어 이름": "Plenty Pottery Sherd",
+              "아이템 설명": "풍요 도기 조각은 풍성한 수확이나 번영을 나타내는 패턴을 가지고 있습니다. 주로 고대 창고나 시장 유적에서 발견되며, 고대 문명의 경제와 풍요를 상징합니다."
+            },
+            "item.minecraft.skull_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.skull_pottery_sherd",
+              "아이템 영어 이름": "Skull Pottery Sherd",
+              "아이템 설명": "해골 도기 조각은 해골이나 죽음을 연상시키는 패턴을 가지고 있습니다. 주로 고대 무덤이나 제사 장소에서 발견되며, 고대 문명의 죽음에 대한 인식을 보여줍니다."
+            },
+            "item.minecraft.burn_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.burn_pottery_sherd",
+              "아이템 영어 이름": "Burn Pottery Sherd",
+              "아이템 설명": "불타는 도기 조각은 불이나 화염을 연상시키는 패턴을 가지고 있습니다. 주로 고대 제련소나 화산 근처 유적에서 발견되며, 불의 힘과 변화를 상징합니다."
+            },
+            "item.minecraft.howl_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.howl_pottery_sherd",
+              "아이템 영어 이름": "Howl Pottery Sherd",
+              "아이템 설명": "울부짖음 도기 조각은 늑대나 동물의 울음소리를 연상시키는 패턴을 가지고 있습니다. 주로 숲이나 야생 지역 근처 유적에서 발견되며, 자연과의 교감을 나타냅니다."
+            },
+            "item.minecraft.miner_pottery_sherd": {
+              "아이템 아이디": "item.minecraft.miner_pottery_sherd",
+              "아이템 영어 이름": "Miner Pottery Sherd",
+              "아이템 설명": "광부 도기 조각은 곡괭이나 광산을 연상시키는 패턴을 가지고 있습니다. 주로 고대 광산이나 채굴 지역에서 발견되며, 고대 문명의 채굴 기술과 자원 활용을 보여줍니다. 이 조각은 고대 문명의 산업 발전과 자원 탐사의 역사를 나타내는 중요한 고고학적 증거입니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "SHERD"
+    }
+  },
+  "tag": "SHERD",
+  "문서 버전": "1.0"
+}

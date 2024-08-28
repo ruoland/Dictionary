@@ -1,0 +1,259 @@
+{
+	"아이템 태그": {
+		"TOOLS": {
+			"요약 설명": "요약 설명을 적어주세요.",
+			"아이템 그룹": {
+				"axe": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.stone_axe": {
+							"아이템 아이디": "item.minecraft.stone_axe",
+							"아이템 영어 이름": "Stone Axe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.netherite_axe": {
+							"아이템 아이디": "item.minecraft.netherite_axe",
+							"아이템 영어 이름": "Netherite Axe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.wooden_axe": {
+							"아이템 아이디": "item.minecraft.wooden_axe",
+							"아이템 영어 이름": "Wooden Axe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.golden_axe": {
+							"아이템 아이디": "item.minecraft.golden_axe",
+							"아이템 영어 이름": "Golden Axe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.diamond_axe": {
+							"아이템 아이디": "item.minecraft.diamond_axe",
+							"아이템 영어 이름": "Diamond Axe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.iron_axe": {
+							"아이템 아이디": "item.minecraft.iron_axe",
+							"아이템 영어 이름": "Iron Axe",
+							"아이템 설명": "아이템 설명"
+						}
+					}
+				},
+				"bucket": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.milk_bucket": {
+							"아이템 아이디": "item.minecraft.milk_bucket",
+							"아이템 영어 이름": "Milk Bucket",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.water_bucket": {
+							"아이템 아이디": "item.minecraft.water_bucket",
+							"아이템 영어 이름": "Water Bucket",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.salmon_bucket": {
+							"아이템 아이디": "item.minecraft.salmon_bucket",
+							"아이템 영어 이름": "Bucket of Salmon",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.tadpole_bucket": {
+							"아이템 아이디": "item.minecraft.tadpole_bucket",
+							"아이템 영어 이름": "Bucket of Tadpole",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.lava_bucket": {
+							"아이템 아이디": "item.minecraft.lava_bucket",
+							"아이템 영어 이름": "Lava Bucket",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.pufferfish_bucket": {
+							"아이템 아이디": "item.minecraft.pufferfish_bucket",
+							"아이템 영어 이름": "Bucket of Pufferfish",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.axolotl_bucket": {
+							"아이템 아이디": "item.minecraft.axolotl_bucket",
+							"아이템 영어 이름": "Bucket of Axolotl",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.cod_bucket": {
+							"아이템 아이디": "item.minecraft.cod_bucket",
+							"아이템 영어 이름": "Bucket of Cod",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.powder_snow_bucket": {
+							"아이템 아이디": "item.minecraft.powder_snow_bucket",
+							"아이템 영어 이름": "Powder Snow Bucket",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.bucket": {
+							"아이템 아이디": "item.minecraft.bucket",
+							"아이템 영어 이름": "Bucket",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.tropical_fish_bucket": {
+							"아이템 아이디": "item.minecraft.tropical_fish_bucket",
+							"아이템 영어 이름": "Bucket of Tropical Fish",
+							"아이템 설명": "아이템 설명"
+						}
+					}
+				},
+				"compass": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.compass": {
+							"아이템 아이디": "item.minecraft.compass",
+							"아이템 영어 이름": "Compass",
+							"아이템 설명": "나침반은 플레이어의 스폰 포인트를 가리키는 네비게이션 도구입니다.\n\n특징:\n- 항상 월드의 스폰 포인트를 가리킴\n- 네더와 엔드에서는 무작위로 회전\n- 로드스톤과 결합하여 특정 위치 지정 가능\n\n제작 방법:\n- 4개의 %item:item.minecraft.iron_ingot%와 1개의 %item:item.minecraft.redstone%으로 제작\n\n팁:\n- 탐험 중 길을 잃었을 때 유용합니다.\n- %block:block.minecraft.item_frame%에 넣어 방향 표시기로 사용 가능합니다.\n- %block:block.minecraft.lodestone%과 함께 사용하면 특정 위치를 표시할 수 있습니다"
+						},
+						"item.minecraft.recovery_compass": {
+							"아이템 아이디": "item.minecraft.recovery_compass",
+							"아이템 영어 이름": "Recovery Compass",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.clock": {
+							"아이템 아이디": "item.minecraft.clock",
+							"아이템 영어 이름": "Clock",
+							"설명": "계는 마인크래프트 세계의 시간을 알려주는 유용한 도구입니다.\n\n특징:\n- 태양과 달의 위치를 시각적으로 표시\n- 낮과 밤을 구분하기 쉬움\n- 네더나 엔드에서는 작동하지 않음\n\n제작 방법:\n- 4개의 %item:item.minecraft.gold_ingot%와 1개의 %item:item.minecraft.redstone%으로 제작\n\n팁:\n- 인벤토리에 있어도 작동하니 항상 휴대하세요.\n- %block:block.minecraft.item_frame%에 넣어 벽시계로 사용 가능합니다"
+						},
+						"item.minecraft.spyglass": {
+							"아이템 아이디": "item.minecraft.spyglass",
+							"아이템 영어 이름": "Spyglass",
+							"설명": "망원경은 멀리 있는 물체를 자세히 볼 수 있게 해주는 도구입니다.\n\n특징:\n- 8배 줌 기능\n- 양손으로 들어야 사용 가능\n- 내구도 없음\n\n제작 방법:\n- 2개의 %item:item.minecraft.copper_ingot%와 1개의 %item:item.minecraft.amethyst_shard%로 제작\n\n팁:\n- 멀리 있는 구조물이나 생물을 관찰할 때 유용합니다.\n- PvP에서 적을 발견하는 데 도움이 됩니다.\n- 해양 탐험 시 섬이나 해양 기념물을 찾는 데 효과적입니다."
+						},
+						"item.minecraft.shears": {
+							"아이템 아이디": "item.minecraft.shears",
+							"아이템 영어 이름": "Shears",
+							"설명": "가위는 양털을 깎거나 특정 블록을 효율적으로 채집하는 데 사용되는 도구입니다.\n\n특징:\n- 양의 털을 깎을 수 있음\n- 나뭇잎, 덩굴 등을 빠르게 제거\n- 거미줄을 실 아이템으로 채집 가능\n- 내구도 238회\n\n제작 방법:\n- 2개의 %item:item.minecraft.iron_ingot%로 제작\n\n팁:\n- 양털 농장에 필수적인 도구입니다.\n- 큰 나무를 빠르게 제거할 때 나뭇잎 제거에 유용합니다.\n- %block:block.minecraft.pumpkin%에 사용하면 %block:block.minecraft.carved_pumpkin% 제작 가능합니다."
+						},
+						"item.minecraft.brush": {
+							"아이템 아이디": "item.minecraft.brush",
+							"아이템 영어 이름": "Brush",
+							"설명": "붓은 고고학 작업에 사용되는 특별한 도구입니다.\n\n특징:\n- %block:block.minecraft.suspicious_sand%와 %block:block.minecraft.suspicious_gravel%에서 아이템 발굴 가능\n- 사용할 때마다 내구도 1 감소\n- 최대 내구도 64\n\n제작 방법:\n- 1개의 %item:item.minecraft.feather%, 1개의 %item:item.minecraft.copper_ingot%, 1개의 %item:item.minecraft.stick%으로 제작\n\n팁:\n- 사막 사원이나 해양 유적에서 유물을 찾을 때 필수적입니다.\n- 여러 개의 붓을 가지고 다니면 장시간 발굴 작업이 가능합니다.\n- 발견한 유물은 고고학적 가치가 있을 수 있으니 주의해서 다루세요."
+						},
+						"item.minecraft.flint_and_steel": {
+							"아이템 아이디": "item.minecraft.flint_and_steel",
+							"아이템 영어 이름": "Flint and Steel",
+							"설명": "부싯돌과 부시는 불을 붙이는 데 사용되는 도구입니다.\n\n특징:\n- 블록에 불을 붙일 수 있음\n- %block:block.minecraft.obsidian%으로 만든 %block:block.minecraft.nether_portal% 활성화 가능\n- 내구도 64회\n\n제작 방법:\n- 1개의 %item:item.minecraft.iron_ingot%와 1개의 %item:item.minecraft.flint%로 제작\n\n팁:\n- TNT를 점화하는 데 사용할 수 있습니다.\n- 크리퍼를 번개 크리퍼로 변환시킬 수 있습니다.\n- 주의: 실수로 불을 내지 않도록 조심하세요!"
+						}
+					}
+				},
+				"hoe": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.stone_hoe": {
+							"아이템 아이디": "item.minecraft.stone_hoe",
+							"아이템 영어 이름": "Stone Hoe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.netherite_hoe": {
+							"아이템 아이디": "item.minecraft.netherite_hoe",
+							"아이템 영어 이름": "Netherite Hoe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.wooden_hoe": {
+							"아이템 아이디": "item.minecraft.wooden_hoe",
+							"아이템 영어 이름": "Wooden Hoe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.golden_hoe": {
+							"아이템 아이디": "item.minecraft.golden_hoe",
+							"아이템 영어 이름": "Golden Hoe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.diamond_hoe": {
+							"아이템 아이디": "item.minecraft.diamond_hoe",
+							"아이템 영어 이름": "Diamond Hoe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.iron_hoe": {
+							"아이템 아이디": "item.minecraft.iron_hoe",
+							"아이템 영어 이름": "Iron Hoe",
+							"아이템 설명": "아이템 설명"
+						}
+					}
+				},
+				"pickaxe": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.wooden_pickaxe": {
+							"아이템 아이디": "item.minecraft.wooden_pickaxe",
+							"아이템 영어 이름": "Wooden Pickaxe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.stone_pickaxe": {
+							"아이템 아이디": "item.minecraft.stone_pickaxe",
+							"아이템 영어 이름": "Stone Pickaxe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.iron_pickaxe": {
+							"아이템 아이디": "item.minecraft.iron_pickaxe",
+							"아이템 영어 이름": "Iron Pickaxe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.netherite_pickaxe": {
+							"아이템 아이디": "item.minecraft.netherite_pickaxe",
+							"아이템 영어 이름": "Netherite Pickaxe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.diamond_pickaxe": {
+							"아이템 아이디": "item.minecraft.diamond_pickaxe",
+							"아이템 영어 이름": "Diamond Pickaxe",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.golden_pickaxe": {
+							"아이템 아이디": "item.minecraft.golden_pickaxe",
+							"아이템 영어 이름": "Golden Pickaxe",
+							"아이템 설명": "아이템 설명"
+						}
+					}
+				},
+				"shovel": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.iron_shovel": {
+							"아이템 아이디": "item.minecraft.iron_shovel",
+							"아이템 영어 이름": "Iron Shovel",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.diamond_shovel": {
+							"아이템 아이디": "item.minecraft.diamond_shovel",
+							"아이템 영어 이름": "Diamond Shovel",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.golden_shovel": {
+							"아이템 아이디": "item.minecraft.golden_shovel",
+							"아이템 영어 이름": "Golden Shovel",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.wooden_shovel": {
+							"아이템 아이디": "item.minecraft.wooden_shovel",
+							"아이템 영어 이름": "Wooden Shovel",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.netherite_shovel": {
+							"아이템 아이디": "item.minecraft.netherite_shovel",
+							"아이템 영어 이름": "Netherite Shovel",
+							"아이템 설명": "아이템 설명"
+						},
+						"item.minecraft.stone_shovel": {
+							"아이템 아이디": "item.minecraft.stone_shovel",
+							"아이템 영어 이름": "Stone Shovel",
+							"아이템 설명": "아이템 설명"
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "TOOLS"
+		}
+	},
+	"tag": "TOOLS",
+	"문서 버전": "1.0"
+}

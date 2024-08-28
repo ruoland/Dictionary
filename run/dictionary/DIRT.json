@@ -1,0 +1,85 @@
+{
+	"아이템 태그": {
+		"DIRT": {
+			"요약 설명": "마인크래프트의 기본적인 지형을 구성하는 흙과 관련된 블록들입니다. 이들은 자연 환경을 만들고 다양한 생태계를 표현하는 데 사용됩니다.",
+			"아이템 그룹": {
+				"ETC": {
+					"그룹 대표 이름": "기타 지형 블록",
+					"그룹 설명": "흙과 관련된 다양한 지형 블록들로, 자연 환경을 더욱 풍부하게 만드는 데 사용됩니다.",
+					"아이템들": {
+						"block.minecraft.short_grass": {
+							"아이템 아이디": "block.minecraft.short_grass",
+							"아이템 영어 이름": "Short Grass",
+							"아이템 설명": "짧은 잔디\\n\\n잔디 블록 위에 자라는 장식용 식물입니다.\\n\\n팁: 뼛가루를 사용하면 주변에 더 많은 식물이 자랍니다. 양털을 얻기 위해 양을 키우는 데 사용할 수 있습니다."
+						},
+						"block.minecraft.podzol": {
+							"아이템 아이디": "block.minecraft.podzol",
+							"아이템 영어 이름": "Podzol",
+							"아이템 설명": "회백토\\n\\n타이가 바이옴에서 주로 발견되는 특별한 흙 블록입니다.\\n\\n팁: 버섯이 자랄 수 있는 몇 안 되는 블록 중 하나입니다. 실크 터치로 채굴하지 않으면 일반 흙으로 변합니다."
+						},
+						"block.minecraft.tall_grass": {
+							"아이템 아이디": "block.minecraft.tall_grass",
+							"아이템 영어 이름": "Tall Grass",
+							"아이템 설명": "큰 잔디\\n\\n두 블록 높이의 장식용 식물입니다.\\n\\n팁: 평원 바이옴에서 자주 발견됩니다. 가위로 자르면 짧은 잔디가 됩니다. 동물들을 숨기는 데 유용합니다."
+						},
+						"block.minecraft.suspicious_gravel": {
+							"아이템 아이디": "block.minecraft.suspicious_gravel",
+							"아이템 영어 이름": "Suspicious Gravel",
+							"아이템 설명": "수상한 자갈\\n\\n일반 자갈과 비슷하지만 내부에 아이템이 숨겨져 있을 수 있는 블록입니다.\\n\\n팁: 브러시로 조심스럽게 파내면 숨겨진 아이템을 얻을 수 있습니다. 주로 고고학 관련 활동에서 발견됩니다."
+						},
+						"block.minecraft.gravel": {
+							"아이템 아이디": "block.minecraft.gravel",
+							"아이템 영어 이름": "Gravel",
+							"아이템 설명": "자갈\\n\\n중력의 영향을 받는 블록으로, 채굴 시 때때로 부싯돌을 드롭합니다.\\n\\n팁: 콘크리트 파우더 제작에 사용됩니다. 물 속에서 떨어지면 모래처럼 가라앉습니다."
+						}
+					}
+				},
+				"DIRT": {
+					"그룹 대표 이름": "흙",
+					"그룹 설명": "흙은 마인크래프트 세계의 기본적인 지형을 구성하는 블록들입니다. 각 종류의 흙은 고유한 특성을 가지고 있어 다양한 용도로 사용됩니다.",
+					"아이템들": {
+						"block.minecraft.mycelium": {
+							"아이템 아이디": "block.minecraft.mycelium",
+							"아이템 영어 이름": "Mycelium",
+							"아이템 설명": "균사체는 %biome:biome.minecraft.mushroom_fields% 바이옴에서 발견되는 특별한 흙입니다. 위쪽 면에 보라색 입자가 떠다니는 것이 특징입니다. 균사체 위에서는 버섯이 밝은 곳에서도 자랄 수 있습니다. %item:item.minecraft.silk_touch% 인챈트 도구로만 채집할 수 있으며, 다른 곳에 옮겨 심을 수 있습니다."
+						},
+						"block.minecraft.mud": {
+							"아이템 아이디": "block.minecraft.mud",
+							"아이템 영어 이름": "Mud",
+							"아이템 설명": "진흙은 %biome:biome.minecraft.mangrove_swamp% 바이옴에서 주로 발견되는 블록입니다. %block:block.minecraft.dirt%에 물을 부어 만들 수 있습니다. 진흙 위에서는 이동 속도가 느려집니다. %block:block.minecraft.packed_mud%나 %block:block.minecraft.mud_bricks%를 만드는 데 사용되며, %block:block.minecraft.mangrove_propagule%을 심을 수 있는 유일한 블록입니다."
+						},
+						"block.minecraft.dirt_path": {
+							"아이템 아이디": "block.minecraft.dirt_path",
+							"아이템 영어 이름": "Dirt Path",
+							"아이템 설명": "흙길은 %item:item.minecraft.shovel%로 %block:block.minecraft.grass_block%이나 %block:block.minecraft.dirt%를 우클릭하여 만들 수 있습니다. 플레이어의 이동 속도를 약간 높여주는 효과가 있습니다. 위에 다른 블록을 놓으면 일반 흙으로 변합니다. 마을이나 정원의 길을 만들 때 자주 사용됩니다."
+						},
+						"block.minecraft.packed_mud": {
+							"아이템 아이디": "block.minecraft.packed_mud",
+							"아이템 영어 이름": "Packed Mud",
+							"아이템 설명": "다져진 진흙은 %block:block.minecraft.mud%와 %item:item.minecraft.wheat%를 조합하여 만들 수 있습니다. 일반 진흙보다 단단하여 위에서 이동할 때 속도가 느려지지 않습니다. %block:block.minecraft.mud_bricks%를 만드는 데 사용되며, 건축 재료로도 활용됩니다. %structure:village/desert% 건물에서 자주 볼 수 있습니다."
+						},
+						"block.minecraft.dirt": {
+							"아이템 아이디": "block.minecraft.dirt",
+							"아이템 영어 이름": "Dirt",
+							"아이템 설명": "흙\\n\\n가장 기본적인 지형 블록입니다.\\n\\n팁: 괭이로 경작하여 농사를 지을 수 있습니다. 잔디 블록 옆에 두면 시간이 지나 잔디가 자랍니다."
+						},
+						"block.minecraft.rooted_dirt": {
+							"아이템 아이디": "block.minecraft.rooted_dirt",
+							"아이템 영어 이름": "Rooted Dirt",
+							"아이템 설명": "뿌리 박힌 흙\\n\\n뿌리가 자란 특별한 흙 블록입니다.\\n\\n팁: 괭이로 파면 일반 흙과 %id:block.minecraft.hanging_roots%를 얻을 수 있습니다. 주로 동굴의 큰 나무 뿌리 근처에서 발견됩니다."
+						},
+						"block.minecraft.coarse_dirt": {
+							"아이템 아이디": "block.minecraft.coarse_dirt",
+							"아이템 영어 이름": "Coarse Dirt",
+							"아이템 설명": "거친 흙\\n\\n잔디나 다른 식물이 자라지 않는 특별한 흙 블록입니다.\\n\\n팁: 일반 흙과 자갈을 2:2 비율로 조합하여 만들 수 있습니다. 식물이 자라지 않는 자연스러운 길을 만들 때 유용합니다."
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "DIRT"
+		}
+	},
+	"tag": "DIRT",
+	"문서 버전": "1.0"
+}

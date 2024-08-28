@@ -1,0 +1,203 @@
+{
+  "아이템 태그": {
+    "FENCE": {
+      "요약 설명": "마인크래프트에서 영역을 구분하고 장식하는 데 사용되는 다양한 종류의 울타리, 울타리 문, 담장 블록들입니다. 이들은 주로 건축과 동물 관리에 활용됩니다.",
+      "아이템 그룹": {
+        "fence": {
+          "그룹 대표 이름": "울타리",
+          "그룹 설명": "다양한 나무 종류로 만들어진 울타리 블록들입니다. 플레이어와 대부분의 몹은 넘을 수 없지만 빛은 통과할 수 있어, 동물을 가두거나 장식용으로 사용됩니다.",
+          "아이템들": {
+            "block.minecraft.warped_fence": {
+              "아이템 아이디": "block.minecraft.warped_fence",
+              "아이템 영어 이름": "Warped Fence"
+            },
+            "block.minecraft.spruce_fence": {
+              "아이템 아이디": "block.minecraft.spruce_fence",
+              "아이템 영어 이름": "Spruce Fence"
+            },
+            "block.minecraft.oak_fence": {
+              "아이템 아이디": "block.minecraft.oak_fence",
+              "아이템 영어 이름": "Oak Fence"
+            },
+            "block.minecraft.jungle_fence": {
+              "아이템 아이디": "block.minecraft.jungle_fence",
+              "아이템 영어 이름": "Jungle Fence"
+            },
+            "block.minecraft.bamboo_fence": {
+              "아이템 아이디": "block.minecraft.bamboo_fence",
+              "아이템 영어 이름": "Bamboo Fence"
+            },
+            "block.minecraft.cherry_fence": {
+              "아이템 아이디": "block.minecraft.cherry_fence",
+              "아이템 영어 이름": "Cherry Fence"
+            },
+            "block.minecraft.birch_fence": {
+              "아이템 아이디": "block.minecraft.birch_fence",
+              "아이템 영어 이름": "Birch Fence"
+            },
+            "block.minecraft.acacia_fence": {
+              "아이템 아이디": "block.minecraft.acacia_fence",
+              "아이템 영어 이름": "Acacia Fence"
+            },
+            "block.minecraft.dark_oak_fence": {
+              "아이템 아이디": "block.minecraft.dark_oak_fence",
+              "아이템 영어 이름": "Dark Oak Fence"
+            },
+            "block.minecraft.mangrove_fence": {
+              "아이템 아이디": "block.minecraft.mangrove_fence",
+              "아이템 영어 이름": "Mangrove Fence"
+            }
+          }
+        },
+        "gate": {
+          "그룹 대표 이름": "울타리 문",
+          "그룹 설명": "울타리와 연결되어 사용되는 문 블록들입니다. 플레이어가 열고 닫을 수 있어 울타리로 둘러싸인 영역에 출입구를 만드는 데 사용됩니다.",
+          "아이템들": {
+            "block.minecraft.cherry_fence_gate": {
+              "아이템 아이디": "block.minecraft.cherry_fence_gate",
+              "아이템 영어 이름": "Cherry Fence Gate"
+            },
+            "block.minecraft.birch_fence_gate": {
+              "아이템 아이디": "block.minecraft.birch_fence_gate",
+              "아이템 영어 이름": "Birch Fence Gate"
+            },
+            "block.minecraft.mangrove_fence_gate": {
+              "아이템 아이디": "block.minecraft.mangrove_fence_gate",
+              "아이템 영어 이름": "Mangrove Fence Gate"
+            },
+            "block.minecraft.warped_fence_gate": {
+              "아이템 아이디": "block.minecraft.warped_fence_gate",
+              "아이템 영어 이름": "Warped Fence Gate"
+            },
+            "block.minecraft.acacia_fence_gate": {
+              "아이템 아이디": "block.minecraft.acacia_fence_gate",
+              "아이템 영어 이름": "Acacia Fence Gate"
+            },
+            "block.minecraft.dark_oak_fence_gate": {
+              "아이템 아이디": "block.minecraft.dark_oak_fence_gate",
+              "아이템 영어 이름": "Dark Oak Fence Gate"
+            },
+            "block.minecraft.spruce_fence_gate": {
+              "아이템 아이디": "block.minecraft.spruce_fence_gate",
+              "아이템 영어 이름": "Spruce Fence Gate"
+            },
+            "block.minecraft.jungle_fence_gate": {
+              "아이템 아이디": "block.minecraft.jungle_fence_gate",
+              "아이템 영어 이름": "Jungle Fence Gate"
+            },
+            "block.minecraft.bamboo_fence_gate": {
+              "아이템 아이디": "block.minecraft.bamboo_fence_gate",
+              "아이템 영어 이름": "Bamboo Fence Gate"
+            },
+            "block.minecraft.oak_fence_gate": {
+              "아이템 아이디": "block.minecraft.oak_fence_gate",
+              "아이템 영어 이름": "Oak Fence Gate"
+            }
+          }
+        },
+        "wall": {
+          "그룹 대표 이름": "담장",
+          "그룹 설명": "다양한 돌 재질로 만들어진 담장 블록들입니다. 울타리보다 더 견고한 느낌을 주며, 성벽이나 요새 같은 건축물에 자주 사용됩니다.",
+          "아이템들": {
+            "block.minecraft.polished_blackstone_wall": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_wall",
+              "아이템 영어 이름": "Polished Blackstone Wall"
+            },
+            "block.minecraft.andesite_wall": {
+              "아이템 아이디": "block.minecraft.andesite_wall",
+              "아이템 영어 이름": "Andesite Wall"
+            },
+            "block.minecraft.stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.stone_brick_wall",
+              "아이템 영어 이름": "Stone Brick Wall"
+            },
+            "block.minecraft.tuff_brick_wall": {
+              "아이템 아이디": "block.minecraft.tuff_brick_wall",
+              "아이템 영어 이름": "Tuff Brick Wall"
+            },
+            "block.minecraft.mossy_cobblestone_wall": {
+              "아이템 아이디": "block.minecraft.mossy_cobblestone_wall",
+              "아이템 영어 이름": "Mossy Cobblestone Wall"
+            },
+            "block.minecraft.mud_brick_wall": {
+              "아이템 아이디": "block.minecraft.mud_brick_wall",
+              "아이템 영어 이름": "Mud Brick Wall"
+            },
+            "block.minecraft.cobblestone_wall": {
+              "아이템 아이디": "block.minecraft.cobblestone_wall",
+              "아이템 영어 이름": "Cobblestone Wall"
+            },
+            "block.minecraft.brick_wall": {
+              "아이템 아이디": "block.minecraft.brick_wall",
+              "아이템 영어 이름": "Brick Wall"
+            },
+            "block.minecraft.end_stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.end_stone_brick_wall",
+              "아이템 영어 이름": "End Stone Brick Wall"
+            },
+            "block.minecraft.deepslate_tile_wall": {
+              "아이템 아이디": "block.minecraft.deepslate_tile_wall",
+              "아이템 영어 이름": "Deepslate Tile Wall"
+            },
+            "block.minecraft.deepslate_brick_wall": {
+              "아이템 아이디": "block.minecraft.deepslate_brick_wall",
+              "아이템 영어 이름": "Deepslate Brick Wall"
+            },
+            "block.minecraft.diorite_wall": {
+              "아이템 아이디": "block.minecraft.diorite_wall",
+              "아이템 영어 이름": "Diorite Wall"
+            },
+            "block.minecraft.sandstone_wall": {
+              "아이템 아이디": "block.minecraft.sandstone_wall",
+              "아이템 영어 이름": "Sandstone Wall"
+            },
+            "block.minecraft.polished_tuff_wall": {
+              "아이템 아이디": "block.minecraft.polished_tuff_wall",
+              "아이템 영어 이름": "Polished Tuff Wall"
+            },
+            "block.minecraft.prismarine_wall": {
+              "아이템 아이디": "block.minecraft.prismarine_wall",
+              "아이템 영어 이름": "Prismarine Wall"
+            },
+            "block.minecraft.blackstone_wall": {
+              "아이템 아이디": "block.minecraft.blackstone_wall",
+              "아이템 영어 이름": "Blackstone Wall"
+            },
+            "block.minecraft.tuff_wall": {
+              "아이템 아이디": "block.minecraft.tuff_wall",
+              "아이템 영어 이름": "Tuff Wall"
+            },
+            "block.minecraft.cobbled_deepslate_wall": {
+              "아이템 아이디": "block.minecraft.cobbled_deepslate_wall",
+              "아이템 영어 이름": "Cobbled Deepslate Wall"
+            },
+            "block.minecraft.mossy_stone_brick_wall": {
+              "아이템 아이디": "block.minecraft.mossy_stone_brick_wall",
+              "아이템 영어 이름": "Mossy Stone Brick Wall"
+            },
+            "block.minecraft.polished_deepslate_wall": {
+              "아이템 아이디": "block.minecraft.polished_deepslate_wall",
+              "아이템 영어 이름": "Polished Deepslate Wall"
+            },
+            "block.minecraft.granite_wall": {
+              "아이템 아이디": "block.minecraft.granite_wall",
+              "아이템 영어 이름": "Granite Wall"
+            },
+            "block.minecraft.polished_blackstone_brick_wall": {
+              "아이템 아이디": "block.minecraft.polished_blackstone_brick_wall",
+              "아이템 영어 이름": "Polished Blackstone Brick Wall"
+            },
+            "block.minecraft.red_sandstone_wall": {
+              "아이템 아이디": "block.minecraft.red_sandstone_wall",
+              "아이템 영어 이름": "Red Sandstone Wall"
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "FENCE"
+    }
+  },
+  "tag": "FENCE",
+  "문서 버전": "1.0"
+}

@@ -1,0 +1,236 @@
+{
+	"아이템 태그": {
+		"SPECIAL": {
+			"요약 설명": "요약 설명을 적어주세요.",
+			"아이템 그룹": {
+				"SPECIAL": {
+					"그룹 대표 이름": "특별한 아이템",
+					"그룹 설명": "이 그룹의 아이템들은 특별한 능력이나 용도를 가지고 있어 게임 플레이에 중요한 역할을 합니다.",
+					"아이템들": {
+						"item.minecraft.totem_of_undying": {
+							"아이템 아이디": "item.minecraft.totem_of_undying",
+							"아이템 영어 이름": "Totem of Undying",
+							"아이템 설명": "불사의 토템은 플레이어가 치명적인 피해를 입을 때 한 번의 죽음을 막아주는 강력한 아이템입니다. 주로 %structure:mansion%의 %entity:entity.minecraft.evoker%를 처치하여 얻을 수 있습니다. 사용 시 플레이어의 체력을 회복시키고 여러 가지 버프 효과를 줍니다. 오프핸드에 들고 있으면 자동으로 발동됩니다."
+						},
+						"item.minecraft.dragon_breath": {
+							"아이템 아이디": "item.minecraft.dragon_breath",
+							"아이템 영어 이름": "Dragon's Breath",
+							"아이템 설명": "드래곤의 숨결은 %entity:entity.minecraft.ender_dragon%이 발사하는 용암 구체를 유리병으로 모아 얻을 수 있는 희귀한 아이템입니다. 주로 %item:item.minecraft.lingering_potion% 제작에 사용되며, 이를 통해 효과 범위가 넓은 포션을 만들 수 있습니다. %biome:biome.minecraft.end_highlands%에서만 얻을 수 있는 귀중한 재료입니다."
+						},
+						"item.minecraft.heart_of_the_sea": {
+							"아이템 아이디": "item.minecraft.heart_of_the_sea",
+							"아이템 영어 이름": "Heart of the Sea",
+							"아이템 설명": "바다의 심장은 %structure:underwater_ruin% 또는 %structure:shipwreck%의 보물 상자에서 발견할 수 있는 희귀한 아이템입니다. 주요 용도는 %item:item.minecraft.conduit% 제작으로, 이는 수중 호흡과 시야 개선, 그리고 적대적 수중 몹으로부터의 보호 기능을 제공합니다. 해양 탐험가들에게 매우 가치 있는 아이템입니다."
+						},
+						"item.minecraft.phantom_membrane": {
+							"아이템 아이디": "item.minecraft.phantom_membrane",
+							"아이템 영어 이름": "Phantom Membrane",
+							"아이템 설명": "팬텀 막은 %entity:entity.minecraft.phantom%을 처치하여 얻을 수 있는 아이템입니다. 주로 %item:item.minecraft.potion.effect.slow_falling% 제작에 사용되며, %item:item.minecraft.elytra%를 수리하는 데에도 사용됩니다. 팬텀은 플레이어가 오랫동안 잠을 자지 않을 때 밤하늘에 나타나므로, 이 아이템을 얻기 위해서는 의도적으로 불면증에 시달려야 할 수도 있습니다."
+						},
+						"block.minecraft.wither_skeleton_skull": {
+							"아이템 아이디": "block.minecraft.wither_skeleton_skull",
+							"아이템 영어 이름": "Wither Skeleton Skull",
+							"설명": ""
+						},
+						"block.minecraft.skeleton_skull": {
+							"아이템 아이디": "block.minecraft.skeleton_skull",
+							"아이템 영어 이름": "Skeleton Skull",
+							"설명": ""
+						}
+					}
+				},
+				"ETC": {
+					"그룹 대표 이름": "그룹 이름",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.end_crystal": {
+							"아이템 아이디": "item.minecraft.end_crystal",
+							"아이템 영어 이름": "End Crystal"
+						}
+					}
+				},
+				"SPAWN_EGG": {
+					"그룹 대표 이름": "스폰 알",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"item.minecraft.cat_spawn_egg": {
+							"아이템 아이디": "item.minecraft.cat_spawn_egg",
+							"아이템 영어 이름": "Cat Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.cow_spawn_egg": {
+							"아이템 아이디": "item.minecraft.cow_spawn_egg",
+							"아이템 영어 이름": "Cow Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.chicken_spawn_egg": {
+							"아이템 아이디": "item.minecraft.chicken_spawn_egg",
+							"아이템 영어 이름": "Chicken Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.sheep_spawn_egg": {
+							"아이템 아이디": "item.minecraft.sheep_spawn_egg",
+							"아이템 영어 이름": "Sheep Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.villager_spawn_egg": {
+							"아이템 아이디": "item.minecraft.villager_spawn_egg",
+							"아이템 영어 이름": "Villager Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.panda_spawn_egg": {
+							"아이템 아이디": "item.minecraft.panda_spawn_egg",
+							"아이템 영어 이름": "Panda Spawn Egg",
+							"설명": ""
+						},
+						"item.minecraft.rabbit_spawn_egg": {
+							"아이템 아이디": "item.minecraft.rabbit_spawn_egg",
+							"아이템 영어 이름": "Rabbit Spawn Egg",
+							"설명": ""
+						}
+					}
+				},
+				"MISC": {
+					"그룹 대표 이름": "기타",
+					"그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+					"아이템들": {
+						"block.minecraft.air": {
+							"아이템 아이디": "block.minecraft.air",
+							"아이템 영어 이름": "Air",
+							"설명": ""
+						},
+						"block.minecraft.structure_void": {
+							"아이템 아이디": "block.minecraft.structure_void",
+							"아이템 영어 이름": "Structure Void",
+							"설명": ""
+						},
+						"item.minecraft.name_tag": {
+							"아이템 아이디": "item.minecraft.name_tag",
+							"아이템 영어 이름": "Name Tag",
+							"설명": ""
+						},
+						"item.minecraft.lead": {
+							"아이템 아이디": "item.minecraft.lead",
+							"아이템 영어 이름": "Lead",
+							"설명": ""
+						},
+						"item.minecraft.firework_star": {
+							"아이템 아이디": "item.minecraft.firework_star",
+							"아이템 영어 이름": "Firework Star",
+							"설명": ""
+						},
+						"item.minecraft.map": {
+							"아이템 아이디": "item.minecraft.map",
+							"아이템 영어 이름": "Empty Map",
+							"설명": ""
+						},
+						"item.minecraft.filled_map": {
+							"아이템 아이디": "item.minecraft.filled_map",
+							"아이템 영어 이름": "Map",
+							"설명": ""
+						},
+						"item.minecraft.goat_horn": {
+							"아이템 아이디": "item.minecraft.goat_horn",
+							"아이템 영어 이름": "Goat Horn",
+							"설명": ""
+						},
+						"item.minecraft.trial_key": {
+							"아이템 아이디": "item.minecraft.trial_key",
+							"아이템 영어 이름": "Trial Key",
+							"설명": ""
+						},
+						"item.minecraft.ominous_trial_key": {
+							"아이템 아이디": "item.minecraft.ominous_trial_key",
+							"아이템 영어 이름": "Ominous Trial Key",
+							"설명": ""
+						},
+						"item.minecraft.mace": {
+							"아이템 아이디": "item.minecraft.mace",
+							"아이템 영어 이름": "Mace",
+							"설명": ""
+						},
+						"block.minecraft.conduit": {
+							"아이템 아이디": "block.minecraft.conduit",
+							"아이템 영어 이름": "Conduit",
+							"설명": ""
+						},
+						"block.minecraft.sea_pickle": {
+							"아이템 아이디": "block.minecraft.sea_pickle",
+							"아이템 영어 이름": "Sea Pickle",
+							"설명": ""
+						},
+						"block.minecraft.prismarine": {
+							"아이템 아이디": "block.minecraft.prismarine",
+							"아이템 영어 이름": "Prismarine",
+							"설명": ""
+						},
+						"block.minecraft.dark_prismarine": {
+							"아이템 아이디": "block.minecraft.dark_prismarine",
+							"아이템 영어 이름": "Dark Prismarine",
+							"설명": ""
+						},
+						"item.minecraft.nautilus_shell": {
+							"아이템 아이디": "item.minecraft.nautilus_shell",
+							"아이템 영어 이름": "Nautilus Shell",
+							"설명": ""
+						},
+						"block.minecraft.sponge": {
+							"아이템 아이디": "block.minecraft.sponge",
+							"아이템 영어 이름": "Sponge",
+							"설명": ""
+						},
+						"block.minecraft.wet_sponge": {
+							"아이템 아이디": "block.minecraft.wet_sponge",
+							"아이템 영어 이름": "Wet Sponge",
+							"설명": ""
+						},
+						"block.minecraft.dragon_egg": {
+							"아이템 아이디": "block.minecraft.dragon_egg",
+							"아이템 영어 이름": "Dragon Egg",
+							"설명": ""
+						},
+						"block.minecraft.end_crystal": {
+							"아이템 아이디": "block.minecraft.end_crystal",
+							"아이템 영어 이름": "End Crystal",
+							"설명": ""
+						},
+						"block.minecraft.beacon": {
+							"아이템 아이디": "block.minecraft.beacon",
+							"아이템 영어 이름": "Beacon",
+							"설명": ""
+						},
+						"block.minecraft.respawn_anchor": {
+							"아이템 아이디": "block.minecraft.respawn_anchor",
+							"아이템 영어 이름": "Respawn Anchor",
+							"설명": ""
+						},
+						"block.minecraft.lodestone": {
+							"아이템 아이디": "block.minecraft.lodestone",
+							"아이템 영어 이름": "Lodestone",
+							"설명": ""
+						},
+						"block.minecraft.target": {
+							"아이템 아이디": "block.minecraft.target",
+							"아이템 영어 이름": "Target",
+							"설명": ""
+						},
+						"block.minecraft.slime_block": {
+							"아이템 아이디": "block.minecraft.slime_block",
+							"아이템 영어 이름": "Slime Block",
+							"설명": ""
+						},
+						"block.minecraft.lightning_rod": {
+							"아이템 아이디": "block.minecraft.lightning_rod",
+							"아이템 영어 이름": "Lightning Rod",
+							"설명": ""
+						}
+					}
+				}
+			},
+			"설명 대체": true,
+			"태그": "SPECIAL"
+		}
+	},
+	"tag": "SPECIAL",
+	"문서 버전": "1.0"
+}

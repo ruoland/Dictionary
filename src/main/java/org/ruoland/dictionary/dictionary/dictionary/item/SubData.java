@@ -2,6 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.item;
 
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 
 import java.util.TreeMap;
@@ -90,10 +91,16 @@ public class SubData {
 
     public ItemGroupContent getItemGroup(ItemStack itemStack){
         String tagKey = TagManager.getTagManager().getItemCutID(itemStack);
-        if(itemGroupContentMap.containsKey(tagKey))
+        Dictionary.LOGGER.warn("{}를 찾기 시작. ",tagKey);
+
+        if(itemGroupContentMap.containsKey(tagKey)) {
+            Dictionary.LOGGER.warn("{}를 찾았습니다.. ",tagKey);
             return itemGroupContentMap.get(tagKey);
-        else
+        }
+        else {
+            Dictionary.LOGGER.warn("{}가 없습니다. ETC를 반환합니다. 그룹에 있는 콘텐츠 맵{}",tagKey, itemGroupContentMap.get("ETC").getContentMap());
             return itemGroupContentMap.get("ETC");
+        }
         
     }
     public TreeMap<String, ItemGroupContent> getGroupMap() {

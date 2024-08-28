@@ -1,0 +1,202 @@
+{
+  "아이템 태그": {
+    "CORAL": {
+      "요약 설명": "마인크래프트의 해양 생태계를 구성하는 다양한 산호와 해조류 관련 블록 및 아이템들입니다. 이들은 수중 건축과 장식에 사용되며, 해양 바이옴의 다양성을 나타냅니다.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "해조류",
+          "그룹 설명": "해양 바이옴에서 발견되는 해조류 관련 아이템들입니다. 이들은 주로 식량이나 연료로 사용됩니다.",
+          "아이템들": {
+            "item.minecraft.dried_kelp": {
+              "아이템 아이디": "item.minecraft.dried_kelp",
+              "아이템 영어 이름": "Dried Kelp",
+              "아이템 설명": "말린 다시마\n\n해조류를 건조시켜 만든 식용 아이템입니다.\n빠르게 먹을 수 있는 음식이며, %id:block.minecraft.dried_kelp_block%을 만드는 데 사용됩니다."
+            },
+            "block.minecraft.kelp": {
+              "아이템 아이디": "block.minecraft.kelp",
+              "아이템 영어 이름": "Kelp",
+              "아이템 설명": "다시마\n\n수중에서 자라는 식물입니다.\n수확하여 %id:item.minecraft.dried_kelp%로 가공할 수 있습니다. 수중 산소 공급원으로도 사용됩니다."
+            }
+          }
+        },
+        "block": {
+          "그룹 대표 이름": "산호 블록",
+          "그룹 설명": "다양한 종류의 산호로 이루어진 블록들입니다. 살아있는 산호 블록과 죽은 산호 블록으로 나뉩니다.",
+          "아이템들": {
+            "block.minecraft.bubble_coral_block": {
+              "아이템 아이디": "block.minecraft.bubble_coral_block",
+              "아이템 영어 이름": "Bubble Coral Block",
+              "아이템 설명": "거품 산호 블록\n\n살아있는 거품 산호로 이루어진 블록입니다.\n물 밖에 두면 %id:block.minecraft.dead_bubble_coral_block%으로 변합니다."
+            },
+            "block.minecraft.dead_tube_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral_block",
+              "아이템 영어 이름": "Dead Tube Coral Block",
+              "아이템 설명": "죽은 관 산호 블록\n\n죽은 관 산호로 이루어진 블록입니다.\n물 밖에서도 형태가 변하지 않아 건축 재료로 사용하기 좋습니다."
+            },
+            "block.minecraft.brain_coral_block": {
+              "아이템 아이디": "block.minecraft.brain_coral_block",
+              "아이템 영어 이름": "Brain Coral Block",
+              "아이템 설명": "뇌 산호 블록\n\n살아있는 뇌 산호로 이루어진 블록입니다.\n물 밖에 두면 %id:block.minecraft.dead_brain_coral_block%으로 변합니다."
+            },
+            "block.minecraft.dead_horn_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral_block",
+              "아이템 영어 이름": "Dead Horn Coral Block",
+              "아이템 설명": "죽은 뿔 산호 블록\n\n죽은 뿔 산호로 이루어진 블록입니다.\n수중 건축물의 장식으로 사용하기 좋습니다."
+            },
+            "block.minecraft.dead_brain_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral_block",
+              "아이템 영어 이름": "Dead Brain Coral Block",
+              "아이템 설명": "죽은 뇌 산호 블록\n\n죽은 뇌 산호로 이루어진 블록입니다.\n물 밖에서도 사용 가능한 장식 블록입니다."
+            },
+            "block.minecraft.dead_bubble_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral_block",
+              "아이템 영어 이름": "Dead Bubble Coral Block",
+              "아이템 설명": "죽은 거품 산호 블록\n\n죽은 거품 산호로 이루어진 블록입니다.\n수중 건축물의 질감을 다양하게 만드는 데 사용됩니다."
+            },
+            "block.minecraft.dead_fire_coral_block": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral_block",
+              "아이템 영어 이름": "Dead Fire Coral Block",
+              "아이템 설명": "죽은 불 산호 블록\n\n죽은 불 산호로 이루어진 블록입니다.\n다른 죽은 산호 블록들과 조합하여 다양한 패턴을 만들 수 있습니다."
+            },
+            "block.minecraft.dried_kelp_block": {
+              "아이템 아이디": "block.minecraft.dried_kelp_block",
+              "아이템 영어 이름": "Dried Kelp Block",
+              "아이템 설명": "말린 다시마 블록\n\n말린 다시마를 압축해 만든 블록입니다.\n연료로 사용할 수 있으며, 저장 공간을 절약하는 데 유용합니다."
+            },
+            "block.minecraft.tube_coral_block": {
+              "아이템 아이디": "block.minecraft.tube_coral_block",
+              "아이템 영어 이름": "Tube Coral Block",
+              "아이템 설명": "관 산호 블록\n\n살아있는 관 산호로 이루어진 블록입니다.\n물 밖에 두면 %id:block.minecraft.dead_tube_coral_block%으로 변합니다."
+            },
+            "block.minecraft.fire_coral_block": {
+              "아이템 아이디": "block.minecraft.fire_coral_block",
+              "아이템 영어 이름": "Fire Coral Block",
+              "아이템 설명": "불 산호 블록\n\n살아있는 불 산호로 이루어진 블록입니다.\n물 밖에 두면 %id:block.minecraft.dead_fire_coral_block%으로 변합니다."
+            },
+            "block.minecraft.horn_coral_block": {
+              "아이템 아이디": "block.minecraft.horn_coral_block",
+              "아이템 영어 이름": "Horn Coral Block",
+              "아이템 설명": "뿔 산호 블록\n\n살아있는 뿔 산호로 이루어진 블록입니다.\n물 밖에 두면 %id:block.minecraft.dead_horn_coral_block%으로 변합니다."
+            }
+          }
+        },
+        "coral": {
+          "그룹 대표 이름": "산호",
+          "그룹 설명": "다양한 종류의 개별 산호 아이템들입니다. 살아있는 산호와 죽은 산호로 나뉩니다.",
+          "아이템들": {
+            "block.minecraft.tube_coral": {
+              "아이템 아이디": "block.minecraft.tube_coral",
+              "아이템 영어 이름": "Tube Coral",
+              "아이템 설명": "관 산호\n\n살아있는 관 모양의 산호입니다.\n물 밖에 두면 %id:block.minecraft.dead_tube_coral%로 변합니다. 수중 장식에 적합합니다."
+            },
+            "block.minecraft.dead_brain_coral": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral",
+              "아이템 영어 이름": "Dead Brain Coral",
+              "아이템 설명": "죽은 뇌 산호\n\n죽은 뇌 모양의 산호입니다.\n물 밖에서도 형태가 변하지 않아 건축 재료로 사용하기 좋습니다."
+            },
+            "block.minecraft.dead_bubble_coral": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral",
+              "아이템 영어 이름": "Dead Bubble Coral",
+              "아이템 설명": "죽은 거품 산호\n\n죽은 거품 모양의 산호입니다.\n수중 정원이나 장식물 제작에 사용할 수 있습니다."
+            },
+            "block.minecraft.fire_coral": {
+              "아이템 아이디": "block.minecraft.fire_coral",
+              "아이템 영어 이름": "Fire Coral",
+              "아이템 설명": "불 산호\n\n살아있는 불꽃 모양의 산호입니다.\n물 밖에 두면 %id:block.minecraft.dead_fire_coral%로 변합니다."
+            },
+            "block.minecraft.bubble_coral": {
+              "아이템 아이디": "block.minecraft.bubble_coral",
+              "아이템 영어 이름": "Bubble Coral",
+              "아이템 설명": "거품 산호\n\n살아있는 거품 모양의 산호입니다.\n물 밖에 두면 %id:block.minecraft.dead_bubble_coral%로 변합니다."
+            },
+            "block.minecraft.dead_horn_coral": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral",
+              "아이템 영어 이름": "Dead Horn Coral",
+              "아이템 설명": "죽은 뿔 산호\n\n죽은 뿔 모양의 산호입니다.\n수중 풍경을 다양하게 만드는 데 사용할 수 있습니다."
+            },
+            "block.minecraft.dead_tube_coral": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral",
+              "아이템 영어 이름": "Dead Tube Coral",
+              "아이템 설명": "죽은 관 산호\n\n죽은 관 모양의 산호입니다.\n물 밖에서 장식용으로 사용하기 적합합니다."
+            },
+            "block.minecraft.dead_fire_coral": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral",
+              "아이템 영어 이름": "Dead Fire Coral",
+              "아이템 설명": "죽은 불 산호\n\n죽은 불꽃 모양의 산호입니다.\n수중 건축물의 질감을 더해주는 데 사용할 수 있습니다."
+            },
+            "block.minecraft.brain_coral": {
+              "아이템 아이디": "block.minecraft.brain_coral",
+              "아이템 영어 이름": "Brain Coral",
+              "아이템 설명": "뇌 산호\n\n살아있는 뇌 모양의 산호입니다.\n물 밖에 두면 %id:block.minecraft.dead_brain_coral%로 변합니다."
+            },
+            "block.minecraft.horn_coral": {
+              "아이템 아이디": "block.minecraft.horn_coral",
+              "아이템 영어 이름": "Horn Coral",
+              "아이템 설명": "뿔 산호\n\n살아있는 뿔 모양의 산호입니다.\n물 밖에 두면 %id:block.minecraft.dead_horn_coral%로 변합니다."
+            }
+          }
+        },
+        "fan": {
+          "그룹 대표 이름": "부채형 산호",
+          "그룹 설명": "부채 모양의 산호 아이템들입니다. 살아있는 부채형 산호과 죽은 부채형 산호으로 나뉩니다.",
+          "아이템들": {
+            "block.minecraft.dead_tube_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_tube_coral_fan",
+              "아이템 영어 이름": "Dead Tube Coral Fan",
+              "아이템 설명": "죽은 관 부채형 산호\n\n죽은 관 산호의 부채 모양 변종입니다.\n물 밖에서도 형태가 변하지 않아 수중 장식에 적합합니다."
+            },
+            "block.minecraft.dead_horn_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_horn_coral_fan",
+              "아이템 영어 이름": "Dead Horn Coral Fan",
+              "아이템 설명": "죽은 뿔 부채형 산호\\n\\n죽은 뿔 산호의 부채 모양 변종입니다.\\n\\n팁: 수중 건축물의 세부 장식으로 사용하기 좋습니다."
+            },
+            "block.minecraft.brain_coral_fan": {
+              "아이템 아이디": "block.minecraft.brain_coral_fan",
+              "아이템 영어 이름": "Brain Coral Fan",
+              "아이템 설명": "뇌 부채형 산호\\n\\n살아있는 뇌 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에 두면 %id:block.minecraft.dead_brain_coral_fan%으로 변합니다."
+            },
+            "block.minecraft.horn_coral_fan": {
+              "아이템 아이디": "block.minecraft.horn_coral_fan",
+              "아이템 영어 이름": "Horn Coral Fan",
+              "아이템 설명": "뿔 부채형 산호\\n\\n살아있는 뿔 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에 두면 %id:block.minecraft.dead_horn_coral_fan%으로 변합니다."
+            },
+            "block.minecraft.dead_bubble_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_bubble_coral_fan",
+              "아이템 영어 이름": "Dead Bubble Coral Fan",
+              "아이템 설명": "죽은 거품 부채형 산호\\n\\n죽은 거품 산호의 부채 모양 변종입니다.\\n\\n팁: 수중 정원이나 아쿠아리움 장식에 적합합니다."
+            },
+            "block.minecraft.dead_brain_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_brain_coral_fan",
+              "아이템 영어 이름": "Dead Brain Coral Fan",
+              "아이템 설명": "죽은 뇌 부채형 산호\\n\\n죽은 뇌 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에서도 사용 가능한 독특한 텍스처의 장식 아이템입니다."
+            },
+            "block.minecraft.bubble_coral_fan": {
+              "아이템 아이디": "block.minecraft.bubble_coral_fan",
+              "아이템 영어 이름": "Bubble Coral Fan",
+              "아이템 설명": "거품 부채형 산호\\n\\n살아있는 거품 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에 두면 %id:block.minecraft.dead_bubble_coral_fan%으로 변합니다."
+            },
+            "block.minecraft.fire_coral_fan": {
+              "아이템 아이디": "block.minecraft.fire_coral_fan",
+              "아이템 영어 이름": "Fire Coral Fan",
+              "아이템 설명": "불 부채형 산호\\n\\n살아있는 불 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에 두면 %id:block.minecraft.dead_fire_coral_fan%으로 변합니다."
+            },
+            "block.minecraft.tube_coral_fan": {
+              "아이템 아이디": "block.minecraft.tube_coral_fan",
+              "아이템 영어 이름": "Tube Coral Fan",
+              "아이템 설명": "관 부채형 산호\\n\\n살아있는 관 산호의 부채 모양 변종입니다.\\n\\n팁: 물 밖에 두면 %id:block.minecraft.dead_tube_coral_fan%으로 변합니다."
+            },
+            "block.minecraft.dead_fire_coral_fan": {
+              "아이템 아이디": "block.minecraft.dead_fire_coral_fan",
+              "아이템 영어 이름": "Dead Fire Coral Fan",
+              "아이템 설명": "죽은 불 부채형 산호\\n\\n죽은 불 산호의 부채 모양 변종입니다.\\n\\n팁: 수중 건축물의 질감을 다양하게 만드는 데 사용할 수 있습니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "CORAL"
+    }
+  },
+  "tag": "CORAL",
+  "문서 버전": "1.0"
+}

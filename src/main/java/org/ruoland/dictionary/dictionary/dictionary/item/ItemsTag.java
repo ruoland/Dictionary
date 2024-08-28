@@ -12,6 +12,7 @@ public class ItemsTag {
 
     transient String thisName;
 
+    @SerializedName("tag")
     EnumTag tag;
 
     public ItemsTag(EnumTag tag){

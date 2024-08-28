@@ -20,11 +20,13 @@ public class VariableManager {
 
     public static String cutVarId(String content, boolean fullID, boolean isGroup) {
         String prefix = isGroup ? "%group_id:" : "%id:";
+
         int id = content.indexOf(prefix);
         String variableId = content.substring(id, content.indexOf("%", id + prefix.length()) + 1);
 
         if (!fullID) {
             variableId = variableId.replace(prefix, "").replace("%", "");
+
         }
 
         return variableId;

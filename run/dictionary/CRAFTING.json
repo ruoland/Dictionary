@@ -1,0 +1,103 @@
+"CRAFTING_MATERIAL": {
+    "그룹 대표 이름": "제작 재료",
+    "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+    "아이템들": {
+      "item.minecraft.slime_ball": {
+        "아이템 아이디": "item.minecraft.slime_ball",
+        "아이템 영어 이름": "Slimeball",
+        "설명": ""
+      },
+      "item.minecraft.string": {
+        "아이템 아이디": "item.minecraft.string",
+        "아이템 영어 이름": "String",
+        "설명": ""
+      },
+      "item.minecraft.leather": {
+        "아이템 아이디": "item.minecraft.leather",
+        "아이템 영어 이름": "Leather",
+        "설명": ""
+      },
+      "item.minecraft.brick": {
+        "아이템 아이디": "item.minecraft.brick",
+        "아이템 영어 이름": "Brick",
+        "설명": ""
+      },
+      "item.minecraft.sugar": {
+        "아이템 아이디": "item.minecraft.sugar",
+        "아이템 영어 이름": "Sugar",
+        "설명": ""
+      },
+      "item.minecraft.bowl": {
+        "아이템 아이디": "item.minecraft.bowl",
+        "아이템 영어 이름": "Bowl",
+        "설명": ""
+      },
+      "item.minecraft.bone_meal": {
+        "아이템 아이디": "item.minecraft.bone_meal",
+        "아이템 영어 이름": "Bone Meal",
+        "설명": ""
+      },
+      "item.minecraft.feather": {
+        "아이템 아이디": "item.minecraft.feather",
+        "아이템 영어 이름": "Feather",
+        "설명": ""
+      },
+      "item.minecraft.flint": {
+        "아이템 아이디": "item.minecraft.flint",
+        "아이템 영어 이름": "Flint",
+        "설명": ""
+      },
+      "item.minecraft.gunpowder": {
+        "아이템 아이디": "item.minecraft.gunpowder",
+        "아이템 영어 이름": "Gunpowder",
+        "설명": ""
+      },
+      "item.minecraft.paper": {
+        "아이템 아이디": "item.minecraft.paper",
+        "아이템 영어 이름": "Paper",
+        "설명": ""
+      },
+      "item.minecraft.stick": {
+        "아이템 아이디": "item.minecraft.stick",
+        "아이템 영어 이름": "Stick",
+        "설명": ""
+      },
+      "item.minecraft.prismarine_crystals": {
+        "아이템 아이디": "item.minecraft.prismarine_crystals",
+        "아이템 영어 이름": "Prismarine Crystals",
+        "설명": ""
+      },
+      "item.minecraft.prismarine_shard": {
+        "아이템 아이디": "item.minecraft.prismarine_shard",
+        "아이템 영어 이름": "Prismarine Shard",
+        "설명": ""
+      },
+      "item.minecraft.honeycomb": {
+        "아이템 아이디": "item.minecraft.honeycomb",
+        "아이템 영어 이름": "Honeycomb",
+        "설명": ""
+      },
+      "item.minecraft.blaze_rod": {
+        "아이템 아이디": "item.minecraft.blaze_rod",
+        "아이템 영어 이름": "Blaze Rod",
+        "설명": ""
+      },
+      "item.minecraft.magma_cream": {
+        "아이템 아이디": "item.minecraft.magma_cream",
+        "아이템 영어 이름": "Magma Cream",
+        "설명": ""
+	  }"item.minecraft.spider_eye": {
+        "아이템 아이디": "item.minecraft.spider_eye",
+        "아이템 영어 이름": "Spider Eye",
+        "설명": ""
+      },
+      "item.minecraft.fermented_spider_eye": {
+        "아이템 아이디": "item.minecraft.fermented_spider_eye",
+        "아이템 영어 이름": "Fermented Spider Eye",
+        "설명": ""
+      },
+      "item.minecraft.glistering_melon_slice": {
+        "아이템 아이디": "item.minecraft.glistering_melon_slice",
+        "아이템 영어 이름": "Glistering Melon Slice",
+        "설명": ""
+      }

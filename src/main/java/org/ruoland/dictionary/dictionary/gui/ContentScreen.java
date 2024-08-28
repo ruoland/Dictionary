@@ -128,13 +128,23 @@ public class ContentScreen extends DebugScreen {
 
     private DictionaryPlainTextButton createPlainTextButton(String id) {
         String itemId = VariableManager.cutVarId(id, false, id.startsWith("%group_id:"));
+
         Component buttonText;
 
         if (id.startsWith("%group_id:")) {
             ItemGroupContent groupContent = TagManager.getTagManager().findGroupByItemID(itemId);
+            if(groupContent == null ){
+                if(itemId.equals("pressure_plate")) {
+                    groupContent = TagManager.getTagManager().findGroupByItemID("plate");
+
+                }
+            }
             buttonText = Component.literal(groupContent.getGroupName());
+
         } else if(id.startsWith("%id:item.") || id.startsWith("%id:block.")){
+
             ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
+            Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
             buttonText = itemContent.getItemStack().getHoverName();
         } else if(id.startsWith("%id:entity.")){
             String entityName = EntityTag.getEntityNameById(itemId);
@@ -143,7 +153,8 @@ public class ContentScreen extends DebugScreen {
             String biomeName = LangManager.getBiomeNameKor(itemId);
             buttonText = Component.literal(biomeName);
         } else {
-            buttonText = Component.literal("인식할 수 없는 문자열:"+itemId);
+            buttonText = Component.literal("인식할 수 없는 문자열:"+itemId +", "+ id);
+            Dictionary.LOGGER.warn("인식할 수 없는 변수가 감지되었습니다. :{}, {}", id, itemId);
         }
 
         return new DictionaryPlainTextButton(0, 0, font.width(buttonText), font.lineHeight, buttonText,

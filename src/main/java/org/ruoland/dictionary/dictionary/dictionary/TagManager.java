@@ -3,6 +3,7 @@ package org.ruoland.dictionary.dictionary.dictionary;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.*;
+import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
 import org.ruoland.dictionary.dictionary.dictionary.item.*;
@@ -36,20 +37,30 @@ public class TagManager {
         return TAG_MANAGER;
     }
 
+    @Nullable
     public ItemContent findItemByID(String itemID) {
+        Dictionary.LOGGER.info("아이템을 찾기 시작합니다: {} ", itemID);
+
         for (EnumTag tag : EnumTag.values()) {
             ItemsTag itemsTag = getItemTag(tag);
             SubData subData = itemsTag.getSubData();
             for (ItemGroupContent group : subData.getGroupMap().values()) {
                 ItemContent item = group.getContentMap().get(itemID);
                 if (item != null) {
+                    Dictionary.LOGGER.info("{} 아이템을 찾았습니다.: {}", itemID, item);
                     return item;
                 }
             }
+
         }
-        if (itemID.startsWith("item."))
+        if (itemID.startsWith("item.")) {
+            Dictionary.LOGGER.info("아이템을 찾지 못했습니다. 블럭으로 검색합니다. ");
+
             return findItemByID(itemID.replace("item.", "block."));
-        throw new IllegalArgumentException("Item not found for ID: " + itemID);
+        }
+        Dictionary.LOGGER.info("아이템을 찾지 못했습니다.: {}", itemID);
+
+        return null;
     }
     public void loadTag() {
         Dictionary.LOGGER.info("Starting to load tags...");
@@ -116,14 +127,18 @@ public class TagManager {
 
                 ItemGroupContent group = sub.getItemGroup(itemStack);
                 if (group != null) {
-                    //Dictionary.LOGGER.info("Adding item to existing group: {} for item: {}", group.getGroupName(), itemStack.getDescriptionId());
+                    Dictionary.LOGGER.info("Adding item to existing group: {} for item: {}", group.getGroupName(), itemStack.getDescriptionId());
                     group.add(itemStack);
                 } else {
-                    //Dictionary.LOGGER.info("Adding new item content for item: {}", itemStack.getDescriptionId());
+                    Dictionary.LOGGER.info("Adding new item content for item: {}", itemStack.getDescriptionId());
                     sub.addItemContent(itemStack);
                 }
 
                 String itemId = getItemCutID(itemStack);
+                if(group == null) {
+                    Dictionary.LOGGER.warn("Group이 없습니다. {}, {}", itemId, sub.getGroupMap());
+                    group = sub.getItemGroup(itemStack);
+                }
 
                 ItemContent itemContent = group.getItemContent(itemStack);
                 idToGroup.put(itemId, group);
@@ -140,11 +155,14 @@ public class TagManager {
         Dictionary.LOGGER.info("Tagging process completed.");
     }
 
+    @Nullable
     public ItemGroupContent findGroupByItemID(String id){
         if(idToGroup.containsKey(id))
             return idToGroup.get(id);
-        else
-            throw new NullPointerException(id+"가 없습니다. " +idToGroup.keySet());
+        else {
+            Dictionary.LOGGER.error(id + "가 없습니다. " + idToGroup.keySet());
+            return null;
+        }
     }
 
     public void sortTag(){
