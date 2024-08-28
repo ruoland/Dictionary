@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 import net.minecraft.world.item.ItemStack;
 

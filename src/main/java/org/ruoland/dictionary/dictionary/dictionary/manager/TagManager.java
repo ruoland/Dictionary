@@ -1,10 +1,9 @@
-package org.ruoland.dictionary.dictionary.dictionary;
+package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.*;
 import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
 import org.ruoland.dictionary.dictionary.dictionary.item.*;
 
 import java.io.IOException;
@@ -54,10 +53,10 @@ public class TagManager {
     public void loadTag() {
         Dictionary.LOGGER.info("Starting to load tags...");
         for (EnumTag tag : EnumTag.values()) {
-            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            Path tagFile = DataManager.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
             if (Files.exists(tagFile)) {
                 try {
-                    ItemsTag itemsTag = (ItemsTag) Data.readJson(tagFile, ItemsTag.class);
+                    ItemsTag itemsTag = (ItemsTag) DataManager.readJson(tagFile, ItemsTag.class);
                     Dictionary.LOGGER.trace("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), itemsTag);
                     if (!itemsTag.getTagName().equals(tag.name())) {
                         throw new IllegalStateException("Tag mismatch in file " + tagFile + ": expected " + tag.name() + " but found " + itemsTag.getTagName());
@@ -80,7 +79,7 @@ public class TagManager {
     public void saveTag() throws IOException {
         Dictionary.LOGGER.info("Starting to save tags...");
         for (EnumTag tag : EnumTag.values()) {
-            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            Path tagFile = DataManager.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
             boolean newFile = !tagFile.toFile().exists();
             if (newFile) {
                 Files.createFile(tagFile);
@@ -91,7 +90,7 @@ public class TagManager {
                 // Log data being saved
                 //logSavedData(itemsTag);
 
-                Data.saveJson(tagFile, itemsTag);
+                DataManager.saveJson(tagFile, itemsTag);
                 lastEditedMap.put(tag, System.currentTimeMillis());
 
             } else {

@@ -3,10 +3,10 @@ package org.ruoland.dictionary.dictionary.dictionary.item;
 import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
-import org.ruoland.dictionary.dictionary.dictionary.LangManager;
-import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IContent;
+import org.ruoland.dictionary.dictionary.dictionary.manager.ItemManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.LangManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.VariableManager;
 
 public class ItemContent implements IContent {
     private transient ItemStack itemStack; //대상 아이템
