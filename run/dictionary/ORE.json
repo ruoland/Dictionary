@@ -1,166 +1,151 @@
 {
-	"아이템 태그": {
-		"ORE": {
-			"요약 설명": "마인크래프트의 광물과 관련된 아이템들로, 채굴, 제련, 거래에 사용되는 중요한 자원들입니다.",
-			"아이템 그룹": {
-				"ETC": {
-					"그룹 대표 이름": "기타 광물 관련 아이템",
-					"그룹 설명": "광석에서 얻을 수 있는 다양한 형태의 광물 아이템들입니다. 이들은 거래, 제작, 마법 부여 등 다양한 용도로 사용됩니다.",
-					"아이템들": {
-						"item.minecraft.emerald": {
-							"아이템 아이디": "item.minecraft.emerald",
-							"아이템 영어 이름": "Emerald",
-							"아이템 설명": "에메랄드\n\n주로 마을 주민과의 거래에 사용되는 귀중한 보석입니다.\n%id:item.minecraft.emerald_ore%에서 채굴하거나 마을 주민과의 거래를 통해 얻을 수 있습니다. 마을 주민과의 거래 시스템의 기본 화폐로 사용되므로, 많이 모아두면 유용합니다."
-						},
-						"item.minecraft.iron_nugget": {
-							"아이템 아이디": "item.minecraft.iron_nugget",
-							"아이템 영어 이름": "Iron Nugget",
-							"아이템 설명": "철 조각\n\n%id:item.minecraft.iron_ingot%의 1/9 크기에 해당하는 작은 철 조각입니다.\n9개를 조합하여 %id:item.minecraft.iron_ingot%을 만들 수 있습니다. 철 도구나 갑옷을 제련하여 얻을 수도 있어, 자원 재활용에 유용합니다."
-						},
-						"item.minecraft.gold_nugget": {
-							"아이템 아이디": "item.minecraft.gold_nugget",
-							"아이템 영어 이름": "Gold Nugget",
-							"아이템 설명": "금 조각\n\n%id:item.minecraft.gold_ingot%의 1/9 크기에 해당하는 작은 금 조각입니다.\n9개를 조합하여 %id:item.minecraft.gold_ingot%을 만들 수 있습니다. 금 도구나 갑옷을 제련하여 얻을 수도 있으며, %id:entity.minecraft.piglin%과의 거래에 사용할 수 있습니다."
-						},
-						"item.minecraft.coal": {
-							"아이템 아이디": "item.minecraft.coal",
-							"아이템 영어 이름": "Coal",
-							"아이템 설명": "석탄\n\n주로 연료로 사용되는 기본적인 광물 자원입니다.\n%id:coal_ore%에서 채굴할 수 있으며, %id:furnace%나 %id:torch% 제작에 주로 사용됩니다. 8개의 아이템을 제련할 수 있는 연료력을 가지고 있어 효율적인 연료입니다."
-						}
-					}
-				},
-				"ingot": {
-					"그룹 대표 이름": "금속 주괴",
-					"그룹 설명": "광석을 제련하여 얻을 수 있는 기본 금속 자원들입니다. 도구, 갑옷, 기계 등 다양한 아이템 제작에 사용됩니다.",
-					"아이템들": {
-						"item.minecraft.copper_ingot": {
-							"아이템 아이디": "item.minecraft.copper_ingot",
-							"아이템 영어 이름": "Copper Ingot",
-							"아이템 설명": "구리 주괴\n\n%id:copper_ore%를 제련하여 얻을 수 있는 금속 주괴입니다.\n번개봉, 망원경 등 특수 아이템 제작에 사용되며, 산화 과정을 통해 건축용 블록으로도 활용할 수 있습니다. %id:lightning_rod%를 만들어 번개로부터 건물을 보호할 수 있습니다."
-						},
-						"item.minecraft.gold_ingot": {
-							"아이템 아이디": "item.minecraft.gold_ingot",
-							"아이템 영어 이름": "Gold Ingot",
-							"아이템 설명": "금 주괴\n\n%id:gold_ore%를 제련하여 얻을 수 있는 귀중한 금속 주괴입니다.\n금 도구, 갑옷, 그리고 다양한 장식용 블록 제작에 사용됩니다. %id:golden_apple% 제작에도 사용되어 강력한 효과를 얻을 수 있습니다. %id:piglin%과의 거래에도 유용합니다."
-						},
-						"item.minecraft.netherite_ingot": {
-							"아이템 아이디": "item.minecraft.netherite_ingot",
-							"아이템 영어 이름": "Netherite Ingot",
-							"아이템 설명": "네더라이트 주괴\n\n게임 내에서 가장 강력한 금속 주괴입니다. 네더에서만 찾을 수 있는 %group_id:ancient_debris%를 제련하여 얻을 수 있습니다.\n다이아몬드 장비를 네더라이트로 업그레이드하는 데 사용됩니다. 네더라이트 장비는 용암에 빠져도 타지 않으며, 내구도와 강도가 매우 높습니다."
-						},
-						"item.minecraft.iron_ingot": {
-							"아이템 아이디": "item.minecraft.iron_ingot",
-							"아이템 영어 이름": "Iron Ingot",
-							"아이템 설명": "철 주괴\n\n%id:item.minecraft.iron_ore%를 제련하여 얻을 수 있는 기본적이고 유용한 금속 주괴입니다.\n도구, 갑옷, 양동이, 그리고 다양한 기계 장치 제작에 널리 사용됩니다. %group_id:anvil% 제작에도 필요하여 아이템 수리와 마법 부여에 중요한 역할을 합니다."
-						}
-					}
-				},
-				"ore": {
-					"그룹 대표 이름": "광석",
-					"그룹 설명": "마인크래프트 세계에서 발견할 수 있는 다양한 광석 블록들입니다. 이들을 채굴하여 귀중한 자원을 얻을 수 있습니다.",
-					"아이템들": {
-						"block.minecraft.deepslate_iron_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_iron_ore",
-							"아이템 영어 이름": "Deepslate Iron Ore",
-							"아이템 설명": "심층암 철광석\n\n깊은 지하에서 발견되는 철광석의 변종입니다.\n일반 철광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.iron_ingot%을 제공합니다. Y=0 근처에서 주로 발견됩니다."
-						},
-						"block.minecraft.coal_ore": {
-							"아이템 아이디": "block.minecraft.coal_ore",
-							"아이템 영어 이름": "Coal Ore",
-							"아이템 설명": "석탄 광석\n\n가장 흔하게 발견되는 광석 중 하나로, %id:item.minecraft.coal%을 제공합니다.\n주로 지표면 근처에서 발견되며, %id:item.minecraft.torch% 제작과 아이템 제련에 필요한 기본적인 연료 자원입니다."
-						},
-						"block.minecraft.lapis_ore": {
-							"아이템 아이디": "block.minecraft.lapis_ore",
-							"아이템 영어 이름": "Lapis Lazuli Ore",
-							"아이템 설명": "청금석 광석\n\n%id:item.minecraft.lapis_lazuli%를 제공하는 광석입니다.\n주로 Y=0에서 Y=30 사이에서 발견됩니다. 청금석은 마법 부여 테이블에서 사용되므로, 마법 부여에 관심이 있다면 이 광석을 찾는 것이 중요합니다."
-						},
-						"block.minecraft.diamond_ore": {
-							"아이템 아이디": "block.minecraft.diamond_ore",
-							"아이템 영어 이름": "Diamond Ore",
-							"아이템 설명": "다이아몬드 광석\n\n가장 귀중한 광석 중 하나로, %id:item.minecraft.diamond%를 제공합니다.\nY=14 이하에서 주로 발견되며, 실크 터치 마법이 부여된 도구로 채굴하면 광석 그대로 얻을 수 있습니다. 다이아몬드는 가장 강력한 도구와 갑옷 제작에 사용됩니다."
-						},
-						"block.minecraft.copper_ore": {
-							"아이템 아이디": "block.minecraft.copper_ore",
-							"아이템 영어 이름": "Copper Ore",
-							"아이템 설명": "구리 광석\n\n%id:item.minecraft.copper_ingot%을 제공하는 광석입니다.\n지표면 근처부터 깊은 곳까지 넓은 범위에서 발견됩니다. 구리는 건축용 블록과 특수 아이템 제작에 사용되며, 시간이 지나면 산화되어 색상이 변합니다."
-						},
-						"block.minecraft.redstone_ore": {
-							"아이템 아이디": "block.minecraft.redstone_ore",
-							"아이템 영어 이름": "Redstone Ore",
-							"아이템 설명": "레드스톤 광석\n\n%id:item.minecraft.redstone%을 제공하는 광석입니다.\nY=15 이하에서 주로 발견되며, 터치하면 빛을 냅니다. 레드스톤은 복잡한 기계 장치와 회로를 만드는 데 필수적인 자원입니다."
-						},
-						"block.minecraft.deepslate_diamond_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_diamond_ore",
-							"아이템 영어 이름": "Deepslate Diamond Ore",
-							"아이템 설명": "심층암 다이아몬드 광석\n\n깊은 지하에서 발견되는 다이아몬드 광석의 변종입니다.\n일반 다이아몬드 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.diamond%를 제공합니다. Y=0 근처에서 주로 발견되어 더 희귀합니다."
-						},
-						"block.minecraft.deepslate_gold_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_gold_ore",
-							"아이템 영어 이름": "Deepslate Gold Ore",
-							"아이템 설명": "심층암 금광석\n\n깊은 지하에서 발견되는 금광석의 변종입니다.\n일반 금광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.gold_ingot%을 제공합니다. Y=0 근처에서 주로 발견되며, 네더의 금광석보다는 덜 흔합니다."
-						},
-						"block.minecraft.deepslate_redstone_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_redstone_ore",
-							"아이템 영어 이름": "Deepslate Redstone Ore",
-							"아이템 설명": "심층암 레드스톤 광석\n\n깊은 지하에서 발견되는 레드스톤 광석의 변종입니다.\n일반 레드스톤 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.redstone%을 제공합니다. Y=0 근처에서 주로 발견되며, 터치하면 빛을 냅니다."
-						},
-						"block.minecraft.deepslate_lapis_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_lapis_ore",
-							"아이템 영어 이름": "Deepslate Lapis Lazuli Ore",
-							"아이템 설명": "심층암 청금석 광석\n\n깊은 지하에서 발견되는 청금석 광석의 변종입니다.\n일반 청금석 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.lapis_lazuli%를 제공합니다. Y=0 근처에서 주로 발견되며, 마법 부여에 필요한 중요한 자원입니다."
-						},
-						"block.minecraft.deepslate_coal_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_coal_ore",
-							"아이템 영어 이름": "Deepslate Coal Ore",
-							"아이템 설명": "심층암 석탄 광석\n\n깊은 지하에서 발견되는 석탄 광석의 변종입니다.\n일반 석탄 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.coal%을 제공합니다. 심층암 지역에서 발견되며, 일반 석탄 광석보다는 덜 흔합니다."
-						},
-						"block.minecraft.iron_ore": {
-							"아이템 아이디": "block.minecraft.iron_ore",
-							"아이템 영어 이름": "Iron Ore",
-							"아이템 설명": "철광석\n\n가장 유용하고 흔한 광석 중 하나로, %id:item.minecraft.iron_ingot%을 제공합니다.\n지표면 근처부터 깊은 곳까지 넓은 범위에서 발견됩니다. 철은 도구, 갑옷, 양동이 등 다양한 아이템 제작에 필수적인 자원입니다."
-						},
-						"block.minecraft.deepslate_copper_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_copper_ore",
-							"아이템 영어 이름": "Deepslate Copper Ore",
-							"아이템 설명": "심층암 구리 광석\n\n깊은 지하에서 발견되는 구리 광석의 변종입니다.\n일반 구리 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.copper_ingot%을 제공합니다. 심층암 지역에서 발견되며, 건축용 블록과 특수 아이템 제작에 사용되는 구리의 중요한 공급원입니다."
-						},
-						"block.minecraft.deepslate_emerald_ore": {
-							"아이템 아이디": "block.minecraft.deepslate_emerald_ore",
-							"아이템 영어 이름": "Deepslate Emerald Ore",
-							"아이템 설명": "심층암 에메랄드 광석\n\n깊은 지하의 산악 지대에서 발견되는 에메랄드 광석의 변종입니다.\n일반 에메랄드 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.emerald%를 제공합니다. 주로 산악 바이옴의 심층암 지역에서 발견되며, 마을 주민과의 거래에 중요한 자원입니다."
-						},
-						"block.minecraft.gold_ore": {
-							"아이템 아이디": "block.minecraft.gold_ore",
-							"아이템 영어 이름": "Gold Ore",
-							"아이템 설명": "금광석\n\n귀중한 광석으로, %id:item.minecraft.gold_ingot%을 제공합니다.\n주로 Y=32 이하에서 발견되며, 네더에서는 더 흔하게 찾을 수 있습니다. 금은 장신구, 특수 도구, 그리고 %id:item.minecraft.golden_apple% 같은 강력한 아이템 제작에 사용됩니다."
-						},
-						"block.minecraft.emerald_ore": {
-							"아이템 아이디": "block.minecraft.emerald_ore",
-							"아이템 영어 이름": "Emerald Ore",
-							"아이템 설명": "에메랄드 광석\n\n가장 희귀한 광석 중 하나로, %id:item.minecraft.emerald%를 제공합니다.\n주로 산악 바이옴에서만 발견되며, 단일 블록으로 생성됩니다. 에메랄드는 마을 주민과의 거래에 사용되는 주요 화폐이므로, 이 광석을 발견하면 매우 유용합니다."
-						},
-						"item.minecraft.raw_gold": {
-							"아이템 아이디": "item.minecraft.raw_gold",
-							"아이템 영어 이름": "Raw Gold",
-							"아이템 설명": "원시 금은 %block:block.minecraft.gold_ore% 또는 %block:block.minecraft.deepslate_gold_ore%를 채굴했을 때 얻을 수 있는 아이템입니다. 제련하여 %item:item.minecraft.gold_ingot%을 얻을 수 있습니다. 채굴 시 행운 인챈트의 영향을 받아 더 많은 양을 얻을 수 있습니다. %block:block.minecraft.raw_gold_block%으로 만들어 보관할 수도 있습니다."
-						},
-						"item.minecraft.raw_iron": {
-							"아이템 아이디": "item.minecraft.raw_iron",
-							"아이템 영어 이름": "Raw Iron",
-							"아이템 설명": "원시 철은 %block:block.minecraft.iron_ore% 또는 %block:block.minecraft.deepslate_iron_ore%를 채굴했을 때 얻을 수 있는 아이템입니다. 제련하여 %item:item.minecraft.iron_ingot%을 얻을 수 있습니다. 채굴 시 행운 인챈트의 영향을 받아 더 많은 양을 얻을 수 있습니다. %block:block.minecraft.raw_iron_block%으로 만들어 보관할 수도 있습니다."
-						},
-						"block.minecraft.ancient_debris": {
-							"아이템 아이디": "block.minecraft.ancient_debris",
-							"아이템 영어 이름": "Ancient Debris",
-							"아이템 설명": "고대 잔해는 네더에서 발견되는 희귀한 광석입니다. 제련하여 %item:item.minecraft.netherite_scrap%을 얻을 수 있으며, 이는 %item:item.minecraft.netherite_ingot% 제작에 필수적입니다. 네더의 Y 레벨 8-22 사이에서 가장 흔하게 발견되며, 다이아몬드 곡괭이나 네더라이트 곡괭이로만 채굴할 수 있습니다. 폭발에 저항력이 있어 TNT 채광 방법으로도 파괴되지 않습니다."
-						}
-					}
-				}
-			},
-			"설명 대체": true,
-			"태그": "ORE"
-		}
-	},
-	"tag": "ORE",
-	"문서 버전": "1.0"
+  "아이템 태그": {
+    "ORE": {
+      "요약 설명": "마인크래프트의 광물과 관련된 아이템들로, 채굴, 제련, 거래에 사용되는 중요한 자원들입니다.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "기타 광물 관련 아이템",
+          "그룹 설명": "광석에서 얻을 수 있는 다양한 형태의 광물 아이템들입니다. 이들은 거래, 제작, 마법 부여 등 다양한 용도로 사용됩니다.",
+          "아이템들": {
+            "item.minecraft.emerald": {
+              "아이템 아이디": "item.minecraft.emerald",
+              "아이템 영어 이름": "Emerald",
+              "아이템 설명": "에메랄드\n\n주로 마을 주민과의 거래에 사용되는 귀중한 보석입니다.\n%id:item.minecraft.emerald_ore%에서 채굴하거나 마을 주민과의 거래를 통해 얻을 수 있습니다. 마을 주민과의 거래 시스템의 기본 화폐로 사용되므로, 많이 모아두면 유용합니다."
+            },
+            "item.minecraft.iron_nugget": {
+              "아이템 아이디": "item.minecraft.iron_nugget",
+              "아이템 영어 이름": "Iron Nugget",
+              "아이템 설명": "철 조각\n\n%id:item.minecraft.iron_ingot%의 1/9 크기에 해당하는 작은 철 조각입니다.\n9개를 조합하여 %id:item.minecraft.iron_ingot%을 만들 수 있습니다. 철 도구나 갑옷을 제련하여 얻을 수도 있어, 자원 재활용에 유용합니다."
+            },
+            "item.minecraft.gold_nugget": {
+              "아이템 아이디": "item.minecraft.gold_nugget",
+              "아이템 영어 이름": "Gold Nugget",
+              "아이템 설명": "금 조각\n\n%id:item.minecraft.gold_ingot%의 1/9 크기에 해당하는 작은 금 조각입니다.\n9개를 조합하여 %id:item.minecraft.gold_ingot%을 만들 수 있습니다. 금 도구나 갑옷을 제련하여 얻을 수도 있으며, %id:entity.minecraft.piglin%과의 거래에 사용할 수 있습니다."
+            },
+            "item.minecraft.coal": {
+              "아이템 아이디": "item.minecraft.coal",
+              "아이템 영어 이름": "Coal",
+              "아이템 설명": "석탄\n\n주로 연료로 사용되는 기본적인 광물 자원입니다.\n%id:coal_ore%에서 채굴할 수 있으며, %id:furnace%나 %id:torch% 제작에 주로 사용됩니다. 8개의 아이템을 제련할 수 있는 연료력을 가지고 있어 효율적인 연료입니다."
+            }
+          }
+        },
+        "ingot": {
+          "그룹 대표 이름": "금속 주괴",
+          "그룹 설명": "광석을 제련하여 얻을 수 있는 기본 금속 자원들입니다. 도구, 갑옷, 기계 등 다양한 아이템 제작에 사용됩니다.",
+          "아이템들": {
+            "item.minecraft.copper_ingot": {
+              "아이템 아이디": "item.minecraft.copper_ingot",
+              "아이템 영어 이름": "Copper Ingot",
+              "아이템 설명": "구리 주괴\n\n%id:copper_ore%를 제련하여 얻을 수 있는 금속 주괴입니다.\n번개봉, 망원경 등 특수 아이템 제작에 사용되며, 산화 과정을 통해 건축용 블록으로도 활용할 수 있습니다. %id:lightning_rod%를 만들어 번개로부터 건물을 보호할 수 있습니다."
+            },
+            "item.minecraft.gold_ingot": {
+              "아이템 아이디": "item.minecraft.gold_ingot",
+              "아이템 영어 이름": "Gold Ingot",
+              "아이템 설명": "금 주괴\n\n%id:gold_ore%를 제련하여 얻을 수 있는 귀중한 금속 주괴입니다.\n금 도구, 갑옷, 그리고 다양한 장식용 블록 제작에 사용됩니다. %id:golden_apple% 제작에도 사용되어 강력한 효과를 얻을 수 있습니다. %id:piglin%과의 거래에도 유용합니다."
+            },
+            "item.minecraft.netherite_ingot": {
+              "아이템 아이디": "item.minecraft.netherite_ingot",
+              "아이템 영어 이름": "Netherite Ingot",
+              "아이템 설명": "네더라이트 주괴\n\n게임 내에서 가장 강력한 금속 주괴입니다. 네더에서만 찾을 수 있는 %group_id:ancient_debris%를 제련하여 얻을 수 있습니다.\n다이아몬드 장비를 네더라이트로 업그레이드하는 데 사용됩니다. 네더라이트 장비는 용암에 빠져도 타지 않으며, 내구도와 강도가 매우 높습니다."
+            },
+            "item.minecraft.iron_ingot": {
+              "아이템 아이디": "item.minecraft.iron_ingot",
+              "아이템 영어 이름": "Iron Ingot",
+              "아이템 설명": "철 주괴\n\n%id:item.minecraft.iron_ore%를 제련하여 얻을 수 있는 기본적이고 유용한 금속 주괴입니다.\n도구, 갑옷, 양동이, 그리고 다양한 기계 장치 제작에 널리 사용됩니다. %group_id:anvil% 제작에도 필요하여 아이템 수리와 마법 부여에 중요한 역할을 합니다."
+            }
+          }
+        },
+        "ore": {
+          "그룹 대표 이름": "광석",
+          "그룹 설명": "마인크래프트 세계에서 발견할 수 있는 다양한 광석 블록들입니다. 이들을 채굴하여 귀중한 자원을 얻을 수 있습니다.",
+          "아이템들": {
+            "block.minecraft.deepslate_iron_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_iron_ore",
+              "아이템 영어 이름": "Deepslate Iron Ore",
+              "아이템 설명": "심층암 철광석\n\n깊은 지하에서 발견되는 철광석의 변종입니다.\n일반 철광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.iron_ingot%을 제공합니다. Y\u003d0 근처에서 주로 발견됩니다."
+            },
+            "block.minecraft.coal_ore": {
+              "아이템 아이디": "block.minecraft.coal_ore",
+              "아이템 영어 이름": "Coal Ore",
+              "아이템 설명": "석탄 광석\n\n가장 흔하게 발견되는 광석 중 하나로, %id:item.minecraft.coal%을 제공합니다.\n주로 지표면 근처에서 발견되며, %id:item.minecraft.torch% 제작과 아이템 제련에 필요한 기본적인 연료 자원입니다."
+            },
+            "block.minecraft.lapis_ore": {
+              "아이템 아이디": "block.minecraft.lapis_ore",
+              "아이템 영어 이름": "Lapis Lazuli Ore",
+              "아이템 설명": "청금석 광석\n\n%id:item.minecraft.lapis_lazuli%를 제공하는 광석입니다.\n주로 Y\u003d0에서 Y\u003d30 사이에서 발견됩니다. 청금석은 마법 부여 테이블에서 사용되므로, 마법 부여에 관심이 있다면 이 광석을 찾는 것이 중요합니다."
+            },
+            "block.minecraft.diamond_ore": {
+              "아이템 아이디": "block.minecraft.diamond_ore",
+              "아이템 영어 이름": "Diamond Ore",
+              "아이템 설명": "다이아몬드 광석\n\n가장 귀중한 광석 중 하나로, %id:item.minecraft.diamond%를 제공합니다.\nY\u003d14 이하에서 주로 발견되며, 실크 터치 마법이 부여된 도구로 채굴하면 광석 그대로 얻을 수 있습니다. 다이아몬드는 가장 강력한 도구와 갑옷 제작에 사용됩니다."
+            },
+            "block.minecraft.copper_ore": {
+              "아이템 아이디": "block.minecraft.copper_ore",
+              "아이템 영어 이름": "Copper Ore",
+              "아이템 설명": "구리 광석\n\n%id:item.minecraft.copper_ingot%을 제공하는 광석입니다.\n지표면 근처부터 깊은 곳까지 넓은 범위에서 발견됩니다. 구리는 건축용 블록과 특수 아이템 제작에 사용되며, 시간이 지나면 산화되어 색상이 변합니다."
+            },
+            "block.minecraft.redstone_ore": {
+              "아이템 아이디": "block.minecraft.redstone_ore",
+              "아이템 영어 이름": "Redstone Ore",
+              "아이템 설명": "레드스톤 광석\n\n%id:item.minecraft.redstone%을 제공하는 광석입니다.\nY\u003d15 이하에서 주로 발견되며, 터치하면 빛을 냅니다. 레드스톤은 복잡한 기계 장치와 회로를 만드는 데 필수적인 자원입니다."
+            },
+            "block.minecraft.deepslate_diamond_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_diamond_ore",
+              "아이템 영어 이름": "Deepslate Diamond Ore",
+              "아이템 설명": "심층암 다이아몬드 광석\n\n깊은 지하에서 발견되는 다이아몬드 광석의 변종입니다.\n일반 다이아몬드 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.diamond%를 제공합니다. Y\u003d0 근처에서 주로 발견되어 더 희귀합니다."
+            },
+            "block.minecraft.deepslate_gold_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_gold_ore",
+              "아이템 영어 이름": "Deepslate Gold Ore",
+              "아이템 설명": "심층암 금광석\n\n깊은 지하에서 발견되는 금광석의 변종입니다.\n일반 금광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.gold_ingot%을 제공합니다. Y\u003d0 근처에서 주로 발견되며, 네더의 금광석보다는 덜 흔합니다."
+            },
+            "block.minecraft.deepslate_redstone_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_redstone_ore",
+              "아이템 영어 이름": "Deepslate Redstone Ore",
+              "아이템 설명": "심층암 레드스톤 광석\n\n깊은 지하에서 발견되는 레드스톤 광석의 변종입니다.\n일반 레드스톤 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.redstone%을 제공합니다. Y\u003d0 근처에서 주로 발견되며, 터치하면 빛을 냅니다."
+            },
+            "block.minecraft.deepslate_lapis_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_lapis_ore",
+              "아이템 영어 이름": "Deepslate Lapis Lazuli Ore",
+              "아이템 설명": "심층암 청금석 광석\n\n깊은 지하에서 발견되는 청금석 광석의 변종입니다.\n일반 청금석 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.lapis_lazuli%를 제공합니다. Y\u003d0 근처에서 주로 발견되며, 마법 부여에 필요한 중요한 자원입니다."
+            },
+            "block.minecraft.deepslate_coal_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_coal_ore",
+              "아이템 영어 이름": "Deepslate Coal Ore",
+              "아이템 설명": "심층암 석탄 광석\n\n깊은 지하에서 발견되는 석탄 광석의 변종입니다.\n일반 석탄 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.coal%을 제공합니다. 심층암 지역에서 발견되며, 일반 석탄 광석보다는 덜 흔합니다."
+            },
+            "block.minecraft.iron_ore": {
+              "아이템 아이디": "block.minecraft.iron_ore",
+              "아이템 영어 이름": "Iron Ore",
+              "아이템 설명": "철광석\n\n가장 유용하고 흔한 광석 중 하나로, %id:item.minecraft.iron_ingot%을 제공합니다.\n지표면 근처부터 깊은 곳까지 넓은 범위에서 발견됩니다. 철은 도구, 갑옷, 양동이 등 다양한 아이템 제작에 필수적인 자원입니다."
+            },
+            "block.minecraft.deepslate_copper_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_copper_ore",
+              "아이템 영어 이름": "Deepslate Copper Ore",
+              "아이템 설명": "심층암 구리 광석\n\n깊은 지하에서 발견되는 구리 광석의 변종입니다.\n일반 구리 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.copper_ingot%을 제공합니다. 심층암 지역에서 발견되며, 건축용 블록과 특수 아이템 제작에 사용되는 구리의 중요한 공급원입니다."
+            },
+            "block.minecraft.deepslate_emerald_ore": {
+              "아이템 아이디": "block.minecraft.deepslate_emerald_ore",
+              "아이템 영어 이름": "Deepslate Emerald Ore",
+              "아이템 설명": "심층암 에메랄드 광석\n\n깊은 지하의 산악 지대에서 발견되는 에메랄드 광석의 변종입니다.\n일반 에메랄드 광석보다 더 단단하여 채굴 시간이 조금 더 걸리지만, 같은 양의 %id:item.minecraft.emerald%를 제공합니다. 주로 산악 바이옴의 심층암 지역에서 발견되며, 마을 주민과의 거래에 중요한 자원입니다."
+            },
+            "block.minecraft.gold_ore": {
+              "아이템 아이디": "block.minecraft.gold_ore",
+              "아이템 영어 이름": "Gold Ore",
+              "아이템 설명": "금광석\n\n귀중한 광석으로, %id:item.minecraft.gold_ingot%을 제공합니다.\n주로 Y\u003d32 이하에서 발견되며, 네더에서는 더 흔하게 찾을 수 있습니다. 금은 장신구, 특수 도구, 그리고 %id:item.minecraft.golden_apple% 같은 강력한 아이템 제작에 사용됩니다."
+            },
+            "block.minecraft.emerald_ore": {
+              "아이템 아이디": "block.minecraft.emerald_ore",
+              "아이템 영어 이름": "Emerald Ore",
+              "아이템 설명": "에메랄드 광석\n\n가장 희귀한 광석 중 하나로, %id:item.minecraft.emerald%를 제공합니다.\n주로 산악 바이옴에서만 발견되며, 단일 블록으로 생성됩니다. 에메랄드는 마을 주민과의 거래에 사용되는 주요 화폐이므로, 이 광석을 발견하면 매우 유용합니다."
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "ORE"
+    }
+  },
+  "tag": "ORE",
+  "문서 버전": "1.0"
 }

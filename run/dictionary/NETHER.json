@@ -1,289 +1,259 @@
 {
-	"아이템 태그": {
-		"NETHER": {
-			"요약 설명": "네더 차원과 관련된 다양한 블록과 아이템들로, 독특한 건축 재료와 자원을 제공합니다.",
-			"아이템 그룹": {
-				"ETC": {
-					"그룹 대표 이름": "네더 관련 블록 및 아이템",
-					"그룹 설명": "네더 차원에서 발견되거나 네더와 관련된 다양한 블록과 아이템들입니다. 이들은 독특한 외관과 기능을 가지고 있어 건축과 생존에 유용하게 사용됩니다.",
-					"아이템들": {
-						"block.minecraft.stripped_warped_hyphae": {
-							"아이템 아이디": "block.minecraft.stripped_warped_hyphae",
-							"아이템 영어 이름": "Stripped Warped Hyphae",
-							"아이템 설명": "벗겨진 왜곡된 균사는 독특한 색상과 질감을 가진 블록입니다.\\n\\n특징:\\n- 건축 및 장식용으로 사용됨\\n- 다른 나무 블록과 조합하여 다양한 디자인 가능\\n\\n획득 방법:\\n- %block:block.minecraft.warped_hyphae%에서 벗겨내기\\n\\n팁:\\n- 독특한 색감을 활용하여 창의적인 건축에 사용하세요."
-						},
-						"block.minecraft.warped_hyphae": {
-							"아이템 아이디": "block.minecraft.warped_hyphae",
-							"아이템 영어 이름": "Warped Hyphae",
-							"아이템 설명": "왜곡된 균사는 네더에서 자생하는 나무 블록입니다.\\n\\n특징:\\n- 불에 타지 않음\\n- 다양한 건축 자재로 사용 가능\\n\\n획득 방법:\\n- %block:block.minecraft.warped_fungus%와 함께 자생\\n\\n팁:\\n- 네더에서 안전하게 건축할 수 있는 블록으로 활용하세요."
-						},
-						"block.minecraft.crimson_fence_gate": {
-							"아이템 아이디": "block.minecraft.crimson_fence_gate",
-							"아이템 영어 이름": "Crimson Fence Gate",
-							"아이템 설명": "진홍빛 울타리 문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 울타리 문입니다.\n동물을 가두거나 장식용으로 사용할 수 있으며, 레드스톤 신호로 제어할 수 있습니다."
-						},
-						"block.minecraft.cracked_nether_bricks": {
-							"아이템 아이디": "block.minecraft.cracked_nether_bricks",
-							"아이템 영어 이름": "Cracked Nether Bricks",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.chiseled_quartz_block": {
-							"아이템 아이디": "block.minecraft.chiseled_quartz_block",
-							"아이템 영어 이름": "Chiseled Quartz Block",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.red_nether_brick_wall": {
-							"아이템 아이디": "block.minecraft.red_nether_brick_wall",
-							"아이템 영어 이름": "Red Nether Brick Wall",
-							"아이템 설명": "붉은 네더 벽돌 담장\n\n%id:block.minecraft.red_nether_bricks%로 만든 담장입니다.\n네더 테마의 건축물에 적합하며, 몹의 침입을 막는 데 사용할 수 있습니다."
-						},
-						"block.minecraft.crimson_fence": {
-							"아이템 아이디": "block.minecraft.crimson_fence",
-							"아이템 영어 이름": "Crimson Fence",
-							"아이템 설명": "진홍빛 울타리\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 울타리입니다.\n동물을 가두거나 장식용으로 사용할 수 있으며, 플레이어와 몹은 통과할 수 없지만 빛은 통과합니다."
-						},
-						"block.minecraft.crimson_trapdoor": {
-							"아이템 아이디": "block.minecraft.crimson_trapdoor",
-							"아이템 영어 이름": "Crimson Trapdoor",
-							"아이템 설명": "진홍빛 다락문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 다락문입니다.\n수직 이동을 위한 통로나 숨겨진 입구로 사용할 수 있으며, 레드스톤 신호로 제어할 수 있습니다."
-						},
-						"block.minecraft.quartz_stairs": {
-							"아이템 아이디": "block.minecraft.quartz_stairs",
-							"아이템 영어 이름": "Quartz Stairs",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.smooth_quartz_slab": {
-							"아이템 아이디": "block.minecraft.smooth_quartz_slab",
-							"아이템 영어 이름": "Smooth Quartz Slab",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_planks": {
-							"아이템 아이디": "block.minecraft.crimson_planks",
-							"아이템 영어 이름": "Crimson Planks",
-							"아이템 설명": "진홍빛 나무 판자\n\n%id:block.minecraft.crimson_stem%을 가공하여 만든 나무 판자입니다.\n다양한 진홍빛 나무 아이템을 만드는 데 사용되며, 네더 테마의 건축에 적합합니다."
-						},
-						"block.minecraft.crimson_button": {
-							"아이템 아이디": "block.minecraft.crimson_button",
-							"아이템 영어 이름": "Crimson Button",
-							"아이템 설명": "진홍빛 버튼\n\n진홍빛 나무로 만든 버튼입니다.\n레드스톤 회로를 활성화하는 데 사용되며, 짧은 시간 동안 신호를 보냅니다."
-						},
-						"block.minecraft.crimson_stem": {
-							"아이템 아이디": "block.minecraft.crimson_stem",
-							"아이템 영어 이름": "Crimson Stem",
-							"아이템 설명": "진홍빛 줄기\n\n네더의 진홍빛 숲에서 자라는 특이한 나무의 줄기입니다.\n일반 나무와 같이 사용할 수 있으며, 네더 테마의 건축에 적합합니다. %id:item.minecraft.netherite_axe%로 벗기면 %id:block.minecraft.stripped_crimson_stem%이 됩니다."
-						},
-						"block.minecraft.quartz_block": {
-							"아이템 아이디": "block.minecraft.quartz_block",
-							"아이템 영어 이름": "Block of Quartz",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.nether_brick_wall": {
-							"아이템 아이디": "block.minecraft.nether_brick_wall",
-							"아이템 영어 이름": "Nether Brick Wall",
-							"아이템 설명": "네더 벽돌 담장\n\n%id:item.minecraft.nether_bricks%로 만든 담장입니다.\n네더 요새 스타일의 건축물에 적합하며, 몹의 침입을 막는 데 사용할 수 있습니다."
-						},
-						"block.minecraft.quartz_slab": {
-							"아이템 아이디": "block.minecraft.quartz_slab",
-							"아이템 영어 이름": "Quartz Slab",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.red_nether_brick_slab": {
-							"아이템 아이디": "block.minecraft.red_nether_brick_slab",
-							"아이템 영어 이름": "Red Nether Brick Slab",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.stripped_crimson_hyphae": {
-							"아이템 아이디": "block.minecraft.stripped_crimson_hyphae",
-							"아이템 영어 이름": "Stripped Crimson Hyphae",
-							"아이템 설명": "껍질 벗긴 진홍빛 균사체\n\n%id:block.minecraft.crimson_hyphae%의 껍질을 벗긴 형태입니다.\n독특한 텍스처로 장식용으로 사용하기 좋으며, 모든 면이 같은 텍스처를 가집니다."
-						},
-						"block.minecraft.crimson_roots": {
-							"아이템 아이디": "block.minecraft.crimson_roots",
-							"아이템 영어 이름": "Crimson Roots",
-							"아이템 설명": "진홍빛 뿌리\n\n네더의 진홍빛 숲에서 자라는 식물입니다.\n주로 장식용으로 사용되며, 뼈가루를 사용해 더 큰 진홍빛 균류로 성장시킬 수 있습니다."
-						},
-						"block.minecraft.crimson_stairs": {
-							"아이템 아이디": "block.minecraft.crimson_stairs",
-							"아이템 영어 이름": "Crimson Stairs",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_fungus": {
-							"아이템 아이디": "block.minecraft.crimson_fungus",
-							"아이템 영어 이름": "Crimson Fungus",
-							"아이템 설명": "진홍빛 균류\n\n네더의 진홍빛 숲에서 자라는 큰 버섯 같은 식물입니다.\n%id:block.minecraft.crimson_nylium% 위에 심으면 큰 진홍빛 균류로 자랄 수 있습니다. 뼈가루를 사용하면 즉시 성장시킬 수 있습니다."
-						},
-						"block.minecraft.smooth_quartz": {
-							"아이템 아이디": "block.minecraft.smooth_quartz",
-							"아이템 영어 이름": "Smooth Quartz Block",
-							"아이템 설명": "매끄러운 석영 블록\n\n일반 석영 블록을 제련하여 얻을 수 있는 더 매끄러운 버전의 석영 블록입니다.\n고급스러운 건축물이나 장식에 적합하며, 특히 현대적인 디자인의 건물에 잘 어울립니다."
-						},
-						"block.minecraft.red_nether_brick_stairs": {
-							"아이템 아이디": "block.minecraft.red_nether_brick_stairs",
-							"아이템 영어 이름": "Red Nether Brick Stairs",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.nether_bricks": {
-							"아이템 아이디": "block.minecraft.nether_bricks",
-							"아이템 영어 이름": "Nether Bricks",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.nether_brick_stairs": {
-							"아이템 아이디": "block.minecraft.nether_brick_stairs",
-							"아이템 영어 이름": "Nether Brick Stairs",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.netherrack": {
-							"아이템 아이디": "block.minecraft.netherrack",
-							"아이템 영어 이름": "Netherrack",
-							"아이템 설명": "네더랙\n\n네더의 기본적인 지형을 이루는 블록입니다.\n불에 타면 영원히 꺼지지 않으므로 영구적인 불을 만드는 데 사용할 수 있습니다. 또한 %id:block.minecraft.nether_bricks%의 재료로 사용됩니다."
-						},
-						"block.minecraft.crimson_door": {
-							"아이템 아이디": "block.minecraft.crimson_door",
-							"아이템 영어 이름": "Crimson Door",
-							"아이템 설명": "진홍빛 문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 문입니다.\n레드스톤 신호로 제어할 수 있으며, 네더 테마의 건축물에 적합합니다."
-						},
-						"block.minecraft.red_nether_bricks": {
-							"아이템 아이디": "block.minecraft.red_nether_bricks",
-							"아이템 영어 이름": "Red Nether Bricks",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_slab": {
-							"아이템 아이디": "block.minecraft.crimson_slab",
-							"아이템 영어 이름": "Crimson Slab",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_sign": {
-							"아이템 아이디": "block.minecraft.crimson_sign",
-							"아이템 영어 이름": "Crimson Sign",
-							"아이템 설명": "진홍빛 표지판\n\n진홍빛 나무로 만든 표지판입니다.\n텍스트를 입력하여 정보를 표시하거나 방향을 안내하는 데 사용할 수 있습니다. 네더 테마의 건축물에 잘 어울립니다."
-						},
-						"block.minecraft.nether_sprouts": {
-							"아이템 아이디": "block.minecraft.nether_sprouts",
-							"아이템 영어 이름": "Nether Sprouts",
-							"아이템 설명": "네더 싹\n\n뒤틀린 숲 바이옴에서 자라는 작은 식물입니다.\n주로 장식용으로 사용되며, 괭이로 수확하면 %id:item.minecraft.nether_sprouts%를 얻을 수 있습니다."
-						},
-						"block.minecraft.nether_brick_slab": {
-							"아이템 아이디": "block.minecraft.nether_brick_slab",
-							"아이템 영어 이름": "Nether Brick Slab",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_hanging_sign": {
-							"아이템 아이디": "block.minecraft.crimson_hanging_sign",
-							"아이템 영어 이름": "Crimson Hanging Sign",
-							"아이템 설명": "진홍빛 매달린 표지판\n\n진홍빛 나무로 만든 매달린 형태의 표지판입니다.\n천장이나 기둥에 매달아 사용할 수 있으며, 일반 표지판보다 더 많은 텍스트를 표시할 수 있습니다."
-						},
-						"block.minecraft.nether_gold_ore": {
-							"아이템 아이디": "block.minecraft.nether_gold_ore",
-							"아이템 영어 이름": "Nether Gold Ore",
-							"아이템 설명": "네더 금광석\n\n네더에서 발견되는 금광석입니다.\n일반 세계의 금광석보다 더 흔하게 발견되며, 채굴 시 %id:item.minecraft.gold_nugget%을 직접 드롭합니다. %id:item.minecraft.golden_pickaxe% 이상의 곡괭이로 채굴해야 합니다."
-						},
-						"block.minecraft.nether_wart_block": {
-							"아이템 아이디": "block.minecraft.nether_wart_block",
-							"아이템 영어 이름": "Nether Wart Block",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.nether_quartz_ore": {
-							"아이템 아이디": "block.minecraft.nether_quartz_ore",
-							"아이템 영어 이름": "Nether Quartz Ore",
-							"아이템 설명": "네더 석영 광석\n\n네더에서 발견되는 석영 광석입니다.\n채굴 시 %id:item.minecraft.quartz%를 드롭하며, 이는 다양한 건축 블록과 레드스톤 장치 제작에 사용됩니다. 경험치도 얻을 수 있어 레벨 업에 유용합니다."
-						},
-						"block.minecraft.smooth_quartz_stairs": {
-							"아이템 아이디": "block.minecraft.smooth_quartz_stairs",
-							"아이템 영어 이름": "Smooth Quartz Stairs",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.glowstone": {
-							"아이템 아이디": "block.minecraft.glowstone",
-							"아이템 영어 이름": "Glowstone",
-							"아이템 설명": "발광석\n\n네더의 천장에서 주로 발견되는 자연적인 광원 블록입니다.\n강한 빛을 발산하여 조명으로 사용하기 좋으며, 부수면 %id:item.minecraft.glowstone_dust%를 얻을 수 있습니다. 포션 제작 시 효과를 강화하는 데 사용됩니다."
-						},
-						"block.minecraft.crimson_pressure_plate": {
-							"아이템 아이디": "block.minecraft.crimson_pressure_plate",
-							"아이템 영어 이름": "Crimson Pressure Plate",
-							"아이템 설명": "진홍빛 압력판\n\n진홍빛 나무로 만든 압력판입니다.\n플레이어나 몹이 밟으면 레드스톤 신호를 발생시킵니다. 자동문이나 함정 제작에 유용하게 사용할 수 있습니다."
-						},
-						"block.minecraft.chiseled_nether_bricks": {
-							"아이템 아이디": "block.minecraft.chiseled_nether_bricks",
-							"아이템 영어 이름": "Chiseled Nether Bricks",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crimson_hyphae": {
-							"아이템 아이디": "block.minecraft.crimson_hyphae",
-							"아이템 영어 이름": "Crimson Hyphae",
-							"아이템 설명": "진홍빛 균사체\n\n진홍빛 줄기의 껍질이 있는 모든 면을 가진 블록입니다.\n장식용으로 사용하기 좋으며, %id:item.minecraft.netherite_axe%로 벗기면 %id:item.minecraft.stripped_crimson_hyphae%가 됩니다."
-						},
-						"item.minecraft.quartz": {
-							"아이템 아이디": "item.minecraft.quartz",
-							"아이템 영어 이름": "Nether Quartz",
-							"아이템 설명": "네더 석영\n\n%id:item.minecraft.nether_quartz_ore%에서 얻을 수 있는 광물입니다.\n다양한 장식용 블록과 레드스톤 장치 제작에 사용됩니다. %id:item.minecraft.comparator% 제작에 필수적이며, 석영 블록으로 가공하여 건축에 활용할 수 있습니다."
-						},
-						"block.minecraft.crimson_nylium": {
-							"아이템 아이디": "block.minecraft.crimson_nylium",
-							"아이템 영어 이름": "Crimson Nylium",
-							"아이템 설명": "진홍빛 나일륨\n\n네더의 진홍빛 숲 바이옴에서 발견되는 특수한 지형 블록입니다.\n%id:item.minecraft.crimson_fungus%를 심을 수 있는 지형이며, 실크 터치로 채굴하지 않으면 일반 %id:item.minecraft.netherrack%으로 변합니다. 뼈가루를 사용하면 주변에 네더 식물이 자랍니다."
-						},
-						"item.minecraft.nether_star": {
-							"아이템 아이디": "item.minecraft.nether_star",
-							"아이템 영어 이름": "Nether Star",
-							"아이템 설명": "네더의 별\n\n%id:entity.minecraft.wither%를 처치하면 얻을 수 있는 매우 희귀한 아이템입니다.\n%id:item.minecraft.beacon% 제작에 필수적인 재료입니다. 비콘은 플레이어에게 강력한 효과를 제공하므로, 이 아이템은 게임의 후반부에 매우 중요합니다."
-						},
-						"item.minecraft.nether_brick": {
-							"아이템 아이디": "item.minecraft.nether_brick",
-							"아이템 영어 이름": "Nether Brick",
-							"아이템 설명": "네더 벽돌\n\n%id:item.minecraft.netherrack%을 제련하여 얻을 수 있는 아이템입니다.\n%id:item.minecraft.nether_bricks% 제작에 사용되며, 네더 요새 스타일의 건축물을 만드는 데 유용합니다."
-						},
-						"block.minecraft.nether_brick_fence": {
-							"아이템 아이디": "block.minecraft.nether_brick_fence",
-							"아이템 영어 이름": "Nether Brick Fence",
-							"아이템 설명": "네더 벽돌 울타리\n\n%id:item.minecraft.nether_bricks%로 만든 울타리입니다.\n네더 요새 스타일의 장식에 적합하며, 일반 울타리와 달리 불에 타지 않습니다. 몹의 이동을 막는 데 사용할 수 있습니다."
-						},
-						"item.minecraft.nether_wart": {
-							"아이템 아이디": "item.minecraft.nether_wart",
-							"아이템 영어 이름": "Nether Wart",
-							"아이템 설명": "네더 와트\n\n네더 요새에서 발견되는 특수한 작물입니다.\n%id:item.minecraft.soul_sand% 위에서 재배할 수 있으며, 포션 제작의 기본 재료입니다. 특히 어색한 포션을 만드는 데 필수적이므로, 포션 양조에 관심이 있다면 반드시 확보해야 합니다."
-						},
-						"block.minecraft.stripped_crimson_stem": {
-							"아이템 아이디": "block.minecraft.stripped_crimson_stem",
-							"아이템 영어 이름": "Stripped Crimson Stem",
-							"아이템 설명": "껍질 벗긴 진홍빛 줄기\n\n%id:item.minecraft.crimson_stem%의 껍질을 벗긴 형태입니다.\n장식용으로 사용하기 좋으며, 원목과 비슷한 용도로 사용할 수 있습니다. 네더 테마의 건축물에 독특한 분위기를 더해줍니다."
-						},
-						"block.minecraft.quartz_pillar": {
-							"아이템 아이디": "block.minecraft.quartz_pillar",
-							"아이템 영어 이름": "Quartz Pillar",
-							"아이템 설명": "석영 기둥\n\n세로로 긴 무늬를 가진 석영 블록입니다.\n주로 기둥이나 장식용으로 사용되며, 고급스러운 건축물에 적합합니다. 방향에 따라 다른 모양을 보여주므로 창의적인 건축에 활용할 수 있습니다."
-						},
-						"block.minecraft.quartz_bricks": {
-							"아이템 아이디": "block.minecraft.quartz_bricks",
-							"아이템 영어 이름": "Quartz Bricks",
-							"아이템 설명": "아이템 설명"
-						},
-						"block.minecraft.crying_obsidian": {
-							"아이템 아이디": "block.minecraft.crying_obsidian",
-							"아이템 영어 이름": "Crying Obsidian",
-							"아이템 설명": "울고 있는 흑요석은 독특한 외관을 가진 블록입니다.\\n\\n특징:\\n- 일반 흑요석과 다르게 소리를 냄\\n- %block:block.minecraft.obsidian%보다 부서지기 어려움\\n\\n획득 방법:\\n- %block:block.minecraft.bastion_remnant%와 %block:block.minecraft.nether_fossil%에서 발견\\n\\n팁:\\n- 장식용으로 사용하거나, 특수한 건축에 활용할 수 있습니다."
-						},
-						"block.minecraft.soul_soil": {
-							"아이템 아이디": "block.minecraft.soul_soil",
-							"아이템 영어 이름": "Soul Soil",
-							"아이템 설명": "영혼의 흙은 네더에서 자생하는 독특한 블록입니다.\\n\\n특징:\\n- 영혼의 불꽃을 사용할 수 있는 블록\\n- %entity:entity.minecraft.soul_fire%의 불을 붙일 수 있음\\n\\n획득 방법:\\n- 네더에서 자연적으로 발견\\n\\n팁:\\n- 영혼의 불꽃을 이용해 멋진 장식을 만들 수 있습니다.\\n- 다른 블록과 조합하여 다양한 효과를 낼 수 있습니다."
-						},
-						"block.minecraft.warped_nylium": {
-							"아이템 아이디": "block.minecraft.warped_nylium",
-							"아이템 영어 이름": "Warped Nylium",
-							"아이템 설명": "왜곡된 나일리움은 네더에서 자생하는 블록으로, 식물 자원의 기초입니다.\\n\\n특징:\\n- %block:block.minecraft.warped_fungus%와 %block:block.minecraft.warped_roots% 자생 가능\\n- 다른 블록과 조합하여 다양한 디자인 가능\\n\\n획득 방법:\\n- 네더에서 자연적으로 발견\\n\\n팁:\\n- 식물 자원을 얻기 위해 꼭 필요한 블록입니다."
-						},
-						"block.minecraft.warped_fungus": {
-							"아이템 아이디": "block.minecraft.warped_fungus",
-							"아이템 영어 이름": "Warped Fungus",
-							"아이템 설명": "왜곡된 균은 네더에서 자생하는 식물입니다.\\n\\n특징:\\n- %item:item.minecraft.warped_fungus%로 사용할 수 있음\\n- %entity:entity.minecraft.hoglin%을 유인할 수 있음\\n\\n획득 방법:\\n- %block:block.minecraft.warped_nylium%에서 자생\\n\\n팁:\\n- 네더에서 생물들을 유인할 때 유용하게 사용하세요."
-						}
-					}
-				}
-			},
-			"설명 대체": true,
-			"태그": "NETHER"
-		}
-	},
-	"tag": "NETHER",
-	"문서 버전": "1.0"
+  "아이템 태그": {
+    "NETHER": {
+      "요약 설명": "네더 차원과 관련된 다양한 블록과 아이템들로, 독특한 건축 재료와 자원을 제공합니다.",
+      "아이템 그룹": {
+        "ETC": {
+          "그룹 대표 이름": "네더 관련 블록 및 아이템",
+          "그룹 설명": "네더 차원에서 발견되거나 네더와 관련된 다양한 블록과 아이템들입니다. 이들은 독특한 외관과 기능을 가지고 있어 건축과 생존에 유용하게 사용됩니다.",
+          "아이템들": {
+            "block.minecraft.crimson_fence_gate": {
+              "아이템 아이디": "block.minecraft.crimson_fence_gate",
+              "아이템 영어 이름": "Crimson Fence Gate",
+              "아이템 설명": "진홍빛 울타리 문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 울타리 문입니다.\n동물을 가두거나 장식용으로 사용할 수 있으며, 레드스톤 신호로 제어할 수 있습니다."
+            },
+            "block.minecraft.cracked_nether_bricks": {
+              "아이템 아이디": "block.minecraft.cracked_nether_bricks",
+              "아이템 영어 이름": "Cracked Nether Bricks",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.chiseled_quartz_block": {
+              "아이템 아이디": "block.minecraft.chiseled_quartz_block",
+              "아이템 영어 이름": "Chiseled Quartz Block",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.red_nether_brick_wall": {
+              "아이템 아이디": "block.minecraft.red_nether_brick_wall",
+              "아이템 영어 이름": "Red Nether Brick Wall",
+              "아이템 설명": "붉은 네더 벽돌 담장\n\n%id:block.minecraft.red_nether_bricks%로 만든 담장입니다.\n네더 테마의 건축물에 적합하며, 몹의 침입을 막는 데 사용할 수 있습니다."
+            },
+            "block.minecraft.crimson_fence": {
+              "아이템 아이디": "block.minecraft.crimson_fence",
+              "아이템 영어 이름": "Crimson Fence",
+              "아이템 설명": "진홍빛 울타리\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 울타리입니다.\n동물을 가두거나 장식용으로 사용할 수 있으며, 플레이어와 몹은 통과할 수 없지만 빛은 통과합니다."
+            },
+            "block.minecraft.crimson_trapdoor": {
+              "아이템 아이디": "block.minecraft.crimson_trapdoor",
+              "아이템 영어 이름": "Crimson Trapdoor",
+              "아이템 설명": "진홍빛 다락문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 다락문입니다.\n수직 이동을 위한 통로나 숨겨진 입구로 사용할 수 있으며, 레드스톤 신호로 제어할 수 있습니다."
+            },
+            "block.minecraft.quartz_stairs": {
+              "아이템 아이디": "block.minecraft.quartz_stairs",
+              "아이템 영어 이름": "Quartz Stairs",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.smooth_quartz_slab": {
+              "아이템 아이디": "block.minecraft.smooth_quartz_slab",
+              "아이템 영어 이름": "Smooth Quartz Slab",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_planks": {
+              "아이템 아이디": "block.minecraft.crimson_planks",
+              "아이템 영어 이름": "Crimson Planks",
+              "아이템 설명": "진홍빛 나무 판자\n\n%id:block.minecraft.crimson_stem%을 가공하여 만든 나무 판자입니다.\n다양한 진홍빛 나무 아이템을 만드는 데 사용되며, 네더 테마의 건축에 적합합니다."
+            },
+            "block.minecraft.crimson_button": {
+              "아이템 아이디": "block.minecraft.crimson_button",
+              "아이템 영어 이름": "Crimson Button",
+              "아이템 설명": "진홍빛 버튼\n\n진홍빛 나무로 만든 버튼입니다.\n레드스톤 회로를 활성화하는 데 사용되며, 짧은 시간 동안 신호를 보냅니다."
+            },
+            "block.minecraft.crimson_stem": {
+              "아이템 아이디": "block.minecraft.crimson_stem",
+              "아이템 영어 이름": "Crimson Stem",
+              "아이템 설명": "진홍빛 줄기\n\n네더의 진홍빛 숲에서 자라는 특이한 나무의 줄기입니다.\n일반 나무와 같이 사용할 수 있으며, 네더 테마의 건축에 적합합니다. %id:item.minecraft.netherite_axe%로 벗기면 %id:block.minecraft.stripped_crimson_stem%이 됩니다."
+            },
+            "block.minecraft.quartz_block": {
+              "아이템 아이디": "block.minecraft.quartz_block",
+              "아이템 영어 이름": "Block of Quartz",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.nether_brick_wall": {
+              "아이템 아이디": "block.minecraft.nether_brick_wall",
+              "아이템 영어 이름": "Nether Brick Wall",
+              "아이템 설명": "네더 벽돌 담장\n\n%id:item.minecraft.nether_bricks%로 만든 담장입니다.\n네더 요새 스타일의 건축물에 적합하며, 몹의 침입을 막는 데 사용할 수 있습니다."
+            },
+            "block.minecraft.quartz_slab": {
+              "아이템 아이디": "block.minecraft.quartz_slab",
+              "아이템 영어 이름": "Quartz Slab",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.red_nether_brick_slab": {
+              "아이템 아이디": "block.minecraft.red_nether_brick_slab",
+              "아이템 영어 이름": "Red Nether Brick Slab",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.stripped_crimson_hyphae": {
+              "아이템 아이디": "block.minecraft.stripped_crimson_hyphae",
+              "아이템 영어 이름": "Stripped Crimson Hyphae",
+              "아이템 설명": "껍질 벗긴 진홍빛 균사체\n\n%id:block.minecraft.crimson_hyphae%의 껍질을 벗긴 형태입니다.\n독특한 텍스처로 장식용으로 사용하기 좋으며, 모든 면이 같은 텍스처를 가집니다."
+            },
+            "block.minecraft.crimson_roots": {
+              "아이템 아이디": "block.minecraft.crimson_roots",
+              "아이템 영어 이름": "Crimson Roots",
+              "아이템 설명": "진홍빛 뿌리\n\n네더의 진홍빛 숲에서 자라는 식물입니다.\n주로 장식용으로 사용되며, 뼈가루를 사용해 더 큰 진홍빛 균류로 성장시킬 수 있습니다."
+            },
+            "block.minecraft.crimson_stairs": {
+              "아이템 아이디": "block.minecraft.crimson_stairs",
+              "아이템 영어 이름": "Crimson Stairs",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_fungus": {
+              "아이템 아이디": "block.minecraft.crimson_fungus",
+              "아이템 영어 이름": "Crimson Fungus",
+              "아이템 설명": "진홍빛 균류\n\n네더의 진홍빛 숲에서 자라는 큰 버섯 같은 식물입니다.\n%id:block.minecraft.crimson_nylium% 위에 심으면 큰 진홍빛 균류로 자랄 수 있습니다. 뼈가루를 사용하면 즉시 성장시킬 수 있습니다."
+            },
+            "block.minecraft.smooth_quartz": {
+              "아이템 아이디": "block.minecraft.smooth_quartz",
+              "아이템 영어 이름": "Smooth Quartz Block",
+              "아이템 설명": "매끄러운 석영 블록\n\n일반 석영 블록을 제련하여 얻을 수 있는 더 매끄러운 버전의 석영 블록입니다.\n고급스러운 건축물이나 장식에 적합하며, 특히 현대적인 디자인의 건물에 잘 어울립니다."
+            },
+            "block.minecraft.red_nether_brick_stairs": {
+              "아이템 아이디": "block.minecraft.red_nether_brick_stairs",
+              "아이템 영어 이름": "Red Nether Brick Stairs",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.nether_bricks": {
+              "아이템 아이디": "block.minecraft.nether_bricks",
+              "아이템 영어 이름": "Nether Bricks",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.nether_brick_stairs": {
+              "아이템 아이디": "block.minecraft.nether_brick_stairs",
+              "아이템 영어 이름": "Nether Brick Stairs",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.netherrack": {
+              "아이템 아이디": "block.minecraft.netherrack",
+              "아이템 영어 이름": "Netherrack",
+              "아이템 설명": "네더랙\n\n네더의 기본적인 지형을 이루는 블록입니다.\n불에 타면 영원히 꺼지지 않으므로 영구적인 불을 만드는 데 사용할 수 있습니다. 또한 %id:block.minecraft.nether_bricks%의 재료로 사용됩니다."
+            },
+            "block.minecraft.crimson_door": {
+              "아이템 아이디": "block.minecraft.crimson_door",
+              "아이템 영어 이름": "Crimson Door",
+              "아이템 설명": "진홍빛 문\n\n네더의 진홍빛 숲에서 얻을 수 있는 재료로 만든 문입니다.\n레드스톤 신호로 제어할 수 있으며, 네더 테마의 건축물에 적합합니다."
+            },
+            "block.minecraft.red_nether_bricks": {
+              "아이템 아이디": "block.minecraft.red_nether_bricks",
+              "아이템 영어 이름": "Red Nether Bricks",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_slab": {
+              "아이템 아이디": "block.minecraft.crimson_slab",
+              "아이템 영어 이름": "Crimson Slab",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_sign": {
+              "아이템 아이디": "block.minecraft.crimson_sign",
+              "아이템 영어 이름": "Crimson Sign",
+              "아이템 설명": "진홍빛 표지판\n\n진홍빛 나무로 만든 표지판입니다.\n텍스트를 입력하여 정보를 표시하거나 방향을 안내하는 데 사용할 수 있습니다. 네더 테마의 건축물에 잘 어울립니다."
+            },
+            "block.minecraft.nether_sprouts": {
+              "아이템 아이디": "block.minecraft.nether_sprouts",
+              "아이템 영어 이름": "Nether Sprouts",
+              "아이템 설명": "네더 싹\n\n뒤틀린 숲 바이옴에서 자라는 작은 식물입니다.\n주로 장식용으로 사용되며, 괭이로 수확하면 %id:item.minecraft.nether_sprouts%를 얻을 수 있습니다."
+            },
+            "block.minecraft.nether_brick_slab": {
+              "아이템 아이디": "block.minecraft.nether_brick_slab",
+              "아이템 영어 이름": "Nether Brick Slab",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_hanging_sign": {
+              "아이템 아이디": "block.minecraft.crimson_hanging_sign",
+              "아이템 영어 이름": "Crimson Hanging Sign",
+              "아이템 설명": "진홍빛 매달린 표지판\n\n진홍빛 나무로 만든 매달린 형태의 표지판입니다.\n천장이나 기둥에 매달아 사용할 수 있으며, 일반 표지판보다 더 많은 텍스트를 표시할 수 있습니다."
+            },
+            "block.minecraft.nether_gold_ore": {
+              "아이템 아이디": "block.minecraft.nether_gold_ore",
+              "아이템 영어 이름": "Nether Gold Ore",
+              "아이템 설명": "네더 금광석\n\n네더에서 발견되는 금광석입니다.\n일반 세계의 금광석보다 더 흔하게 발견되며, 채굴 시 %id:item.minecraft.gold_nugget%을 직접 드롭합니다. %id:item.minecraft.golden_pickaxe% 이상의 곡괭이로 채굴해야 합니다."
+            },
+            "block.minecraft.nether_wart_block": {
+              "아이템 아이디": "block.minecraft.nether_wart_block",
+              "아이템 영어 이름": "Nether Wart Block",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.nether_quartz_ore": {
+              "아이템 아이디": "block.minecraft.nether_quartz_ore",
+              "아이템 영어 이름": "Nether Quartz Ore",
+              "아이템 설명": "네더 석영 광석\n\n네더에서 발견되는 석영 광석입니다.\n채굴 시 %id:item.minecraft.quartz%를 드롭하며, 이는 다양한 건축 블록과 레드스톤 장치 제작에 사용됩니다. 경험치도 얻을 수 있어 레벨 업에 유용합니다."
+            },
+            "block.minecraft.smooth_quartz_stairs": {
+              "아이템 아이디": "block.minecraft.smooth_quartz_stairs",
+              "아이템 영어 이름": "Smooth Quartz Stairs",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.glowstone": {
+              "아이템 아이디": "block.minecraft.glowstone",
+              "아이템 영어 이름": "Glowstone",
+              "아이템 설명": "발광석\n\n네더의 천장에서 주로 발견되는 자연적인 광원 블록입니다.\n강한 빛을 발산하여 조명으로 사용하기 좋으며, 부수면 %id:item.minecraft.glowstone_dust%를 얻을 수 있습니다. 포션 제작 시 효과를 강화하는 데 사용됩니다."
+            },
+            "block.minecraft.crimson_pressure_plate": {
+              "아이템 아이디": "block.minecraft.crimson_pressure_plate",
+              "아이템 영어 이름": "Crimson Pressure Plate",
+              "아이템 설명": "진홍빛 압력판\n\n진홍빛 나무로 만든 압력판입니다.\n플레이어나 몹이 밟으면 레드스톤 신호를 발생시킵니다. 자동문이나 함정 제작에 유용하게 사용할 수 있습니다."
+            },
+            "block.minecraft.chiseled_nether_bricks": {
+              "아이템 아이디": "block.minecraft.chiseled_nether_bricks",
+              "아이템 영어 이름": "Chiseled Nether Bricks",
+              "아이템 설명": "아이템 설명"
+            },
+            "block.minecraft.crimson_hyphae": {
+              "아이템 아이디": "block.minecraft.crimson_hyphae",
+              "아이템 영어 이름": "Crimson Hyphae",
+              "아이템 설명": "진홍빛 균사체\n\n진홍빛 줄기의 껍질이 있는 모든 면을 가진 블록입니다.\n장식용으로 사용하기 좋으며, %id:item.minecraft.netherite_axe%로 벗기면 %id:item.minecraft.stripped_crimson_hyphae%가 됩니다."
+            },
+            "item.minecraft.quartz": {
+              "아이템 아이디": "item.minecraft.quartz",
+              "아이템 영어 이름": "Nether Quartz",
+              "아이템 설명": "네더 석영\n\n%id:item.minecraft.nether_quartz_ore%에서 얻을 수 있는 광물입니다.\n다양한 장식용 블록과 레드스톤 장치 제작에 사용됩니다. %id:item.minecraft.comparator% 제작에 필수적이며, 석영 블록으로 가공하여 건축에 활용할 수 있습니다."
+            },
+            "block.minecraft.crimson_nylium": {
+              "아이템 아이디": "block.minecraft.crimson_nylium",
+              "아이템 영어 이름": "Crimson Nylium",
+              "아이템 설명": "진홍빛 나일륨\n\n네더의 진홍빛 숲 바이옴에서 발견되는 특수한 지형 블록입니다.\n%id:item.minecraft.crimson_fungus%를 심을 수 있는 지형이며, 실크 터치로 채굴하지 않으면 일반 %id:item.minecraft.netherrack%으로 변합니다. 뼈가루를 사용하면 주변에 네더 식물이 자랍니다."
+            },
+            "item.minecraft.nether_star": {
+              "아이템 아이디": "item.minecraft.nether_star",
+              "아이템 영어 이름": "Nether Star",
+              "아이템 설명": "네더의 별\n\n%id:entity.minecraft.wither%를 처치하면 얻을 수 있는 매우 희귀한 아이템입니다.\n%id:item.minecraft.beacon% 제작에 필수적인 재료입니다. 비콘은 플레이어에게 강력한 효과를 제공하므로, 이 아이템은 게임의 후반부에 매우 중요합니다."
+            },
+            "item.minecraft.nether_brick": {
+              "아이템 아이디": "item.minecraft.nether_brick",
+              "아이템 영어 이름": "Nether Brick",
+              "아이템 설명": "네더 벽돌\n\n%id:item.minecraft.netherrack%을 제련하여 얻을 수 있는 아이템입니다.\n%id:item.minecraft.nether_bricks% 제작에 사용되며, 네더 요새 스타일의 건축물을 만드는 데 유용합니다."
+            },
+            "block.minecraft.nether_brick_fence": {
+              "아이템 아이디": "block.minecraft.nether_brick_fence",
+              "아이템 영어 이름": "Nether Brick Fence",
+              "아이템 설명": "네더 벽돌 울타리\n\n%id:item.minecraft.nether_bricks%로 만든 울타리입니다.\n네더 요새 스타일의 장식에 적합하며, 일반 울타리와 달리 불에 타지 않습니다. 몹의 이동을 막는 데 사용할 수 있습니다."
+            },
+            "item.minecraft.nether_wart": {
+              "아이템 아이디": "item.minecraft.nether_wart",
+              "아이템 영어 이름": "Nether Wart",
+              "아이템 설명": "네더 와트\n\n네더 요새에서 발견되는 특수한 작물입니다.\n%id:item.minecraft.soul_sand% 위에서 재배할 수 있으며, 포션 제작의 기본 재료입니다. 특히 어색한 포션을 만드는 데 필수적이므로, 포션 양조에 관심이 있다면 반드시 확보해야 합니다."
+            },
+            "block.minecraft.stripped_crimson_stem": {
+              "아이템 아이디": "block.minecraft.stripped_crimson_stem",
+              "아이템 영어 이름": "Stripped Crimson Stem",
+              "아이템 설명": "껍질 벗긴 진홍빛 줄기\n\n%id:item.minecraft.crimson_stem%의 껍질을 벗긴 형태입니다.\n장식용으로 사용하기 좋으며, 원목과 비슷한 용도로 사용할 수 있습니다. 네더 테마의 건축물에 독특한 분위기를 더해줍니다."
+            },
+            "block.minecraft.quartz_pillar": {
+              "아이템 아이디": "block.minecraft.quartz_pillar",
+              "아이템 영어 이름": "Quartz Pillar",
+              "아이템 설명": "석영 기둥\n\n세로로 긴 무늬를 가진 석영 블록입니다.\n주로 기둥이나 장식용으로 사용되며, 고급스러운 건축물에 적합합니다. 방향에 따라 다른 모양을 보여주므로 창의적인 건축에 활용할 수 있습니다."
+            },
+            "block.minecraft.quartz_bricks": {
+              "아이템 아이디": "block.minecraft.quartz_bricks",
+              "아이템 영어 이름": "Quartz Bricks",
+              "아이템 설명": "아이템 설명"
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "NETHER"
+    }
+  },
+  "tag": "NETHER",
+  "문서 버전": "1.0"
 }
