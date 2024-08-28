@@ -5,10 +5,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.DefaultDictionary;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

@@ -6,8 +6,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.EnumTag;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.EnumTag;
+import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
 
 import java.util.LinkedList;
 

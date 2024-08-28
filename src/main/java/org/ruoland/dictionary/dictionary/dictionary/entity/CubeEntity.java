@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary.entitycontent;
+package org.ruoland.dictionary.dictionary.dictionary.entity;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;

@@ -1,10 +1,11 @@
-package org.ruoland.dictionary.dictionary.dictionary.entitycontent;
+package org.ruoland.dictionary.dictionary.dictionary.entity;
 
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.DefaultDictionary;
+import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
 
 public enum EnumEntityTag {
-    ENTITY_ANIMAL(DefaultDictionary.ANIMAL_NAME),
-    MOB(DefaultDictionary.MOB_NAME);
+    ANIMAL(DefaultDictionary.ANIMAL_NAME),
+    MOB(DefaultDictionary.MOB_NAME),
+    CREATURE(DefaultDictionary.CREATURE_NAME);
     String[] strings;
 
     EnumEntityTag(String... str){

@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
+package org.ruoland.dictionary.dictionary.dictionary.item;
 
 import com.google.gson.annotations.SerializedName;
 import org.ruoland.dictionary.Dictionary;

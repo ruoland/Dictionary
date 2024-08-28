@@ -14,9 +14,9 @@ import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
 import org.ruoland.dictionary.dictionary.dictionary.LangManager;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
 import org.ruoland.dictionary.dictionary.dictionary.VariableManager;
-import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.entity.EntityTag;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 
 import java.util.ArrayList;
 import java.util.List;

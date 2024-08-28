@@ -1,4 +1,4 @@
-package org.ruoland.dictionary.dictionary.dictionary.itemcontent;
+package org.ruoland.dictionary.dictionary.dictionary.item;
 
 public class DefaultDictionary {
 
@@ -56,6 +56,7 @@ public class DefaultDictionary {
     public static final String MINING_DICTIONARY  ="dictionary.mining.dictionary";
     public static final String MOB_NAME = "dictionary.mob.name";
     public static final String MOB_DICTIONARY  ="dictionary.mob.dictionary";
+    public static final String CREATURE_NAME = "dictionary.creature.name";
     public static final String MUSIC_NAME = "dictionary.music.name";
     public static final String MUSIC_DICTIONARY  ="dictionary.music.dictionary";
     public static final String NETHER_NAME = "dictionary.nether.name";

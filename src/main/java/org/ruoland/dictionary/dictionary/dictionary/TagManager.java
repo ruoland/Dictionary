@@ -5,7 +5,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.*;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.*;
+import org.ruoland.dictionary.dictionary.dictionary.item.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,9 +20,6 @@ import java.util.LinkedHashMap;
 public class TagManager {
     //태그 -> 아이템 태그를 가져옴
     private static final EnumMap<EnumTag, ItemsTag> tagEnumMap = new EnumMap<>(EnumTag.class);
-    //아이템 아이디 -> EnumTag를 가져오는 것
-    private static final LinkedHashMap<String, EnumTag> idToTag = new LinkedHashMap<>();
-
     //아이템 아이디 -> 해당 아이템이 속한 그룹을 가져오기
     private static final LinkedHashMap<String, ItemGroupContent> idToGroup = new LinkedHashMap<>();
     private static final EnumMap<EnumTag, Long> lastEditedMap = new EnumMap<>(EnumTag.class);

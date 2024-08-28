@@ -12,7 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.*;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeTag;
-import org.ruoland.dictionary.dictionary.dictionary.entitycontent.EntityTag;
+import org.ruoland.dictionary.dictionary.dictionary.entity.EntityTag;
 
 import java.io.IOException;
 import java.util.List;
@@ -55,7 +55,7 @@ public class Dictionary implements ModInitializer {
             if(!messages.isEmpty())
                 for(String message : messages){
                     server.getPlayerList().broadcastSystemMessage(Component.literal(message), false);
-                    System.out.println(message+ " 에러 메세지 ㅈ출력");
+                    System.out.println(message+ " 에러 메세지 출력");
                 }
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {

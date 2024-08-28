@@ -5,8 +5,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
 
 public class SubDataScreen extends DebugScreen{
     SubData subData;

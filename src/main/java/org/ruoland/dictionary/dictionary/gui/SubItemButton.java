@@ -6,9 +6,9 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.ItemManager;
 import org.ruoland.dictionary.dictionary.dictionary.TagManager;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.itemcontent.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
 
 import java.util.ArrayList;
 
