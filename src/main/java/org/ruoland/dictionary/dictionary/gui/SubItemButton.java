@@ -6,7 +6,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemSubData;
 import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 
@@ -51,10 +51,10 @@ public class SubItemButton extends Button {
     }
 
     public SubItemButton addGroupItems(){
-        SubData subData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
+        ItemSubData itemSubData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
         itemList.add(itemStack);
-        for(ItemGroupContent groupContent : subData.getGroupMap().values()){
-            for(ItemContent content :groupContent.getContentMap().values())
+        for(ItemGroupContent groupContent : itemSubData.getGroupMap().values()){
+            for(ItemContent content :groupContent.getGroupContentMap().values())
                 itemList.add(ContentManager.getItemStackMap().get(content.getID()));
         }
         return this;

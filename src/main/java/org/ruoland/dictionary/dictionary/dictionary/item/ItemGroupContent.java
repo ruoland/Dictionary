@@ -1,83 +1,29 @@
 package org.ruoland.dictionary.dictionary.dictionary.item;
 
-import com.google.gson.annotations.SerializedName;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 
-import java.util.HashMap;
-
-public class ItemGroupContent {
-
-    @SerializedName("그룹 대표 이름")
-    String groupName = DefaultDictionary.GROUP_NAME;
-    
-    @SerializedName("그룹 설명")
-    String dictionary = DefaultDictionary.GROUP_DESC;
-
-    @SerializedName("아이템들")
-    private HashMap<String, ItemContent> itemContentMap = new HashMap<>();
-
-    public ItemGroupContent(){
-
-    }
+public class ItemGroupContent extends BaseGroupContent<IDictionaryAdapter.ItemStackAdapter, ItemContent> {
 
     public ItemStack getZeroItem(){
-        for(ItemContent content : itemContentMap.values()){
+        for(ItemContent content : getGroupContentMap().values()){
 
             return content.getItemStack();
         }
         return null;
     }
-    public HashMap<String, ItemContent> getContentMap() {
-        return itemContentMap;
-    }
 
-    public void clear(){
-        itemContentMap.clear();;
-    }
-    public String getDictionary() {
-        return dictionary;
-    }
 
-    public void add(ItemStack itemStack) {
-        String itemId = itemStack.getDescriptionId();
-        if (itemContentMap.containsKey(itemId)) {
-            Dictionary.LOGGER.trace("Item already exists in group: {}", itemId);
-            return;
-        }
-
-        ItemContent newContent = new ItemContent(itemStack);
-        if (itemContentMap.containsKey(itemId)) {
-            String existingDescription = itemContentMap.get(itemId).getDictionary();
-            newContent.setDictionary(existingDescription);
-            Dictionary.LOGGER.info("Copying existing description for item: {}", itemId);
-        }
-
-        itemContentMap.put(itemId, newContent);
-        Dictionary.LOGGER.info("Added new item to group: {}", itemId, newContent.getDictionary());
-    }
-
-    public void addAll(ItemGroupContent groupContent){
-        this.itemContentMap.putAll(groupContent.getContentMap());
-    }
-    public ItemContent getItemContent(ItemStack stack){
-        ItemContent itemContent = itemContentMap.get(stack.getDescriptionId());;
+    @Override
+    public ItemContent getContent(IDictionaryAdapter.ItemStackAdapter id) {
+        ItemContent itemContent = super.getContent(id);
+        Dictionary.LOGGER.info("아이템 도감 설명을 가져옵니다. {}, {}", itemContent, getGroupContentMap().get(id.getID()));
         if(itemContent != null)
-            itemContent.setItemStack(stack);
+            itemContent.setItemStack(id.get());
+        else
+            Dictionary.LOGGER.info("아이템 콘텐츠를 찾지 못했습니다.. {}, {}, {}, 맵 리스트 \n{}", id.getID(), id.getType(), id.get(), getGroupContentMap());
         return itemContent;
     }
-
-    public boolean hasItem(ItemStack itemStack){
-        for(ItemContent content : itemContentMap.values()){
-            if(itemStack.getDescriptionId().equals(content.getID()))
-                return true;
-        }
-        return false;
-    }
-
-    public String getGroupName() {
-        return groupName;
-    }
-
-
 }

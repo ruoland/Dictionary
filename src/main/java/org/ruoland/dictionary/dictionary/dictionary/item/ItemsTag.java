@@ -1,58 +1,39 @@
 package org.ruoland.dictionary.dictionary.dictionary.item;
 
-import com.google.gson.annotations.SerializedName;
-import org.ruoland.dictionary.Dictionary;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseTags;
 
-import java.util.EnumMap;
+public class ItemsTag extends BaseTags<EnumItemTag, ItemSubData> {
 
-public class ItemsTag {
-
-    @SerializedName("아이템 태그")
-    private final EnumMap<EnumTag, SubData> tagSubMap = new EnumMap<>(EnumTag.class);
-
-    transient String thisName;
-
-    @SerializedName("tag")
-    EnumTag tag;
-
-    public ItemsTag(EnumTag tag){
-        this.thisName = tag.name();
-        this.tag = tag;
-        tagSubMap.put(tag, new SubData(tag));
+    public ItemsTag(EnumItemTag enum_tag){
+        super(enum_tag);
     }
 
-    public String getTagName() {
-        return tag.name();
+
+    public ItemSubData getSubData() {
+        //Dictionary.LOGGER.info(" 태그 이름: {}, {}", getTagName(), getTagSubMap().values());
+        return getTagSubMap().get(EnumItemTag.valueOf(getTagName()));
     }
 
-    public SubData getSubData() {
-        return tagSubMap.get(tag);
+    @Override
+    public void addSubData(EnumItemTag tag) {
+        getTagSubMap().put(tag, new ItemSubData(tag));
     }
 
-    @SerializedName("문서 버전")
-    private String version = Dictionary.VERSION;
-
-    // 이 메소드를 추가하여 아이템 설명을 설정할 수 있게 합니다.
-    public void setItemDescription(String itemId, String description) {
-        SubData subData = getSubData();
-        for (ItemGroupContent group : subData.getGroupMap().values()) {
-            ItemContent item = group.getContentMap().get(itemId);
-            if (item != null) {
-                item.setDictionary(description);
-                return;
-            }
-        }
-    }
 
     // 이 메소드를 추가하여 아이템 설명을 가져올 수 있게 합니다.
     public String getItemDescription(String itemId) {
-        SubData subData = getSubData();
-        for (ItemGroupContent group : subData.getGroupMap().values()) {
-            ItemContent item = group.getContentMap().get(itemId);
+        ItemSubData itemSubData = getSubData();
+        for (ItemGroupContent group : itemSubData.getGroupMap().values()) {
+            ItemContent item = group.getGroupContentMap().get(itemId);
             if (item != null) {
                 return item.getDictionary();
             }
         }
         return null;
+    }
+
+    @Override
+    public String toString() {
+        return "ItemsTag{} " + super.toString();
     }
 }

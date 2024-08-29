@@ -4,16 +4,13 @@ import eu.pb4.playerdata.api.PlayerDataApi;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.client.DictionaryClient;
 import org.ruoland.dictionary.dictionary.dictionary.manager.*;
 
 import java.io.IOException;
-import java.util.List;
 
 public class Dictionary implements ModInitializer {
     public static final String MOD_ID = "dictionary";
@@ -50,13 +47,6 @@ public class Dictionary implements ModInitializer {
             TagManager.getTagManager().loadTag();
             Dictionary.LOGGER.info("태그 불러오기 완료");
             TagManager.getTagManager().sortTag();
-
-            List<String> messages = DictionaryLogger.getErrorMessages();
-            if(!messages.isEmpty())
-                for(String message : messages){
-                    server.getPlayerList().broadcastSystemMessage(Component.literal(message), false);
-                    System.out.println(message+ " 에러 메세지 출력");
-                }
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {
             try {
@@ -69,11 +59,11 @@ public class Dictionary implements ModInitializer {
         ServerLifecycleEvents.SERVER_STOPPED.register(server -> {
             TagManager.getTagManager().sortTag();
             Dictionary.LOGGER.info("저장 전 태그 정렬 시작");
-            for (Player player : server.getPlayerList().getPlayers()) {
+            for (ServerPlayer player : server.getPlayerList().getPlayers()) {
                 Inventory inventory = player.getInventory();
 
                 for (ItemStack itemStack : inventory.items) {
-                    PlayerDictionaryManager.addNewItem((ServerPlayer) player, itemStack.getItem());
+                    PlayerDictionaryManager.addNewItem(player, itemStack.getItem());
                 }
             }
             try {

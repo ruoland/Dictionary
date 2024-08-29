@@ -8,13 +8,11 @@ import org.ruoland.dictionary.dictionary.gui.DebugScreen;
 
 import java.util.ArrayList;
 
-public class DIctionaryScreen extends DebugScreen {
+public class DictionaryScreen extends DebugScreen {
     private ArrayList<ItemStack> itemStackList = new ArrayList<>();
-    protected DIctionaryScreen(Component pTitle) {
+    protected DictionaryScreen(Component pTitle) {
         super(pTitle);
-        for(ItemStack itemStack: ContentManager.getItemStackMap().values()){
-            itemStackList.add(itemStack);
-        }
+        itemStackList.addAll(ContentManager.getItemStackMap().values());
     }
 
     @Override

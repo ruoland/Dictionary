@@ -38,8 +38,8 @@ public class LangManager {
             Objects.requireNonNull(builder);
             BiConsumer<String, String> biConsumer = builder::put;
             tableField.invoke(Language.getInstance(), biConsumer, "/assets/minecraft/lang/en_us.json");
-            final Map<String, String> map = builder.build();
-            languageMap = map;
+            languageMap = builder.build();
+            
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -6,14 +6,14 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemSubData;
 
 public class SubDataScreen extends DebugScreen{
-    SubData subData;
+    ItemSubData itemSubData;
 
-    protected SubDataScreen(Screen screen, SubData content) {
+    protected SubDataScreen(Screen screen, ItemSubData content) {
         super(Component.literal("그룹 아이템"));
-        this.subData = content;
+        this.itemSubData = content;
         this.lastScreen = screen;
     }
 
@@ -22,8 +22,8 @@ public class SubDataScreen extends DebugScreen{
         super.init();
         int Y = 0;
         int xLine = 0;
-        for(String tag : subData.getGroupMap().keySet()) {
-            ItemGroupContent groupContent = subData.getGroupMap().get(tag);
+        for(String tag : itemSubData.getGroupMap().keySet()) {
+            ItemGroupContent groupContent = itemSubData.getGroupMap().get(tag);
             ItemStack itemStack = groupContent.getZeroItem();
             addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, (Component.literal(groupContent.getGroupName())), new Button.OnPress() {
                 @Override

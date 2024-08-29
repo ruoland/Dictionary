@@ -1,8 +1,8 @@
 package org.ruoland.dictionary.dictionary.dictionary.item;
 
-import java.util.EnumMap;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IEnumTag;
 
-public enum EnumTag {
+public enum EnumItemTag implements IEnumTag {
 
     ARMOR(DefaultDictionary.ARMOR_NAME, "helmet", "chestplate", "leggings", "boots", "armor"),
     TOOLS(DefaultDictionary.TOOLS_NAME, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket", "Clock", "Flint and Steel","Elytra", "Spyglass"),
@@ -40,11 +40,10 @@ public enum EnumTag {
     PROJECTILE(DefaultDictionary.PROJECTILE_NAME),
     MINING(DefaultDictionary.MINING_NAME);
 
-    private static final EnumMap<EnumTag, String> tagDictionary = new EnumMap<>(EnumTag.class);
     private final String[] strings;
     private ItemsTag itemsTag;
 
-    EnumTag(String... str){
+    EnumItemTag(String... str){
         this.strings = str;
     }
 
@@ -54,6 +53,11 @@ public enum EnumTag {
                 return true;
         }
         return false;
+    }
+
+    @Override
+    public EnumItemTag value(String tags) {
+        return valueOf(tags);
     }
 
     public ItemsTag getItemTag(){

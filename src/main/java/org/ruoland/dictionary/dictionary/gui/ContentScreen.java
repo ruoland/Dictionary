@@ -56,7 +56,7 @@ public class ContentScreen extends DebugScreen {
         super.init();
 
         updateContentWidth();
-        Dictionary.LOGGER.info("ContentScreen initialized. DictionaryContent width: {}", contentWidth);
+        Dictionary.LOGGER.info("ContentScreen initialized. BaseContent width: {}", contentWidth);
         try {
             String content = ContentManager.getContent(itemStack).replace("\\n", "\n");
             content = VariableManager.replaceVariable(itemStack, content);
@@ -75,7 +75,7 @@ public class ContentScreen extends DebugScreen {
 
     private void updateContentWidth() {
         this.contentWidth = (int)(this.width * CONTENT_WIDTH_RATIO);
-        LOGGER.debug("DictionaryContent width updated to: {}", contentWidth);
+        LOGGER.debug("BaseContent width updated to: {}", contentWidth);
     }
     private void parseContent(String content) {
         contentComponents = new ArrayList<>();

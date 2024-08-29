@@ -2,6 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.Dictionary;
 
 import java.io.File;
@@ -20,14 +21,16 @@ public interface Data {
     static void save() throws IOException {
 
     }
+    @Nullable
     static <T> Object readJson(Path path, Class<T> tC) {
         try {
             String content = Files.readString(path);
             return GSON.fromJson(content, tC);
         } catch (Exception e) {
-            Dictionary.LOGGER.error("Error reading file: {}", path, e);
+            Dictionary.LOGGER.error("Error reading file: {}, {}", path, e);
             throw new RuntimeException(e);
         }
+
     }
 
     static <T> void saveJson(Path path, Object obj) {

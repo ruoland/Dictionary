@@ -10,12 +10,13 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.Biomes;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
-import org.ruoland.dictionary.dictionary.dictionary.developer.category.DictionaryContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.SubData;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemSubData;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -28,7 +29,7 @@ public class ContentManager {
     private static final ArrayList<ItemStack> ITEM_LIST = new ArrayList<>();
     private static final HashMap<String, ItemStack> ITEM_STACK_MAP = new HashMap<>();
     private static final TreeMap<String, EntityType> entities = new TreeMap<>();
-    private static final HashMap<String, DictionaryContent> contentMap = new HashMap<>();
+    private static final HashMap<String, BaseContent> contentMap = new HashMap<>();
     public static void loadAllContent() throws IllegalAccessException {
         loadMinecraftItems();
         loadEntities();
@@ -51,13 +52,17 @@ public class ContentManager {
         for (Map.Entry<String, EntityType> entry : entities.entrySet()) {
             String id = entry.getKey();
             EntityType entityType = entry.getValue();
-            contentMap.put(id, new EntityContent(id, entityType));
+            contentMap.put(id, new EntityContent(entityType));
         }
     }
 
     public static String getEntityNameById(String id){
         Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, entities);
         return entities.get(id).getDescription().getString();
+    }
+    public static String getBiomeNameById(String id){
+        Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, biomes);
+        return biomes.get(id);
     }
 
     /**
@@ -115,11 +120,11 @@ public class ContentManager {
         Dictionary.LOGGER.info("getContent called for item: {}", itemStack.getDescriptionId());
 
         TagManager tagManager = TagManager.getTagManager();
-        SubData sub = tagManager.getItemTag(itemStack).getSubData();
+        ItemSubData sub = tagManager.getItemTag(itemStack).getSubData();
         ItemGroupContent itemGroup = sub.getItemGroup(itemStack);
-        ItemContent content = itemGroup.getItemContent(itemStack);
+        ItemContent content = itemGroup.getContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
 
-        //Dictionary.LOGGER.info("DictionaryContent retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
+        //Dictionary.LOGGER.info("BaseContent retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
 
         StringBuilder stringBuffer = new StringBuilder();
         if(sub.getSubDictionary() == null && content.getDictionary() == null) {
