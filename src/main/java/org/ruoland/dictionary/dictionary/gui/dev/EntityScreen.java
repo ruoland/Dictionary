@@ -32,8 +32,8 @@ public class EntityScreen extends DebugScreen {
         poseStack.translate(x, y, 50);
         poseStack.scale(40, 40, 40);
         poseStack.mulPose(new Quaternionf().rotationZ((float) Math.PI));
-        xRot++;
-        poseStack.mulPose(new Quaternionf().rotationXYZ(xRot, 0, 0));
+        xRot+=0.01F;
+        poseStack.mulPose(new Quaternionf().rotationXYZ(0, xRot, 0));
         // EntityRenderDispatcher를 사용하여 엔티티 렌더링
         EntityRenderDispatcher entityRenderDispatcher = Minecraft.getInstance().getEntityRenderDispatcher();
         entityRenderDispatcher.setRenderShadow(false);

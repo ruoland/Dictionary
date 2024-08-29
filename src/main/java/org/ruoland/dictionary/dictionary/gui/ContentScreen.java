@@ -7,6 +7,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.BookViewScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
@@ -21,9 +22,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContentScreen extends DebugScreen {
-    DictionaryLogger LOGGER = Dictionary.LOGGER;
-    private final FormattedText itemName, itemEngName;
-    private final ItemStack itemStack;
+    private static final DictionaryLogger LOGGER = Dictionary.LOGGER;
+    private final FormattedText currentName, engName;
+    private ItemStack itemStack;
+    private EntityType entityType;
+    private String biome;
     private List<Object> contentComponents;
 
     private final boolean onlyGroup;
@@ -40,10 +43,10 @@ public class ContentScreen extends DebugScreen {
         String groupName = TagManager.getTagManager().getItemGroup(itemStack).getGroupName();
 
         if(onlyGroup)
-            itemName = FormattedText.of(groupName);
+            currentName = FormattedText.of(groupName);
         else
-            itemName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
-        itemEngName = FormattedText.of(LangManager.getEnglishName(itemStack.getDescriptionId()));
+            currentName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
+        engName = FormattedText.of(LangManager.getEnglishName(itemStack.getDescriptionId()));
 
         this.itemStack = itemStack;
         this.onlyGroup = onlyGroup;
@@ -302,23 +305,23 @@ public class ContentScreen extends DebugScreen {
     private void renderTitle(GuiGraphics pGuiGraphics) {
         pGuiGraphics.pose().pushPose();
         pGuiGraphics.pose().scale(1.3F, 1.3F, 1);
-        drawText(3, pGuiGraphics, itemName, guiLeft + itemInfoName, guiTop + 5, width, 0);
+        drawText(3, pGuiGraphics, currentName, guiLeft + itemInfoName, guiTop + 5, width, 0);
         pGuiGraphics.pose().popPose();
     }
 
     private int renderSubtitle(GuiGraphics pGuiGraphics) {
         int engLineY = 0;
-        if (font.width(itemName) > 100) {
+        if (font.width(currentName) > 100) {
             engLineY += 10;
         }
 
         if (!onlyGroup) {
             pGuiGraphics.pose().pushPose();
             pGuiGraphics.pose().scale(1.0F, 1.0F, 1);
-            drawText(2, pGuiGraphics, itemEngName, guiLeft + itemInfoX, guiTop + 25 + engLineY, width, 0);
+            drawText(2, pGuiGraphics, engName, guiLeft + itemInfoX, guiTop + 25 + engLineY, width, 0);
             pGuiGraphics.pose().popPose();
 
-            if (font.width(itemEngName) > 100) {
+            if (font.width(engName) > 100) {
                 engLineY += 10;
             }
         }
