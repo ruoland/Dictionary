@@ -54,7 +54,7 @@ public class SubItemButton extends Button {
         ItemSubData itemSubData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
         itemList.add(itemStack);
         for(ItemGroupContent groupContent : itemSubData.getGroupMap().values()){
-            for(ItemContent content :groupContent.getGroupContentMap().values())
+            for(ItemContent content :groupContent.getContentMap().values())
                 itemList.add(ContentManager.getItemStackMap().get(content.getID()));
         }
         return this;

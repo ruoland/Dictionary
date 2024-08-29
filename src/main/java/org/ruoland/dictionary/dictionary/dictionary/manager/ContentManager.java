@@ -2,7 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -11,12 +11,12 @@ import net.minecraft.world.level.biome.Biomes;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseSubData;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.ItemSubData;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ public class ContentManager {
     private static final TreeMap<String, String> biomes = new TreeMap<>();
     private static final ArrayList<ItemStack> ITEM_LIST = new ArrayList<>();
     private static final HashMap<String, ItemStack> ITEM_STACK_MAP = new HashMap<>();
-    private static final TreeMap<String, EntityType> entities = new TreeMap<>();
+    private static final TreeMap<String, LivingEntity> entities = new TreeMap<>();
     private static final HashMap<String, BaseContent> contentMap = new HashMap<>();
     public static void loadAllContent() throws IllegalAccessException {
         loadMinecraftItems();
@@ -37,28 +37,28 @@ public class ContentManager {
     }
 
     public static void loadEntities(){
-        Class<EntityType> typeClass = EntityType.class;
+        Class<LivingEntity> typeClass = LivingEntity.class;
         Field[] entityFields = typeClass.getFields();
         for(Field field : entityFields){
             if(field.getType() == typeClass){
                 try {
-                    EntityType entityType = (EntityType) field.get(null);
-                    entities.put(entityType.getDescriptionId(), entityType);
+                    LivingEntity livingEntity = (LivingEntity) field.get(null);
+                    entities.put(livingEntity.getType().getDescriptionId(), livingEntity);
                 } catch (IllegalAccessException e) {
                     throw new RuntimeException(e);
                 }
             }
         }
-        for (Map.Entry<String, EntityType> entry : entities.entrySet()) {
+        for (Map.Entry<String, LivingEntity> entry : entities.entrySet()) {
             String id = entry.getKey();
-            EntityType entityType = entry.getValue();
-            contentMap.put(id, new EntityContent(entityType));
+            LivingEntity livingEntity = entry.getValue();
+            contentMap.put(id, new EntityContent(livingEntity));
         }
     }
 
     public static String getEntityNameById(String id){
         Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, entities);
-        return entities.get(id).getDescription().getString();
+        return entities.get(id).getType().getDescription().getString();
     }
     public static String getBiomeNameById(String id){
         Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, biomes);
@@ -116,30 +116,31 @@ public class ContentManager {
     public static HashMap<String, ItemStack> getItemStackMap() {
         return ITEM_STACK_MAP;
     }
-    public static String getContent(ItemStack itemStack) {
-        Dictionary.LOGGER.info("getContent called for item: {}", itemStack.getDescriptionId());
+
+    public static String getContent(IDictionaryAdapter adapter) {
+        Dictionary.LOGGER.info("getContent called for item: {}", adapter.getID());
 
         TagManager tagManager = TagManager.getTagManager();
-        ItemSubData sub = tagManager.getItemTag(itemStack).getSubData();
-        ItemGroupContent itemGroup = sub.getItemGroup(itemStack);
-        ItemContent content = itemGroup.getContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
+        BaseSubData sub = tagManager.getDictionaryTag(adapter).getSubData();
+        BaseGroupContent baseGroup = sub.getGroup(adapter.getID());
+        BaseContent content = baseGroup.getContent(adapter);
 
         //Dictionary.LOGGER.info("BaseContent retrieved - itemId: {}, description: {}", itemStack.getDescriptionId(), content.getDictionary(false));
 
         StringBuilder stringBuffer = new StringBuilder();
         if(sub.getSubDictionary() == null && content.getDictionary() == null) {
-            stringBuffer.append(sub.getItemGroup(itemStack).getDictionary());
+            stringBuffer.append(sub.getGroup(adapter.getID()).getDictionary());
         } else {
 
             stringBuffer.append("아이템 설명:\n");
-            stringBuffer.append(itemGroup.getDictionary()).append("\n\n");
+            stringBuffer.append(baseGroup.getDictionary()).append("\n\n");
 
-            String itemDescription = content.getDictionary();
+            String dictionary = content.getDictionary();
 
             //Dictionary.LOGGER.info("Final item description for {}: {}", itemStack.getDescriptionId(), itemDescription);
 
-            if(itemDescription != null && !itemDescription.equals(DefaultDictionary.ITEM_DESC)) {
-                return itemDescription;
+            if(dictionary != null && !dictionary.equals(DefaultDictionary.ITEM_DESC)) {
+                return dictionary;
             }
 
         }

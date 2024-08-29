@@ -39,32 +39,6 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
         return groupContent.hasItem(id);
     }
 
-    public void sortGroup(){
-//        Dictionary.LOGGER.info(tag + " 정리 중");
-//
-//        ArrayList<String> removeTagList = new ArrayList<>();
-//        ItemGroupContent newGroupContent = new ItemGroupContent();
-//
-//        for (String key : getGroupMap().keySet()) {
-//            ItemGroupContent groupContent = getGroupMap().get(key);
-//
-//            if (groupContent.getContentMap().values().size() < 3) {
-//                newGroupContent.addAll(groupContent);
-//                removeTagList.add(key);
-//                Dictionary.LOGGER.info("키 세 개 이하인 그룹 발견: "+key);
-//            }
-//        }
-//
-//        for(String removeTag : removeTagList){
-//            itemGroupContentMap.remove(removeTag);
-//            Dictionary.LOGGER.info("3개 이하인 태그를 제거함:" + removeTag);
-//        }
-//
-//        if(!removeTagList.isEmpty())
-//            itemGroupContentMap.put(EnumItemTag.ETC.name(), newGroupContent);
-//        Dictionary.LOGGER.info(tag + " 검사 완료");
-    }
-
     public T getGroup(String id){
         String tagKey = TagManager.getTagManager().getCutID(id);
         Dictionary.LOGGER.warn("[그룹 찾기]{}를 그룹에서 찾기 시작. ",tagKey);
@@ -74,7 +48,7 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
             return groupContentMap.get(tagKey);
         }
         else {
-            Dictionary.LOGGER.warn("[그룹 찾기]{}를 찾지 못했습니다 대신 ETC를 반환합니다. 그룹에 있는 콘텐츠 맵{}",tagKey, groupContentMap.get("ETC").getGroupContentMap());
+            Dictionary.LOGGER.warn("[그룹 찾기]{}를 찾지 못했습니다 대신 ETC를 반환합니다. 그룹에 있는 콘텐츠 맵{}",tagKey, groupContentMap.get("ETC").getContentMap());
             return groupContentMap.get("ETC");
         }
 

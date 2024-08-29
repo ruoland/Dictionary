@@ -1,16 +1,20 @@
 package org.ruoland.dictionary.dictionary.gui;
 
 
+import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.BookViewScreen;
+import net.minecraft.client.renderer.entity.EntityRenderDispatcher;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
+import org.joml.Quaternionf;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
@@ -24,12 +28,9 @@ import java.util.List;
 public class ContentScreen extends DebugScreen {
     private static final DictionaryLogger LOGGER = Dictionary.LOGGER;
     private final FormattedText currentName, engName;
-    private ItemStack itemStack;
-    private EntityType entityType;
-    private String biome;
+    private IDictionaryAdapter<?,?> adapter;
+    private boolean onlyGroup;
     private List<Object> contentComponents;
-
-    private final boolean onlyGroup;
     private static final float CONTENT_WIDTH_RATIO = 0.8f; // 화면 너비의 60%
     private static final int LINE_SPACING = 2; //줄 간 간격
     private int contentWidth; //실제 콘텐츠 너비
@@ -48,21 +49,27 @@ public class ContentScreen extends DebugScreen {
             currentName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
         engName = FormattedText.of(LangManager.getEnglishName(itemStack.getDescriptionId()));
 
-        this.itemStack = itemStack;
-        this.onlyGroup = onlyGroup;
+        adapter = new IDictionaryAdapter.ItemStackAdapter(itemStack);
+
         this.lastScreen = lastScreen;
         this.contentComponents = new ArrayList<>();
 
     }
 
+    public ContentScreen(Screen prevScreen, LivingEntity entity){
+        super(Component.literal("괴물들에 관한 괴물책"));
+        adapter = new IDictionaryAdapter.LivingEntityAdapter(entity);
+        currentName = entity.getDisplayName();
+        engName = Component.literal(LangManager.getEnglishName(entity.getType().getDescriptionId()));
+    }
+
     protected void init() {
         super.init();
-
         updateContentWidth();
         Dictionary.LOGGER.info("ContentScreen initialized. BaseContent width: {}", contentWidth);
         try {
-            String content = ContentManager.getContent(itemStack).replace("\\n", "\n");
-            content = VariableManager.replaceVariable(itemStack, content);
+            String content = ContentManager.getContent(adapter).replace("\\n", "\n");
+            content = VariableManager.replaceVariable(adapter, content);
             parseContent(content);
         } catch (NullPointerException e) {
             e.printStackTrace();
@@ -75,7 +82,27 @@ public class ContentScreen extends DebugScreen {
         }
 
     }
+    private float xRot = 0;
+    private void renderEntity(GuiGraphics pGuiGraphics, int posX, int posY, float scale, float pPartialTick){
+        // 엔티티를 렌더링할 위치 설정
+        // PoseStack 얻기
+        PoseStack poseStack = pGuiGraphics.pose();
 
+        // 엔티티 렌더링 준비
+        poseStack.pushPose();
+        poseStack.translate(posX, posY, 50);
+        poseStack.scale(40 * scale, 40 * scale, 40 * scale);
+        poseStack.mulPose(new Quaternionf().rotationZ((float) Math.PI));
+        xRot+=0.01F;
+        poseStack.mulPose(new Quaternionf().rotationXYZ(0, xRot, 0));
+        // EntityRenderDispatcher를 사용하여 엔티티 렌더링
+        EntityRenderDispatcher entityRenderDispatcher = Minecraft.getInstance().getEntityRenderDispatcher();
+        entityRenderDispatcher.setRenderShadow(false);
+        entityRenderDispatcher.render((LivingEntity) adapter.get(), 0.0D, 0.0D, 0.0D, 0.0F, pPartialTick, poseStack, pGuiGraphics.bufferSource(), 15728880);
+        entityRenderDispatcher.setRenderShadow(true);
+
+        poseStack.popPose();
+    }
     private void updateContentWidth() {
         this.contentWidth = (int)(this.width * CONTENT_WIDTH_RATIO);
         LOGGER.debug("BaseContent width updated to: {}", contentWidth);
@@ -138,13 +165,11 @@ public class ContentScreen extends DebugScreen {
             if(groupContent == null ){
                 if(itemId.equals("pressure_plate")) {
                     groupContent = TagManager.getTagManager().findGroupByItemID("plate");
-
                 }
             }
             buttonText = Component.literal(groupContent.getGroupName());
 
         } else if(id.startsWith("%id:item.") || id.startsWith("%id:block.")){
-
             ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
             Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
             buttonText = itemContent.getItemStack().getHoverName();
@@ -355,10 +380,13 @@ public class ContentScreen extends DebugScreen {
     }
 
 
-
+    private void renderEntity(GuiGraphics pGuiGraphics, float pPartialTick) {
+        int itemRenderPositionX = 75;
+        renderEntity(pGuiGraphics, guiLeft + itemInfoName - itemRenderPositionX, guiTop - 2, 3.5F, pPartialTick);
+    }
     private void renderItem(GuiGraphics pGuiGraphics, float pPartialTick) {
         int itemRenderPositionX = 75;
-        renderItem(pGuiGraphics, guiLeft + itemInfoName - itemRenderPositionX, guiTop - 2, 3.5F, itemStack, pPartialTick);
+        renderItem(pGuiGraphics, guiLeft + itemInfoName - itemRenderPositionX, guiTop - 2, 3.5F, (ItemStack) adapter.get(), pPartialTick);
     }
 
     public void renderItem(GuiGraphics pGuiGraphics, int resultX, int resultY, float scale, ItemStack item, float pPartialTick){

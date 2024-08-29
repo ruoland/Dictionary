@@ -1,10 +1,11 @@
 package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.biome.Biome;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
+import org.ruoland.dictionary.dictionary.dictionary.entity.EnumEntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
 
@@ -13,32 +14,32 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
     String getType();
     T get();
     U create();
-    public class EntityTypeAdapter implements  IDictionaryAdapter<EntityType, EntityContent>{
-        EntityType entityType;
-
-        public EntityTypeAdapter(EntityType entityType) {
-            this.entityType = entityType;
+    public class LivingEntityAdapter implements  IDictionaryAdapter<LivingEntity, EntityContent>{
+        LivingEntity livingEntity;
+        EnumEntityTag tag;
+        public LivingEntityAdapter(LivingEntity livingEntity) {
+            this.livingEntity = livingEntity;
         }
 
         @Override
         public String getID() {
-            return entityType.getDescriptionId();
-        }
-
-        public String getType(){
-            return "Entity";
+            return livingEntity.getType().getDescriptionId();
         }
 
         @Override
-        public EntityType get() {
-            return entityType;
+        public LivingEntity get() {
+            return livingEntity;
         }
 
         @Override
         public EntityContent create() {
-            return new EntityContent(entityType);
+            return new EntityContent(livingEntity);
         }
 
+        @Override
+        public String getType() {
+            return "Entity";
+        }
     }
 
     public class ItemStackAdapter implements  IDictionaryAdapter<ItemStack, ItemContent>{
@@ -67,7 +68,7 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
         }
     }
 
-    public class BiomeAdapter implements IDictionaryAdapter<Biome, BiomeContent>{
+    class BiomeAdapter implements IDictionaryAdapter<Biome, BiomeContent>{
         Biome biome;
 
         public BiomeAdapter(Biome biome) {

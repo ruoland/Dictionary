@@ -1,12 +1,33 @@
 package org.ruoland.dictionary.dictionary.dictionary.manager;
 
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.biome.Biome;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 
 public class VariableManager {
 
-    public static String replaceVariable(ItemStack itemStack, String content) {
+    public static String replaceVariable(IDictionaryAdapter adapter, String content) {
         if(content == null)
             return null;
+        if(adapter instanceof IDictionaryAdapter.ItemStackAdapter itemStackAdapter)
+            return itemStack(itemStackAdapter.get(), content);
+        else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter livingEntityAdapter)
+            return livingEntity(livingEntityAdapter.get(), content);
+        else if(adapter instanceof IDictionaryAdapter.BiomeAdapter biomeAdapter)
+            return biome(biomeAdapter.get(), content);
+
+        return content;
+    }
+    private static String livingEntity(LivingEntity livingEntity, String content){
+
+        return content;
+    }
+    private static String biome(Biome biomeID, String content){
+
+        return content;
+    }
+    private static String itemStack(ItemStack itemStack, String content){
 
         if (itemStack == null) {
             content = content.replaceAll("%damage%", "(불러오지 못함)");
@@ -19,7 +40,6 @@ public class VariableManager {
             content = content.replaceAll("%name%", itemStack.getDisplayName().getString());
             content = content.replaceAll("%maxStackSize%", "" + itemStack.getMaxStackSize());
         }
-
         return content;
     }
 

@@ -78,7 +78,7 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
             return getGroupMap().get(tagKey);
         }
         else if(getGroupMap().get("ETC") != null){
-            Dictionary.LOGGER.debug("{}가 없습니다. ETC를 반환합니다. 그룹에 있는 콘텐츠 맵 {}",tagKey, getGroupMap().get("ETC").getGroupContentMap());
+            Dictionary.LOGGER.debug("{}가 없습니다. ETC를 반환합니다. 그룹에 있는 콘텐츠 맵 {}",tagKey, getGroupMap().get("ETC").getContentMap());
             return getGroupMap().get("ETC");
         }
         else if(getGroupMap().get("ETC") == null){

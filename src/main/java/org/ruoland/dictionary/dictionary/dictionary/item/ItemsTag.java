@@ -24,7 +24,7 @@ public class ItemsTag extends BaseTags<EnumItemTag, ItemSubData> {
     public String getItemDescription(String itemId) {
         ItemSubData itemSubData = getSubData();
         for (ItemGroupContent group : itemSubData.getGroupMap().values()) {
-            ItemContent item = group.getGroupContentMap().get(itemId);
+            ItemContent item = group.getContentMap().get(itemId);
             if (item != null) {
                 return item.getDictionary();
             }

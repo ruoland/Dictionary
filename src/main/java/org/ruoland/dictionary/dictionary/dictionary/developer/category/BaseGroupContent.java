@@ -1,7 +1,7 @@
 package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
 import com.google.gson.annotations.SerializedName;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
@@ -22,7 +22,7 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
     @SerializedName(value = "아이템들", alternate = {"그룹 목록"})
     private HashMap<String, U> baseContentMap = new HashMap<>();
 
-    public HashMap<String, U> getGroupContentMap() {
+    public HashMap<String, U> getContentMap() {
         return baseContentMap;
     }
     public void clear(){
@@ -33,16 +33,16 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
     }
 
     public boolean existCheck(String id) {
-        if (getGroupContentMap().containsKey(id)) {
-            Dictionary.LOGGER.info("아이템이 이미 그룹에 존재합니다.: {}", id);
+        if (getContentMap().containsKey(id)) {
+            Dictionary.LOGGER.trace("아이템이 이미 그룹에 존재합니다.: {}", id);
             return true;
         }
         return false;
     }
     public void addToNewContent(T adapter){
         BaseContent newContent;
-        if(getGroupContentMap().containsKey(adapter.getID())){
-            Dictionary.LOGGER.info("이미 존재하는 도감: {}. {}, {}", adapter.getID(), adapter.getType(), adapter.get());
+        if(getContentMap().containsKey(adapter.getID())){
+            Dictionary.LOGGER.trace("이미 존재하는 도감: {}. {}, {}", adapter.getID(), adapter.getType(), adapter.get());
             return;
         }
         switch (adapter.getType()) {
@@ -54,7 +54,7 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
                 newContent = new BiomeContent(adapter.getID());
                 break;
             case "Entity":
-                newContent = new EntityContent((EntityType) adapter.get());
+                newContent = new EntityContent((LivingEntity) adapter.get());
                 break;
             default:
                 newContent = null;
@@ -62,7 +62,7 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
         }
 
 
-        getGroupContentMap().put(adapter.getID(), (U) adapter.create());
+        getContentMap().put(adapter.getID(), (U) adapter.create());
         Dictionary.LOGGER.info("새로운 아이템을 그룹에 추가하였습니다.: {}, {}", newContent.id, newContent.getDictionary());
     }
 

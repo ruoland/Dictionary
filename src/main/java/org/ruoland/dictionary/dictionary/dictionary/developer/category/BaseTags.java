@@ -30,6 +30,7 @@ public abstract class BaseTags<T extends IEnumTag, E extends BaseSubData> {
         addSubData(enumTag);
     }
 
+    //T 만으로는 SubData 객체를 생성할 수 없으므로, 이 함수는 직접 구현 해야 함
     public abstract void addSubData(T tag);
     public TreeMap<T, E> getTagSubMap() {
         return tagSubMap;

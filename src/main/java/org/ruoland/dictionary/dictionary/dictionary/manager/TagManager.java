@@ -2,20 +2,26 @@ package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.item.*;
+import org.apache.commons.lang3.ArrayUtils;
 import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.Dictionary;
-import org.ruoland.dictionary.dictionary.dictionary.developer.category.Data;
-import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
-import org.ruoland.dictionary.dictionary.dictionary.entity.EnumEntityTag;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.*;
+import org.ruoland.dictionary.dictionary.dictionary.entity.*;
 import org.ruoland.dictionary.dictionary.dictionary.item.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.EnumMap;
 import java.util.LinkedHashMap;
+import java.util.TreeMap;
+import java.util.stream.Stream;
 
 /**
  * 태그를 부여하거나, 태그에 있는 아이템을 모아두거나, 태그를 저장, 불러오기 하는 클래스
@@ -23,10 +29,10 @@ import java.util.LinkedHashMap;
 public class TagManager {
     //태그 -> 아이템 태그를 가져옴
     private static final EnumMap<EnumItemTag, ItemsTag> itemTagMap = new EnumMap<>(EnumItemTag.class);
-    private static final EnumMap<EnumEntityTag, EnumEntityTag> entityTagMap = new EnumMap<>(EnumEntityTag.class);
+    private static final EnumMap<EnumEntityTag, EntitiesTag> entityTagMap = new EnumMap<>(EnumEntityTag.class);
     //아이템 아이디 -> 해당 아이템이 속한 그룹을 가져오기
     private static final LinkedHashMap<String, ItemGroupContent> idToGroup = new LinkedHashMap<>();
-    private static final EnumMap<EnumItemTag, Long> lastEditedMap = new EnumMap<>(EnumItemTag.class);
+    private static final TreeMap<IEnumTag, Long> lastEditedMap = new TreeMap<>();
 
 
     private static final TagManager TAG_MANAGER;
@@ -48,7 +54,7 @@ public class TagManager {
             ItemsTag itemsTag = getItemTag(tag);
             ItemSubData itemSubData = itemsTag.getSubData();
             for (ItemGroupContent group : itemSubData.getGroupMap().values()) {
-                ItemContent item = group.getGroupContentMap().get(itemID);
+                ItemContent item = group.getContentMap().get(itemID);
                 if (item != null) {
                     Dictionary.LOGGER.info("{} 아이템을 찾았습니다.: {}", itemID, item);
                     return item;
@@ -65,7 +71,51 @@ public class TagManager {
 
         return null;
     }
-    public void loadTag() {
+    public void loadTag(){
+        loadItemTag();
+        loadEntityTag();
+        tagging();
+    }
+    public void loadEntityTag() {
+        Dictionary.LOGGER.info("Starting to load tags...");
+        for (EnumEntityTag tag : EnumEntityTag.values()) {
+            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            if (Files.exists(tagFile)) {
+                try {
+                    EntitiesTag entityTag = (EntitiesTag) Data.readJson(tagFile, EntitiesTag.class);
+                    Dictionary.LOGGER.info("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), entityTag.getTagSubMap());
+                    for (EntitySubData subData : entityTag.getTagSubMap().values()) {
+                        for (EntityGroupContent group : subData.getGroupMap().values()) {
+                            for (EntityContent item : group.getContentMap().values()) {
+                                if (item.getDictionary() != null) {
+                                    item.setDictionary(item.getDictionary());
+                                }
+                            }
+                        }
+                    }
+
+                    entityTagMap.put(tag, entityTag);
+                    lastEditedMap.put(tag, tagFile.toFile().lastModified());
+                    Dictionary.LOGGER.info("{} 태그 파일을 성공적으로 불러왔습니다. ", entityTag);
+
+                } catch (Exception e) {
+                    Dictionary.LOGGER.error("Error loading tag {}: {}", tag, e.getMessage());
+                    e.printStackTrace();
+                }
+            } else {
+                Dictionary.LOGGER.warn("Tag file not found for {}, creating a new one", tag);
+                entityTagMap.put(tag, new EntitiesTag(tag));
+            }
+        }
+        if(itemTagMap.isEmpty()){
+            Dictionary.LOGGER.error("엔티티에서 불러온 태그가 하나도 없습니다.");
+            throw new NullPointerException();
+        }
+        Dictionary.LOGGER.info("Finished loading tags. Total tags loaded: {}", itemTagMap.size());
+
+    }
+
+    public void loadItemTag() {
         Dictionary.LOGGER.info("Starting to load tags...");
         for (EnumItemTag tag : EnumItemTag.values()) {
             Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
@@ -75,7 +125,7 @@ public class TagManager {
                     Dictionary.LOGGER.info("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), itemsTag.getTagSubMap());
                     for (ItemSubData subData : itemsTag.getTagSubMap().values()) {
                         for (ItemGroupContent group : subData.getGroupMap().values()) {
-                            for (ItemContent item : group.getGroupContentMap().values()) {
+                            for (ItemContent item : group.getContentMap().values()) {
                                 if (item.getDictionary() != null) {
                                     item.setDictionary(item.getDictionary());
                                 }
@@ -97,15 +147,102 @@ public class TagManager {
             }
         }
         if(itemTagMap.isEmpty()){
-            Dictionary.LOGGER.error("불러온 태그가 하나도 없습니다.");
+            Dictionary.LOGGER.error("아이템에서 불러온 태그가 하나도 없습니다.");
             throw new NullPointerException();
         }
         Dictionary.LOGGER.info("Finished loading tags. Total tags loaded: {}", itemTagMap.size());
-        tagging();
+
     }
 
-    public void saveTag() throws IOException {
+
+    public void loadTagTest() {
+        Dictionary.LOGGER.info("Starting to load tags...");
+        EnumEntityTag[] entityTags = EnumEntityTag.values();
+        EnumItemTag[] itemTags = EnumItemTag.values();
+
+        // Stream을 사용하여 두 배열을 합칩니다.
+        IEnumTag[] combinedTags = Stream.concat(
+                Arrays.stream(entityTags),
+                Arrays.stream(itemTags)
+        ).toArray(IEnumTag[]::new);
+
+        for (IEnumTag tag: combinedTags) {
+
+            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            if (Files.exists(tagFile)) {
+                try {
+                    BaseTags<?,?> baseTags = (BaseTags) Data.readJson(tagFile, BaseTags.class);
+                    Dictionary.LOGGER.info("{} 파일을 불러옵니다. 아이템 태그{}:", tagFile.getFileName(), baseTags.getTagSubMap());
+                    for (BaseSubData<?,?> subData : baseTags.getTagSubMap().values()) {
+                        for (BaseGroupContent group : subData.getGroupMap().values()) {
+                            for (Object obj : group.getContentMap().values()) {
+                                BaseContent item = (BaseContent) obj;
+                                if (item.getDictionary() != null) {
+                                    item.setDictionary(item.getDictionary());
+                                }
+                            }
+                        }
+                    }
+
+                    if(tag instanceof EnumItemTag enumItemTag)
+                        itemTagMap.put(enumItemTag, (ItemsTag) baseTags);
+                    else if(tag instanceof EnumEntityTag entityTag)
+                        entityTagMap.put(entityTag, (EntitiesTag) baseTags);
+                    //TODO 바이옴 조건도 추가하기..
+
+                    lastEditedMap.put(tag, tagFile.toFile().lastModified());
+                    Dictionary.LOGGER.info("{} 태그 파일을 성공적으로 불러왔습니다. ", baseTags);
+
+                } catch (Exception e) {
+                    Dictionary.LOGGER.error("Error loading tag {}: {}", tag, e.getMessage());
+                    e.printStackTrace();
+                }
+            } else {
+                Dictionary.LOGGER.warn("Tag file not found for {}, creating a new one", tag);
+
+                if(tag instanceof EnumItemTag enumItemTag)
+                    itemTagMap.put(enumItemTag, new ItemsTag(enumItemTag));
+                else if(tag instanceof EnumEntityTag entityTag)
+                    entityTagMap.put(entityTag, new EntitiesTag(entityTag));
+            }
+        }
+        if(itemTagMap.isEmpty()){
+            Dictionary.LOGGER.error("아이템에서 불러온 태그가 하나도 없습니다.");
+            throw new NullPointerException();
+        }
+        Dictionary.LOGGER.info("Finished loading tags. Total tags loaded: {}", itemTagMap.size());
+
+    }
+    public void saveTagTest() throws IOException {
         Dictionary.LOGGER.info("[태그 저장]시작...");
+        IEnumTag[] enums = ArrayUtils.addAll(EnumItemTag.values(), EnumEntityTag.values());
+
+        for (IEnumTag tag : enums) {
+            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
+            boolean newFile = !tagFile.toFile().exists();
+            if (newFile) {
+                Files.createFile(tagFile);
+            }
+
+            BaseTags baseTags = itemTagMap.containsKey(tag) ? itemTagMap.get(tag) : entityTagMap.containsKey(tag) ? entityTagMap.get(tag) : null ;
+
+            if (newFile || tagFile.toFile().lastModified() <= lastEditedMap.getOrDefault(tag, 0L)) {
+                // Log data being saved
+                //logSavedData(itemsTag);
+
+                Data.saveJson(tagFile, baseTags);
+                lastEditedMap.put(tag, System.currentTimeMillis());
+
+            } else {
+                Dictionary.LOGGER.info("[태그 저장] 이 파일은 저장하지 않습니다, 최근에 수정한 적이 있습니다. {}", tag);
+            }
+        }
+        Dictionary.LOGGER.info("[태그 저장] 저장완료.");
+    }
+
+    public void saveItemTag() throws IOException {
+        Dictionary.LOGGER.info("[태그 저장]시작...");
+
         for (EnumItemTag tag : EnumItemTag.values()) {
             Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
             boolean newFile = !tagFile.toFile().exists();
@@ -130,10 +267,10 @@ public class TagManager {
 
 
     public void tagging() {
-        Dictionary.LOGGER.info("[태깅] 작업을 시작합니다.");
+        Dictionary.LOGGER.info("[태깅] 게임 속 개체를 모두 검사하여 사전을 부여하는 작업을 시작합니다.");
         try {
             for (ItemStack itemStack : ContentManager.getItemList()) {
-                ItemsTag itemsTag = getItemTag(getTag(itemStack));
+                ItemsTag itemsTag = getItemTag(getItemEnumTag(itemStack));
                 ItemSubData sub = itemsTag.getSubData();
 
                 if (sub == null) {
@@ -200,13 +337,39 @@ public class TagManager {
             }
         }
     }
+    public BaseTags getDictionaryTag(IDictionaryAdapter adapter){
+        if (adapter instanceof IDictionaryAdapter.BiomeAdapter) {
+
+        }
+        else if(adapter instanceof IDictionaryAdapter.ItemStackAdapter itemStackAdapter){
+            ItemStack itemStack =itemStackAdapter.get();
+            return itemTagMap.get(EnumItemTag.valueOf(itemStack.getDescriptionId()));
+        }
+        else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter livingEntityAdapter){
+            LivingEntity type = livingEntityAdapter.get();
+            return entityTagMap.get(getEntityEnumTag(type));
+        }
+        Dictionary.LOGGER.error("타입을 찾지 못 했습니다. 찾으려 한 객체: {}", adapter);
+        return null;
+    }
+
+    public EnumEntityTag getEntityEnumTag(LivingEntity entity){
+
+        if(entity instanceof Mob){
+            return EnumEntityTag.MOB;
+        }else if(entity instanceof Animal){
+            return EnumEntityTag.ANIMAL;
+        }
+        return EnumEntityTag.CREATURE;
+    }
+
     //1단계
     public ItemsTag getItemTag(EnumItemTag enumItemTag){
         return itemTagMap.get(enumItemTag);
     }
 
     public ItemsTag getItemTag(ItemStack itemStack){
-        return getItemTag(getTag(itemStack));
+        return getItemTag(getItemEnumTag(itemStack));
     }
     
     //2단계
@@ -216,12 +379,12 @@ public class TagManager {
 
     //3단계
     public ItemGroupContent getItemGroup(ItemStack itemStack){
-        return getItemTag(getTag(itemStack)).getSubData().getItemGroup(itemStack);
+        return getItemTag(getItemEnumTag(itemStack)).getSubData().getItemGroup(itemStack);
     }
     
     //4단계
 
-    public EnumItemTag getTag(ItemStack itemStack){
+    public EnumItemTag getItemEnumTag(ItemStack itemStack){
         String namespace = BuiltInRegistries.ITEM.getKey(itemStack.getItem()).getNamespace();
         boolean isMinecraft = namespace.equals("minecraft");
         if(isMinecraft) {

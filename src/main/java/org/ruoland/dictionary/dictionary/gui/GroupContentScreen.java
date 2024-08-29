@@ -21,8 +21,8 @@ public class GroupContentScreen extends DebugScreen{
         super.init();
         int Y = 0;
         int xLine = 0;
-        for(String tag : content.getGroupContentMap().keySet()) {
-            ItemContent itemContent = content.getGroupContentMap().get(tag);
+        for(String tag : content.getContentMap().keySet()) {
+            ItemContent itemContent = content.getContentMap().get(tag);
                 ItemStack itemStack = itemContent.getItemStack();
                 addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, Component.literal(itemStack.getDisplayName().getString()), new Button.OnPress() {
                     @Override

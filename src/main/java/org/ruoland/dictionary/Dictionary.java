@@ -44,13 +44,13 @@ public class Dictionary implements ModInitializer {
                 Dictionary.LOGGER.info("플레이어 데이터 생성 완료");
             }
 
-            TagManager.getTagManager().loadTag();
+            TagManager.getTagManager().loadTagTest();
             Dictionary.LOGGER.info("태그 불러오기 완료");
             TagManager.getTagManager().sortTag();
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {
             try {
-                TagManager.getTagManager().saveTag();
+                TagManager.getTagManager().saveTagTest();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -67,7 +67,7 @@ public class Dictionary implements ModInitializer {
                 }
             }
             try {
-                TagManager.getTagManager().saveTag();
+                TagManager.getTagManager().saveTagTest();
                 Dictionary.LOGGER.info("태그 저장 완료");
             } catch (IOException e) {
                 throw new RuntimeException(e);

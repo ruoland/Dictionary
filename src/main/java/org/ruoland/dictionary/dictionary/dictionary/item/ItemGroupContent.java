@@ -8,7 +8,7 @@ import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictiona
 public class ItemGroupContent extends BaseGroupContent<IDictionaryAdapter.ItemStackAdapter, ItemContent> {
 
     public ItemStack getZeroItem(){
-        for(ItemContent content : getGroupContentMap().values()){
+        for(ItemContent content : getContentMap().values()){
 
             return content.getItemStack();
         }
@@ -19,11 +19,11 @@ public class ItemGroupContent extends BaseGroupContent<IDictionaryAdapter.ItemSt
     @Override
     public ItemContent getContent(IDictionaryAdapter.ItemStackAdapter id) {
         ItemContent itemContent = super.getContent(id);
-        Dictionary.LOGGER.info("아이템 도감 설명을 가져옵니다. {}, {}", itemContent, getGroupContentMap().get(id.getID()));
+        Dictionary.LOGGER.trace("아이템 도감 설명을 가져옵니다. {}, {}", itemContent, getContentMap().get(id.getID()));
         if(itemContent != null)
             itemContent.setItemStack(id.get());
         else
-            Dictionary.LOGGER.info("아이템 콘텐츠를 찾지 못했습니다.. {}, {}, {}, 맵 리스트 \n{}", id.getID(), id.getType(), id.get(), getGroupContentMap());
+            Dictionary.LOGGER.info("아이템 콘텐츠를 찾지 못했습니다.. {}, {}, {}, 맵 리스트 \n{}", id.getID(), id.getType(), id.get(), getContentMap());
         return itemContent;
     }
 }

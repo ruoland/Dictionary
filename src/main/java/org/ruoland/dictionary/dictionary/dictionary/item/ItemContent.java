@@ -3,7 +3,6 @@ package org.ruoland.dictionary.dictionary.dictionary.item;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
-import org.ruoland.dictionary.dictionary.dictionary.manager.VariableManager;
 
 public class ItemContent extends BaseContent {
     private transient ItemStack itemStack; //대상 아이템
@@ -22,7 +21,7 @@ public class ItemContent extends BaseContent {
         if (dictionary == null ) {
             return null;
         }
-        return VariableManager.replaceVariable(itemStack, dictionary);
+        return dictionary;
     }
 
     public ItemStack getItemStack() {

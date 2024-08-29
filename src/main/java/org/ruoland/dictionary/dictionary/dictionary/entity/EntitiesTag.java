@@ -1,26 +1,17 @@
 package org.ruoland.dictionary.dictionary.dictionary.entity;
 
-import com.google.gson.annotations.SerializedName;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseTags;
 
-import java.util.EnumMap;
-
-public class EntitiesTag {
-    @SerializedName("엔티티 태그")
-    private final EnumMap<EnumEntityTag, EntitySubData> tagContentMap = new EnumMap<>(EnumEntityTag.class);
-
-    @SerializedName("tag")
-    transient EnumEntityTag tag;
+public class EntitiesTag extends BaseTags<EnumEntityTag, EntitySubData> {
 
     public EntitiesTag(EnumEntityTag tag) {
-        this.tag = tag;
-        tagContentMap.put(tag, new EntitySubData(tag));
+        super(tag);
     }
 
-    public String getTagName(){
-        return tag.name();
+    @Override
+    public void addSubData(EnumEntityTag tag) {
+        getTagSubMap().put(tag, new EntitySubData(tag));
     }
 
-    public void getSubData(){
 
-    }
 }
