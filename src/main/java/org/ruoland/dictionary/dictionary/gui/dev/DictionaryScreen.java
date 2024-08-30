@@ -3,7 +3,7 @@ package org.ruoland.dictionary.dictionary.gui.dev;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 import org.ruoland.dictionary.dictionary.gui.DebugScreen;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class DictionaryScreen extends DebugScreen {
     private ArrayList<ItemStack> itemStackList = new ArrayList<>();
     protected DictionaryScreen(Component pTitle) {
         super(pTitle);
-        itemStackList.addAll(ContentManager.getItemStackMap().values());
+        itemStackList.addAll(DataManager.getItemStackMap().values());
     }
 
     @Override

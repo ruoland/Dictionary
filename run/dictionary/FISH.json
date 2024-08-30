@@ -10,22 +10,22 @@
             "item.minecraft.tropical_fish": {
               "아이디": "item.minecraft.tropical_fish",
               "영어 이름": "Tropical Fish",
-              "설명": "열대어는 다양한 색상과 패턴을 가진 화려한 물고기입니다. 주로 %biome.minecraft.warm_ocean%, %biome.minecraft.lush_caves%, %biome.minecraft.mangrove_swamp% 바이옴에서 발견되며, 수족관 장식용으로 인기가 있습니다. 먹으면 1개의 허기를 회복하지만, 요리해서 먹을 수는 없습니다. %id:item.minecraft.tropical_fish_bucket%을 사용해 운반할 수 있습니다."
+              "설명": "열대어는 다양한 색상과 패턴을 가진 화려한 물고기입니다. 주로 따뜻한 바다 바이옴에서 발견되며, 수족관 장식용으로 인기가 있습니다. 먹으면 1개의 허기를 회복하지만, 요리해서 먹을 수는 없습니다. %id:item.minecraft.tropical_fish_bucket%을 사용해 운반할 수 있습니다."
             },
             "item.minecraft.cooked_salmon": {
               "아이디": "item.minecraft.cooked_salmon",
               "영어 이름": "Cooked Salmon",
-              "설명": "구운 연어는 %id:item.minecraft.salmon%을 요리한 것입니다. 먹으면 6개의 허기를 회복하며, 생연어보다 영양가가 높습니다. 화로, 모닥불, 훈연기에서 요리할 수 있으며, 장기 탐험 시 유용한 식량 아이템입니다. 특히 %biome.minecraft.river%, %biome.minecraft.frozen_river%, %biome.minecraft.cold_ocean% 바이옴에서 잡은 연어로 만들 수 있습니다."
+              "설명": "구운 연어는 %id:item.minecraft.salmon%을 요리한 것입니다. 먹으면 6개의 허기를 회복하며, 생연어보다 영양가가 높습니다. 화로나 모닥불에서 요리할 수 있으며, 장기 탐험 시 유용한 식량 아이템입니다."
             },
             "item.minecraft.pufferfish": {
               "아이디": "item.minecraft.pufferfish",
               "영어 이름": "Pufferfish",
-              "설명": "복어는 독성이 있는 물고기입니다. 주로 %biome.minecraft.warm_ocean%, %biome.minecraft.lukewarm_ocean% 바이옴에서 발견되며, 먹으면 중독 효과와 함께 허기 1개, 포화도 1개를 회복합니다. 주로 %id:item.minecraft.water_breathing%을 만드는 데 사용되며, %id:item.minecraft.pufferfish_bucket%을 사용해 운반할 수 있습니다."
+              "설명": "복어는 독성이 있는 물고기입니다. 주로 따뜻한 바다에서 발견되며, 먹으면 중독 효과와 함께 허기 1개, 포화도 1개를 회복합니다. 주로 %id:item.minecraft.water_breathing%을 만드는 데 사용되며, %id:item.minecraft.pufferfish_bucket%을 사용해 운반할 수 있습니다."
             },
             "item.minecraft.salmon": {
               "아이디": "item.minecraft.salmon",
               "영어 이름": "Raw Salmon",
-              "설명": "생연어는 차가운 바다와 강에서 주로 발견되는 물고기입니다. 먹으면 2개의 허기를 회복하지만, 요리하면 더 많은 영양을 얻을 수 있습니다. %id:item.minecraft.salmon_bucket%을 사용해 운반할 수 있으며, 고양이를 길들이는 데에도 사용됩니다. 주로 %biome.minecraft.river%, %biome.minecraft.frozen_river%, %biome.minecraft.cold_ocean% 바이옴에서 잡을 수 있습니다."
+              "설명": "생연어는 차가운 바다와 강에서 주로 발견되는 물고기입니다. 먹으면 2개의 허기를 회복하지만, 요리하면 더 많은 영양을 얻을 수 있습니다. %id:item.minecraft.salmon_bucket%을 사용해 운반할 수 있으며, 고양이를 길들이는 데에도 사용됩니다."
             }
           }
         }

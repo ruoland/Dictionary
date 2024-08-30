@@ -11,12 +11,17 @@ public class ItemsTag extends BaseTags<EnumItemTag, ItemSubData> {
 
     public ItemSubData getSubData() {
         //Dictionary.LOGGER.info(" 태그 이름: {}, {}", getTagName(), getTagSubMap().values());
-        return getTagSubMap().get(EnumItemTag.valueOf(getTagName()));
+        return getTagSubMap().get(getTagName());
     }
 
     @Override
     public void addSubData(EnumItemTag tag) {
-        getTagSubMap().put(tag, new ItemSubData(tag));
+        getTagSubMap().put(tag.name(), new ItemSubData(tag));
+    }
+
+    @Override
+    protected ItemSubData createSubData(EnumItemTag tag) {
+        return new ItemSubData(tag);
     }
 
 

@@ -1,27 +1,23 @@
 package org.ruoland.dictionary.dictionary.dictionary.entity;
 
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseContent;
 
 public class EntityContent extends BaseContent {
-    private transient LivingEntity livingEntity;
+    private transient EntityType entityType;
 
-    public EntityContent(LivingEntity livingEntity) {
-        super(livingEntity.getType().getDescriptionId());
-        this.livingEntity = livingEntity;
+    public EntityContent(EntityType entityType) {
+        super(entityType.getDescriptionId());
+        this.entityType = entityType;
     }
 
-    public void setLivingEntity(LivingEntity livingEntity) {
-        this.livingEntity = livingEntity;
+    public EntityType getEntityType() {
+        return entityType;
     }
 
     @Override
     public String getDictionary() {
         return super.getDictionary();
-    }
-
-    public LivingEntity getLivingEntity() {
-        return livingEntity;
     }
 
 }

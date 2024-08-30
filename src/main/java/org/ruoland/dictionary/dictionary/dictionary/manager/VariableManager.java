@@ -1,6 +1,6 @@
 package org.ruoland.dictionary.dictionary.dictionary.manager;
 
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.biome.Biome;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
@@ -19,7 +19,7 @@ public class VariableManager {
 
         return content;
     }
-    private static String livingEntity(LivingEntity livingEntity, String content){
+    private static String livingEntity(EntityType type, String content){
 
         return content;
     }

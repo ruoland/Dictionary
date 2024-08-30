@@ -37,11 +37,6 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
 
     }
 
-    public boolean hasGroup(ItemStack itemStack){
-        return getItemGroup(itemStack) != null;
-    }
-
-
     public void sortGroup(){
 //        Dictionary.LOGGER.info(tag + " 정리 중");
 //
@@ -82,7 +77,7 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
             return getGroupMap().get("ETC");
         }
         else if(getGroupMap().get("ETC") == null){
-            Dictionary.LOGGER.warn("ETC 조차 없습니다. 도감이 아예 없는 것처럼 보입니다. {}",tagKey);
+            Dictionary.LOGGER.warn("ItemSubData에 ETC 조차 없습니다. 그룹이 아예 비어 있는 것처럼 보입니다. {}, {}",tagKey, getGroupMap());
             return null;
         }
         return null;

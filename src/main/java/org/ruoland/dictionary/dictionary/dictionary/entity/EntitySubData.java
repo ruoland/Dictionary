@@ -1,7 +1,6 @@
 package org.ruoland.dictionary.dictionary.dictionary.entity;
 
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.LivingEntity;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseSubData;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
@@ -14,8 +13,8 @@ public class EntitySubData extends BaseSubData<EntityGroupContent, IDictionaryAd
         super(tag);
     }
 
-    public void addItemContentInGroup(LivingEntity livingEntity){
-        EntityType<?> entityType = livingEntity.getType();
+    public void addItemContentInGroup(EntityType entityType){
+
         String itemGroupCutID = TagManager.getTagManager().getCutID(entityType.getDescriptionId());
         EntityGroupContent groupContent = getGroupMap().get(itemGroupCutID);
 
@@ -26,7 +25,8 @@ public class EntitySubData extends BaseSubData<EntityGroupContent, IDictionaryAd
         }
 
         //그룹 아이템 내에서는 아이템 스택 아이디로
-        groupContent.addToNewContent(new IDictionaryAdapter.LivingEntityAdapter(livingEntity));
+        groupContent.addToNewContent(new IDictionaryAdapter.LivingEntityAdapter(
+                entityType));
         Dictionary.LOGGER.info("{}, {}가 추가되었습니다.", itemGroupCutID, entityType.getDescriptionId());
 
     }

@@ -29,12 +29,12 @@ public class Dictionary implements ModInitializer {
             Dictionary.LOGGER.info("파일 초기화 완료");
 
             try {
-                ContentManager.loadMinecraftItems();
+                DataManager.loadMinecraftItems();
                 Dictionary.LOGGER.info("모든 아이템 정보 불러오기 완료");
-                ContentManager.loadEntities();
+                DataManager.loadEntities();
                 Dictionary.LOGGER.info("모든 엔티티 정보 불러오기 완료");
 
-                ContentManager.loadBiome();
+                DataManager.loadBiome();
                 Dictionary.LOGGER.info("모든 바이옴 정보 불러오기 완료");
             } catch (IllegalAccessException e) {
                 throw new RuntimeException(e);
@@ -44,9 +44,10 @@ public class Dictionary implements ModInitializer {
                 Dictionary.LOGGER.info("플레이어 데이터 생성 완료");
             }
 
-            TagManager.getTagManager().loadTagTest();
+            TagManager.getTagManager().loadTag();
             Dictionary.LOGGER.info("태그 불러오기 완료");
             TagManager.getTagManager().sortTag();
+
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {
             try {

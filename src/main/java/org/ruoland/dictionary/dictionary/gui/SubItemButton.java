@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemSubData;
-import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class SubItemButton extends Button {
         itemList.add(itemStack);
         for(ItemGroupContent groupContent : itemSubData.getGroupMap().values()){
             for(ItemContent content :groupContent.getContentMap().values())
-                itemList.add(ContentManager.getItemStackMap().get(content.getID()));
+                itemList.add(DataManager.getItemStackMap().get(content.getID()));
         }
         return this;
     }

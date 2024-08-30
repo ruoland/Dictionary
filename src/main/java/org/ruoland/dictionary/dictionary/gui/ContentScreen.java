@@ -14,10 +14,10 @@ import net.minecraft.world.item.ItemStack;
 import org.joml.Quaternionf;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
-import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.LangManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.VariableManager;
@@ -37,10 +37,11 @@ public class ContentScreen extends DebugScreen {
     int itemInfoName = 90;
     int itemInfoX = itemInfoName + 30;
     int width = 300;
+    private LivingEntity renderEntity;
 
     public ContentScreen(Screen lastScreen, ItemStack itemStack, boolean onlyGroup) {
         super(Component.literal("도감"));
-
+        Dictionary.LOGGER.info("아이템 그룹 가져 오는 중: {}",  TagManager.getTagManager().getItemGroup(itemStack), itemStack);
         String groupName = TagManager.getTagManager().getItemGroup(itemStack).getGroupName();
 
         if(onlyGroup)
@@ -58,9 +59,13 @@ public class ContentScreen extends DebugScreen {
 
     public ContentScreen(Screen prevScreen, LivingEntity entity){
         super(Component.literal("괴물들에 관한 괴물책"));
-        adapter = new IDictionaryAdapter.LivingEntityAdapter(entity);
+        adapter = new IDictionaryAdapter.LivingEntityAdapter(entity.getType());
         currentName = entity.getDisplayName();
         engName = Component.literal(LangManager.getEnglishName(entity.getType().getDescriptionId()));
+        this.renderEntity = entity;
+        this.contentComponents = new ArrayList<>();
+        this.lastScreen = lastScreen;
+
     }
 
     protected void init() {
@@ -68,7 +73,7 @@ public class ContentScreen extends DebugScreen {
         updateContentWidth();
         Dictionary.LOGGER.info("ContentScreen initialized. BaseContent width: {}", contentWidth);
         try {
-            String content = ContentManager.getContent(adapter).replace("\\n", "\n");
+            String content = DataManager.getContent(adapter).replace("\\n", "\n");
             content = VariableManager.replaceVariable(adapter, content);
             parseContent(content);
         } catch (NullPointerException e) {
@@ -98,7 +103,7 @@ public class ContentScreen extends DebugScreen {
         // EntityRenderDispatcher를 사용하여 엔티티 렌더링
         EntityRenderDispatcher entityRenderDispatcher = Minecraft.getInstance().getEntityRenderDispatcher();
         entityRenderDispatcher.setRenderShadow(false);
-        entityRenderDispatcher.render((LivingEntity) adapter.get(), 0.0D, 0.0D, 0.0D, 0.0F, pPartialTick, poseStack, pGuiGraphics.bufferSource(), 15728880);
+        entityRenderDispatcher.render(renderEntity, 0.0D, 0.0D, 0.0D, 0.0F, pPartialTick, poseStack, pGuiGraphics.bufferSource(), 15728880);
         entityRenderDispatcher.setRenderShadow(true);
 
         poseStack.popPose();
@@ -161,7 +166,7 @@ public class ContentScreen extends DebugScreen {
         Component buttonText;
 
         if (id.startsWith("%group_id:")) {
-            ItemGroupContent groupContent = TagManager.getTagManager().findGroupByItemID(itemId);
+            BaseGroupContent groupContent = TagManager.getTagManager().findGroupByItemID(itemId);
             if(groupContent == null ){
                 if(itemId.equals("pressure_plate")) {
                     groupContent = TagManager.getTagManager().findGroupByItemID("plate");
@@ -174,7 +179,7 @@ public class ContentScreen extends DebugScreen {
             Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
             buttonText = itemContent.getItemStack().getHoverName();
         } else if(id.startsWith("%id:entity.")){
-            String entityName = ContentManager.getEntityNameById(itemId);
+            String entityName = DataManager.getEntityNameById(itemId);
             buttonText = Component.literal(entityName);
         } else if(id.startsWith("%id:biome.")){
             String biomeName = LangManager.getBiomeNameKor(itemId);
@@ -189,7 +194,7 @@ public class ContentScreen extends DebugScreen {
                     Dictionary.LOGGER.info("Button clicked: {}", id);
                     Screen nextScreen = null;
                     if (id.startsWith("%group_id:")) {
-                        ItemGroupContent groupContent = TagManager.getTagManager().findGroupByItemID(itemId);
+                        BaseGroupContent groupContent = TagManager.getTagManager().findGroupByItemID(itemId);
                         nextScreen = new GroupContentScreen(this, groupContent);
                     } else if (id.startsWith("%id:item.") || id.startsWith("%id:block.")) {
                         ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
@@ -221,7 +226,13 @@ public class ContentScreen extends DebugScreen {
         renderTitle(pGuiGraphics);
         int y = renderSubtitle(pGuiGraphics);
         renderContent(pGuiGraphics, pMouseX, pMouseY, pPartialTick, y);
-        renderItem(pGuiGraphics, pPartialTick);
+        if(adapter instanceof IDictionaryAdapter.ItemStackAdapter)
+            renderItem(pGuiGraphics, pPartialTick);
+        else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter)
+            renderEntity(pGuiGraphics, pPartialTick);
+        else if(adapter instanceof IDictionaryAdapter.BiomeAdapter){
+            //TODO 도감 화면에서 바이옴 렌더링??
+        }
     }
 
 
@@ -381,8 +392,8 @@ public class ContentScreen extends DebugScreen {
 
 
     private void renderEntity(GuiGraphics pGuiGraphics, float pPartialTick) {
-        int itemRenderPositionX = 75;
-        renderEntity(pGuiGraphics, guiLeft + itemInfoName - itemRenderPositionX, guiTop - 2, 3.5F, pPartialTick);
+        int entityRenderPosX = -0;
+        renderEntity(pGuiGraphics, guiLeft + itemInfoName - entityRenderPosX, guiTop + 75, 1F, pPartialTick);
     }
     private void renderItem(GuiGraphics pGuiGraphics, float pPartialTick) {
         int itemRenderPositionX = 75;

@@ -1,7 +1,7 @@
 package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
 import com.google.gson.annotations.SerializedName;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
@@ -54,7 +54,7 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
                 newContent = new BiomeContent(adapter.getID());
                 break;
             case "Entity":
-                newContent = new EntityContent((LivingEntity) adapter.get());
+                newContent = new EntityContent((EntityType) adapter.get());
                 break;
             default:
                 newContent = null;

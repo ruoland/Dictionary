@@ -2,7 +2,7 @@ package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -19,16 +19,14 @@ import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class ContentManager {
+public class DataManager {
     private static final TreeMap<String, String> biomes = new TreeMap<>();
     private static final ArrayList<ItemStack> ITEM_LIST = new ArrayList<>();
     private static final HashMap<String, ItemStack> ITEM_STACK_MAP = new HashMap<>();
-    private static final TreeMap<String, LivingEntity> entities = new TreeMap<>();
+    private static final TreeMap<String, EntityType> entities = new TreeMap<>();
     private static final HashMap<String, BaseContent> contentMap = new HashMap<>();
     public static void loadAllContent() throws IllegalAccessException {
         loadMinecraftItems();
@@ -37,28 +35,38 @@ public class ContentManager {
     }
 
     public static void loadEntities(){
-        Class<LivingEntity> typeClass = LivingEntity.class;
+        Class<EntityType> typeClass = EntityType.class;
         Field[] entityFields = typeClass.getFields();
         for(Field field : entityFields){
             if(field.getType() == typeClass){
                 try {
-                    LivingEntity livingEntity = (LivingEntity) field.get(null);
-                    entities.put(livingEntity.getType().getDescriptionId(), livingEntity);
+                    EntityType type = (EntityType) field.get(null);
+                    Dictionary.LOGGER.warn("엔티티 검색 중: {}, {},", type.getBaseClass(), type.getDescriptionId());
+
+                    entities.put(type.getDescriptionId(), type);
                 } catch (IllegalAccessException e) {
                     throw new RuntimeException(e);
                 }
             }
         }
-        for (Map.Entry<String, LivingEntity> entry : entities.entrySet()) {
+        for (Map.Entry<String, EntityType> entry : entities.entrySet()) {
             String id = entry.getKey();
-            LivingEntity livingEntity = entry.getValue();
+            EntityType livingEntity = entry.getValue();
             contentMap.put(id, new EntityContent(livingEntity));
         }
+        List<EntityContent> entityContentList = contentMap.values().stream()
+                .filter(content -> content instanceof EntityContent)
+                .map(content -> (EntityContent) content)
+                .collect(Collectors.toList());
+
+        Dictionary.LOGGER.info("불러온 엔티티 개수: {}", entityContentList.size());
+        if(entityContentList.isEmpty())
+            Dictionary.LOGGER.error("[위험] 불러온 엔티티가 없습니다.");
     }
 
     public static String getEntityNameById(String id){
         Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, entities);
-        return entities.get(id).getType().getDescription().getString();
+        return entities.get(id).getDescription().getString();
     }
     public static String getBiomeNameById(String id){
         Dictionary.LOGGER.info("{}의 이름을 가져옵니다. {}", id, biomes);
@@ -83,12 +91,23 @@ public class ContentManager {
             String id = itemStack.getDescriptionId();
             contentMap.put(id, new ItemContent(itemStack));
         }
+        List<ItemContent> entityContentList = contentMap.values().stream()
+                .filter(content -> content instanceof ItemContent)
+                .map(content -> (ItemContent) content)
+                .collect(Collectors.toList());
+
+        Dictionary.LOGGER.info("불러온 아이템의 개수: {}", entityContentList.size());
+        if(entityContentList.isEmpty())
+            Dictionary.LOGGER.error("[위험] 불러온 아이템의 없습니다.");
     }
 
     public static ArrayList<ItemStack> getItemList() {
         return ITEM_LIST;
     }
 
+    public static TreeMap<String, EntityType> getEntities() {
+        return entities;
+    }
 
     public static void loadBiome(){
         Class typeClass = Biomes.class;

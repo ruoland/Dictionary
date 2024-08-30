@@ -4,14 +4,16 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroupContent;
+import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 
 public class GroupContentScreen extends DebugScreen{
 
 
-    ItemGroupContent content = null;
-    protected GroupContentScreen(Screen screen, ItemGroupContent content) {
+    BaseGroupContent<IDictionaryAdapter, BaseContent> content = null;
+    protected GroupContentScreen(Screen screen, BaseGroupContent content) {
         super(Component.literal("그룹 아이템"));
         this.content = content;
 
@@ -22,7 +24,8 @@ public class GroupContentScreen extends DebugScreen{
         int Y = 0;
         int xLine = 0;
         for(String tag : content.getContentMap().keySet()) {
-            ItemContent itemContent = content.getContentMap().get(tag);
+            BaseContent baseContent = content.getContentMap().get(tag);
+            if(baseContent instanceof ItemContent itemContent ) {
                 ItemStack itemStack = itemContent.getItemStack();
                 addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, Component.literal(itemStack.getDisplayName().getString()), new Button.OnPress() {
                     @Override
@@ -38,6 +41,7 @@ public class GroupContentScreen extends DebugScreen{
 
                 }
 
+            }
         }
     }
 }

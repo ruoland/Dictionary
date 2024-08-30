@@ -1,39 +1,39 @@
 package org.ruoland.dictionary.dictionary.dictionary.developer.category;
 
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.biome.Biome;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EnumEntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
-import org.ruoland.dictionary.dictionary.dictionary.manager.ContentManager;
+import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 
 public interface IDictionaryAdapter<T, U extends BaseContent> {
     public String getID();
     String getType();
     T get();
     U create();
-    public class LivingEntityAdapter implements  IDictionaryAdapter<LivingEntity, EntityContent>{
-        LivingEntity livingEntity;
+    public class LivingEntityAdapter implements  IDictionaryAdapter<EntityType, EntityContent>{
+        EntityType entityType;
         EnumEntityTag tag;
-        public LivingEntityAdapter(LivingEntity livingEntity) {
-            this.livingEntity = livingEntity;
+        public LivingEntityAdapter(EntityType livingEntity) {
+            this.entityType = livingEntity;
         }
 
         @Override
         public String getID() {
-            return livingEntity.getType().getDescriptionId();
+            return entityType.getDescriptionId();
         }
 
         @Override
-        public LivingEntity get() {
-            return livingEntity;
+        public EntityType get() {
+            return entityType;
         }
 
         @Override
         public EntityContent create() {
-            return new EntityContent(livingEntity);
+            return new EntityContent(entityType);
         }
 
         @Override
@@ -78,7 +78,7 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
         @Override
         public String getID() {
             //TODO 일단 바이옴 저장관리부터 구현해야 가능할듯
-            return ContentManager.getBiomeNameById("");
+            return DataManager.getBiomeNameById("");
         }
         public String getType(){
             return "Biome";

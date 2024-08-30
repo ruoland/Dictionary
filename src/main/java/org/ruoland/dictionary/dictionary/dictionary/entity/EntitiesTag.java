@@ -10,7 +10,12 @@ public class EntitiesTag extends BaseTags<EnumEntityTag, EntitySubData> {
 
     @Override
     public void addSubData(EnumEntityTag tag) {
-        getTagSubMap().put(tag, new EntitySubData(tag));
+        getTagSubMap().put(tag.name(), new EntitySubData(tag));
+    }
+
+    @Override
+    protected EntitySubData createSubData(EnumEntityTag tag) {
+        return new EntitySubData(tag);
     }
 
 

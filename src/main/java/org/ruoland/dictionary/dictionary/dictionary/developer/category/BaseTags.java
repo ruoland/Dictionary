@@ -5,9 +5,9 @@ import org.ruoland.dictionary.Dictionary;
 
 import java.util.TreeMap;
 
-public abstract class BaseTags<T extends IEnumTag, E extends BaseSubData> {
+public abstract class BaseTags<T extends Enum<T> & IEnumTag, E extends BaseSubData> {
     @SerializedName(value = "목록", alternate = {"아이템 태그", "엔티티 태그"})
-    private final TreeMap<T, E> tagSubMap = new TreeMap<>();
+    private final TreeMap<String, E> tagSubMap = new TreeMap<>();
 
     transient T enumTag;
 
@@ -30,12 +30,13 @@ public abstract class BaseTags<T extends IEnumTag, E extends BaseSubData> {
         addSubData(enumTag);
     }
 
-    //T 만으로는 SubData 객체를 생성할 수 없으므로, 이 함수는 직접 구현 해야 함
-    public abstract void addSubData(T tag);
-    public TreeMap<T, E> getTagSubMap() {
+    public void addSubData(T tag){
+        tagSubMap.put(tag.name(), createSubData(tag));
+    }
+    public TreeMap<String, E> getTagSubMap() {
         return tagSubMap;
     }
-
+    protected abstract E createSubData(T tag);
     public void setTag(String tag) {
         this.tag = tag;
     }

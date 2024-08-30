@@ -16,7 +16,7 @@ public class DictionaryCommand {
                 .requires(source -> source.hasPermission(2)) // OP 레벨 2 이상 필요
                 .executes(context -> {
                     try {
-                        TagManager.getTagManager().loadItemTag();
+                        TagManager.getTagManager().loadTag();
                         context.getSource().sendSuccess((Supplier<Component>) Component.literal("Dictionary reloaded successfully."), true);
                     } catch (Exception e) {
                         context.getSource().sendFailure(Component.literal("Failed to reload dictionary: " + e.getMessage()));
