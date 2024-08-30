@@ -3,22 +3,29 @@ package org.ruoland.dictionary.dictionary.dictionary.manager;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.biome.Biome;
+import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 
 public class VariableManager {
 
-    public static String replaceVariable(IDictionaryAdapter adapter, String content) {
+    public static String replaceVariable(IDictionaryAdapter adapter, @Nullable String content) {
         if(content == null)
             return null;
+
         if(adapter instanceof IDictionaryAdapter.ItemStackAdapter itemStackAdapter)
             return itemStack(itemStackAdapter.get(), content);
+
         else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter livingEntityAdapter)
             return livingEntity(livingEntityAdapter.get(), content);
+
         else if(adapter instanceof IDictionaryAdapter.BiomeAdapter biomeAdapter)
             return biome(biomeAdapter.get(), content);
 
         return content;
     }
+    /*
+    TODO 엔티티 변수도 대응할 수 있게 해야 함
+     */
     private static String livingEntity(EntityType type, String content){
 
         return content;

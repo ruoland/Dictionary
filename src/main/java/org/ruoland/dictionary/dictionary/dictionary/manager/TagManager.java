@@ -219,10 +219,10 @@ public class TagManager {
                 //Dictionary.LOGGER.info("[태깅] 중 설명 확인 1단계 {} ",group.getGroupContentMap().values());
                 if (group != null) {
                     Dictionary.LOGGER.debug("아이템의 그룹이 존재합니다. {} 에 {} 아이템을 추가하였습니다.", group.getGroupName(), itemStack.getDescriptionId());
-                    group.addToNewContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
+                    group.addContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
                 } else {
                     Dictionary.LOGGER.debug("아이템의 그룹을 찾지 못했습니다. 그룹을 생성한 후 아이템을 추가합니다: {}", itemStack.getDescriptionId());
-                    sub.addItemContentInGroup(itemStack);
+                    sub.addGroupToItem(itemStack);
                 }
                 //Dictionary.LOGGER.info("[태깅] 중 설명 확인 2단계 {}",group.getGroupContentMap().get(itemStack.getDescriptionId()).getDictionary());
                 String itemId = getCutID(itemStack.getDescriptionId());
@@ -269,11 +269,11 @@ public class TagManager {
                     continue;
                 }
 
-                EntityGroupContent group = sub.getGroup(livingEntity.getDescriptionId());
+                EntityGroupContent group = sub.findGroupByID(livingEntity.getDescriptionId());
                 //Dictionary.LOGGER.info("[태깅] 중 설명 확인 1단계 {} ",group.getGroupContentMap().values());
                 if (group != null) {
                     Dictionary.LOGGER.info("엔티티 그룹이 존재합니다. {} 에 {} 아이템을 추가하였습니다.", group.getGroupName(), adapter.getID());
-                    group.addToNewContent(adapter);
+                    group.addContent(adapter);
                 } else {
                     Dictionary.LOGGER.info("엔티티 그룹을 찾지 못했습니다. 그룹을 생성한 후 아이템을 추가합니다: {}", adapter.getID());
                     sub.addItemContentInGroup(livingEntity);
@@ -282,7 +282,7 @@ public class TagManager {
                 String itemId = getCutID(adapter.getID());
                 if(group == null) {
                     Dictionary.LOGGER.warn("엔티티 그룹이 없습니다. {}, {}", itemId, sub.getGroupMap());
-                    group = sub.getGroup(adapter.getID());
+                    group = sub.findGroupByID(adapter.getID());
                 }
 
                 EntityContent itemContent = group.getContent(adapter);
@@ -318,7 +318,6 @@ public class TagManager {
                 Dictionary.LOGGER.info(enumItemTag +" 태그 정리 시작...\n", itemTagMap);
                 if(getItemTag(enumItemTag).getSubData() == null)
                     throw new NullPointerException("태그 정리 오류: 서브 데이터가 없습니다:"+ enumItemTag);
-                getItemTag(enumItemTag).getSubData().sortGroup();
                 Dictionary.LOGGER.info(enumItemTag +" 태그 정리 완료...");
             }
             catch (NullPointerException e){

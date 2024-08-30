@@ -30,13 +30,13 @@ public class GroupContentScreen extends DebugScreen{
                 addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, Component.literal(itemStack.getDisplayName().getString()), new Button.OnPress() {
                     @Override
                     public void onPress(Button button) {
-                        ContentScreen contentScreen = new ContentScreen(minecraft.screen, itemStack, false);
+                        ContentScreen contentScreen = new ContentScreen(minecraft.screen, itemStack);
                         minecraft.setScreen(contentScreen);
                     }
                 }, null));
                 Y += 30;
                 if (Y >= height - 40) {
-                    Y = 0; //60으로
+                    Y = 0;
                     xLine += 80;
 
                 }

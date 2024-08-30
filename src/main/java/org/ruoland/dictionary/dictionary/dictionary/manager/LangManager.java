@@ -15,11 +15,14 @@ public class LangManager {
     private static Map<String, String> languageMap = new HashMap<>();
 
 
+    /*
+    아이템과 엔티티 영어 이름 가져오는 메서드
+     */
     public static String getEnglishName(String id){
         if(languageMap.isEmpty())
             loadLanguageMap();
         if(id == null)
-            return "?";
+            return "영어 이름을 알 수 없습니다.";
 
         return languageMap.get(id);
 

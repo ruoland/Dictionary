@@ -18,10 +18,11 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
         for(ItemGroupContent groupContent : getGroupMap().values()){
             return groupContent.getZeroItem();
         }
+        Dictionary.LOGGER.warn("도감에 사용될 대표 아이템을 찾지 못했습니다.");
         return null;
     }
 
-    public void addItemContentInGroup(ItemStack itemStack){
+    public void addGroupToItem(ItemStack itemStack){
         String itemGroupCutID = TagManager.getTagManager().getCutID(itemStack.getDescriptionId());
         ItemGroupContent groupItemContent = getGroupMap().get(itemGroupCutID);
 
@@ -32,9 +33,8 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
         }
 
         //그룹 아이템 내에서는 아이템 스택 아이디로
-        groupItemContent.addToNewContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
+        groupItemContent.addContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
         Dictionary.LOGGER.info("{}, {}가 추가되었습니다.", itemGroupCutID, itemStack.getDescriptionId());
-
     }
 
     @Override
@@ -42,32 +42,6 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
         if(tag == null)
             tag = TagManager.getTagManager().makeEnumItemTag(getFirstItem()).name();
         return tag;
-    }
-
-    public void sortGroup(){
-//        Dictionary.LOGGER.info(tag + " 정리 중");
-//
-//        ArrayList<String> removeTagList = new ArrayList<>();
-//        ItemGroupContent newGroupContent = new ItemGroupContent();
-//
-//        for (String key : getGroupMap().keySet()) {
-//            ItemGroupContent groupContent = getGroupMap().get(key);
-//
-//            if (groupContent.getContentMap().values().size() < 3) {
-//                newGroupContent.addAll(groupContent);
-//                removeTagList.add(key);
-//                Dictionary.LOGGER.info("키 세 개 이하인 그룹 발견: "+key);
-//            }
-//        }
-//
-//        for(String removeTag : removeTagList){
-//            itemGroupContentMap.remove(removeTag);
-//            Dictionary.LOGGER.info("3개 이하인 태그를 제거함:" + removeTag);
-//        }
-//
-//        if(!removeTagList.isEmpty())
-//            itemGroupContentMap.put(EnumItemTag.ETC.name(), newGroupContent);
-//        Dictionary.LOGGER.info(tag + " 검사 완료");
     }
 
     @Nullable

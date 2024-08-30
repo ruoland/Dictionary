@@ -8,19 +8,12 @@ public abstract class BaseContent {
     String id = "";
     @SerializedName(value = "영어 이름", alternate = {"아이템 영어 이름", "엔티티 영어 이름", "바이옴 영어 이름"})
     String englishName;
-
+    @SerializedName(value = "설명", alternate = {"아이템 설명", "엔티티 설명", "바이옴 설명"})
+    protected String dictionary;
     public BaseContent(String id) {
         this.id = id;
         this.englishName = LangManager.getEnglishName(id);
         //Dictionary.LOGGER.info("ItemContent created for {}: description = {}", id, dictionary);
-    }
-
-    @SerializedName(value = "설명", alternate = {"아이템 설명", "엔티티 설명", "바이옴 설명"})
-    protected String dictionary;
-
-    public void setDictionary(String newDictionary) {
-        this.dictionary = newDictionary;
-
     }
 
     /**
@@ -31,16 +24,21 @@ public abstract class BaseContent {
         String id = "minecraft:"+ getLocalizationId().replace("entity.minecraft.", "");
         return id;
     }
+
+    public String getDictionary(){
+        return dictionary;
+    }
+
+    public void setDictionary(String newDictionary) {
+        this.dictionary = newDictionary;
+
+    }
     public String getLocalizationId(){
         return id;
     }
 
     public String getEnglishName() {
         return englishName;
-    }
-
-    public String getDictionary(){
-        return dictionary;
     }
 
     @Override

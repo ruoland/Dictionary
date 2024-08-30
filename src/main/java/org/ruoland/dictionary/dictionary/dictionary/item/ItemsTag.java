@@ -8,9 +8,7 @@ public class ItemsTag extends BaseTags<EnumItemTag, ItemSubData> {
         super(enum_tag);
     }
 
-
     public ItemSubData getSubData() {
-        //Dictionary.LOGGER.info(" 태그 이름: {}, {}", getTagName(), getTagSubMap().values());
         return getTagSubMap().get(getTagName());
     }
 
@@ -22,19 +20,6 @@ public class ItemsTag extends BaseTags<EnumItemTag, ItemSubData> {
     @Override
     protected ItemSubData createSubData(EnumItemTag tag) {
         return new ItemSubData(tag);
-    }
-
-
-    // 이 메소드를 추가하여 아이템 설명을 가져올 수 있게 합니다.
-    public String getItemDescription(String itemId) {
-        ItemSubData itemSubData = getSubData();
-        for (ItemGroupContent group : itemSubData.getGroupMap().values()) {
-            ItemContent item = group.getContentMap().get(itemId);
-            if (item != null) {
-                return item.getDictionary();
-            }
-        }
-        return null;
     }
 
     @Override

@@ -54,7 +54,7 @@ public class DictionaryClient implements ClientModInitializer {
             if (InputConstants.isKeyDown(mc.getWindow().getWindow(), InputConstants.KEY_O)) {
                 if (!(mc.screen instanceof ContentScreen)) {
                     Dictionary.LOGGER.info("아이템 클릭됨, {}", stack);
-                    ContentScreen dictionary = new ContentScreen(mc.screen, stack, false);
+                    ContentScreen dictionary = new ContentScreen(mc.screen, stack);
                     String groupName = TagManager.getTagManager().getItemGroup(stack).getGroupName();
                     if(groupName == null) {
                         Dictionary.LOGGER.error("해당 아이템은 정보가 없는 것처럼 보입니다. (도감에서 그룹을 찾을 수 없음): {}", stack);

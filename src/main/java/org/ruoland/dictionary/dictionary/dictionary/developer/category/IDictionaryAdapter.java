@@ -5,7 +5,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.biome.Biome;
 import org.ruoland.dictionary.dictionary.dictionary.biome.BiomeContent;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
-import org.ruoland.dictionary.dictionary.dictionary.entity.EnumEntityTag;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 
@@ -16,7 +15,7 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
     U create();
     public class LivingEntityAdapter implements  IDictionaryAdapter<EntityType, EntityContent>{
         EntityType entityType;
-        EnumEntityTag tag;
+
         public LivingEntityAdapter(EntityType livingEntity) {
             this.entityType = livingEntity;
         }
@@ -42,7 +41,7 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
         }
     }
 
-    public class ItemStackAdapter implements  IDictionaryAdapter<ItemStack, ItemContent>{
+    class ItemStackAdapter implements  IDictionaryAdapter<ItemStack, ItemContent>{
         ItemStack itemStack;
 
         public ItemStackAdapter(ItemStack itemStack) {
@@ -53,6 +52,7 @@ public interface IDictionaryAdapter<T, U extends BaseContent> {
         public String getID() {
             return itemStack.getDescriptionId();
         }
+
         public String getType(){
             return "ItemStack";
         }

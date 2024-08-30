@@ -16,6 +16,12 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
     @SerializedName(value="그룹", alternate = {"아이템 그룹", "엔티티 그룹"})
     private TreeMap<String, T> groupContentMap = new TreeMap<>();
 
+    @SerializedName("설명 대체")
+    private boolean canReplace=true;
+
+    @SerializedName("태그")
+    protected String tag;
+
     protected BaseSubData(IEnumTag tag){
         this.enumTag = tag;
     }
@@ -26,20 +32,11 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
     public String getSubDictionary() {
         return subDictionary;
     }
-
-
-    public boolean hasGroup(U item){
-        return getGroup(item.getID()) != null;
+    public TreeMap<String, T> getGroupMap() {
+        return groupContentMap;
     }
 
-    public boolean hasContent(String id){
-        T groupContent = getGroup(id);
-        if(groupContent == null)
-            return false;
-        return groupContent.hasItem(id);
-    }
-
-    public T getGroup(String id){
+    public T findGroupByID(String id){
         String tagKey = TagManager.getTagManager().getCutID(id);
         Dictionary.LOGGER.warn("[그룹 찾기]{}를 그룹에서 찾기 시작. ",tagKey);
 
@@ -56,16 +53,9 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
         return null;
 
     }
-    public TreeMap<String, T> getGroupMap() {
-        return groupContentMap;
+    public void setTag(String tag) {
+        this.tag = tag;
     }
-    @SerializedName("설명 대체")
-    private boolean canReplace=true;
-
-    @SerializedName("태그")
-    protected String tag;
-    //public transient IEnumTag tag;
-
 
     public String getTag() {
         return tag;
@@ -81,7 +71,5 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
                 '}';
     }
 
-    public void setTag(String tag) {
-        this.tag = tag;
-    }
+
 }

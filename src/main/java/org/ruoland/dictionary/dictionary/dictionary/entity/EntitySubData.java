@@ -25,7 +25,7 @@ public class EntitySubData extends BaseSubData<EntityGroupContent, IDictionaryAd
         }
 
         //그룹 아이템 내에서는 아이템 스택 아이디로
-        groupContent.addToNewContent(new IDictionaryAdapter.LivingEntityAdapter(
+        groupContent.addContent(new IDictionaryAdapter.LivingEntityAdapter(
                 entityType));
         Dictionary.LOGGER.info("{}, {}가 추가되었습니다.", itemGroupCutID, entityType.getDescriptionId());
 

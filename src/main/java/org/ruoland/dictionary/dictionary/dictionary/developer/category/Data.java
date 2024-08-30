@@ -5,22 +5,16 @@ import com.google.gson.GsonBuilder;
 import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.Dictionary;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 
 public interface Data {
 
     Path DIRECTORY_PATH = Paths.get("./dictionary");
-    ArrayList<File> DICTIONARY_FILE_LIST = new ArrayList<>();
     Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    static void save() throws IOException {
-
-    }
     @Nullable
     static <T> Object readJson(Path path, Class<T> tC) {
         try {

@@ -12,8 +12,6 @@ import java.util.List;
 public class DictionaryPlainTextButton extends Button {
     private final Font font;
 
-
-
     public DictionaryPlainTextButton(int x, int y, int width, int height, Component message, OnPress onPress, Font font) {
         super(x, y, width, height, message, onPress, DEFAULT_NARRATION);
         this.font = font;
@@ -23,7 +21,6 @@ public class DictionaryPlainTextButton extends Button {
     @Override
     public void renderWidget(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
         int textColor = isHovered() ? 0xFFFFFF : 0xAAAAAA;
-
         List<FormattedCharSequence> lines = font.split(getMessage(), getWidth());
         int yOffset = 0;
         for (FormattedCharSequence line : lines) {

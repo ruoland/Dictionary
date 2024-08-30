@@ -12,6 +12,7 @@ import net.minecraft.network.chat.FormattedText;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
 import org.joml.Quaternionf;
 import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
@@ -19,6 +20,7 @@ import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroup
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
 import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
+import org.ruoland.dictionary.dictionary.dictionary.item.ItemGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.LangManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.TagManager;
@@ -41,15 +43,14 @@ public class ContentScreen extends DebugScreen {
     int width = 300;
     private LivingEntity renderEntity;
 
-    public ContentScreen(Screen lastScreen, ItemStack itemStack, boolean onlyGroup) {
+    public ContentScreen(Screen lastScreen, ItemStack itemStack) {
         super(Component.literal("도감"));
-        Dictionary.LOGGER.info("아이템 그룹 가져 오는 중: {}",  TagManager.getTagManager().getItemGroup(itemStack), itemStack);
-        String groupName = TagManager.getTagManager().getItemGroup(itemStack).getGroupName();
+        TagManager tagManager = TagManager.getTagManager();
+        ItemGroupContent groupContent = tagManager.getItemGroup(itemStack);
+        String groupName = groupContent.getGroupName();
+        Dictionary.LOGGER.info("아이템 그룹 가져 오는 중: {}", groupContent, itemStack);
 
-        if(onlyGroup)
-            currentName = FormattedText.of(groupName);
-        else
-            currentName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
+        currentName = FormattedText.of(groupName+":"+itemStack.getDisplayName().getString());
         engName = FormattedText.of(LangManager.getEnglishName(itemStack.getDescriptionId()));
 
         adapter = new IDictionaryAdapter.ItemStackAdapter(itemStack);
@@ -67,9 +68,11 @@ public class ContentScreen extends DebugScreen {
         adapter = new IDictionaryAdapter.LivingEntityAdapter(entityType);
         currentName = entityType.getDescription();
         engName = Component.literal(LangManager.getEnglishName(entityType.getDescriptionId()));
+
         this.renderEntity = (LivingEntity) entityType.create(Minecraft.getInstance().level);
-        this.contentComponents = new ArrayList<>();
+
         this.lastScreen = prevScreen;
+        this.contentComponents = new ArrayList<>();
     }
 
     protected void init() {
@@ -157,7 +160,7 @@ public class ContentScreen extends DebugScreen {
         }
     }
 
-    private void addTextComponent(String text) {
+    private void addTextComponent(@NotNull String text) {
         String[] lines = text.split("\n", -1);
         for (int i = 0; i < lines.length; i++) {
             if (!lines[i].isEmpty()) {
@@ -206,7 +209,7 @@ public class ContentScreen extends DebugScreen {
                         nextScreen = new GroupContentScreen(this, groupContent);
                     } else if (id.startsWith("%id:item.") || id.startsWith("%id:block.")) {
                         ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
-                        nextScreen = new ContentScreen(this, itemContent.getItemStack(), false);
+                        nextScreen = new ContentScreen(this, itemContent.getItemStack());
                     } else if (id.startsWith("%id:entity.")) {
                         EntityContent itemContent = TagManager.getTagManager().findEntityByID(itemId);
                         nextScreen = new ContentScreen(this, itemContent.getEntityType());

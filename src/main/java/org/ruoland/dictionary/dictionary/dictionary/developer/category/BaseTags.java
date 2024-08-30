@@ -11,32 +11,25 @@ public abstract class BaseTags<T extends Enum<T> & IEnumTag, E extends BaseSubDa
 
     transient T enumTag;
 
-    @Override
-    public String toString() {
-        return "BaseTags{" +
-                "tagSubMap=" + tagSubMap +
-                ", enumTag=" + enumTag +
-                ", tag='" + tag + '\'' +
-                ", version='" + version + '\'' +
-                '}';
-    }
-
     @SerializedName("tag")
     String tag = "";
+
+    @SerializedName("문서 버전")
+    private String version = Dictionary.VERSION;
 
     public BaseTags(T enumTag){
         this.enumTag = enumTag;
         tag = enumTag.name();
         addSubData(enumTag);
     }
-
     public void addSubData(T tag){
         tagSubMap.put(tag.name(), createSubData(tag));
     }
+
     public TreeMap<String, E> getTagSubMap() {
         return tagSubMap;
     }
-    protected abstract E createSubData(T tag);
+
     public void setTag(String tag) {
         this.tag = tag;
     }
@@ -46,9 +39,17 @@ public abstract class BaseTags<T extends Enum<T> & IEnumTag, E extends BaseSubDa
     }
 
 
+    protected abstract E createSubData(T tag);
+
     public abstract BaseSubData getSubData();
 
-    @SerializedName("문서 버전")
-    private String version = Dictionary.VERSION;
-
+    @Override
+    public String toString() {
+        return "BaseTags{" +
+                "tagSubMap=" + tagSubMap +
+                ", enumTag=" + enumTag +
+                ", tag='" + tag + '\'' +
+                ", version='" + version + '\'' +
+                '}';
+    }
 }

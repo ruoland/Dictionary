@@ -35,7 +35,7 @@ public class SubDataScreen extends DebugScreen{
                 }, null));
             Y += 30;
             if (Y >= height - 40) {
-                Y = 0; //60으로
+                Y = 0;
                 xLine += 80;
             }
         }

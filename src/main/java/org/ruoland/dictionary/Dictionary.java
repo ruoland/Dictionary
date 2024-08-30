@@ -19,10 +19,7 @@ public class Dictionary implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
-
         ServerLifecycleEvents.SERVER_STARTING.register(server -> {
-
             LangManager.loadLanguageMap();
             Dictionary.LOGGER.info("언어 맵 불러오기 완료");
             FileManager.getInstance().init();
@@ -47,6 +44,7 @@ public class Dictionary implements ModInitializer {
             TagManager.getTagManager().loadTag();
             Dictionary.LOGGER.info("태그 불러오기 완료");
             TagManager.getTagManager().sortTag();
+
 
         });
         ServerLifecycleEvents.AFTER_SAVE.register((server, flush, force) -> {

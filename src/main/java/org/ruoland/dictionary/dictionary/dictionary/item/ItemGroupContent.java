@@ -9,7 +9,6 @@ public class ItemGroupContent extends BaseGroupContent<IDictionaryAdapter.ItemSt
 
     public ItemStack getZeroItem(){
         for(ItemContent content : getContentMap().values()){
-
             return content.getItemStack();
         }
         return null;
