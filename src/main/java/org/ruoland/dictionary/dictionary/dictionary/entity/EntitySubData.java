@@ -30,4 +30,5 @@ public class EntitySubData extends BaseSubData<EntityGroupContent, IDictionaryAd
         Dictionary.LOGGER.info("{}, {}가 추가되었습니다.", itemGroupCutID, entityType.getDescriptionId());
 
     }
+
 }

@@ -6,8 +6,8 @@ import org.ruoland.dictionary.dictionary.dictionary.item.DefaultDictionary;
 public enum EnumEntityTag implements IEnumTag {
     ANIMAL(DefaultDictionary.ANIMAL_NAME),
     MOB(DefaultDictionary.MOB_NAME),
-    CREATURE(DefaultDictionary.CREATURE_NAME);
-
+    CREATURE(DefaultDictionary.CREATURE_NAME),
+    MISC(DefaultDictionary.MISC);
     final String[] strings;
     private EntitiesTag entityTag;
 
@@ -28,12 +28,6 @@ public enum EnumEntityTag implements IEnumTag {
     }
 
 
-    @Override
-    public EntitiesTag getItemTag(){
-        if(entityTag == null)
-            entityTag = new EntitiesTag(this);
-        return entityTag;
-    }
 
 
 }

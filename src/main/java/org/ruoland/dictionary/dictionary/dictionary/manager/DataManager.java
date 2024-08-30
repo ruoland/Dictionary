@@ -41,7 +41,7 @@ public class DataManager {
             if(field.getType() == typeClass){
                 try {
                     EntityType type = (EntityType) field.get(null);
-                    Dictionary.LOGGER.warn("엔티티 검색 중: {}, {},", type.getBaseClass(), type.getDescriptionId());
+                    Dictionary.LOGGER.debug("엔티티 검색 중: {}, {},", type.getBaseClass(), type.getDescriptionId());
 
                     entities.put(type.getDescriptionId(), type);
                 } catch (IllegalAccessException e) {

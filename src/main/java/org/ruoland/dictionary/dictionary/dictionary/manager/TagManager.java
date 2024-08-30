@@ -3,6 +3,7 @@ package org.ruoland.dictionary.dictionary.dictionary.manager;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.*;
 import org.jetbrains.annotations.Nullable;
 import org.ruoland.dictionary.Dictionary;
@@ -39,7 +40,27 @@ public class TagManager {
     public static TagManager getTagManager() {
         return TAG_MANAGER;
     }
+    @Nullable
+    public EntityContent findEntityByID(String entityID) {
+        Dictionary.LOGGER.info("아이템을 찾기 시작합니다: {} ", entityID);
 
+        for (EnumEntityTag tag : EnumEntityTag.values()) {
+            EntitiesTag entitiesTag = entityTagMap.get(tag);
+            EntitySubData entitySubData = entitiesTag.getSubData();
+            for (EntityGroupContent group : entitySubData.getGroupMap().values()) {
+                EntityContent item = group.getContentMap().get(entityID);
+                if (item != null) {
+                    Dictionary.LOGGER.info("{} 엔티티를 찾았습니다.: {}", entityID, item);
+                    return item;
+                }
+            }
+
+        }
+
+        Dictionary.LOGGER.info("엔티티를 찾지 못했습니다.: {}", entityID);
+
+        return null;
+    }
     @Nullable
     public ItemContent findItemByID(String itemID) {
         Dictionary.LOGGER.info("아이템을 찾기 시작합니다: {} ", itemID);
@@ -112,7 +133,7 @@ public class TagManager {
                         itemTagMap.put(enumItemTag, (ItemsTag) baseTags);
                     else if (tag instanceof EnumEntityTag entityTag) {
                         entityTagMap.put(entityTag, (EntitiesTag) baseTags);
-                        Dictionary.LOGGER.info("엔티티 태그를 불러왔습니다. {}", tag, baseTags.getTagName());
+                        Dictionary.LOGGER.info("엔티티 태그를 불러왔습니다. {}", tag, baseTags.getTagName(), baseTags.getTagSubMap());
                     }
 
                     lastEditedMap.put(tag.name(), tagFile.toFile().lastModified());
@@ -129,6 +150,7 @@ public class TagManager {
                     itemTagMap.put(enumItemTag, new ItemsTag(enumItemTag));
                 else if (tag instanceof EnumEntityTag entityTag){
                     entityTagMap.put(entityTag, new EntitiesTag(entityTag));
+                    Dictionary.LOGGER.info("[태깅-엔티티]엔티티를 추가했습니다.", entityTag);
                 }
             }
         }
@@ -181,32 +203,6 @@ public class TagManager {
         Dictionary.LOGGER.info("[태그 저장] 저장완료.");
     }
 
-    public void saveItemTag() throws IOException {
-        Dictionary.LOGGER.info("[태그 저장]시작...");
-
-        for (EnumItemTag tag : EnumItemTag.values()) {
-            Path tagFile = Data.DIRECTORY_PATH.resolve(Paths.get(tag + ".json"));
-            boolean newFile = !tagFile.toFile().exists();
-            if (newFile) {
-                Files.createFile(tagFile);
-            }
-
-            ItemsTag itemsTag = itemTagMap.get(tag);
-            if (newFile || tagFile.toFile().lastModified() <= lastEditedMap.getOrDefault(tag.name(), 0L)) {
-                // Log data being saved
-                //logSavedData(itemsTag);
-
-                Data.saveJson(tagFile, itemsTag);
-                lastEditedMap.put(tag.name(), System.currentTimeMillis());
-
-            } else {
-                Dictionary.LOGGER.info("[태그 저장] 이 파일은 저장하지 않습니다, 최근에 수정한 적이 있습니다. {}", tag);
-            }
-        }
-        Dictionary.LOGGER.info("[태그 저장] 저장완료.");
-    }
-
-
     public void tagging() {
         Dictionary.LOGGER.info("[태깅] 게임 속 개체를 모두 검사하여 사전을 부여하는 작업을 시작합니다.");
         try {
@@ -222,10 +218,10 @@ public class TagManager {
                 ItemGroupContent group = sub.getItemGroup(itemStack);
                 //Dictionary.LOGGER.info("[태깅] 중 설명 확인 1단계 {} ",group.getGroupContentMap().values());
                 if (group != null) {
-                    Dictionary.LOGGER.info("아이템의 그룹이 존재합니다. {} 에 {} 아이템을 추가하였습니다.", group.getGroupName(), itemStack.getDescriptionId());
+                    Dictionary.LOGGER.debug("아이템의 그룹이 존재합니다. {} 에 {} 아이템을 추가하였습니다.", group.getGroupName(), itemStack.getDescriptionId());
                     group.addToNewContent(new IDictionaryAdapter.ItemStackAdapter(itemStack));
                 } else {
-                    Dictionary.LOGGER.info("아이템의 그룹을 찾지 못했습니다. 그룹을 생성한 후 아이템을 추가합니다: {}", itemStack.getDescriptionId());
+                    Dictionary.LOGGER.debug("아이템의 그룹을 찾지 못했습니다. 그룹을 생성한 후 아이템을 추가합니다: {}", itemStack.getDescriptionId());
                     sub.addItemContentInGroup(itemStack);
                 }
                 //Dictionary.LOGGER.info("[태깅] 중 설명 확인 2단계 {}",group.getGroupContentMap().get(itemStack.getDescriptionId()).getDictionary());
@@ -256,7 +252,7 @@ public class TagManager {
         Dictionary.LOGGER.info("[태깅-엔티티] 게임 속 개체를 모두 검사하여 사전을 부여하는 작업을 시작합니다. 검사할 개수: {} ", DataManager.getEntities().values().size());
         try {
             Collection entities = DataManager.getEntities().values();
-            if(entities.size() == 0){
+            if(entities.isEmpty()){
                 Dictionary.LOGGER.error("[태깅-엔티티] 오류, 불러온 엔티티가 하나도 없습니다. {}");
                 throw new NullPointerException();
             }
@@ -342,10 +338,19 @@ public class TagManager {
         }
         else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter livingEntityAdapter){
             EntityType type = livingEntityAdapter.get();
-            return entityTagMap.get(type.getCategory());
+            return entityTagMap.get(getEntityEnumTag(type));
         }
         Dictionary.LOGGER.error("타입을 찾지 못 했습니다. 찾으려 한 객체: {}", adapter);
         return null;
+    }
+
+    private EnumEntityTag getEntityEnumTag(EntityType type) {
+        if(type.getCategory() == MobCategory.CREATURE || type.getCategory() == MobCategory.AMBIENT || type.getCategory() == MobCategory.AXOLOTLS || type.getCategory() == MobCategory.UNDERGROUND_WATER_CREATURE || type.getCategory() == MobCategory.UNDERGROUND_WATER_CREATURE || type.getCategory() == MobCategory.WATER_AMBIENT)
+            return EnumEntityTag.CREATURE;
+        else if(type.getCategory() == MobCategory.MONSTER )
+            return EnumEntityTag.MOB;
+        else
+            return EnumEntityTag.MISC;
     }
 
     public ItemsTag getItemTag(EnumItemTag enumItemTag){

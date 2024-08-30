@@ -2,8 +2,376 @@
   "목록": {
     "MOB": {
       "요약 설명": "요약 설명을 적어주세요.",
-      "그룹": {},
-      "설명 대체": true
+      "그룹": {
+        "blaze": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.blaze": {
+              "아이디": "entity.minecraft.blaze",
+              "영어 이름": "Blaze"
+            }
+          }
+        },
+        "bogged": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.bogged": {
+              "아이디": "entity.minecraft.bogged",
+              "영어 이름": "Bogged"
+            }
+          }
+        },
+        "breeze": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.breeze": {
+              "아이디": "entity.minecraft.breeze",
+              "영어 이름": "Breeze"
+            }
+          }
+        },
+        "brute": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.piglin_brute": {
+              "아이디": "entity.minecraft.piglin_brute",
+              "영어 이름": "Piglin Brute"
+            }
+          }
+        },
+        "creeper": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.creeper": {
+              "아이디": "entity.minecraft.creeper",
+              "영어 이름": "Creeper"
+            }
+          }
+        },
+        "cube": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.magma_cube": {
+              "아이디": "entity.minecraft.magma_cube",
+              "영어 이름": "Magma Cube"
+            }
+          }
+        },
+        "dragon": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.ender_dragon": {
+              "아이디": "entity.minecraft.ender_dragon",
+              "영어 이름": "Ender Dragon"
+            }
+          }
+        },
+        "drowned": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.drowned": {
+              "아이디": "entity.minecraft.drowned",
+              "영어 이름": "Drowned"
+            }
+          }
+        },
+        "enderman": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.enderman": {
+              "아이디": "entity.minecraft.enderman",
+              "영어 이름": "Enderman"
+            }
+          }
+        },
+        "endermite": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.endermite": {
+              "아이디": "entity.minecraft.endermite",
+              "영어 이름": "Endermite"
+            }
+          }
+        },
+        "evoker": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.evoker": {
+              "아이디": "entity.minecraft.evoker",
+              "영어 이름": "Evoker"
+            }
+          }
+        },
+        "ghast": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.ghast": {
+              "아이디": "entity.minecraft.ghast",
+              "영어 이름": "Ghast"
+            }
+          }
+        },
+        "giant": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.giant": {
+              "아이디": "entity.minecraft.giant",
+              "영어 이름": "Giant"
+            }
+          }
+        },
+        "guardian": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.guardian": {
+              "아이디": "entity.minecraft.guardian",
+              "영어 이름": "Guardian"
+            },
+            "entity.minecraft.elder_guardian": {
+              "아이디": "entity.minecraft.elder_guardian",
+              "영어 이름": "Elder Guardian"
+            }
+          }
+        },
+        "hoglin": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.hoglin": {
+              "아이디": "entity.minecraft.hoglin",
+              "영어 이름": "Hoglin"
+            }
+          }
+        },
+        "husk": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.husk": {
+              "아이디": "entity.minecraft.husk",
+              "영어 이름": "Husk"
+            }
+          }
+        },
+        "illusioner": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.illusioner": {
+              "아이디": "entity.minecraft.illusioner",
+              "영어 이름": "Illusioner"
+            }
+          }
+        },
+        "phantom": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.phantom": {
+              "아이디": "entity.minecraft.phantom",
+              "영어 이름": "Phantom"
+            }
+          }
+        },
+        "piglin": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.piglin": {
+              "아이디": "entity.minecraft.piglin",
+              "영어 이름": "Piglin"
+            },
+            "entity.minecraft.zombified_piglin": {
+              "아이디": "entity.minecraft.zombified_piglin",
+              "영어 이름": "Zombified Piglin"
+            }
+          }
+        },
+        "pillager": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.pillager": {
+              "아이디": "entity.minecraft.pillager",
+              "영어 이름": "Pillager"
+            }
+          }
+        },
+        "ravager": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.ravager": {
+              "아이디": "entity.minecraft.ravager",
+              "영어 이름": "Ravager"
+            }
+          }
+        },
+        "shulker": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.shulker": {
+              "아이디": "entity.minecraft.shulker",
+              "영어 이름": "Shulker"
+            }
+          }
+        },
+        "silverfish": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.silverfish": {
+              "아이디": "entity.minecraft.silverfish",
+              "영어 이름": "Silverfish"
+            }
+          }
+        },
+        "skeleton": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.skeleton": {
+              "아이디": "entity.minecraft.skeleton",
+              "영어 이름": "Skeleton"
+            },
+            "entity.minecraft.wither_skeleton": {
+              "아이디": "entity.minecraft.wither_skeleton",
+              "영어 이름": "Wither Skeleton"
+            }
+          }
+        },
+        "slime": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.slime": {
+              "아이디": "entity.minecraft.slime",
+              "영어 이름": "Slime"
+            }
+          }
+        },
+        "spider": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.cave_spider": {
+              "아이디": "entity.minecraft.cave_spider",
+              "영어 이름": "Cave Spider"
+            },
+            "entity.minecraft.spider": {
+              "아이디": "entity.minecraft.spider",
+              "영어 이름": "Spider"
+            }
+          }
+        },
+        "stray": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.stray": {
+              "아이디": "entity.minecraft.stray",
+              "영어 이름": "Stray"
+            }
+          }
+        },
+        "vex": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.vex": {
+              "아이디": "entity.minecraft.vex",
+              "영어 이름": "Vex"
+            }
+          }
+        },
+        "villager": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.zombie_villager": {
+              "아이디": "entity.minecraft.zombie_villager",
+              "영어 이름": "Zombie Villager"
+            }
+          }
+        },
+        "vindicator": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.vindicator": {
+              "아이디": "entity.minecraft.vindicator",
+              "영어 이름": "Vindicator"
+            }
+          }
+        },
+        "warden": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.warden": {
+              "아이디": "entity.minecraft.warden",
+              "영어 이름": "Warden"
+            }
+          }
+        },
+        "witch": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.witch": {
+              "아이디": "entity.minecraft.witch",
+              "영어 이름": "Witch"
+            }
+          }
+        },
+        "wither": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.wither": {
+              "아이디": "entity.minecraft.wither",
+              "영어 이름": "Wither"
+            }
+          }
+        },
+        "zoglin": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.zoglin": {
+              "아이디": "entity.minecraft.zoglin",
+              "영어 이름": "Zoglin"
+            }
+          }
+        },
+        "zombie": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "entity.minecraft.zombie": {
+              "아이디": "entity.minecraft.zombie",
+              "영어 이름": "Zombie"
+            }
+          }
+        }
+      },
+      "설명 대체": true,
+      "태그": "MOB"
     }
   },
   "tag": "MOB",

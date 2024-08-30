@@ -91,4 +91,5 @@ public class DefaultDictionary {
     public static final String TOOLS_DICTIONARY  ="dictionary.tools.dictionary";
     public static final String WOOD_NAME = "dictionary.wood.name";
     public static final String WOOD_DICTIONARY  ="dictionary.wood.dictionary";
+    public static final String MISC = "dictionary.misc.dictionary";
 }

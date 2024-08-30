@@ -47,10 +47,13 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
             Dictionary.LOGGER.warn("[그룹 찾기]{}를 그룹에서 찾았습니다.. 해당 그룹의 값: {}",tagKey, groupContentMap.get(tagKey));
             return groupContentMap.get(tagKey);
         }
-        else {
+        else if(groupContentMap.get("ETC") != null){
             Dictionary.LOGGER.warn("[그룹 찾기]{}를 찾지 못했습니다 대신 ETC를 반환합니다. 그룹에 있는 콘텐츠 맵{}",tagKey, groupContentMap.get("ETC").getContentMap());
             return groupContentMap.get("ETC");
         }
+        else
+            Dictionary.LOGGER.warn("[그룹 찾기]그룹 자체가 비어있는 것처럼 보입니다. 그룹에 있는 콘텐츠 맵{}",tagKey, groupContentMap);
+        return null;
 
     }
     public TreeMap<String, T> getGroupMap() {

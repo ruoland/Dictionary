@@ -46,9 +46,7 @@ public abstract class BaseTags<T extends Enum<T> & IEnumTag, E extends BaseSubDa
     }
 
 
-    public BaseSubData getSubData() {
-        return tagSubMap.get(enumTag);
-    }
+    public abstract BaseSubData getSubData();
 
     @SerializedName("문서 버전")
     private String version = Dictionary.VERSION;

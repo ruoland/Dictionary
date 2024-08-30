@@ -4,7 +4,6 @@ public interface IEnumTag<T> {
 
     public boolean containsKey(String keyword);
 
-    public T getItemTag();
 
     public String name();
 

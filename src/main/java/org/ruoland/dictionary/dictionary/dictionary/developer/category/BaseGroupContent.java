@@ -72,7 +72,7 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
 
     public boolean hasItem(String id){
         for(U content : baseContentMap.values()){
-            if(content.getID().equals(id))
+            if(content.getLocalizationId().equals(id))
                 return true;
         }
         return false;

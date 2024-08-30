@@ -23,7 +23,15 @@ public abstract class BaseContent {
 
     }
 
-    public String getID(){
+    /**
+     *
+     * @return 마인크래프트에서 사용하는 ID를 반환합니다.
+     */
+    public String getContentId(){
+        String id = "minecraft:"+ getLocalizationId().replace("entity.minecraft.", "");
+        return id;
+    }
+    public String getLocalizationId(){
         return id;
     }
 

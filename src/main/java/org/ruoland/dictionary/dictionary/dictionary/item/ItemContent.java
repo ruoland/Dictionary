@@ -25,6 +25,6 @@ public class ItemContent extends BaseContent {
     }
 
     public ItemStack getItemStack() {
-        return DataManager.getItemStackMap().get(getID());
+        return DataManager.getItemStackMap().get(getLocalizationId());
     }
 }

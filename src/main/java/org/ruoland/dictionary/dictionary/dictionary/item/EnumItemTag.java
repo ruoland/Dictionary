@@ -60,11 +60,6 @@ public enum EnumItemTag implements IEnumTag {
         return valueOf(tags);
     }
 
-    public ItemsTag getItemTag(){
-        if(itemsTag == null)
-            itemsTag = new ItemsTag(this);
-        return itemsTag;
-    }
 
 
 }

@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.BookViewScreen;
 import net.minecraft.client.renderer.entity.EntityRenderDispatcher;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import org.joml.Quaternionf;
@@ -16,6 +17,7 @@ import org.ruoland.dictionary.Dictionary;
 import org.ruoland.dictionary.DictionaryLogger;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.BaseGroupContent;
 import org.ruoland.dictionary.dictionary.dictionary.developer.category.IDictionaryAdapter;
+import org.ruoland.dictionary.dictionary.dictionary.entity.EntityContent;
 import org.ruoland.dictionary.dictionary.dictionary.item.ItemContent;
 import org.ruoland.dictionary.dictionary.dictionary.manager.DataManager;
 import org.ruoland.dictionary.dictionary.dictionary.manager.LangManager;
@@ -58,14 +60,16 @@ public class ContentScreen extends DebugScreen {
     }
 
     public ContentScreen(Screen prevScreen, LivingEntity entity){
+        this(prevScreen, entity.getType());
+    }
+    public ContentScreen(Screen prevScreen, EntityType entityType){
         super(Component.literal("괴물들에 관한 괴물책"));
-        adapter = new IDictionaryAdapter.LivingEntityAdapter(entity.getType());
-        currentName = entity.getDisplayName();
-        engName = Component.literal(LangManager.getEnglishName(entity.getType().getDescriptionId()));
-        this.renderEntity = entity;
+        adapter = new IDictionaryAdapter.LivingEntityAdapter(entityType);
+        currentName = entityType.getDescription();
+        engName = Component.literal(LangManager.getEnglishName(entityType.getDescriptionId()));
+        this.renderEntity = (LivingEntity) entityType.create(Minecraft.getInstance().level);
         this.contentComponents = new ArrayList<>();
-        this.lastScreen = lastScreen;
-
+        this.lastScreen = prevScreen;
     }
 
     protected void init() {
@@ -200,9 +204,8 @@ public class ContentScreen extends DebugScreen {
                         ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
                         nextScreen = new ContentScreen(this, itemContent.getItemStack(), false);
                     } else if (id.startsWith("%id:entity.")) {
-                        Dictionary.LOGGER.info("Entity dictionary not implemented yet");
-                        minecraft.gui.setOverlayMessage(Component.literal("엔티티 도감은 아직 구현되지 않았습니다."), false);
-                        return;
+                        EntityContent itemContent = TagManager.getTagManager().findEntityByID(itemId);
+                        nextScreen = new ContentScreen(this, itemContent.getEntityType());
                     } else if (id.startsWith("%id:biome.")) {
                         Dictionary.LOGGER.info("Biome dictionary not implemented yet");
                         minecraft.gui.setOverlayMessage(Component.literal("바이옴 도감은 아직 구현되지 않았습니다."), false);

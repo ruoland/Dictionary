@@ -18,5 +18,8 @@ public class EntitiesTag extends BaseTags<EnumEntityTag, EntitySubData> {
         return new EntitySubData(tag);
     }
 
-
+    @Override
+    public EntitySubData getSubData() {
+        return getTagSubMap().get(getTagName());
+    }
 }
