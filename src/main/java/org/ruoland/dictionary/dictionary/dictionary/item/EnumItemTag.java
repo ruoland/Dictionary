@@ -6,7 +6,7 @@ public enum EnumItemTag implements IEnumTag {
 
     ARMOR(DefaultDictionary.ARMOR_NAME, "helmet", "chestplate", "leggings", "boots", "armor"),
     TOOLS(DefaultDictionary.TOOLS_NAME, "compass", "axe", "pickaxe", "shovel", "hoe", "bucket", "Clock", "Flint and Steel","Elytra", "Spyglass"),
-    FOOD(DefaultDictionary.FOOD_NAME, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew"),
+    FOOD(DefaultDictionary.FOOD_NAME, "beef", "cookie", "cake", "porkchop", "cooked", "bread", "apple", "chicken", "stew", "rabbit"),
     FENCE(DefaultDictionary.FENCE_NAME, "fence", "gate", "wall"),
     BANNER(DefaultDictionary.BANNER_NAME, "banner", "pattern"),
     WOOD(DefaultDictionary.WOOD_NAME, "wood", "log", "leaves", "planks"),
@@ -38,7 +38,7 @@ public enum EnumItemTag implements IEnumTag {
     ENDER(DefaultDictionary.ENDER_NAME, "chorus", "box", "ender", "chorus_fruit"),
     SPECIAL(DefaultDictionary.SPECIAL_NAME),
     PROJECTILE(DefaultDictionary.PROJECTILE_NAME),
-    MINING(DefaultDictionary.MINING_NAME);
+    MINING(DefaultDictionary.MINING_NAME, "stone");
 
     private final String[] strings;
     private ItemsTag itemsTag;

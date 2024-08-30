@@ -63,8 +63,13 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
     private boolean canReplace=true;
 
     @SerializedName("태그")
-    public String tag;
+    protected String tag;
     //public transient IEnumTag tag;
+
+
+    public String getTag() {
+        return tag;
+    }
 
     @Override
     public String toString() {
@@ -72,7 +77,11 @@ public class BaseSubData<T extends BaseGroupContent, U extends IDictionaryAdapte
                 "subDictionary='" + subDictionary + '\'' +
                 ", groupContentMap=" + groupContentMap +
                 ", canReplace=" + canReplace +
-                ", tag=" + tag +
+                ", tag=" + getTag() +
                 '}';
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
     }
 }

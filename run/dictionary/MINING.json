@@ -2,7 +2,30 @@
   "목록": {
     "MINING": {
       "요약 설명": "요약 설명을 적어주세요.",
-      "그룹": {},
+      "그룹": {
+        "stone": {
+          "그룹 대표 이름": "그룹 이름",
+          "그룹 설명": "여기에 이 그룹에 대한 설명을 넣어주세요.",
+          "아이템들": {
+            "block.minecraft.smooth_stone": {
+              "아이디": "block.minecraft.smooth_stone",
+              "영어 이름": "Smooth Stone"
+            },
+            "block.minecraft.stone": {
+              "아이디": "block.minecraft.stone",
+              "영어 이름": "Stone"
+            },
+            "block.minecraft.end_stone": {
+              "아이디": "block.minecraft.end_stone",
+              "영어 이름": "End Stone"
+            },
+            "block.minecraft.infested_stone": {
+              "아이디": "block.minecraft.infested_stone",
+              "영어 이름": "Infested Stone"
+            }
+          }
+        }
+      },
       "설명 대체": true,
       "태그": "MINING"
     }

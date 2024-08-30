@@ -27,6 +27,10 @@
               "아이디": "item.minecraft.slime_ball",
               "영어 이름": "Slimeball"
             },
+            "block.minecraft.amethyst_block": {
+              "아이디": "block.minecraft.amethyst_block",
+              "영어 이름": "Block of Amethyst"
+            },
             "item.minecraft.string": {
               "아이디": "item.minecraft.string",
               "영어 이름": "String"
@@ -155,6 +159,10 @@
               "아이디": "item.minecraft.charcoal",
               "영어 이름": "Charcoal"
             },
+            "block.minecraft.moss_block": {
+              "아이디": "block.minecraft.moss_block",
+              "영어 이름": "Moss Block"
+            },
             "item.minecraft.brick": {
               "아이디": "item.minecraft.brick",
               "영어 이름": "Brick"
@@ -166,6 +174,10 @@
             "item.minecraft.mutton": {
               "아이디": "item.minecraft.mutton",
               "영어 이름": "Raw Mutton"
+            },
+            "block.minecraft.magma_block": {
+              "아이디": "block.minecraft.magma_block",
+              "영어 이름": "Magma Block"
             },
             "item.minecraft.phantom_membrane": {
               "아이디": "item.minecraft.phantom_membrane",
@@ -187,9 +199,17 @@
               "아이디": "block.minecraft.decorated_pot",
               "영어 이름": "Decorated Pot"
             },
+            "block.minecraft.purpur_block": {
+              "아이디": "block.minecraft.purpur_block",
+              "영어 이름": "Purpur Block"
+            },
             "block.minecraft.trial_spawner": {
               "아이디": "block.minecraft.trial_spawner",
               "영어 이름": "Trial Spawner"
+            },
+            "block.minecraft.honey_block": {
+              "아이디": "block.minecraft.honey_block",
+              "영어 이름": "Honey Block"
             },
             "item.minecraft.cat_spawn_egg": {
               "아이디": "item.minecraft.cat_spawn_egg",
@@ -247,6 +267,10 @@
               "아이디": "block.minecraft.sculk_catalyst",
               "영어 이름": "Sculk Catalyst"
             },
+            "block.minecraft.structure_block": {
+              "아이디": "block.minecraft.structure_block",
+              "영어 이름": "Structure Block"
+            },
             "block.minecraft.iron_bars": {
               "아이디": "block.minecraft.iron_bars",
               "영어 이름": "Iron Bars"
@@ -259,9 +283,17 @@
               "아이디": "block.minecraft.jukebox",
               "영어 이름": "Jukebox"
             },
+            "block.minecraft.repeating_command_block": {
+              "아이디": "block.minecraft.repeating_command_block",
+              "영어 이름": "Repeating Command Block"
+            },
             "block.minecraft.chiseled_bookshelf": {
               "아이디": "block.minecraft.chiseled_bookshelf",
               "영어 이름": "Chiseled Bookshelf"
+            },
+            "block.minecraft.gold_block": {
+              "아이디": "block.minecraft.gold_block",
+              "영어 이름": "Block of Gold"
             },
             "block.minecraft.polished_diorite": {
               "아이디": "block.minecraft.polished_diorite",
@@ -279,6 +311,10 @@
               "아이디": "item.minecraft.prismarine_crystals",
               "영어 이름": "Prismarine Crystals"
             },
+            "block.minecraft.chain_command_block": {
+              "아이디": "block.minecraft.chain_command_block",
+              "영어 이름": "Chain Command Block"
+            },
             "block.minecraft.dark_prismarine": {
               "아이디": "block.minecraft.dark_prismarine",
               "영어 이름": "Dark Prismarine"
@@ -295,6 +331,10 @@
               "아이디": "block.minecraft.glow_lichen",
               "영어 이름": "Glow Lichen"
             },
+            "block.minecraft.diamond_block": {
+              "아이디": "block.minecraft.diamond_block",
+              "영어 이름": "Block of Diamond"
+            },
             "block.minecraft.comparator": {
               "아이디": "block.minecraft.comparator",
               "영어 이름": "Redstone Comparator"
@@ -302,6 +342,10 @@
             "block.minecraft.purpur_pillar": {
               "아이디": "block.minecraft.purpur_pillar",
               "영어 이름": "Purpur Pillar"
+            },
+            "block.minecraft.bone_block": {
+              "아이디": "block.minecraft.bone_block",
+              "영어 이름": "Bone Block"
             },
             "block.minecraft.ancient_debris": {
               "아이디": "block.minecraft.ancient_debris",
@@ -311,6 +355,10 @@
               "아이디": "item.minecraft.fermented_spider_eye",
               "영어 이름": "Fermented Spider Eye"
             },
+            "block.minecraft.honeycomb_block": {
+              "아이디": "block.minecraft.honeycomb_block",
+              "영어 이름": "Honeycomb Block"
+            },
             "item.minecraft.totem_of_undying": {
               "아이디": "item.minecraft.totem_of_undying",
               "영어 이름": "Totem of Undying"
@@ -318,6 +366,10 @@
             "item.minecraft.armor_stand": {
               "아이디": "item.minecraft.armor_stand",
               "영어 이름": "Armor Stand"
+            },
+            "block.minecraft.note_block": {
+              "아이디": "block.minecraft.note_block",
+              "영어 이름": "Note Block"
             },
             "item.minecraft.bundle": {
               "아이디": "item.minecraft.bundle",
@@ -346,6 +398,10 @@
             "block.minecraft.bamboo": {
               "아이디": "block.minecraft.bamboo",
               "영어 이름": "Bamboo"
+            },
+            "block.minecraft.stripped_bamboo_block": {
+              "아이디": "block.minecraft.stripped_bamboo_block",
+              "영어 이름": "Block of Stripped Bamboo"
             },
             "block.minecraft.skeleton_skull": {
               "아이디": "block.minecraft.skeleton_skull",
@@ -391,6 +447,10 @@
               "아이디": "block.minecraft.pitcher_plant",
               "영어 이름": "Pitcher Plant"
             },
+            "block.minecraft.dripstone_block": {
+              "아이디": "block.minecraft.dripstone_block",
+              "영어 이름": "Dripstone Block"
+            },
             "item.minecraft.chorus_fruit": {
               "아이디": "item.minecraft.chorus_fruit",
               "영어 이름": "Chorus Fruit"
@@ -398,6 +458,10 @@
             "item.minecraft.cocoa_beans": {
               "아이디": "item.minecraft.cocoa_beans",
               "영어 이름": "Cocoa Beans"
+            },
+            "block.minecraft.iron_block": {
+              "아이디": "block.minecraft.iron_block",
+              "영어 이름": "Block of Iron"
             },
             "block.minecraft.light": {
               "아이디": "block.minecraft.light",
@@ -459,6 +523,10 @@
               "아이디": "item.minecraft.netherite_scrap",
               "영어 이름": "Netherite Scrap"
             },
+            "block.minecraft.slime_block": {
+              "아이디": "block.minecraft.slime_block",
+              "영어 이름": "Slime Block"
+            },
             "item.minecraft.map": {
               "아이디": "item.minecraft.map",
               "영어 이름": "Empty Map"
@@ -466,6 +534,10 @@
             "block.minecraft.mangrove_propagule": {
               "아이디": "block.minecraft.mangrove_propagule",
               "영어 이름": "Mangrove Propagule"
+            },
+            "block.minecraft.lapis_block": {
+              "아이디": "block.minecraft.lapis_block",
+              "영어 이름": "Block of Lapis Lazuli"
             },
             "item.minecraft.honeycomb": {
               "아이디": "item.minecraft.honeycomb",
@@ -547,6 +619,10 @@
               "아이디": "item.minecraft.rabbit_foot",
               "영어 이름": "Rabbit\u0027s Foot"
             },
+            "block.minecraft.red_mushroom_block": {
+              "아이디": "block.minecraft.red_mushroom_block",
+              "영어 이름": "Red Mushroom Block"
+            },
             "block.minecraft.vine": {
               "아이디": "block.minecraft.vine",
               "영어 이름": "Vines"
@@ -619,6 +695,14 @@
               "아이디": "block.minecraft.sculk_shrieker",
               "영어 이름": "Sculk Shrieker"
             },
+            "block.minecraft.netherite_block": {
+              "아이디": "block.minecraft.netherite_block",
+              "영어 이름": "Block of Netherite"
+            },
+            "block.minecraft.snow_block": {
+              "아이디": "block.minecraft.snow_block",
+              "영어 이름": "Snow Block"
+            },
             "item.minecraft.brush": {
               "아이디": "item.minecraft.brush",
               "영어 이름": "Brush"
@@ -679,6 +763,10 @@
               "아이디": "item.minecraft.painting",
               "영어 이름": "Painting"
             },
+            "block.minecraft.command_block": {
+              "아이디": "block.minecraft.command_block",
+              "영어 이름": "Command Block"
+            },
             "block.minecraft.polished_andesite": {
               "아이디": "block.minecraft.polished_andesite",
               "영어 이름": "Polished Andesite"
@@ -686,6 +774,10 @@
             "block.minecraft.mud": {
               "아이디": "block.minecraft.mud",
               "영어 이름": "Mud"
+            },
+            "block.minecraft.bamboo_block": {
+              "아이디": "block.minecraft.bamboo_block",
+              "영어 이름": "Block of Bamboo"
             },
             "item.minecraft.lapis_lazuli": {
               "아이디": "item.minecraft.lapis_lazuli",
@@ -698,6 +790,10 @@
             "block.minecraft.frogspawn": {
               "아이디": "block.minecraft.frogspawn",
               "영어 이름": "Frogspawn"
+            },
+            "block.minecraft.raw_iron_block": {
+              "아이디": "block.minecraft.raw_iron_block",
+              "영어 이름": "Block of Raw Iron"
             },
             "item.minecraft.turtle_scute": {
               "아이디": "item.minecraft.turtle_scute",
@@ -739,6 +835,10 @@
               "아이디": "block.minecraft.jigsaw",
               "영어 이름": "Jigsaw Block"
             },
+            "block.minecraft.raw_gold_block": {
+              "아이디": "block.minecraft.raw_gold_block",
+              "영어 이름": "Block of Raw Gold"
+            },
             "block.minecraft.flower_pot": {
               "아이디": "block.minecraft.flower_pot",
               "영어 이름": "Flower Pot"
@@ -758,6 +858,10 @@
             "block.minecraft.dirt_path": {
               "아이디": "block.minecraft.dirt_path",
               "영어 이름": "Dirt Path"
+            },
+            "block.minecraft.warped_wart_block": {
+              "아이디": "block.minecraft.warped_wart_block",
+              "영어 이름": "Warped Wart Block"
             },
             "block.minecraft.heavy_core": {
               "아이디": "block.minecraft.heavy_core",
@@ -782,6 +886,10 @@
             "item.minecraft.rotten_flesh": {
               "아이디": "item.minecraft.rotten_flesh",
               "영어 이름": "Rotten Flesh"
+            },
+            "block.minecraft.brown_mushroom_block": {
+              "아이디": "block.minecraft.brown_mushroom_block",
+              "영어 이름": "Brown Mushroom Block"
             },
             "item.minecraft.crossbow": {
               "아이디": "item.minecraft.crossbow",

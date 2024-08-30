@@ -7,10 +7,9 @@
           "그룹 대표 이름": "일반 음식",
           "그룹 설명": "다양한 종류의 기본적인 음식 아이템들로, 플레이어의 배고픔을 해결하고 체력을 회복시키는 데 사용됩니다.",
           "아이템들": {
-            "item.minecraft.porkchop": {
-              "아이디": "item.minecraft.porkchop",
-              "영어 이름": "Raw Porkchop",
-              "설명": "생 돼지고기\n\n%id:entity.minecraft.pig%에서 얻을 수 있는 날고기입니다.\n그대로 먹을 수 있지만, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_porkchop%으로 만들면 더 많은 포만감을 얻을 수 있습니다."
+            "item.minecraft.cooked_rabbit": {
+              "아이디": "item.minecraft.cooked_rabbit",
+              "영어 이름": "Cooked Rabbit"
             },
             "block.minecraft.cake": {
               "아이디": "block.minecraft.cake",
@@ -26,6 +25,25 @@
               "아이디": "item.minecraft.cooked_chicken",
               "영어 이름": "Cooked Chicken",
               "설명": "구운 닭고기\n\n%id:item.minecraft.chicken%을 구운 음식입니다.\n생닭고기보다 포만감이 높고 식중독의 위험이 없어 안전합니다. %id:entity.minecraft.chicken%을 잡아 %id:item.minecraft.furnace%나 %id:item.minecraft.campfire%에서 조리할 수 있습니다."
+            },
+            "item.minecraft.rabbit": {
+              "아이디": "item.minecraft.rabbit",
+              "영어 이름": "Raw Rabbit"
+            },
+            "item.minecraft.chicken": {
+              "아이디": "item.minecraft.chicken",
+              "영어 이름": "Raw Chicken",
+              "설명": "생 닭고기\n\n%id:entity.minecraft.chicken%에서 얻을 수 있는 날고기입니다.\n그대로 먹으면 식중독에 걸릴 위험이 있으므로, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_chicken%으로 만들어 먹는 것이 안전합니다."
+            },
+            "item.minecraft.cookie": {
+              "아이디": "item.minecraft.cookie",
+              "영어 이름": "Cookie",
+              "설명": "쿠키\n\n%id:item.minecraft.wheat%와 %id:item.minecraft.cocoa_beans%로 만든 간식입니다.\n포만감은 낮지만 많이 만들어 먹기 쉽습니다. 여러 개를 한 번에 먹을 수 있어 빠른 회복이 필요할 때 유용합니다."
+            },
+            "item.minecraft.porkchop": {
+              "아이디": "item.minecraft.porkchop",
+              "영어 이름": "Raw Porkchop",
+              "설명": "생 돼지고기\n\n%id:entity.minecraft.pig%에서 얻을 수 있는 날고기입니다.\n그대로 먹을 수 있지만, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_porkchop%으로 만들면 더 많은 포만감을 얻을 수 있습니다."
             },
             "item.minecraft.cooked_beef": {
               "아이디": "item.minecraft.cooked_beef",
@@ -51,16 +69,6 @@
               "아이디": "item.minecraft.mushroom_stew",
               "영어 이름": "Mushroom Stew",
               "설명": "버섯 스튜\n\n%id:item.minecraft.brown_mushroom%과 %id:item.minecraft.red_mushroom%으로 만든 영양가 높은 음식입니다.\n높은 포만감을 제공하지만, 먹고 난 후 빈 그릇이 남습니다. %id:entity.minecraft.mooshroom%을 가위로 자르면 직접 얻을 수 있습니다."
-            },
-            "item.minecraft.chicken": {
-              "아이디": "item.minecraft.chicken",
-              "영어 이름": "Raw Chicken",
-              "설명": "생 닭고기\n\n%id:entity.minecraft.chicken%에서 얻을 수 있는 날고기입니다.\n그대로 먹으면 식중독에 걸릴 위험이 있으므로, %id:item.minecraft.furnace%에서 구워 %id:item.minecraft.cooked_chicken%으로 만들어 먹는 것이 안전합니다."
-            },
-            "item.minecraft.cookie": {
-              "아이디": "item.minecraft.cookie",
-              "영어 이름": "Cookie",
-              "설명": "쿠키\n\n%id:item.minecraft.wheat%와 %id:item.minecraft.cocoa_beans%로 만든 간식입니다.\n포만감은 낮지만 많이 만들어 먹기 쉽습니다. 여러 개를 한 번에 먹을 수 있어 빠른 회복이 필요할 때 유용합니다."
             },
             "item.minecraft.rabbit_stew": {
               "아이디": "item.minecraft.rabbit_stew",

@@ -17,25 +17,68 @@
               "영어 이름": "Exposed Chiseled Copper",
               "설명": "노출된 조각된 구리\\n\\n조각된 구리의 두 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.weathered_chiseled_copper%로 변합니다. 특별한 장식용으로 사용됩니다."
             },
-            "block.minecraft.waxed_oxidized_chiseled_copper": {
-              "아이디": "block.minecraft.waxed_oxidized_chiseled_copper",
-              "영어 이름": "Waxed Oxidized Chiseled Copper",
-              "설명": "왁스 칠한 산화된 조각된 구리\\n\\n더 이상 산화되지 않는 완전히 산화된 조각된 구리입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
-            },
             "block.minecraft.waxed_oxidized_copper": {
               "아이디": "block.minecraft.waxed_oxidized_copper",
               "영어 이름": "Waxed Oxidized Copper",
               "설명": "왁스 칠한 산화된 구리\\n\\n더 이상 산화되지 않는 완전히 산화된 구리 블록입니다.\\n\\n팁: 청록색 건축물에 적합하며, %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            },
+            "block.minecraft.waxed_oxidized_cut_copper": {
+              "아이디": "block.minecraft.waxed_oxidized_cut_copper",
+              "영어 이름": "Waxed Oxidized Cut Copper",
+              "설명": "왁스 칠한 산화된 절단된 구리\\n\\n더 이상 산화되지 않는 완전히 산화된 절단된 구리 블록입니다.\\n\\n팁: 청록색 건축물에 적합하며, %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            },
+            "block.minecraft.exposed_copper": {
+              "아이디": "block.minecraft.exposed_copper",
+              "영어 이름": "Exposed Copper",
+              "설명": "노출된 구리\\n\\n구리의 두 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.weathered_copper%로 변합니다. %id:item.minecraft.honeycomb%으로 왁스 처리하여 더 이상의 산화를 막을 수 있습니다."
+            },
+            "block.minecraft.weathered_cut_copper": {
+              "아이디": "block.minecraft.weathered_cut_copper",
+              "영어 이름": "Weathered Cut Copper",
+              "설명": "풍화된 절단된 구리\\n\\n절단된 구리의 세 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.oxidized_cut_copper%로 변합니다. 건축용 재료로 사용됩니다."
+            },
+            "block.minecraft.waxed_weathered_copper": {
+              "아이디": "block.minecraft.waxed_weathered_copper",
+              "영어 이름": "Waxed Weathered Copper",
+              "설명": "왁스 칠한 풍화된 구리\\n\\n더 이상 산화되지 않는 풍화된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            },
+            "block.minecraft.waxed_copper_block": {
+              "아이디": "block.minecraft.waxed_copper_block",
+              "영어 이름": "Waxed Block of Copper"
+            },
+            "block.minecraft.waxed_chiseled_copper": {
+              "아이디": "block.minecraft.waxed_chiseled_copper",
+              "영어 이름": "Waxed Chiseled Copper",
+              "설명": "왁스 칠한 조각된 구리\\n\\n더 이상 산화되지 않는 조각된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            },
+            "block.minecraft.oxidized_cut_copper": {
+              "아이디": "block.minecraft.oxidized_cut_copper",
+              "영어 이름": "Oxidized Cut Copper",
+              "설명": "산화된 절단된 구리\\n\\n절단된 구리의 마지막 산화 단계입니다.\\n\\n팁: 청록색 건축물에 적합하며, %id:honeycomb%으로 왁스 처리하여 현재 상태를 유지할 수 있습니다."
+            },
+            "block.minecraft.waxed_exposed_copper": {
+              "아이디": "block.minecraft.waxed_exposed_copper",
+              "영어 이름": "Waxed Exposed Copper",
+              "설명": "왁스 칠한 노출된 구리\\n\\n더 이상 산화되지 않는 노출된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            },
+            "item.minecraft.raw_copper": {
+              "아이디": "item.minecraft.raw_copper",
+              "영어 이름": "Raw Copper",
+              "설명": "원석 구리\\n\\n구리 광석을 채굴했을 때 얻을 수 있는 가공되지 않은 구리입니다.\\n\\n팁: 제련하여 %id:item.minecraft.copper_ingot%를 얻을 수 있습니다. %id:block.minecraft.raw_copper_block%으로 만들어 보관할 수 있습니다."
+            },
+            "block.minecraft.waxed_oxidized_chiseled_copper": {
+              "아이디": "block.minecraft.waxed_oxidized_chiseled_copper",
+              "영어 이름": "Waxed Oxidized Chiseled Copper",
+              "설명": "왁스 칠한 산화된 조각된 구리\\n\\n더 이상 산화되지 않는 완전히 산화된 조각된 구리입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
             },
             "block.minecraft.waxed_exposed_cut_copper": {
               "아이디": "block.minecraft.waxed_exposed_cut_copper",
               "영어 이름": "Waxed Exposed Cut Copper",
               "설명": "왁스 칠한 노출된 절단된 구리\\n\\n더 이상 산화되지 않는 노출된 절단된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
             },
-            "block.minecraft.waxed_oxidized_cut_copper": {
-              "아이디": "block.minecraft.waxed_oxidized_cut_copper",
-              "영어 이름": "Waxed Oxidized Cut Copper",
-              "설명": "왁스 칠한 산화된 절단된 구리\\n\\n더 이상 산화되지 않는 완전히 산화된 절단된 구리 블록입니다.\\n\\n팁: 청록색 건축물에 적합하며, %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            "block.minecraft.copper_block": {
+              "아이디": "block.minecraft.copper_block",
+              "영어 이름": "Block of Copper"
             },
             "block.minecraft.weathered_chiseled_copper": {
               "아이디": "block.minecraft.weathered_chiseled_copper",
@@ -47,20 +90,10 @@
               "영어 이름": "Exposed Cut Copper",
               "설명": "노출된 절단된 구리\\n\\n절단된 구리의 두 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.weathered_cut_copper%로 변합니다. 건축용 재료로 사용됩니다."
             },
-            "block.minecraft.exposed_copper": {
-              "아이디": "block.minecraft.exposed_copper",
-              "영어 이름": "Exposed Copper",
-              "설명": "노출된 구리\\n\\n구리의 두 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.weathered_copper%로 변합니다. %id:item.minecraft.honeycomb%으로 왁스 처리하여 더 이상의 산화를 막을 수 있습니다."
-            },
             "block.minecraft.waxed_exposed_chiseled_copper": {
               "아이디": "block.minecraft.waxed_exposed_chiseled_copper",
               "영어 이름": "Waxed Exposed Chiseled Copper",
               "설명": "왁스 칠한 노출된 조각된 구리\\n\\n더 이상 산화되지 않는 노출된 조각된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
-            },
-            "block.minecraft.weathered_cut_copper": {
-              "아이디": "block.minecraft.weathered_cut_copper",
-              "영어 이름": "Weathered Cut Copper",
-              "설명": "풍화된 절단된 구리\\n\\n절단된 구리의 세 번째 산화 단계입니다.\\n\\n팁: 시간이 지나면 %id:block.minecraft.oxidized_cut_copper%로 변합니다. 건축용 재료로 사용됩니다."
             },
             "block.minecraft.oxidized_copper": {
               "아이디": "block.minecraft.oxidized_copper",
@@ -72,15 +105,9 @@
               "영어 이름": "Waxed Cut Copper",
               "설명": "왁스 칠한 절단된 구리\\n\\n더 이상 산화되지 않는 절단된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
             },
-            "block.minecraft.waxed_weathered_copper": {
-              "아이디": "block.minecraft.waxed_weathered_copper",
-              "영어 이름": "Waxed Weathered Copper",
-              "설명": "왁스 칠한 풍화된 구리\\n\\n더 이상 산화되지 않는 풍화된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
-            },
-            "block.minecraft.waxed_chiseled_copper": {
-              "아이디": "block.minecraft.waxed_chiseled_copper",
-              "영어 이름": "Waxed Chiseled Copper",
-              "설명": "왁스 칠한 조각된 구리\\n\\n더 이상 산화되지 않는 조각된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
+            "block.minecraft.raw_copper_block": {
+              "아이디": "block.minecraft.raw_copper_block",
+              "영어 이름": "Block of Raw Copper"
             },
             "block.minecraft.waxed_weathered_chiseled_copper": {
               "아이디": "block.minecraft.waxed_weathered_chiseled_copper",
@@ -102,25 +129,10 @@
               "영어 이름": "Waxed Weathered Cut Copper",
               "설명": "왁스 칠한 풍화된 절단된 구리\\n\\n더 이상 산화되지 않는 풍화된 절단된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
             },
-            "block.minecraft.oxidized_cut_copper": {
-              "아이디": "block.minecraft.oxidized_cut_copper",
-              "영어 이름": "Oxidized Cut Copper",
-              "설명": "산화된 절단된 구리\\n\\n절단된 구리의 마지막 산화 단계입니다.\\n\\n팁: 청록색 건축물에 적합하며, %id:honeycomb%으로 왁스 처리하여 현재 상태를 유지할 수 있습니다."
-            },
             "block.minecraft.cut_copper": {
               "아이디": "block.minecraft.cut_copper",
               "영어 이름": "Cut Copper",
               "설명": "절단된 구리\\n\\n가공된 구리 블록입니다.\\n\\n팁: 시간이 지나면 산화되어 색상이 변합니다. 건축용 재료로 널리 사용됩니다."
-            },
-            "block.minecraft.waxed_exposed_copper": {
-              "아이디": "block.minecraft.waxed_exposed_copper",
-              "영어 이름": "Waxed Exposed Copper",
-              "설명": "왁스 칠한 노출된 구리\\n\\n더 이상 산화되지 않는 노출된 구리 블록입니다.\\n\\n팁: %group_id:axe%로 긁어내어 왁스를 제거할 수 있습니다."
-            },
-            "item.minecraft.raw_copper": {
-              "아이디": "item.minecraft.raw_copper",
-              "영어 이름": "Raw Copper",
-              "설명": "원석 구리\\n\\n구리 광석을 채굴했을 때 얻을 수 있는 가공되지 않은 구리입니다.\\n\\n팁: 제련하여 %id:item.minecraft.copper_ingot%를 얻을 수 있습니다. %id:block.minecraft.raw_copper_block%으로 만들어 보관할 수 있습니다."
             }
           }
         }

@@ -47,7 +47,6 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
         }
         switch (adapter.getType()) {
             case "ItemStack":
-
                 newContent = new ItemContent((ItemStack) adapter.get());
                 break;
             case "Biome":
@@ -61,9 +60,8 @@ public abstract class BaseGroupContent<T extends IDictionaryAdapter, U extends B
                 Dictionary.LOGGER.error("타입을 찾을 수 없음. 콘텐츠 추가 불가능 {}, obj{}", adapter, adapter.getType());
         }
 
-
         getContentMap().put(adapter.getID(), (U) adapter.create());
-        Dictionary.LOGGER.info("새로운 아이템을 그룹에 추가하였습니다.: {}, {}", newContent.id, newContent.getDictionary());
+        Dictionary.LOGGER.info("새로운 아이템을 그룹에 추가하였습니다.: {}, 설명:{}", newContent.id, newContent.getDictionary());
     }
 
     public U getContent(T id){

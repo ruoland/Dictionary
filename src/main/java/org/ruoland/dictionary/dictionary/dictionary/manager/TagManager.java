@@ -82,13 +82,13 @@ public class TagManager {
 
             return findItemByID(itemID.replace("item.", "block."));
         }
-        Dictionary.LOGGER.info("아이템을 찾지 못했습니다.: {}", itemID);
+        Dictionary.LOGGER.warn("아이템을 찾지 못했습니다.: {}", itemID);
 
         return null;
     }
     public void loadTag(){
         loadTagTest();
-        tagging();
+        taggingItem();
         taggingEntity();
     }
 
@@ -203,11 +203,11 @@ public class TagManager {
         Dictionary.LOGGER.info("[태그 저장] 저장완료.");
     }
 
-    public void tagging() {
+    public void taggingItem() {
         Dictionary.LOGGER.info("[태깅] 게임 속 개체를 모두 검사하여 사전을 부여하는 작업을 시작합니다.");
         try {
             for (ItemStack itemStack : DataManager.getItemList()) {
-                ItemsTag itemsTag = getItemTag(getItemEnumTag(itemStack));
+                ItemsTag itemsTag = getItemTag(makeEnumItemTag(itemStack));
                 ItemSubData sub = itemsTag.getSubData();
 
                 if (sub == null) {
@@ -262,7 +262,7 @@ public class TagManager {
                 if(entitiesTag == null){
                     Dictionary.LOGGER.error("엔티티 태그 객체가 없습니다. 맵 전체보기 -> {}", entityTagMap);
                 }
-                EntitySubData sub = (EntitySubData) entitiesTag.getSubData();
+                EntitySubData sub = entitiesTag.getSubData();
 
                 if (sub == null) {
                     Dictionary.LOGGER.warn("엔티티에 서브 데이터가 없습니다.: {}", livingEntity.getDescriptionId());
@@ -334,7 +334,7 @@ public class TagManager {
         }
         else if(adapter instanceof IDictionaryAdapter.ItemStackAdapter itemStackAdapter){
             ItemStack itemStack =itemStackAdapter.get();
-            return itemTagMap.get(getItemEnumTag(itemStack));
+            return itemTagMap.get(makeEnumItemTag(itemStack));
         }
         else if(adapter instanceof IDictionaryAdapter.LivingEntityAdapter livingEntityAdapter){
             EntityType type = livingEntityAdapter.get();
@@ -345,6 +345,7 @@ public class TagManager {
     }
 
     private EnumEntityTag getEntityEnumTag(EntityType type) {
+
         if(type.getCategory() == MobCategory.CREATURE || type.getCategory() == MobCategory.AMBIENT || type.getCategory() == MobCategory.AXOLOTLS || type.getCategory() == MobCategory.UNDERGROUND_WATER_CREATURE || type.getCategory() == MobCategory.UNDERGROUND_WATER_CREATURE || type.getCategory() == MobCategory.WATER_AMBIENT)
             return EnumEntityTag.CREATURE;
         else if(type.getCategory() == MobCategory.MONSTER )
@@ -358,7 +359,7 @@ public class TagManager {
     }
     public ItemsTag getItemTag(ItemStack itemStack){
 
-        return getItemTag(getItemEnumTag(itemStack));
+        return getItemTag(makeEnumItemTag(itemStack));
     }
 
     //2단계
@@ -368,11 +369,11 @@ public class TagManager {
 
     //3단계
     public ItemGroupContent getItemGroup(ItemStack itemStack){
-        return getItemTag(getItemEnumTag(itemStack)).getSubData().getItemGroup(itemStack);
+        return getItemTag(makeEnumItemTag(itemStack)).getSubData().getItemGroup(itemStack);
     }
     
     //4단계
-    public EnumItemTag getItemEnumTag(ItemStack itemStack){
+    public EnumItemTag makeEnumItemTag(ItemStack itemStack){
         String namespace = BuiltInRegistries.ITEM.getKey(itemStack.getItem()).getNamespace();
         boolean isMinecraft = namespace.equals("minecraft");
         if(isMinecraft) {
@@ -435,6 +436,10 @@ public class TagManager {
         if (split.length > 0) {
             String postfix = split[split.length-1];
             String prefix = split[0];
+            if(postfix.equals("block")) {
+                postfix = split[split.length - 2];
+                Dictionary.LOGGER.warn("경고, 아이디의 맨 뒷자리가 block이어서 교체 되었습니다. 대상: {} 교체된 후: {}", itemID, postfix);
+            }
             for(EnumItemTag enumItemTag : EnumItemTag.values()){
                 if(enumItemTag.containsKey(postfix))
                     return postfix;
@@ -442,7 +447,6 @@ public class TagManager {
                     return prefix;
                 else
                     return postfix;
-
             }
         }
         return itemID;

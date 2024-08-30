@@ -37,6 +37,13 @@ public class ItemSubData extends BaseSubData<ItemGroupContent, IDictionaryAdapte
 
     }
 
+    @Override
+    public String getTag() {
+        if(tag == null)
+            tag = TagManager.getTagManager().makeEnumItemTag(getFirstItem()).name();
+        return tag;
+    }
+
     public void sortGroup(){
 //        Dictionary.LOGGER.info(tag + " 정리 중");
 //

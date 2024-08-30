@@ -99,6 +99,11 @@ public class ContentScreen extends DebugScreen {
 
         // 엔티티 렌더링 준비
         poseStack.pushPose();
+        if(renderEntity.getBbHeight() > 2) {
+            posY += (Math.round(renderEntity.getBbHeight()) - 2);
+            scale *= (Math.round(renderEntity.getBbHeight()) - 2) * 0.6F;
+            Dictionary.LOGGER.info("엔티티 높이 : {}, {}, {}, {}", renderEntity.getBbHeight(), (renderEntity.getBbHeight() - 2), posY, (Math.round(renderEntity.getBbHeight()) - 2));
+        }
         poseStack.translate(posX, posY, 50);
         poseStack.scale(40 * scale, 40 * scale, 40 * scale);
         poseStack.mulPose(new Quaternionf().rotationZ((float) Math.PI));
@@ -177,7 +182,6 @@ public class ContentScreen extends DebugScreen {
                 }
             }
             buttonText = Component.literal(groupContent.getGroupName());
-
         } else if(id.startsWith("%id:item.") || id.startsWith("%id:block.")){
             ItemContent itemContent = TagManager.getTagManager().findItemByID(itemId);
             Dictionary.LOGGER.info("아이템을 가져옵니다. {}, {}, {}", id, itemId, itemContent);
@@ -211,7 +215,6 @@ public class ContentScreen extends DebugScreen {
                         minecraft.gui.setOverlayMessage(Component.literal("바이옴 도감은 아직 구현되지 않았습니다."), false);
                         return;
                     }
-
                     if (nextScreen != null) {
                         Dictionary.LOGGER.info("Setting next screen: {}", nextScreen.getClass().getSimpleName());
                         minecraft.setScreen(nextScreen);
@@ -221,11 +224,9 @@ public class ContentScreen extends DebugScreen {
                 }, font);
     }
 
-
     @Override
     public void render(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick) {
         super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
-
         renderTitle(pGuiGraphics);
         int y = renderSubtitle(pGuiGraphics);
         renderContent(pGuiGraphics, pMouseX, pMouseY, pPartialTick, y);
@@ -312,7 +313,6 @@ public class ContentScreen extends DebugScreen {
             if (part.text.equals("\n")) {
                 LOGGER.trace("Rendering line at y={}", currentY);
                 renderLine(pGuiGraphics, currentLineParts, x, currentY, pMouseX, pMouseY, pPartialTick);
-                currentX = x;
                 currentY += lineHeight;
                 lineWidth = 0;
                 currentLineParts.clear();
@@ -324,7 +324,6 @@ public class ContentScreen extends DebugScreen {
             if (lineWidth + partWidth > contentWidth && !currentLineParts.isEmpty()) {
                 LOGGER.trace("Line width exceeded. Rendering line at y={}", currentY);
                 renderLine(pGuiGraphics, currentLineParts, x, currentY, pMouseX, pMouseY, pPartialTick);
-                currentX = x;
                 currentY += lineHeight;
                 lineWidth = 0;
                 currentLineParts.clear();

@@ -17,10 +17,18 @@
               "영어 이름": "Iron Nugget",
               "설명": "철 조각\n\n%id:item.minecraft.iron_ingot%의 1/9 크기에 해당하는 작은 철 조각입니다.\n9개를 조합하여 %id:item.minecraft.iron_ingot%을 만들 수 있습니다. 철 도구나 갑옷을 제련하여 얻을 수도 있어, 자원 재활용에 유용합니다."
             },
+            "block.minecraft.emerald_block": {
+              "아이디": "block.minecraft.emerald_block",
+              "영어 이름": "Block of Emerald"
+            },
             "item.minecraft.gold_nugget": {
               "아이디": "item.minecraft.gold_nugget",
               "영어 이름": "Gold Nugget",
               "설명": "금 조각\n\n%id:item.minecraft.gold_ingot%의 1/9 크기에 해당하는 작은 금 조각입니다.\n9개를 조합하여 %id:item.minecraft.gold_ingot%을 만들 수 있습니다. 금 도구나 갑옷을 제련하여 얻을 수도 있으며, %id:entity.minecraft.piglin%과의 거래에 사용할 수 있습니다."
+            },
+            "block.minecraft.coal_block": {
+              "아이디": "block.minecraft.coal_block",
+              "영어 이름": "Block of Coal"
             },
             "item.minecraft.coal": {
               "아이디": "item.minecraft.coal",

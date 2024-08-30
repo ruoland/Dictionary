@@ -46,6 +46,10 @@
               "아이디": "block.minecraft.sugar_cane",
               "영어 이름": "Sugar Cane",
               "설명": "사탕수수\\n\\n물가에서 자라는 키 큰 식물입니다.\\n\\n팁: %id:item.minecraft.sugar%, %id:item.minecraft.paper% 제작의 주 재료입니다. 물 근처의 모래나 흙 위에 심어 재배할 수 있으며, 자동 농장 설계에 자주 사용됩니다."
+            },
+            "block.minecraft.hay_block": {
+              "아이디": "block.minecraft.hay_block",
+              "영어 이름": "Hay Bale"
             }
           }
         },

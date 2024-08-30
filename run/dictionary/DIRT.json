@@ -31,6 +31,10 @@
               "아이디": "block.minecraft.gravel",
               "영어 이름": "Gravel",
               "설명": "자갈\\n\\n중력의 영향을 받는 블록으로, 채굴 시 때때로 부싯돌을 드롭합니다.\\n\\n팁: 콘크리트 파우더 제작에 사용됩니다. 물 속에서 떨어지면 모래처럼 가라앉습니다."
+            },
+            "block.minecraft.grass_block": {
+              "아이디": "block.minecraft.grass_block",
+              "영어 이름": "Grass Block"
             }
           }
         },

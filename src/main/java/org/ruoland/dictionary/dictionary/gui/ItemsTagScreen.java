@@ -1,7 +1,6 @@
 package org.ruoland.dictionary.dictionary.gui;
 
 import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import org.ruoland.dictionary.Dictionary;
@@ -28,18 +27,16 @@ public class ItemsTagScreen extends DebugScreen{
         for(ItemSubData tag : itemTags) {
             ItemStack itemStack = tag.getFirstItem();
             if(itemStack == null) {
-                Dictionary.LOGGER.info(tag.tag+"에는 대표 아이템이 없음.");
+                Dictionary.LOGGER.info(tag.getTag() +"에는 대표 아이템이 없음.");
                 continue;
             }
 
             String displayName = itemStack.getDisplayName().getString();
-            addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, Component.literal(tag.tag), new Button.OnPress() {
-                @Override
-                public void onPress(Button button) {
-                    ItemSubData itemSubData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
-                    minecraft.setScreen(new SubDataScreen(minecraft.screen, itemSubData));
+            Dictionary.LOGGER.warn("대표 아이템 발견: {}, 서브 데이터 객체: {}, 태그: {}", displayName, tag, tag.getTag());
+            addRenderableWidget(new SubItemButton(itemStack, guiLeft + 30 + xLine, guiTop + Y, 50, 20, Component.literal(tag.getTag()), button -> {
+                ItemSubData itemSubData = TagManager.getTagManager().getItemTag(itemStack).getSubData();
+                minecraft.setScreen(new SubDataScreen(minecraft.screen, itemSubData));
 
-                }
             }, null));
             Y += 30;
             if( Y >= height - 40){

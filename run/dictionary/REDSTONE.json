@@ -43,6 +43,10 @@
               "아이디": "block.minecraft.sticky_piston",
               "영어 이름": "Sticky Piston"
             },
+            "block.minecraft.redstone_block": {
+              "아이디": "block.minecraft.redstone_block",
+              "영어 이름": "Block of Redstone"
+            },
             "block.minecraft.piston": {
               "아이디": "block.minecraft.piston",
               "영어 이름": "Piston"
